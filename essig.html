@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="de" style="scroll-behavior: smooth;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lebendige Essige (Sirke) & Detox Elixiere | Anadoa Naturhaus</title>
+    <meta name="description" content="Entdecken Sie unsere naturtrüben, unpasteurisierten Essige und Oxymel Elixiere. Traditionell fermentiert, reich an lebenden Kulturen und der Essigmutter.">
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        earth: '#FDFBF7',
+                        'earth-light': '#E8E2D8',
+                        'earth-surface': '#FFFFFF',
+                        gold: '#c19768',
+                        sage: '#A3B19B',
+                        mocha: '#5f3c17',
+                        ash: '#2C2623',
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .custom-scrollbar::-webkit-scrollbar { width: 6px; }
+        .custom-scrollbar::-webkit-scrollbar-track { background: rgba(0,0,0,0.05); border-radius: 10px; }
+        .custom-scrollbar::-webkit-scrollbar-thumb { background: rgba(193, 151, 104, 0.4); border-radius: 10px; }
+    </style>
+</head>
+<body class="bg-noise text-ash">
+    <nav class="fixed w-full z-50 top-6 transition-all duration-300" id="global-nav">
+  <div class="max-w-[95%] md:max-w-6xl mx-auto relative z-50">
+      <div class="bg-earth/95 backdrop-blur-md border border-earth-light shadow-xl rounded-full px-6 flex justify-between items-center h-[72px] transition-all duration-300" id="nav-container">
+          
+          <!-- Mobile Menu Button (Left) -->
+          <div class="lg:hidden flex items-center flex-1">
+              <button id="mobile-menu-btn" class="text-ash hover:text-gold focus:outline-none p-2 bg-white/50 rounded-full transition-colors" onclick="document.getElementById('mobile-menu').classList.toggle('opacity-0'); document.getElementById('mobile-menu').classList.toggle('pointer-events-none'); document.getElementById('menu-icon').classList.toggle('hidden'); document.getElementById('close-icon').classList.toggle('hidden'); document.body.style.overflow = document.body.style.overflow === 'hidden' ? '' : 'hidden';">
+                  <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path id="menu-icon" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                      <path id="close-icon" class="hidden" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                  </svg>
+              </button>
+          </div>
+
+          <!-- Left Links (Desktop) -->
+          <div class="hidden lg:flex items-center justify-end space-x-6 lg:space-x-10 flex-1 pr-4 lg:pr-8">
+              <a href="index.html" class="text-ash hover:text-gold text-sm uppercase tracking-widest font-bold transition-colors">Startseite</a>
+              <a href="rezepte.html" class="text-ash hover:text-gold text-sm uppercase tracking-widest font-bold transition-colors">Rezepte</a>
+          </div>
+
+          <!-- Logo (Center) -->
+          <a href="index.html" class="flex-shrink-0 flex justify-center items-center group relative z-50 w-48 lg:w-[260px]">
+              <img src="assets/anadoa-logo-1000-500.png" alt="Anadoa Naturhaus Logo" class="h-20 md:h-24 w-auto object-contain transition-transform duration-500 group-hover:scale-105 drop-shadow-xl scale-110 md:scale-125">
+          </a>
+          
+          <!-- Right Links (Desktop) -->
+          <div class="hidden lg:flex justify-start items-center space-x-6 lg:space-x-10 h-full flex-1 pl-4 lg:pl-8">
+              <a href="magazin.html" class="text-ash hover:text-gold text-sm uppercase tracking-widest font-bold transition-colors">Magazin</a>
+              
+              <!-- Mega Menu Dropdown -->
+              <div class="group h-full flex items-center relative">
+                  <button class="flex items-center text-ash hover:text-gold text-sm uppercase tracking-widest font-bold transition-colors focus:outline-none h-full">
+                      Kategorien
+                      <svg class="w-4 h-4 ml-1 transition-transform group-hover:rotate-180 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                  </button>
+                  
+                  <!-- The Dropdown -->
+                  <div class="absolute left-1/2 -translate-x-[75%] top-[72px] w-[95vw] max-w-[1200px] bg-earth-surface border border-earth-light shadow-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform origin-top z-50 rounded-3xl mt-4">
+                      <div class="p-10">
+                          <div class="grid grid-cols-5 gap-8">
+                              
+                              <!-- Col 1: Oele -->
+                              <div>
+                                  <h3 class="font-serif font-bold text-lg text-mocha mb-3 border-b border-earth-light pb-2"><a href="kaltgepresste-oele.html" class="hover:text-gold">Kaltgepresste Öle</a></h3>
+                                  <ul class="space-y-2 text-sm max-h-[300px] overflow-y-auto custom-scrollbar pr-2">
+                                      <li><a href="schwarzkummelol.html" class="text-gold font-medium hover:text-mocha block">Premium Schwarzkümmelöl</a></li>
+                                      <li><a href="schwarzkummelol-fuer-kinder.html" class="text-ash-light hover:text-gold block ml-3 text-[11px] uppercase tracking-wider">↳ Für Kinder (Orange)</a></li>
+                                      <li><a href="schwarzkummelol-kinder-erdbeer.html" class="text-ash-light hover:text-gold block ml-3 text-[11px] uppercase tracking-wider">↳ Für Kinder (Erdbeer)</a></li>
+                                      <li><a href="schwarzkummelol-mit-minze.html" class="text-ash-light hover:text-gold block ml-3 mb-2 text-[11px] uppercase tracking-wider">↳ Mit Minze</a></li>
+                                      <li><a href="leinoel.html" class="text-ash-light hover:text-gold block">Leinöl</a></li>
+                                      <li><a href="kuerbiskernoel.html" class="text-ash-light hover:text-gold block">Kürbiskernöl</a></li>
+                                      <li><a href="granatapfelkernoel.html" class="text-ash-light hover:text-gold block">Granatapfelkernöl</a></li>
+                                      <li><a href="walnussoel.html" class="text-ash-light hover:text-gold block">Walnussöl</a></li>
+                                      <li><a href="mandelol.html" class="text-ash-light hover:text-gold block">Mandelöl</a></li>
+                                      <li><a href="jojobaoel.html" class="text-ash-light hover:text-gold block">Jojobaöl</a></li>
+                                      <li><a href="aprikosenkernoel.html" class="text-ash-light hover:text-gold block">Aprikosenkernöl</a></li>
+                                      <li><a href="traubenkernoel.html" class="text-ash-light hover:text-gold block">Traubenkernöl</a></li>
+                                      <li><a href="sesamoel.html" class="text-ash-light hover:text-gold block">Sesamöl</a></li>
+                                      <li><a href="hanfoel.html" class="text-ash-light hover:text-gold block">Hanföl</a></li>
+                                      <li><a href="nachtkerzenoel.html" class="text-ash-light hover:text-gold block">Nachtkerzenöl</a></li>
+                                      <li><a href="arganoel.html" class="text-ash-light hover:text-gold block">Arganöl</a></li>
+                                      <li><a href="kaltgepresste-oele.html" class="text-sage hover:text-gold block mt-2 text-xs uppercase tracking-wider font-bold">Alle 29 Öle ansehen &rarr;</a></li>
+                                  </ul>
+                              </div>
+
+                              <!-- Col 2: Ätherische Öle -->
+                              <div>
+                                  <h3 class="font-serif font-bold text-lg text-mocha mb-3 border-b border-earth-light pb-2"><a href="aetherische-oele.html" class="hover:text-gold">Ätherische Öle</a></h3>
+                                  <ul class="space-y-2 text-sm max-h-[300px] overflow-y-auto custom-scrollbar pr-2">
+                                      <li><a href="lavendeloel.html" class="text-ash-light hover:text-gold block">Lavendelöl</a></li>
+                                      <li><a href="rosenoel.html" class="text-ash-light hover:text-gold block">Rosenöl</a></li>
+                                      <li><a href="teebaumoel.html" class="text-ash-light hover:text-gold block">Teebaumöl</a></li>
+                                      <li><a href="pfefferminzoel.html" class="text-ash-light hover:text-gold block">Pfefferminzöl</a></li>
+                                      <li><a href="weihrauchoel.html" class="text-ash-light hover:text-gold block">Weihrauchöl</a></li>
+                                      <li><a href="eukalyptusoel.html" class="text-ash-light hover:text-gold block">Eukalyptusöl</a></li>
+                                      <li><a href="zitronenoel.html" class="text-ash-light hover:text-gold block">Zitronenöl</a></li>
+                                      <li><a href="orangenoel.html" class="text-ash-light hover:text-gold block">Orangenöl</a></li>
+                                      <li><a href="oreganool.html" class="text-ash-light hover:text-gold block">Oreganoöl</a></li>
+                                      <li><a href="nelkenoel.html" class="text-ash-light hover:text-gold block">Nelkenöl</a></li>
+                                      <li><a href="zirbenoel.html" class="text-ash-light hover:text-gold block">Zirbenöl</a></li>
+                                      <li><a href="bergamotteoel.html" class="text-ash-light hover:text-gold block">Bergamotteöl</a></li>
+                                      <li><a href="aetherische-oele.html" class="text-sage hover:text-gold block mt-2 text-xs uppercase tracking-wider font-bold">Alle 30 Öle ansehen &rarr;</a></li>
+                                  </ul>
+                              </div>
+
+                              <!-- Col 3: Pasten & Melassen -->
+                              <div>
+                                  <h3 class="font-serif font-bold text-lg text-mocha mb-3 border-b border-earth-light pb-2"><a href="pasten.html" class="hover:text-gold">Traditionelle Pasten</a></h3>
+                                  <ul class="space-y-2 text-sm mb-6">
+                                      <li><a href="zypressenzapfen-paste.html" class="text-ash-light hover:text-gold block">Zypressenzapfen Paste</a></li>
+                                      <li><a href="tannenzapfen-paste-kinder.html" class="text-ash-light hover:text-gold block">Tannenzapfen Paste (Kinder)</a></li>
+                                      <li><a href="mariendistel-paste.html" class="text-ash-light hover:text-gold block">Mariendistel Paste</a></li>
+                                      <li><a href="paste-fuer-maenner.html" class="text-ash-light hover:text-gold block">Paste für Männer (Mesir)</a></li>
+                                      <li><a href="paste-fuer-frauen.html" class="text-ash-light hover:text-gold block">Paste für Frauen (Kadın)</a></li>
+                                      <li><a href="bittermelone-paste-honig.html" class="text-ash-light hover:text-gold block">Bittermelone Paste</a></li>
+                                      <li><a href="tahini.html" class="text-ash-light hover:text-gold block">Tahini (Sesammus)</a></li>
+                                  </ul>
+
+                                  <h3 class="font-serif font-bold text-lg text-mocha mb-3 border-b border-earth-light pb-2"><a href="melassen.html" class="hover:text-gold">Melassen</a></h3>
+                                  <ul class="space-y-2 text-sm">
+                                      <li><a href="traubenmelasse.html" class="text-ash-light hover:text-gold block">Traubenmelasse</a></li>
+                                      <li><a href="johannisbrot-melasse.html" class="text-ash-light hover:text-gold block">Johannisbrot Melasse</a></li>
+                                      <li><a href="wacholderbeeren-melasse.html" class="text-ash-light hover:text-gold block">Wacholderbeeren</a></li>
+                                      <li><a href="maulbeeren-melasse.html" class="text-ash-light hover:text-gold block">Maulbeeren Melasse</a></li>
+                                      <li><a href="dattel-melasse.html" class="text-ash-light hover:text-gold block">Dattel Melasse</a></li>
+                                  </ul>
+
+                                  <h3 class="font-serif font-bold text-lg text-mocha mb-3 border-b border-earth-light pb-2 mt-6"><a href="gewuerze.html" class="hover:text-gold">Natürliche Gewürze</a></h3>
+                                  <ul class="space-y-2 text-sm">
+                                      <li><a href="sumach-kerne.html" class="text-ash-light hover:text-gold block">Sumach Kerne</a></li>
+                                      <li><a href="sumach-pulver.html" class="text-ash-light hover:text-gold block">Sumach Pulver</a></li>
+                                      <li><a href="tuerkischer-oregano.html" class="text-ash-light hover:text-gold block">Türkischer Oregano</a></li>
+                                  </ul>
+                              </div>
+
+                              <!-- Col 4: Tees & Sirupe -->
+                              <div>
+                                  <h3 class="font-serif font-bold text-lg text-mocha mb-3 border-b border-earth-light pb-2"><a href="tee.html" class="hover:text-gold">Naturtee & Kuren</a></h3>
+                                  <ul class="space-y-2 text-sm mb-6 max-h-[160px] overflow-y-auto custom-scrollbar pr-2">
+                                      <li><a href="spitzwegerich-tee.html" class="text-ash-light hover:text-gold block">Spitzwegerich Tee</a></li>
+                                      <li><a href="kirschstiel-tee.html" class="text-ash-light hover:text-gold block">Kirschstiel Tee</a></li>
+                                      <li><a href="atom-tee.html" class="text-ash-light hover:text-gold block">Atom Tee (Winter-Mix)</a></li>
+                                      <li><a href="schopflavendel-tee.html" class="text-ash-light hover:text-gold block">Schopflavendel Tee</a></li>
+                                      <li><a href="gruener-tee.html" class="text-ash-light hover:text-gold block">Magischer Grüntee</a></li>
+                                      <li><a href="love-tee.html" class="text-ash-light hover:text-gold block">Love Tee</a></li>
+                                      <li><a href="wintertee.html" class="text-ash-light hover:text-gold block">Wintertee</a></li>
+                                      <li><a href="tee.html" class="text-sage hover:text-gold block mt-2 text-xs uppercase tracking-wider font-bold">Alle 15 Tees ansehen &rarr;</a></li>
+                                  </ul>
+
+                                  <h3 class="font-serif font-bold text-lg text-mocha mb-3 border-b border-earth-light pb-2"><a href="sirupe.html" class="hover:text-gold">Sirupe</a></h3>
+                                  <ul class="space-y-2 text-sm mb-6">
+                                      <li><a href="tannenzapfen-sirup.html" class="text-ash-light hover:text-gold block">Tannenzapfen Sirup</a></li>
+                                      <li><a href="granatapfelsirup.html" class="text-ash-light hover:text-gold block">Granatapfelsirup</a></li>
+                                      <li><a href="schwarzer-maulbeersirup.html" class="text-ash-light hover:text-gold block">Maulbeer-Sirup</a></li>
+                                  </ul>
+
+                                  <h3 class="font-serif font-bold text-lg text-mocha mb-3 border-b border-earth-light pb-2"><a href="essig.html" class="hover:text-gold">Lebendiger Essig</a></h3>
+                                  <ul class="space-y-2 text-sm">
+                                      <li><a href="apfelessig.html" class="text-ash-light hover:text-gold block">Apfelessig</a></li>
+                                      <li><a href="weissdorn-essig.html" class="text-ash-light hover:text-gold block">Weißdorn Essig (Alıç)</a></li>
+                                      <li><a href="traubenessig.html" class="text-ash-light hover:text-gold block">Traubenessig</a></li>
+                                      <li><a href="ananas-essig.html" class="text-ash-light hover:text-gold block">Ananas Essig</a></li>
+                                      <li><a href="oxymel-gold-essig.html" class="text-gold font-medium hover:text-mocha block mt-2">Oxymel Gold Tonic</a></li>
+                                      <li><a href="detox-mix.html" class="text-gold font-medium hover:text-mocha block">Detox Mix Elixier</a></li>
+                                  </ul>
+                              </div>
+
+                              <!-- Col 5: Promo -->
+                              <div class="h-full flex flex-col">
+                                  <div class="flex-grow rounded-2xl overflow-hidden relative group/promo shadow-lg border border-gold/20 min-h-[250px]">
+                                      <img src="assets/zypressenzapfen_paste.png" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover/promo:scale-110" alt="Premium Produkte">
+                                      <div class="absolute inset-0 bg-gradient-to-t from-mocha/90 via-mocha/40 to-transparent flex flex-col items-center justify-end p-6">
+                                          <span class="text-earth font-serif text-xl text-center drop-shadow-md mb-2">Entdecken Sie die Essenz der Natur</span>
+                                          <a href="zypressenzapfen-paste.html" class="inline-block mt-3 px-5 py-2 bg-gold text-white text-sm font-medium rounded-full shadow-md hover:bg-white hover:text-mocha transition-colors">Zum Bestseller</a>
+                                      </div>
+                                  </div>
+                              </div>
+                  </div>
+              </div>
+          </div>
+          
+          <!-- Empty div to balance flex on mobile -->
+          <div class="lg:hidden flex-1"></div>
+
+      </div>
+  </div>
+
+      <!-- Mobile Drawer Menu -->
+  <div id="mobile-menu" class="fixed inset-0 bg-white/98 backdrop-blur-2xl z-40 transition-all duration-500 opacity-0 pointer-events-none lg:hidden flex flex-col h-screen">
+      
+      <div class="flex-1 overflow-y-auto pt-32 pb-20 px-8 flex flex-col gap-8 custom-scrollbar">
+          
+          <!-- Main Navigation Links -->
+          <nav class="flex flex-col space-y-6">
+              <a href="index.html" class="text-4xl md:text-5xl font-serif text-mocha hover:text-gold transition-colors block" onclick="document.getElementById('mobile-menu-btn').click();">Startseite</a>
+              <a href="rezepte.html" class="text-4xl md:text-5xl font-serif text-mocha hover:text-gold transition-colors block" onclick="document.getElementById('mobile-menu-btn').click();">Rezepte</a>
+              <a href="magazin.html" class="text-4xl md:text-5xl font-serif text-mocha hover:text-gold transition-colors block" onclick="document.getElementById('mobile-menu-btn').click();">Magazin</a>
+          </nav>
+
+          <hr class="border-earth-light my-2">
+
+          <!-- Shop Categories Accordion -->
+          <div class="space-y-6">
+              <h2 class="text-xs uppercase tracking-[0.2em] text-ash/50 font-bold mb-4">Unsere Kategorien</h2>
+              
+              <!-- Kaltgepresste Öle -->
+              <div class="border-b border-earth-light pb-4">
+                  <button class="w-full text-left flex justify-between items-center text-2xl font-serif text-mocha hover:text-gold transition-colors group" onclick="this.nextElementSibling.classList.toggle('max-h-0'); this.nextElementSibling.classList.toggle('max-h-[500px]'); this.nextElementSibling.classList.toggle('mt-4'); this.nextElementSibling.classList.toggle('opacity-0'); this.querySelector('svg').classList.toggle('rotate-180');">
+                      Kaltgepresste Öle
+                      <svg class="w-6 h-6 text-gold transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                  </button>
+                  <div class="max-h-0 opacity-0 overflow-hidden transition-all duration-500 ease-in-out px-2 space-y-4">
+                      <a href="kaltgepresste-oele.html" class="block text-gold font-bold text-lg mb-2 uppercase tracking-widest text-sm">Übersicht ansehen</a>
+                      <a href="schwarzkummelol.html" class="block text-ash hover:text-gold text-lg font-light">Premium Schwarzkümmelöl</a>
+                      <a href="leinoel.html" class="block text-ash hover:text-gold text-lg font-light">Leinöl</a>
+                      <a href="kuerbiskernoel.html" class="block text-ash hover:text-gold text-lg font-light">Kürbiskernöl</a>
+                      <a href="walnussoel.html" class="block text-ash hover:text-gold text-lg font-light">Walnussöl</a>
+                      <a href="arganoel.html" class="block text-ash hover:text-gold text-lg font-light">Arganöl</a>
+                  </div>
+              </div>
+              
+              <!-- Ätherische Öle -->
+              <div class="border-b border-earth-light pb-4">
+                  <button class="w-full text-left flex justify-between items-center text-2xl font-serif text-mocha hover:text-gold transition-colors group" onclick="this.nextElementSibling.classList.toggle('max-h-0'); this.nextElementSibling.classList.toggle('max-h-[500px]'); this.nextElementSibling.classList.toggle('mt-4'); this.nextElementSibling.classList.toggle('opacity-0'); this.querySelector('svg').classList.toggle('rotate-180');">
+                      Ätherische Öle
+                      <svg class="w-6 h-6 text-gold transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                  </button>
+                  <div class="max-h-0 opacity-0 overflow-hidden transition-all duration-500 ease-in-out px-2 space-y-4">
+                      <a href="aetherische-oele.html" class="block text-gold font-bold text-lg mb-2 uppercase tracking-widest text-sm">Übersicht ansehen</a>
+                      <a href="lavendeloel.html" class="block text-ash hover:text-gold text-lg font-light">Lavendelöl</a>
+                      <a href="rosenoel.html" class="block text-ash hover:text-gold text-lg font-light">Rosenöl</a>
+                      <a href="teebaumoel.html" class="block text-ash hover:text-gold text-lg font-light">Teebaumöl</a>
+                      <a href="oreganool.html" class="block text-ash hover:text-gold text-lg font-light">Oreganoöl</a>
+                  </div>
+              </div>
+              
+              <!-- Traditionelle Pasten & Melassen -->
+              <div class="border-b border-earth-light pb-4">
+                  <button class="w-full text-left flex justify-between items-center text-2xl font-serif text-mocha hover:text-gold transition-colors group" onclick="this.nextElementSibling.classList.toggle('max-h-0'); this.nextElementSibling.classList.toggle('max-h-[500px]'); this.nextElementSibling.classList.toggle('mt-4'); this.nextElementSibling.classList.toggle('opacity-0'); this.querySelector('svg').classList.toggle('rotate-180');">
+                      Pasten & Melassen
+                      <svg class="w-6 h-6 text-gold transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                  </button>
+                  <div class="max-h-0 opacity-0 overflow-hidden transition-all duration-500 ease-in-out px-2 space-y-4">
+                      <a href="pasten.html" class="block text-gold font-bold text-lg mb-2 uppercase tracking-widest text-sm">Pasten Übersicht</a>
+                      <a href="zypressenzapfen-paste.html" class="block text-ash hover:text-gold text-lg font-light">Zypressenzapfen Paste</a>
+                      <a href="mariendistel-paste.html" class="block text-ash hover:text-gold text-lg font-light">Mariendistel Paste</a>
+                      <a href="bittermelone-paste-olivenoel.html" class="block text-ash hover:text-gold text-lg font-light">Bittermelone Paste</a>
+                      <a href="traubenmelasse.html" class="block text-ash hover:text-gold text-lg font-light mt-4">Traubenmelasse</a>
+                      <a href="johannisbrot-melasse.html" class="block text-ash hover:text-gold text-lg font-light">Johannisbrot Melasse</a>
+                  </div>
+              </div>
+
+              <!-- Naturtee & Kuren -->
+              <div class="border-b border-earth-light pb-4">
+                  <button class="w-full text-left flex justify-between items-center text-2xl font-serif text-mocha hover:text-gold transition-colors group" onclick="this.nextElementSibling.classList.toggle('max-h-0'); this.nextElementSibling.classList.toggle('max-h-[500px]'); this.nextElementSibling.classList.toggle('mt-4'); this.nextElementSibling.classList.toggle('opacity-0'); this.querySelector('svg').classList.toggle('rotate-180');">
+                      Naturtee & Kuren
+                      <svg class="w-6 h-6 text-gold transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                  </button>
+                  <div class="max-h-0 opacity-0 overflow-hidden transition-all duration-500 ease-in-out px-2 space-y-4">
+                      <a href="tee.html" class="block text-gold font-bold text-lg mb-2 uppercase tracking-widest text-sm">Alle Tees ansehen</a>
+                      <a href="spitzwegerich-tee.html" class="block text-ash hover:text-gold text-lg font-light">Spitzwegerich Tee</a>
+                      <a href="atom-tee.html" class="block text-ash hover:text-gold text-lg font-light">Atom Tee (Winter-Mix)</a>
+                      <a href="wintertee.html" class="block text-ash hover:text-gold text-lg font-light">Wintertee</a>
+                      <a href="schopflavendel-tee.html" class="block text-ash hover:text-gold text-lg font-light">Schopflavendel Tee</a>
+                  </div>
+              </div>
+
+              <!-- Essig & Gewürze -->
+              <div class="border-b border-earth-light pb-4">
+                  <button class="w-full text-left flex justify-between items-center text-2xl font-serif text-mocha hover:text-gold transition-colors group" onclick="this.nextElementSibling.classList.toggle('max-h-0'); this.nextElementSibling.classList.toggle('max-h-[500px]'); this.nextElementSibling.classList.toggle('mt-4'); this.nextElementSibling.classList.toggle('opacity-0'); this.querySelector('svg').classList.toggle('rotate-180');">
+                      Essig & Gewürze
+                      <svg class="w-6 h-6 text-gold transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                  </button>
+                  <div class="max-h-0 opacity-0 overflow-hidden transition-all duration-500 ease-in-out px-2 space-y-4">
+                      <a href="essig.html" class="block text-gold font-bold text-lg mb-2 uppercase tracking-widest text-sm">Essig ansehen</a>
+                      <a href="apfelessig.html" class="block text-ash hover:text-gold text-lg font-light">Apfelessig</a>
+                      <a href="detox-mix.html" class="block text-ash hover:text-gold text-lg font-light">Detox Mix Elixier</a>
+                      <a href="gewuerze.html" class="block text-gold font-bold text-lg mb-2 mt-4 uppercase tracking-widest text-sm">Gewürze ansehen</a>
+                      <a href="sumach-kerne.html" class="block text-ash hover:text-gold text-lg font-light">Sumach Kerne</a>
+                  </div>
+              </div>
+          </div>
+
+          <div class="mt-8 mb-8">
+              <div class="bg-earth-light/30 rounded-[2rem] p-8 border border-earth-light text-center relative overflow-hidden group">
+                  <div class="absolute inset-0 bg-gold/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                  <p class="text-ash/60 text-sm mb-4 relative z-10 uppercase tracking-widest">Premium Service</p>
+                  <p class="text-mocha font-serif text-xl mb-6 relative z-10">Haben Sie Fragen zu unseren Naturkuren?</p>
+                  <a href="tel:+490000000" class="inline-block bg-gold text-white font-bold py-3 px-8 rounded-full shadow-lg text-sm relative z-10 hover:bg-mocha transition-colors duration-300">
+                      Kundenservice anrufen
+                  </a>
+              </div>
+          </div>
+
+      </div>
+  </div>
+</nav>
+
+          
+
+    <div class="h-20 md:h-24 bg-earth"></div>
+
+    <!-- Hero Section -->
+    <header class="relative py-24 md:py-32 overflow-hidden bg-earth">
+        <div class="absolute inset-0 bg-[url('assets/bg-pattern.svg')] opacity-5"></div>
+        <div class="max-w-4xl mx-auto px-6 relative z-10 text-center">
+            <span class="text-gold font-bold tracking-widest uppercase text-sm mb-4 block">Traditionelle Fermentation</span>
+            <h1 class="text-5xl md:text-7xl font-serif font-bold text-mocha mb-8">Lebendige Essige</h1>
+            <p class="text-xl md:text-2xl text-sage font-serif italic mb-10 leading-relaxed">Warum Anadoa 'Essig' Kollektion? Willkommen in der Welt der feinen Aromen und gesundheitlichen Vorteile. Jede Flasche ist ein Zeugnis der Leidenschaft, mit der wir beste natürliche Zutaten in reinen, lebendigen Essig verwandeln.</p>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto px-6 py-16 bg-[#fbf5eb]/80 backdrop-blur-md rounded-3xl shadow-xl border border-white/60 mt-12 mb-24">
+        
+        <!-- Products Grid -->
+        <h2 class="text-4xl font-serif text-center text-mocha mb-12">Unsere Essig-Kollektion</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-24">
+            
+            <a href="apfelessig.html" class="group block bg-earth-surface rounded-2xl shadow-lg border border-earth-light overflow-hidden hover:shadow-2xl hover:border-gold/50 transition-all duration-300">
+                <div class="p-8 text-center h-full flex flex-col justify-between">
+                    <div>
+                        <div class="w-16 h-16 mx-auto bg-earth rounded-full flex items-center justify-center mb-6 text-gold group-hover:scale-110 transition-transform">
+                            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"></path></svg>
+                        </div>
+                        <h3 class="font-serif font-bold text-2xl text-mocha mb-3 group-hover:text-gold transition-colors">Apfelessig</h3>
+                        <p class="text-sage text-sm mb-4">Talkim Apfel | Naturtrüb</p>
+                        <p class="text-ash-light text-sm leading-relaxed">Der Klassiker unter den Heilessigen, reich an Pektin und Enzymen. Perfekt für das morgendliche Wohlfühlritual.</p>
+                    </div>
+                    <span class="mt-6 inline-block text-gold text-sm font-bold uppercase tracking-wider group-hover:tracking-widest transition-all">Entdecken &rarr;</span>
+                </div>
+            </a>
+
+            <a href="weissdorn-essig.html" class="group block bg-earth-surface rounded-2xl shadow-lg border border-earth-light overflow-hidden hover:shadow-2xl hover:border-gold/50 transition-all duration-300">
+                <div class="p-8 text-center h-full flex flex-col justify-between">
+                    <div>
+                        <div class="w-16 h-16 mx-auto bg-earth rounded-full flex items-center justify-center mb-6 text-gold group-hover:scale-110 transition-transform">
+                            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path></svg>
+                        </div>
+                        <h3 class="font-serif font-bold text-2xl text-mocha mb-3 group-hover:text-gold transition-colors">Weißdorn Essig</h3>
+                        <p class="text-sage text-sm mb-4">100 % Natur | Alıç Sirkesi</p>
+                        <p class="text-ash-light text-sm leading-relaxed">Das Herz-Tonikum aus anatolischen Bergregionen. Reich an Flavonoiden und oligomeren Procyanidinen.</p>
+                    </div>
+                    <span class="mt-6 inline-block text-gold text-sm font-bold uppercase tracking-wider group-hover:tracking-widest transition-all">Entdecken &rarr;</span>
+                </div>
+            </a>
+
+            <a href="traubenessig.html" class="group block bg-earth-surface rounded-2xl shadow-lg border border-earth-light overflow-hidden hover:shadow-2xl hover:border-gold/50 transition-all duration-300">
+                <div class="p-8 text-center h-full flex flex-col justify-between">
+                    <div>
+                        <div class="w-16 h-16 mx-auto bg-earth rounded-full flex items-center justify-center mb-6 text-gold group-hover:scale-110 transition-transform">
+                            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"></path></svg>
+                        </div>
+                        <h3 class="font-serif font-bold text-2xl text-mocha mb-3 group-hover:text-gold transition-colors">Traubenessig</h3>
+                        <p class="text-sage text-sm mb-4">Naturtrüb & Traditionell Fermentiert</p>
+                        <p class="text-ash-light text-sm leading-relaxed">Eine süße Tiefe gepaart mit einer angenehmen Säure. Traditionell aus ausgewählten Trauben fermentiert.</p>
+                    </div>
+                    <span class="mt-6 inline-block text-gold text-sm font-bold uppercase tracking-wider group-hover:tracking-widest transition-all">Entdecken &rarr;</span>
+                </div>
+            </a>
+
+            <a href="ananas-essig.html" class="group block bg-earth-surface rounded-2xl shadow-lg border border-earth-light overflow-hidden hover:shadow-2xl hover:border-gold/50 transition-all duration-300">
+                <div class="p-8 text-center h-full flex flex-col justify-between">
+                    <div>
+                        <div class="w-16 h-16 mx-auto bg-earth rounded-full flex items-center justify-center mb-6 text-gold group-hover:scale-110 transition-transform">
+                            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13 10V3L4 14h7v8l9-11h-7z"></path></svg>
+                        </div>
+                        <h3 class="font-serif font-bold text-2xl text-mocha mb-3 group-hover:text-gold transition-colors">Ananas Essig</h3>
+                        <p class="text-sage text-sm mb-4">100% Natürlicher Fruchtessig</p>
+                        <p class="text-ash-light text-sm leading-relaxed">Ein exotisches Kraftpaket voller Bromelain. Unterstützt auf tropische Weise die natürliche Verdauung.</p>
+                    </div>
+                    <span class="mt-6 inline-block text-gold text-sm font-bold uppercase tracking-wider group-hover:tracking-widest transition-all">Entdecken &rarr;</span>
+                </div>
+            </a>
+
+            <a href="detox-mix.html" class="group block bg-earth-surface rounded-2xl shadow-lg border border-gold/40 overflow-hidden hover:shadow-2xl hover:border-gold transition-all duration-300 relative">
+                <div class="absolute top-0 right-0 bg-gold text-white text-xs font-bold px-3 py-1 rounded-bl-lg">Bestseller</div>
+                <div class="p-8 text-center h-full flex flex-col justify-between">
+                    <div>
+                        <div class="w-16 h-16 mx-auto bg-gold/10 rounded-full flex items-center justify-center mb-6 text-gold group-hover:scale-110 transition-transform">
+                            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"></path></svg>
+                        </div>
+                        <h3 class="font-serif font-bold text-2xl text-mocha mb-3 group-hover:text-gold transition-colors">Detox Mix Elixier</h3>
+                        <p class="text-sage text-sm mb-4">Mit Apfelessig, Rosmarin & Kirschstielen</p>
+                        <p class="text-ash-light text-sm leading-relaxed">Eine fein abgestimmte Komposition aus Apfelessig und traditionellen Kräutern für ein spürbares Gefühl von Leichtigkeit.</p>
+                    </div>
+                    <span class="mt-6 inline-block text-gold text-sm font-bold uppercase tracking-wider group-hover:tracking-widest transition-all">Entdecken &rarr;</span>
+                </div>
+            </a>
+
+            <a href="oxymel-gold-essig.html" class="group block bg-earth-surface rounded-2xl shadow-lg border border-gold/40 overflow-hidden hover:shadow-2xl hover:border-gold transition-all duration-300 relative">
+                <div class="absolute top-0 right-0 bg-mocha text-white text-xs font-bold px-3 py-1 rounded-bl-lg">Premium</div>
+                <div class="p-8 text-center h-full flex flex-col justify-between">
+                    <div>
+                        <div class="w-16 h-16 mx-auto bg-mocha/10 rounded-full flex items-center justify-center mb-6 text-mocha group-hover:scale-110 transition-transform">
+                            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"></path></svg>
+                        </div>
+                        <h3 class="font-serif font-bold text-2xl text-mocha mb-3 group-hover:text-gold transition-colors">Oxymel Gold Essig</h3>
+                        <p class="text-sage text-sm mb-4">Sauerhonig mit Propolis & Kurkuma</p>
+                        <p class="text-ash-light text-sm leading-relaxed">Die jahrtausendealte Kraft des Oxymels (Sauerhonig), veredelt mit Ingwer, Knoblauch und feinstem Propolis.</p>
+                    </div>
+                    <span class="mt-6 inline-block text-gold text-sm font-bold uppercase tracking-wider group-hover:tracking-widest transition-all">Entdecken &rarr;</span>
+                </div>
+            </a>
+
+        </div>
+
+        <!-- Encyclopedia Section -->
+        <div class="bg-earth rounded-3xl p-8 md:p-16 shadow-inner border border-earth-light">
+            <h2 class="text-4xl font-serif text-center text-mocha mb-12">Die große Essig-Enzyklopädie</h2>
+            
+            <div class="prose prose-lg prose-stone max-w-4xl mx-auto font-serif text-ash-light">
+                
+                <h3 class="text-2xl font-bold text-mocha mt-12 mb-4">Was ist lebendiger Essig eigentlich?</h3>
+                <p>Essig ist weit mehr als nur ein saures Würzmittel für Salate. In seiner natürlichsten, unpasteurisierten Form ist er ein wahres Meisterwerk der Natur – ein lebendiges Ökosystem voller Enzyme, organischer Säuren, Vitamine und essenzieller Mikroorganismen. Die Fermentation ist eine der ältesten Konservierungs- und Veredelungsmethoden der Menschheit.</p>
+                <p>Bei Anadoa Naturhaus begreifen wir Essig als das, was er in der Antike war: Ein Lebenselixier. Schon Hippokrates, der berühmteste Arzt des Altertums, nutzte rohen Essig (oft in Kombination mit Honig als sogenanntes <strong>Oxymel</strong>), um Wunden zu reinigen, die Verdauung zu stärken und das Immunsystem zu modulieren.</p>
+
+                <h3 class="text-2xl font-bold text-mocha mt-12 mb-4">Wie entsteht natürlicher Essig? Die Magie der Fermentation</h3>
+                <p>Die Herstellung eines echten Heilessigs ist ein Prozess der Geduld und Hingabe, der in zwei entscheidenden Schritten abläuft:</p>
+                <ol class="list-decimal pl-6 space-y-4 my-6">
+                    <li><strong>Die alkoholische Gärung:</strong> Reife, ungeschwefelte Früchte (wie Äpfel, Trauben oder Weißdornbeeren) werden zerkleinert und mit Wasser angesetzt. Natürlich vorkommende Wildhefen auf der Schale der Früchte beginnen, den enthaltenen Fruchtzucker in Alkohol umzuwandeln. Es entsteht eine Art Fruchtwein.</li>
+                    <li><strong>Die Essigsäure-Gärung:</strong> Sobald der Alkohol gebildet wurde, treten die Essigsäurebakterien (Acetobacter) auf den Plan. Sie benötigen Sauerstoff aus der Luft, um den Alkohol langsam und schonend in Essigsäure umzuwandeln. Dieser Prozess dauert bei traditionellen Methoden Monate, oft sogar Jahre.</li>
+                </ol>
+
+                <div class="bg-gold/10 border-l-4 border-gold p-6 rounded-r-xl my-8">
+                    <h4 class="font-bold text-mocha mb-2">Industrieller Essig vs. Traditioneller Essig</h4>
+                    <p class="m-0 text-sm">Industrie-Essig wird in riesigen Stahltanks unter Zufuhr von reinem Sauerstoff und Turbo-Kulturen innerhalb von 24 Stunden produziert. Anschließend wird er gefiltert und pasteurisiert (stark erhitzt). Dieser Essig ist klinisch tot. Ihm fehlen sämtliche therapeutischen Eigenschaften. Ein echter, traditioneller Essig (wie die von Anadoa) fermentiert monatelang in Fässern und bleibt unpasteurisiert.</p>
+                </div>
+
+                <h3 class="text-2xl font-bold text-mocha mt-12 mb-4">Die "Essigmutter": Das Herzstück eines jeden Heilessigs</h3>
+                <p>Ein Qualitätsmerkmal, das viele Kunden oft irritiert, ist tatsächlich das Wichtigste überhaupt: <strong>Die Trübung und die Essigmutter.</strong></p>
+                <p>Wenn Sie eine Flasche hochwertigen, "naturtrüben" (nicht gefilterten) Essig gegen das Licht halten, werden Sie Schlieren, Schwebstoffe oder sogar ein geleeartiges Gebilde am Flaschenboden erkennen. Das ist kein Schimmel und kein Zeichen von Verderb! Es ist die sogenannte <em>Essigmutter</em> (auf Englisch "Mother of Vinegar").</p>
+                <p>Die Essigmutter ist ein lebendes Geflecht aus nützlichen Essigsäurebakterien, Enzymen, Proteinketten und Zellulose. Sie ist der ultimative Beweis dafür, dass der Essig roh, unpasteurisiert und voller Leben ist. Diese Mikroorganismen sind es, die im menschlichen Darm Wunder wirken können, indem sie das Mikrobiom unterstützen (prä- und probiotische Wirkung).</p>
+                <p><strong>Fazit:</strong> Ein trüber Essig ist ein guter Essig. Schütteln Sie die Flasche vor jedem Gebrauch leicht, um diese wertvollen Bestandteile gleichmäßig zu verteilen.</p>
+
+                <h3 class="text-2xl font-bold text-mocha mt-12 mb-4">Die Vielfalt der Früchte: Welcher Essig für welchen Zweck?</h3>
+                <p>Die Basis eines jeden Essigs bestimmt seine spezifischen Heilwirkungen. Da bei der schonenden Fermentation die Vitamine, Mineralstoffe und sekundären Pflanzenstoffe der Ursprungsfrucht in den Essig übergehen, hat jede Sorte ihren eigenen Charakter:</p>
+                <ul class="list-disc pl-6 space-y-4 my-6">
+                    <li><strong>Apfelessig:</strong> Der Allrounder. Reich an Pektin und Kalium. Er gilt als stark basisch verstoffwechselnd, reguliert den Blutzuckerspiegel nach Mahlzeiten massiv und fördert eine gesunde Verdauung und Gewichtsreduktion.</li>
+                    <li><strong>Weißdorn Essig (Alıç):</strong> Der Kardiologe unter den Essigen. Weißdorn wächst wild in den Bergen und ist extrem reich an Flavonoiden und oligomeren Procyanidinen (OPC). Dieser Essig wird in der Volksmedizin traditionell zur Stärkung des Herz-Kreislauf-Systems, zur Blutdruckregulation und bei nervöser Herzunruhe eingesetzt.</li>
+                    <li><strong>Ananas Essig:</strong> Das tropische Kraftpaket. Die Ananas enthält das proteolytische Enzym <em>Bromelain</em>, welches stark entzündungshemmend und verdauungsfördernd wirkt. Perfekt nach schweren, proteinreichen Mahlzeiten.</li>
+                    <li><strong>Traubenessig:</strong> Der klassische Küchenbegleiter. Tiefgründig und reich an Resveratrol und Antioxidantien. Er schützt die Zellen vor oxidativem Stress und verfeinert Salate mit seinem edlen Aroma.</li>
+                </ul>
+
+                <h3 class="text-2xl font-bold text-mocha mt-12 mb-4">Das Detox Mix & Oxymel Gold: Synergie in Perfektion</h3>
+                <p>Mit unseren Spezial-Elixieren gehen wir noch einen Schritt weiter, indem wir die Kraft des naturtrüben Apfelessigs mit ausgewählten pflanzlichen Wirkstoffen kombinieren:</p>
+                
+                <h4 class="text-xl font-bold text-mocha mt-8 mb-2">Was ist ein Detox Mix?</h4>
+                <p>Unser Detox Mix ist kein simpler Diät-Drink, sondern eine tiefgreifende Pflanzenrezeptur. Wir mazerieren entgiftende und entwässernde Kräuter wie Kirschstiele (bekannt für ihre nierenanregende Wirkung), Rosmarin (durchblutungsfördernd und leberunterstützend) sowie Quinoa und Avocadoblätter über Wochen hinweg in unserem naturtrüben Essig. Diese Tinktur zieht die fett- und wasserlöslichen Wirkstoffe aus den Pflanzen, was zu einem Elixier führt, das den Stoffwechsel sanft, aber nachhaltig aktiviert.</p>
+
+                <h4 class="text-xl font-bold text-mocha mt-8 mb-2">Was ist Oxymel (Sauerhonig)?</h4>
+                <p>Oxymel (griechisch "oxy" = sauer, "meli" = Honig) ist ein uraltes Heilgetränk. Die extreme Säure des Essigs wird durch die Milde und die Enzyme des rohen Honigs harmonisiert. In unserem <strong>Oxymel Gold</strong> fügen wir dieser Basis noch Kurkuma (stark entzündungshemmend), Ingwer, Knoblauch und <em>Propolis</em> hinzu. Es ist ein natürliches, hochpotentes Immun-Tonikum, das besonders in der kalten Jahreszeit zur Vorbeugung von Infekten oder zur Linderung von Entzündungen im Körper getrunken wird.</p>
+
+                <h3 class="text-2xl font-bold text-mocha mt-12 mb-4">Wie wendet man Heilessig richtig an?</h3>
+                <p>Ob Apfelessig, Weißdorn oder Oxymel – die Anwendung von unpasteurisierten Essigen als Gesundheitsritual erfordert ein paar Grundregeln:</p>
+                <ol class="list-decimal pl-6 space-y-4 my-6">
+                    <li><strong>Niemals pur trinken:</strong> Die Säure ist sehr stark und kann auf Dauer den Zahnschmelz oder die Speiseröhre angreifen.</li>
+                    <li><strong>Die Morgenroutine:</strong> Geben Sie 1 bis 2 Esslöffel des Essigs (oder Oxymels) in ein großes Glas <em>lauwarmes</em> (nicht heißes, um die Enzyme nicht zu töten) Wasser. Trinken Sie dies idealerweise morgens auf nüchternen Magen, etwa 15-20 Minuten vor dem Frühstück, um die Verdauungssäfte anzuregen.</li>
+                    <li><strong>Der Strohhalm-Trick:</strong> Wer sehr empfindliche Zähne hat, sollte das Essigwasser durch einen Glas- oder Edelstahlstrohhalm trinken, um den Zahnschmelz zu schonen.</li>
+                </ol>
+
+                <h3 class="text-2xl font-bold text-mocha mt-12 mb-4">Qualitätsmerkmale beim Einkauf: Worauf Sie achten müssen</h3>
+                <p>Wenn Sie einen therapeutisch wirksamen Essig suchen, überprüfen Sie das Etikett auf folgende Begriffe:</p>
+                <ul class="list-disc pl-6 space-y-4 my-6">
+                    <li><strong>Naturtrüb / Ungefiltert:</strong> Er muss Schwebstoffe enthalten (die Essigmutter).</li>
+                    <li><strong>Unpasteurisiert / Nicht erhitzt:</strong> Hitze tötet das Mikrobiom. Ein pasteurisierter Essig ist nur noch saure Würze, kein Lebenselixier.</li>
+                    <li><strong>100% Frucht (ohne Zusätze):</strong> Keine Konservierungsstoffe, keine künstliche Essigsäure, keine Farbstoffe.</li>
+                    <li><strong>Traditionelle Gärung:</strong> Langsame Fermentation über Monate hinweg.</li>
+                </ul>
+
+                <p class="text-center italic mt-12 font-medium">Alle Essige und Elixiere von Anadoa Naturhaus erfüllen diese Kriterien kompromisslos. Wir respektieren die Zeit, die die Natur braucht, um etwas Wahres zu erschaffen.</p>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Footer placeholder -->
+    <div id="footer-placeholder"></div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            fetch('index.html')
+            .then(res => res.text())
+            .then(html => {
+                const parser = new DOMParser();
+                const doc = parser.parseFromString(html, 'text/html');
+                const footer = doc.querySelector('footer');
+                if(footer) document.getElementById('footer-placeholder').replaceWith(footer);
+            });
+        });
+    </script>
+</body>
+</html>

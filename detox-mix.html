@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="de" style="scroll-behavior: smooth;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detox Mix Elixier | Anadoa Naturhaus</title>
+    <meta name="description" content="Kräutermischung mit Apfelessig & Rosmarin">
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        earth: '#FDFBF7',
+                        'earth-light': '#E8E2D8',
+                        'earth-surface': '#FFFFFF',
+                        gold: '#c19768',
+                        sage: '#A3B19B',
+                        mocha: '#5f3c17',
+                        ash: '#2C2623',
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="styles.css">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{"@type": "Question", "name": "Wann ist die beste Zeit f\u00fcr den Detox Mix?", "acceptedAnswer": {"@type": "Answer", "text": "Die beste Wirkung erzielen Sie, wenn Sie den Detox Mix morgens auf n\u00fcchternen Magen in einem Glas lauwarmem Wasser trinken. Alternativ eignet er sich auch als ausgleichendes Getr\u00e4nk etwa 20 Minuten vor einer schweren Mahlzeit."}}, {"@type": "Question", "name": "Warum sind Kirschstiele im Detox Mix enthalten?", "acceptedAnswer": {"@type": "Answer", "text": "Kirschstiele sind in der anatolischen Volksmedizin ein bew\u00e4hrtes Mittel zur sanften Entw\u00e4sserung und Nierenunterst\u00fctzung. Sie erg\u00e4nzen die probiotische Wirkung des Apfelessigs perfekt."}}, {"@type": "Question", "name": "Kann ich den Detox Mix dauerhaft einnehmen?", "acceptedAnswer": {"@type": "Answer", "text": "Ja, da der Detox Mix zu 100% aus nat\u00fcrlichen Lebensmitteln und milden Kr\u00e4utern besteht, kann er problemlos als t\u00e4gliches Morgenritual in Ihren Alltag integriert werden."}}, {"@type": "Question", "name": "Ist der Detox Mix auch f\u00fcr eine Fastenkur geeignet?", "acceptedAnswer": {"@type": "Answer", "text": "Absolut. Der Detox Mix liefert w\u00e4hrend des Fastens wertvolle Mineralien und unterst\u00fctzt die Entgiftungsorgane, ohne den Fastenstoffwechsel zu unterbrechen, da er keine versteckten Zucker enth\u00e4lt."}}, {"@type": "Question", "name": "Warum sind im Detox Mix Avocadobl\u00e4tter enthalten?", "acceptedAnswer": {"@type": "Answer", "text": "Avocadobl\u00e4tter werden in der traditionellen Kr\u00e4uterkunde verwendet, um den Stoffwechsel zu harmonisieren und \u00fcbersch\u00fcssige Harns\u00e4ure aus dem K\u00f6rper zu leiten. Sie verst\u00e4rken die tiefgreifende Wirkung des Detox Mix."}}]
+    }
+    </script>
+    <style>
+        .custom-scrollbar::-webkit-scrollbar { width: 6px; }
+        .custom-scrollbar::-webkit-scrollbar-track { background: rgba(0,0,0,0.05); border-radius: 10px; }
+        .custom-scrollbar::-webkit-scrollbar-thumb { background: rgba(193, 151, 104, 0.4); border-radius: 10px; }
+    </style>
+</head>
+<body class="bg-noise text-ash">
+    <nav class="fixed w-full z-50 top-6 transition-all duration-300" id="global-nav">
+  <div class="max-w-[95%] md:max-w-6xl mx-auto relative z-50">
+      <div class="bg-earth/95 backdrop-blur-md border border-earth-light shadow-xl rounded-full px-6 flex justify-between items-center h-[72px] transition-all duration-300" id="nav-container">
+          
+          <!-- Mobile Menu Button (Left) -->
+          <div class="lg:hidden flex items-center flex-1">
+              <button id="mobile-menu-btn" class="text-ash hover:text-gold focus:outline-none p-2 bg-white/50 rounded-full transition-colors" onclick="document.getElementById('mobile-menu').classList.toggle('opacity-0'); document.getElementById('mobile-menu').classList.toggle('pointer-events-none'); document.getElementById('menu-icon').classList.toggle('hidden'); document.getElementById('close-icon').classList.toggle('hidden'); document.body.style.overflow = document.body.style.overflow === 'hidden' ? '' : 'hidden';">
+                  <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path id="menu-icon" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                      <path id="close-icon" class="hidden" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                  </svg>
+              </button>
+          </div>
+
+          <!-- Left Links (Desktop) -->
+          <div class="hidden lg:flex items-center justify-end space-x-6 lg:space-x-10 flex-1 pr-4 lg:pr-8">
+              <a href="index.html" class="text-ash hover:text-gold text-sm uppercase tracking-widest font-bold transition-colors">Startseite</a>
+              <a href="rezepte.html" class="text-ash hover:text-gold text-sm uppercase tracking-widest font-bold transition-colors">Rezepte</a>
+          </div>
+
+          <!-- Logo (Center) -->
+          <a href="index.html" class="flex-shrink-0 flex justify-center items-center group relative z-50 w-48 lg:w-[260px]">
+              <img src="assets/anadoa-logo-1000-500.png" alt="Anadoa Naturhaus Logo" class="h-20 md:h-24 w-auto object-contain transition-transform duration-500 group-hover:scale-105 drop-shadow-xl scale-110 md:scale-125">
+          </a>
+          
+          <!-- Right Links (Desktop) -->
+          <div class="hidden lg:flex justify-start items-center space-x-6 lg:space-x-10 h-full flex-1 pl-4 lg:pl-8">
+              <a href="magazin.html" class="text-ash hover:text-gold text-sm uppercase tracking-widest font-bold transition-colors">Magazin</a>
+              
+              <!-- Mega Menu Dropdown -->
+              <div class="group h-full flex items-center relative">
+                  <button class="flex items-center text-ash hover:text-gold text-sm uppercase tracking-widest font-bold transition-colors focus:outline-none h-full">
+                      Kategorien
+                      <svg class="w-4 h-4 ml-1 transition-transform group-hover:rotate-180 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                  </button>
+                  
+                  <!-- The Dropdown -->
+                  <div class="absolute left-1/2 -translate-x-[75%] top-[72px] w-[95vw] max-w-[1200px] bg-earth-surface border border-earth-light shadow-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform origin-top z-50 rounded-3xl mt-4">
+                      <div class="p-10">
+                          <div class="grid grid-cols-5 gap-8">
+                              
+                              <!-- Col 1: Oele -->
+                              <div>
+                                  <h3 class="font-serif font-bold text-lg text-mocha mb-3 border-b border-earth-light pb-2"><a href="kaltgepresste-oele.html" class="hover:text-gold">Kaltgepresste Öle</a></h3>
+                                  <ul class="space-y-2 text-sm max-h-[300px] overflow-y-auto custom-scrollbar pr-2">
+                                      <li><a href="schwarzkummelol.html" class="text-gold font-medium hover:text-mocha block">Premium Schwarzkümmelöl</a></li>
+                                      <li><a href="schwarzkummelol-fuer-kinder.html" class="text-ash-light hover:text-gold block ml-3 text-[11px] uppercase tracking-wider">↳ Für Kinder (Orange)</a></li>
+                                      <li><a href="schwarzkummelol-kinder-erdbeer.html" class="text-ash-light hover:text-gold block ml-3 text-[11px] uppercase tracking-wider">↳ Für Kinder (Erdbeer)</a></li>
+                                      <li><a href="schwarzkummelol-mit-minze.html" class="text-ash-light hover:text-gold block ml-3 mb-2 text-[11px] uppercase tracking-wider">↳ Mit Minze</a></li>
+                                      <li><a href="leinoel.html" class="text-ash-light hover:text-gold block">Leinöl</a></li>
+                                      <li><a href="kuerbiskernoel.html" class="text-ash-light hover:text-gold block">Kürbiskernöl</a></li>
+                                      <li><a href="granatapfelkernoel.html" class="text-ash-light hover:text-gold block">Granatapfelkernöl</a></li>
+                                      <li><a href="walnussoel.html" class="text-ash-light hover:text-gold block">Walnussöl</a></li>
+                                      <li><a href="mandelol.html" class="text-ash-light hover:text-gold block">Mandelöl</a></li>
+                                      <li><a href="jojobaoel.html" class="text-ash-light hover:text-gold block">Jojobaöl</a></li>
+                                      <li><a href="aprikosenkernoel.html" class="text-ash-light hover:text-gold block">Aprikosenkernöl</a></li>
+                                      <li><a href="traubenkernoel.html" class="text-ash-light hover:text-gold block">Traubenkernöl</a></li>
+                                      <li><a href="sesamoel.html" class="text-ash-light hover:text-gold block">Sesamöl</a></li>
+                                      <li><a href="hanfoel.html" class="text-ash-light hover:text-gold block">Hanföl</a></li>
+                                      <li><a href="nachtkerzenoel.html" class="text-ash-light hover:text-gold block">Nachtkerzenöl</a></li>
+                                      <li><a href="arganoel.html" class="text-ash-light hover:text-gold block">Arganöl</a></li>
+                                      <li><a href="kaltgepresste-oele.html" class="text-sage hover:text-gold block mt-2 text-xs uppercase tracking-wider font-bold">Alle 29 Öle ansehen &rarr;</a></li>
+                                  </ul>
+                              </div>
+
+                              <!-- Col 2: Ätherische Öle -->
+                              <div>
+                                  <h3 class="font-serif font-bold text-lg text-mocha mb-3 border-b border-earth-light pb-2"><a href="aetherische-oele.html" class="hover:text-gold">Ätherische Öle</a></h3>
+                                  <ul class="space-y-2 text-sm max-h-[300px] overflow-y-auto custom-scrollbar pr-2">
+                                      <li><a href="lavendeloel.html" class="text-ash-light hover:text-gold block">Lavendelöl</a></li>
+                                      <li><a href="rosenoel.html" class="text-ash-light hover:text-gold block">Rosenöl</a></li>
+                                      <li><a href="teebaumoel.html" class="text-ash-light hover:text-gold block">Teebaumöl</a></li>
+                                      <li><a href="pfefferminzoel.html" class="text-ash-light hover:text-gold block">Pfefferminzöl</a></li>
+                                      <li><a href="weihrauchoel.html" class="text-ash-light hover:text-gold block">Weihrauchöl</a></li>
+                                      <li><a href="eukalyptusoel.html" class="text-ash-light hover:text-gold block">Eukalyptusöl</a></li>
+                                      <li><a href="zitronenoel.html" class="text-ash-light hover:text-gold block">Zitronenöl</a></li>
+                                      <li><a href="orangenoel.html" class="text-ash-light hover:text-gold block">Orangenöl</a></li>
+                                      <li><a href="oreganool.html" class="text-ash-light hover:text-gold block">Oreganoöl</a></li>
+                                      <li><a href="nelkenoel.html" class="text-ash-light hover:text-gold block">Nelkenöl</a></li>
+                                      <li><a href="zirbenoel.html" class="text-ash-light hover:text-gold block">Zirbenöl</a></li>
+                                      <li><a href="bergamotteoel.html" class="text-ash-light hover:text-gold block">Bergamotteöl</a></li>
+                                      <li><a href="aetherische-oele.html" class="text-sage hover:text-gold block mt-2 text-xs uppercase tracking-wider font-bold">Alle 30 Öle ansehen &rarr;</a></li>
+                                  </ul>
+                              </div>
+
+                              <!-- Col 3: Pasten & Melassen -->
+                              <div>
+                                  <h3 class="font-serif font-bold text-lg text-mocha mb-3 border-b border-earth-light pb-2"><a href="pasten.html" class="hover:text-gold">Traditionelle Pasten</a></h3>
+                                  <ul class="space-y-2 text-sm mb-6">
+                                      <li><a href="zypressenzapfen-paste.html" class="text-ash-light hover:text-gold block">Zypressenzapfen Paste</a></li>
+                                      <li><a href="tannenzapfen-paste-kinder.html" class="text-ash-light hover:text-gold block">Tannenzapfen Paste (Kinder)</a></li>
+                                      <li><a href="mariendistel-paste.html" class="text-ash-light hover:text-gold block">Mariendistel Paste</a></li>
+                                      <li><a href="paste-fuer-maenner.html" class="text-ash-light hover:text-gold block">Paste für Männer (Mesir)</a></li>
+                                      <li><a href="paste-fuer-frauen.html" class="text-ash-light hover:text-gold block">Paste für Frauen (Kadın)</a></li>
+                                      <li><a href="bittermelone-paste-honig.html" class="text-ash-light hover:text-gold block">Bittermelone Paste</a></li>
+                                      <li><a href="tahini.html" class="text-ash-light hover:text-gold block">Tahini (Sesammus)</a></li>
+                                  </ul>
+
+                                  <h3 class="font-serif font-bold text-lg text-mocha mb-3 border-b border-earth-light pb-2"><a href="melassen.html" class="hover:text-gold">Melassen</a></h3>
+                                  <ul class="space-y-2 text-sm">
+                                      <li><a href="traubenmelasse.html" class="text-ash-light hover:text-gold block">Traubenmelasse</a></li>
+                                      <li><a href="johannisbrot-melasse.html" class="text-ash-light hover:text-gold block">Johannisbrot Melasse</a></li>
+                                      <li><a href="wacholderbeeren-melasse.html" class="text-ash-light hover:text-gold block">Wacholderbeeren</a></li>
+                                      <li><a href="maulbeeren-melasse.html" class="text-ash-light hover:text-gold block">Maulbeeren Melasse</a></li>
+                                      <li><a href="dattel-melasse.html" class="text-ash-light hover:text-gold block">Dattel Melasse</a></li>
+                                  </ul>
+
+                                  <h3 class="font-serif font-bold text-lg text-mocha mb-3 border-b border-earth-light pb-2 mt-6"><a href="gewuerze.html" class="hover:text-gold">Natürliche Gewürze</a></h3>
+                                  <ul class="space-y-2 text-sm">
+                                      <li><a href="sumach-kerne.html" class="text-ash-light hover:text-gold block">Sumach Kerne</a></li>
+                                      <li><a href="sumach-pulver.html" class="text-ash-light hover:text-gold block">Sumach Pulver</a></li>
+                                      <li><a href="tuerkischer-oregano.html" class="text-ash-light hover:text-gold block">Türkischer Oregano</a></li>
+                                  </ul>
+                              </div>
+
+                              <!-- Col 4: Tees & Sirupe -->
+                              <div>
+                                  <h3 class="font-serif font-bold text-lg text-mocha mb-3 border-b border-earth-light pb-2"><a href="tee.html" class="hover:text-gold">Naturtee & Kuren</a></h3>
+                                  <ul class="space-y-2 text-sm mb-6 max-h-[160px] overflow-y-auto custom-scrollbar pr-2">
+                                      <li><a href="spitzwegerich-tee.html" class="text-ash-light hover:text-gold block">Spitzwegerich Tee</a></li>
+                                      <li><a href="kirschstiel-tee.html" class="text-ash-light hover:text-gold block">Kirschstiel Tee</a></li>
+                                      <li><a href="atom-tee.html" class="text-ash-light hover:text-gold block">Atom Tee (Winter-Mix)</a></li>
+                                      <li><a href="schopflavendel-tee.html" class="text-ash-light hover:text-gold block">Schopflavendel Tee</a></li>
+                                      <li><a href="gruener-tee.html" class="text-ash-light hover:text-gold block">Magischer Grüntee</a></li>
+                                      <li><a href="love-tee.html" class="text-ash-light hover:text-gold block">Love Tee</a></li>
+                                      <li><a href="wintertee.html" class="text-ash-light hover:text-gold block">Wintertee</a></li>
+                                      <li><a href="tee.html" class="text-sage hover:text-gold block mt-2 text-xs uppercase tracking-wider font-bold">Alle 15 Tees ansehen &rarr;</a></li>
+                                  </ul>
+
+                                  <h3 class="font-serif font-bold text-lg text-mocha mb-3 border-b border-earth-light pb-2"><a href="sirupe.html" class="hover:text-gold">Sirupe</a></h3>
+                                  <ul class="space-y-2 text-sm mb-6">
+                                      <li><a href="tannenzapfen-sirup.html" class="text-ash-light hover:text-gold block">Tannenzapfen Sirup</a></li>
+                                      <li><a href="granatapfelsirup.html" class="text-ash-light hover:text-gold block">Granatapfelsirup</a></li>
+                                      <li><a href="schwarzer-maulbeersirup.html" class="text-ash-light hover:text-gold block">Maulbeer-Sirup</a></li>
+                                  </ul>
+
+                                  <h3 class="font-serif font-bold text-lg text-mocha mb-3 border-b border-earth-light pb-2"><a href="essig.html" class="hover:text-gold">Lebendiger Essig</a></h3>
+                                  <ul class="space-y-2 text-sm">
+                                      <li><a href="apfelessig.html" class="text-ash-light hover:text-gold block">Apfelessig</a></li>
+                                      <li><a href="weissdorn-essig.html" class="text-ash-light hover:text-gold block">Weißdorn Essig (Alıç)</a></li>
+                                      <li><a href="traubenessig.html" class="text-ash-light hover:text-gold block">Traubenessig</a></li>
+                                      <li><a href="ananas-essig.html" class="text-ash-light hover:text-gold block">Ananas Essig</a></li>
+                                      <li><a href="oxymel-gold-essig.html" class="text-gold font-medium hover:text-mocha block mt-2">Oxymel Gold Tonic</a></li>
+                                      <li><a href="detox-mix.html" class="text-gold font-medium hover:text-mocha block">Detox Mix Elixier</a></li>
+                                  </ul>
+                              </div>
+
+                              <!-- Col 5: Promo -->
+                              <div class="h-full flex flex-col">
+                                  <div class="flex-grow rounded-2xl overflow-hidden relative group/promo shadow-lg border border-gold/20 min-h-[250px]">
+                                      <img src="assets/zypressenzapfen_paste.png" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover/promo:scale-110" alt="Premium Produkte">
+                                      <div class="absolute inset-0 bg-gradient-to-t from-mocha/90 via-mocha/40 to-transparent flex flex-col items-center justify-end p-6">
+                                          <span class="text-earth font-serif text-xl text-center drop-shadow-md mb-2">Entdecken Sie die Essenz der Natur</span>
+                                          <a href="zypressenzapfen-paste.html" class="inline-block mt-3 px-5 py-2 bg-gold text-white text-sm font-medium rounded-full shadow-md hover:bg-white hover:text-mocha transition-colors">Zum Bestseller</a>
+                                      </div>
+                                  </div>
+                              </div>
+                  </div>
+              </div>
+          </div>
+          
+          <!-- Empty div to balance flex on mobile -->
+          <div class="lg:hidden flex-1"></div>
+
+      </div>
+  </div>
+
+      <!-- Mobile Drawer Menu -->
+  <div id="mobile-menu" class="fixed inset-0 bg-white/98 backdrop-blur-2xl z-40 transition-all duration-500 opacity-0 pointer-events-none lg:hidden flex flex-col h-screen">
+      
+      <div class="flex-1 overflow-y-auto pt-32 pb-20 px-8 flex flex-col gap-8 custom-scrollbar">
+          
+          <!-- Main Navigation Links -->
+          <nav class="flex flex-col space-y-6">
+              <a href="index.html" class="text-4xl md:text-5xl font-serif text-mocha hover:text-gold transition-colors block" onclick="document.getElementById('mobile-menu-btn').click();">Startseite</a>
+              <a href="rezepte.html" class="text-4xl md:text-5xl font-serif text-mocha hover:text-gold transition-colors block" onclick="document.getElementById('mobile-menu-btn').click();">Rezepte</a>
+              <a href="magazin.html" class="text-4xl md:text-5xl font-serif text-mocha hover:text-gold transition-colors block" onclick="document.getElementById('mobile-menu-btn').click();">Magazin</a>
+          </nav>
+
+          <hr class="border-earth-light my-2">
+
+          <!-- Shop Categories Accordion -->
+          <div class="space-y-6">
+              <h2 class="text-xs uppercase tracking-[0.2em] text-ash/50 font-bold mb-4">Unsere Kategorien</h2>
+              
+              <!-- Kaltgepresste Öle -->
+              <div class="border-b border-earth-light pb-4">
+                  <button class="w-full text-left flex justify-between items-center text-2xl font-serif text-mocha hover:text-gold transition-colors group" onclick="this.nextElementSibling.classList.toggle('max-h-0'); this.nextElementSibling.classList.toggle('max-h-[500px]'); this.nextElementSibling.classList.toggle('mt-4'); this.nextElementSibling.classList.toggle('opacity-0'); this.querySelector('svg').classList.toggle('rotate-180');">
+                      Kaltgepresste Öle
+                      <svg class="w-6 h-6 text-gold transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                  </button>
+                  <div class="max-h-0 opacity-0 overflow-hidden transition-all duration-500 ease-in-out px-2 space-y-4">
+                      <a href="kaltgepresste-oele.html" class="block text-gold font-bold text-lg mb-2 uppercase tracking-widest text-sm">Übersicht ansehen</a>
+                      <a href="schwarzkummelol.html" class="block text-ash hover:text-gold text-lg font-light">Premium Schwarzkümmelöl</a>
+                      <a href="leinoel.html" class="block text-ash hover:text-gold text-lg font-light">Leinöl</a>
+                      <a href="kuerbiskernoel.html" class="block text-ash hover:text-gold text-lg font-light">Kürbiskernöl</a>
+                      <a href="walnussoel.html" class="block text-ash hover:text-gold text-lg font-light">Walnussöl</a>
+                      <a href="arganoel.html" class="block text-ash hover:text-gold text-lg font-light">Arganöl</a>
+                  </div>
+              </div>
+              
+              <!-- Ätherische Öle -->
+              <div class="border-b border-earth-light pb-4">
+                  <button class="w-full text-left flex justify-between items-center text-2xl font-serif text-mocha hover:text-gold transition-colors group" onclick="this.nextElementSibling.classList.toggle('max-h-0'); this.nextElementSibling.classList.toggle('max-h-[500px]'); this.nextElementSibling.classList.toggle('mt-4'); this.nextElementSibling.classList.toggle('opacity-0'); this.querySelector('svg').classList.toggle('rotate-180');">
+                      Ätherische Öle
+                      <svg class="w-6 h-6 text-gold transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                  </button>
+                  <div class="max-h-0 opacity-0 overflow-hidden transition-all duration-500 ease-in-out px-2 space-y-4">
+                      <a href="aetherische-oele.html" class="block text-gold font-bold text-lg mb-2 uppercase tracking-widest text-sm">Übersicht ansehen</a>
+                      <a href="lavendeloel.html" class="block text-ash hover:text-gold text-lg font-light">Lavendelöl</a>
+                      <a href="rosenoel.html" class="block text-ash hover:text-gold text-lg font-light">Rosenöl</a>
+                      <a href="teebaumoel.html" class="block text-ash hover:text-gold text-lg font-light">Teebaumöl</a>
+                      <a href="oreganool.html" class="block text-ash hover:text-gold text-lg font-light">Oreganoöl</a>
+                  </div>
+              </div>
+              
+              <!-- Traditionelle Pasten & Melassen -->
+              <div class="border-b border-earth-light pb-4">
+                  <button class="w-full text-left flex justify-between items-center text-2xl font-serif text-mocha hover:text-gold transition-colors group" onclick="this.nextElementSibling.classList.toggle('max-h-0'); this.nextElementSibling.classList.toggle('max-h-[500px]'); this.nextElementSibling.classList.toggle('mt-4'); this.nextElementSibling.classList.toggle('opacity-0'); this.querySelector('svg').classList.toggle('rotate-180');">
+                      Pasten & Melassen
+                      <svg class="w-6 h-6 text-gold transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                  </button>
+                  <div class="max-h-0 opacity-0 overflow-hidden transition-all duration-500 ease-in-out px-2 space-y-4">
+                      <a href="pasten.html" class="block text-gold font-bold text-lg mb-2 uppercase tracking-widest text-sm">Pasten Übersicht</a>
+                      <a href="zypressenzapfen-paste.html" class="block text-ash hover:text-gold text-lg font-light">Zypressenzapfen Paste</a>
+                      <a href="mariendistel-paste.html" class="block text-ash hover:text-gold text-lg font-light">Mariendistel Paste</a>
+                      <a href="bittermelone-paste-olivenoel.html" class="block text-ash hover:text-gold text-lg font-light">Bittermelone Paste</a>
+                      <a href="traubenmelasse.html" class="block text-ash hover:text-gold text-lg font-light mt-4">Traubenmelasse</a>
+                      <a href="johannisbrot-melasse.html" class="block text-ash hover:text-gold text-lg font-light">Johannisbrot Melasse</a>
+                  </div>
+              </div>
+
+              <!-- Naturtee & Kuren -->
+              <div class="border-b border-earth-light pb-4">
+                  <button class="w-full text-left flex justify-between items-center text-2xl font-serif text-mocha hover:text-gold transition-colors group" onclick="this.nextElementSibling.classList.toggle('max-h-0'); this.nextElementSibling.classList.toggle('max-h-[500px]'); this.nextElementSibling.classList.toggle('mt-4'); this.nextElementSibling.classList.toggle('opacity-0'); this.querySelector('svg').classList.toggle('rotate-180');">
+                      Naturtee & Kuren
+                      <svg class="w-6 h-6 text-gold transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                  </button>
+                  <div class="max-h-0 opacity-0 overflow-hidden transition-all duration-500 ease-in-out px-2 space-y-4">
+                      <a href="tee.html" class="block text-gold font-bold text-lg mb-2 uppercase tracking-widest text-sm">Alle Tees ansehen</a>
+                      <a href="spitzwegerich-tee.html" class="block text-ash hover:text-gold text-lg font-light">Spitzwegerich Tee</a>
+                      <a href="atom-tee.html" class="block text-ash hover:text-gold text-lg font-light">Atom Tee (Winter-Mix)</a>
+                      <a href="wintertee.html" class="block text-ash hover:text-gold text-lg font-light">Wintertee</a>
+                      <a href="schopflavendel-tee.html" class="block text-ash hover:text-gold text-lg font-light">Schopflavendel Tee</a>
+                  </div>
+              </div>
+
+              <!-- Essig & Gewürze -->
+              <div class="border-b border-earth-light pb-4">
+                  <button class="w-full text-left flex justify-between items-center text-2xl font-serif text-mocha hover:text-gold transition-colors group" onclick="this.nextElementSibling.classList.toggle('max-h-0'); this.nextElementSibling.classList.toggle('max-h-[500px]'); this.nextElementSibling.classList.toggle('mt-4'); this.nextElementSibling.classList.toggle('opacity-0'); this.querySelector('svg').classList.toggle('rotate-180');">
+                      Essig & Gewürze
+                      <svg class="w-6 h-6 text-gold transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                  </button>
+                  <div class="max-h-0 opacity-0 overflow-hidden transition-all duration-500 ease-in-out px-2 space-y-4">
+                      <a href="essig.html" class="block text-gold font-bold text-lg mb-2 uppercase tracking-widest text-sm">Essig ansehen</a>
+                      <a href="apfelessig.html" class="block text-ash hover:text-gold text-lg font-light">Apfelessig</a>
+                      <a href="detox-mix.html" class="block text-ash hover:text-gold text-lg font-light">Detox Mix Elixier</a>
+                      <a href="gewuerze.html" class="block text-gold font-bold text-lg mb-2 mt-4 uppercase tracking-widest text-sm">Gewürze ansehen</a>
+                      <a href="sumach-kerne.html" class="block text-ash hover:text-gold text-lg font-light">Sumach Kerne</a>
+                  </div>
+              </div>
+          </div>
+
+          <div class="mt-8 mb-8">
+              <div class="bg-earth-light/30 rounded-[2rem] p-8 border border-earth-light text-center relative overflow-hidden group">
+                  <div class="absolute inset-0 bg-gold/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                  <p class="text-ash/60 text-sm mb-4 relative z-10 uppercase tracking-widest">Premium Service</p>
+                  <p class="text-mocha font-serif text-xl mb-6 relative z-10">Haben Sie Fragen zu unseren Naturkuren?</p>
+                  <a href="tel:+490000000" class="inline-block bg-gold text-white font-bold py-3 px-8 rounded-full shadow-lg text-sm relative z-10 hover:bg-mocha transition-colors duration-300">
+                      Kundenservice anrufen
+                  </a>
+              </div>
+          </div>
+
+      </div>
+  </div>
+</nav>
+
+          
+
+    <div class="h-24 md:h-28 bg-earth"></div>
+
+    <div class="max-w-7xl mx-auto px-4 md:px-6 pb-24 relative z-20">
+        <main class="w-full bg-[#fbf5eb]/80 backdrop-blur-md rounded-3xl shadow-xl border border-white/60 reveal delay-100 relative">
+            <div class="absolute inset-0 bg-noise opacity-20 rounded-2xl"></div>
+            <div class="relative z-10">
+
+                <!-- Hero Editorial Header -->
+                <div class="text-center py-16 px-6 border-b border-earth-light">
+                    <p class="text-sm uppercase tracking-widest text-sage mb-3"><a href="essig.html" class="hover:text-gold">Lebendige Essige</a></p>
+                    <h1 class="text-5xl md:text-7xl font-serif font-bold text-mocha mb-4 tracking-tight">Detox Mix Elixier</h1>
+                    <p class="text-xl text-sage italic mb-10 font-serif">Kräutermischung mit Apfelessig & Rosmarin</p>
+
+                    <!-- Data Bar -->
+                    <div class="flex flex-wrap justify-center gap-6 md:gap-12 max-w-5xl mx-auto">
+                        <div class="text-center">
+                            <span class="block text-xs uppercase tracking-widest text-ash-light mb-1">Fermentation</span>
+                            <span class="font-medium text-ash">Mazeration in Rohessig</span>
+                        </div>
+                        <div class="text-center">
+                            <span class="block text-xs uppercase tracking-widest text-ash-light mb-1">Frucht / Basis</span>
+                            <span class="font-medium text-ash">Apfelessig, Kirschstiele, Rosmarin</span>
+                        </div>
+                        <div class="text-center">
+                            <span class="block text-xs uppercase tracking-widest text-ash-light mb-1">Typ</span>
+                            <span class="font-medium text-gold">Essig-Tinktur (Oxymel-Artig)</span>
+                        </div>
+                        <div class="text-center">
+                            <span class="block text-xs uppercase tracking-widest text-ash-light mb-1">Leitstoffe / Enzyme</span>
+                            <span class="font-medium text-ash">Ätherische Öle, Enzyme, Bitterstoffe</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Content Area -->
+                <div class="flex flex-col lg:flex-row">
+                    <!-- Sticky Index -->
+                    <div class="hidden lg:block w-3/12 border-r border-earth-light p-10">
+                        <div class="sticky top-32">
+                            <h3 class="text-sm font-bold uppercase tracking-widest text-sage mb-6">Inhaltsverzeichnis</h3>
+                            <nav class="flex flex-col space-y-4 text-sm font-serif">
+                                <a href="#die-philosophie-hinter-unserem-detox-mix" class="text-ash hover:text-gold transition-colors font-bold block">Die Philosophie hinter unserem Detox Mix</a>
+<a href="#die-inhaltsstoffe-ein-meisterwerk-im-detox-mix" class="text-ash hover:text-gold transition-colors font-bold block">Die Inhaltsstoffe: Ein Meisterwerk im Detox Mix</a>
+<a href="#wie-funktioniert-die-mazeration-im-detox-mix" class="text-ash hover:text-gold transition-colors font-bold block">Wie funktioniert die Mazeration im Detox Mix?</a>
+<a href="#die-wirkung-des-detox-mix-auf-den-k-rper" class="text-ash hover:text-gold transition-colors font-bold block">Die Wirkung des Detox Mix auf den Körper</a>
+<a href="#anwendung-so-integrieren-sie-den-detox-mix-in-den-alltag" class="text-ash hover:text-gold transition-colors font-bold block">Anwendung: So integrieren Sie den Detox Mix in den Alltag</a>
+<a href="#reinheit-ohne-kompromisse-beim-detox-mix" class="text-ash hover:text-gold transition-colors font-bold block">Reinheit ohne Kompromisse beim Detox Mix</a>
+<a href="#h-ufig-gestellte-fragen-faq" class="text-ash hover:text-gold transition-colors font-bold block">Häufig gestellte Fragen (FAQ)</a>
+
+                            </nav>
+                        </div>
+                    </div>
+
+                    <!-- Main Reading Column -->
+                    <div class="w-full lg:w-9/12 p-8 md:p-16 lg:pr-24 font-serif">
+                        
+<div class="prose prose-lg prose-stone max-w-none text-ash-light">
+    <p class="lead text-xl text-sage font-italic mb-10">Ihr tägliches Reinigungsritual für spürbare Leichtigkeit. Der Anadoa Detox Mix ist ein fein abgestimmtes Elixier, basierend auf naturtrübem Apfelessig und traditionellen Heilkräutern.</p>
+
+    <h2 id="die-philosophie-hinter-unserem-detox-mix" >Die Philosophie hinter unserem Detox Mix</h2>
+    <p>Viele Detox-Produkte setzen auf isolierte Enzyme oder künstliche Vitamine. Wir bei Anadoa glauben beim Detox Mix an die synergetische Kraft der Natur. Nachhaltiges Wohlbefinden entsteht durch das harmonische Zusammenspiel natürlicher Pflanzenstoffe. Unser Detox Mix verbindet die probiotische Kraft der Essigmutter mit den ausgleichenden Eigenschaften ausgesuchter Kräuter, die seit Jahrhunderten geschätzt werden.</p>
+
+    <h2 id="die-inhaltsstoffe-ein-meisterwerk-im-detox-mix" >Die Inhaltsstoffe: Ein Meisterwerk im Detox Mix</h2>
+    <p>Die Basis unseres Detox Mix Elixiers bildet roher, unpasteurisierter Apfelessig. Über Wochen hinweg mazerieren wir im Detox Mix folgende handverlesene Zutaten:</p>
+    <ul>
+        <li><strong>Rosmarin im Detox Mix:</strong> Bekannt für seine durchblutungsfördernden und leberunterstützenden Eigenschaften. Er gibt dem Detox Mix eine feine, ätherische Note.</li>
+        <li><strong>Kirschstiele:</strong> In der anatolischen Naturheilkunde das Mittel der Wahl, um überschüssiges Wasser sanft aus dem Körper zu leiten. Sie verstärken die Wirkung des Detox Mix.</li>
+        <li><strong>Avocadoblätter & Sandarakharz:</strong> Seltene, tiefenwirksame Extrakte im Detox Mix, die den Stoffwechsel beruhigen und in Balance bringen.</li>
+        <li><strong>Quinoa & Leinsamen:</strong> Liefern dem Detox Mix wertvolle Schleimstoffe und Mineralien, die Magen und Darm wie ein Schutzfilm auskleiden.</li>
+    </ul>
+
+    <h2 id="wie-funktioniert-die-mazeration-im-detox-mix" >Wie funktioniert die Mazeration im Detox Mix?</h2>
+    <p>Die Essigsäure im Detox Mix ist ein exzellentes Lösungsmittel. Indem wir die Kräuter roh in den Essig einlegen (Mazeration), zieht die Säure für den Detox Mix schonend alle fett- und wasserlöslichen Wirkstoffe, ätherischen Öle und sekundären Pflanzenstoffe aus den Blättern und Stielen. So entsteht der hochkonzentrierte Detox Mix, der komplett ohne Alkohol auskommt.</p>
+
+    <h2 id="die-wirkung-des-detox-mix-auf-den-k-rper" >Die Wirkung des Detox Mix auf den Körper</h2>
+    <p>Dieses Detox Mix Elixier ist darauf ausgelegt, den Körper bei seinen eigenen Reinigungsprozessen zu unterstützen. Der Detox Mix regt die Verdauungssäfte an, fördert die Ausscheidung, unterstützt die Funktion der Leber und hilft dabei, das Gefühl von "Schwere" oder "Aufgeblähtsein" nach dem Essen zu minimieren.</p>
+
+    <h2 id="anwendung-so-integrieren-sie-den-detox-mix-in-den-alltag" >Anwendung: So integrieren Sie den Detox Mix in den Alltag</h2>
+    <p>Machen Sie den Anadoa Detox Mix zu Ihrem täglichen Ritual:</p>
+    <ol>
+        <li>Schütteln Sie die Flasche des Detox Mix gut, um die Kräuterextrakte und die Essigmutter zu vermischen.</li>
+        <li>Geben Sie 1-2 Esslöffel des Detox Mix Elixiers in ein großes Glas lauwarmes Wasser.</li>
+        <li>Trinken Sie die Detox Mix Mischung morgens auf nüchternen Magen oder etwa 20 Minuten vor den Hauptmahlzeiten.</li>
+    </ol>
+
+    <h2 id="reinheit-ohne-kompromisse-beim-detox-mix" >Reinheit ohne Kompromisse beim Detox Mix</h2>
+    <p>Der Anadoa Detox Mix kommt vollständig ohne künstliche Konservierungsstoffe, Zucker, Glukosesirup oder chemische Aromen aus. Sie erhalten mit dem Detox Mix ein 100% reines Naturprodukt – vegan, roh und lebendig.</p>
+</div>
+<h2 id="h-ufig-gestellte-fragen-faq"  id="faq-bereich" class="mt-16 text-3xl font-bold text-mocha border-t border-earth-light pt-12 mb-8">Häufig gestellte Fragen (FAQ)</h2><div class="space-y-6">
+        <details class="group bg-earth rounded-2xl p-6 border border-earth-light shadow-sm open:bg-white open:shadow-md transition-all duration-300">
+            <summary class="flex justify-between items-center font-bold text-lg text-mocha cursor-pointer list-none">
+                <span>Wann ist die beste Zeit für den Detox Mix?</span>
+                <span class="transition group-open:rotate-180">
+                    <svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="24"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                </span>
+            </summary>
+            <p class="mt-4 text-ash-light leading-relaxed">Die beste Wirkung erzielen Sie, wenn Sie den Detox Mix morgens auf nüchternen Magen in einem Glas lauwarmem Wasser trinken. Alternativ eignet er sich auch als ausgleichendes Getränk etwa 20 Minuten vor einer schweren Mahlzeit.</p>
+        </details>
+        
+        <details class="group bg-earth rounded-2xl p-6 border border-earth-light shadow-sm open:bg-white open:shadow-md transition-all duration-300">
+            <summary class="flex justify-between items-center font-bold text-lg text-mocha cursor-pointer list-none">
+                <span>Warum sind Kirschstiele im Detox Mix enthalten?</span>
+                <span class="transition group-open:rotate-180">
+                    <svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="24"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                </span>
+            </summary>
+            <p class="mt-4 text-ash-light leading-relaxed">Kirschstiele sind in der anatolischen Volksmedizin ein bewährtes Mittel zur sanften Entwässerung und Nierenunterstützung. Sie ergänzen die probiotische Wirkung des Apfelessigs perfekt.</p>
+        </details>
+        
+        <details class="group bg-earth rounded-2xl p-6 border border-earth-light shadow-sm open:bg-white open:shadow-md transition-all duration-300">
+            <summary class="flex justify-between items-center font-bold text-lg text-mocha cursor-pointer list-none">
+                <span>Kann ich den Detox Mix dauerhaft einnehmen?</span>
+                <span class="transition group-open:rotate-180">
+                    <svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="24"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                </span>
+            </summary>
+            <p class="mt-4 text-ash-light leading-relaxed">Ja, da der Detox Mix zu 100% aus natürlichen Lebensmitteln und milden Kräutern besteht, kann er problemlos als tägliches Morgenritual in Ihren Alltag integriert werden.</p>
+        </details>
+        
+        <details class="group bg-earth rounded-2xl p-6 border border-earth-light shadow-sm open:bg-white open:shadow-md transition-all duration-300">
+            <summary class="flex justify-between items-center font-bold text-lg text-mocha cursor-pointer list-none">
+                <span>Ist der Detox Mix auch für eine Fastenkur geeignet?</span>
+                <span class="transition group-open:rotate-180">
+                    <svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="24"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                </span>
+            </summary>
+            <p class="mt-4 text-ash-light leading-relaxed">Absolut. Der Detox Mix liefert während des Fastens wertvolle Mineralien und unterstützt die Entgiftungsorgane, ohne den Fastenstoffwechsel zu unterbrechen, da er keine versteckten Zucker enthält.</p>
+        </details>
+        
+        <details class="group bg-earth rounded-2xl p-6 border border-earth-light shadow-sm open:bg-white open:shadow-md transition-all duration-300">
+            <summary class="flex justify-between items-center font-bold text-lg text-mocha cursor-pointer list-none">
+                <span>Warum sind im Detox Mix Avocadoblätter enthalten?</span>
+                <span class="transition group-open:rotate-180">
+                    <svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="24"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                </span>
+            </summary>
+            <p class="mt-4 text-ash-light leading-relaxed">Avocadoblätter werden in der traditionellen Kräuterkunde verwendet, um den Stoffwechsel zu harmonisieren und überschüssige Harnsäure aus dem Körper zu leiten. Sie verstärken die tiefgreifende Wirkung des Detox Mix.</p>
+        </details>
+        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <div id="footer-placeholder"></div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            fetch('index.html')
+            .then(res => res.text())
+            .then(html => {
+                const parser = new DOMParser();
+                const doc = parser.parseFromString(html, 'text/html');
+                const footer = doc.querySelector('footer');
+                if(footer) document.getElementById('footer-placeholder').replaceWith(footer);
+            });
+        });
+    </script>
+</body>
+</html>
