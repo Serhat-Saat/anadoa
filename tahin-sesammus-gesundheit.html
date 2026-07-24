@@ -1,15 +1,16 @@
 <!DOCTYPE html>
-<html lang="de" class="scroll-smooth">
+
+<html class="scroll-smooth" lang="de">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Traditionelles Tahin: Die Kunst der Steinmühle | Anadoa Magazin</title>
-    <meta name="description" content="Erfahren Sie, warum die traditionelle Steinvermahlung von geröstetem Sesam der einzige Weg ist, um das seidige, aromatische und hochnährwertige Tahin zu produzieren.">
-    <meta name="keywords" content="Anadoa, Naturhaus, Traditionelles Tahin: Die Kunst der Steinmühle, Gesundheit, Kaltpressung, Naturheilmittel">
-    <meta name="author" content="Anadoa Naturhaus">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
-    <script>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Traditionelles Tahin: Die Kunst der Steinmühle | Anadoa Magazin</title>
+<meta content="Erfahren Sie, warum die traditionelle Steinvermahlung von geröstetem Sesam der einzige Weg ist, um das seidige, aromatische und hochnährwertige Tahin zu produzieren." name="description"/>
+<meta content="Anadoa, Naturhaus, Traditionelles Tahin: Die Kunst der Steinmühle, Gesundheit, Kaltpressung, Naturheilmittel" name="keywords"/>
+<meta content="Anadoa Naturhaus" name="author"/>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&amp;family=Inter:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<script>
         tailwind.config = {
             theme: {
                 extend: {
@@ -26,10 +27,9 @@
             }
         }
     </script>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" type="image/png" href="assets/anadoa-logo-1000-500.png">
-    
-    <script type="application/ld+json">
+<link href="styles.css" rel="stylesheet"/>
+<link href="assets/anadoa-logo-1000-500.png" rel="icon" type="image/png"/>
+<script type="application/ld+json">
     {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -49,7 +49,7 @@
     "description": "Erfahren Sie, warum die traditionelle Steinvermahlung von geröstetem Sesam der einzige Weg ist, um das seidige, aromatische und hochnährwertige Tahin zu produzieren."
 }
     </script>
-    <script type="application/ld+json">
+<script type="application/ld+json">
     {
     "@context": "https://schema.org",
     "@type": "FAQPage",
@@ -97,477 +97,422 @@
     ]
 }
     </script>
-    
-
-    <link rel="icon" href="assets/anadoa-favicon.png" type="image/png">
-    <link rel="apple-touch-icon" href="assets/anadoa-favicon.png">
+<link href="assets/anadoa-favicon.png" rel="icon" type="image/png"/>
+<link href="assets/anadoa-favicon.png" rel="apple-touch-icon"/>
 </head>
 <body class="font-sans text-ash bg-cream antialiased selection:bg-mocha selection:text-cream flex flex-col min-h-screen">
-    
-    <nav class="fixed w-full z-50 top-6 transition-all duration-300" id="global-nav">
-  <div class="max-w-[95%] md:max-w-6xl mx-auto relative z-50">
-      <div class="bg-earth/95 backdrop-blur-md border border-earth-light shadow-xl rounded-full px-6 flex justify-between items-center h-[72px] transition-all duration-300" id="nav-container">
-          
-          <!-- Mobile Menu Button (Left) -->
-          <div class="lg:hidden flex items-center flex-1">
-              <button id="mobile-menu-btn" class="text-ash hover:text-gold focus:outline-none p-2 bg-white/50 rounded-full transition-colors" onclick="document.getElementById('mobile-menu').classList.toggle('opacity-0'); document.getElementById('mobile-menu').classList.toggle('pointer-events-none'); document.getElementById('menu-icon').classList.toggle('hidden'); document.getElementById('close-icon').classList.toggle('hidden'); document.body.style.overflow = document.body.style.overflow === 'hidden' ? '' : 'hidden';">
-                  <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path id="menu-icon" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
-                      <path id="close-icon" class="hidden" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
-                  </svg>
-              </button>
-          </div>
-
-          <!-- Left Links (Desktop) -->
-          <div class="hidden lg:flex items-center justify-end space-x-6 lg:space-x-10 flex-1 pr-4 lg:pr-8">
-              <a href="ueber-uns.html" class="text-ash hover:text-gold text-sm uppercase tracking-widest font-bold transition-colors">Über uns</a>
-              <a href="rezepte.html" class="text-ash hover:text-gold text-sm uppercase tracking-widest font-bold transition-colors">Rezepte</a>
-          </div>
-
-          <!-- Logo (Center) -->
-          <a href="index.html" class="flex-shrink-0 flex justify-center items-center group relative z-50 w-48 lg:w-[260px]">
-              <img src="assets/anadoa-logo-1000-500.png" alt="Anadoa Naturhaus Logo" class="h-20 md:h-24 w-auto object-contain transition-transform duration-500 group-hover:scale-105 drop-shadow-xl scale-110 md:scale-125">
-          </a>
-          
-          <!-- Right Links (Desktop) -->
-          <div class="hidden lg:flex justify-start items-center space-x-6 lg:space-x-10 h-full flex-1 pl-4 lg:pl-8">
-              <a href="magazin.html" class="text-ash hover:text-gold text-sm uppercase tracking-widest font-bold transition-colors">Magazin</a>
-              
-              <!-- Mega Menu Dropdown -->
-              <div class="group h-full flex items-center relative">
-                  <button class="flex items-center text-ash hover:text-gold text-sm uppercase tracking-widest font-bold transition-colors focus:outline-none h-full">
+<nav class="fixed w-full z-50 top-6 transition-all duration-300" id="global-nav">
+<div class="max-w-[95%] md:max-w-6xl mx-auto relative z-50">
+<div class="bg-earth/95 backdrop-blur-md border border-earth-light shadow-xl rounded-full px-6 flex justify-between items-center h-[72px] transition-all duration-300" id="nav-container">
+<!-- Mobile Menu Button (Left) -->
+<div class="lg:hidden flex items-center flex-1">
+<button class="text-ash hover:text-gold focus:outline-none p-2 bg-white/50 rounded-full transition-colors" id="mobile-menu-btn" onclick="document.getElementById('mobile-menu').classList.toggle('opacity-0'); document.getElementById('mobile-menu').classList.toggle('pointer-events-none'); document.getElementById('menu-icon').classList.toggle('hidden'); document.getElementById('close-icon').classList.toggle('hidden'); document.body.style.overflow = document.body.style.overflow === 'hidden' ? '' : 'hidden';">
+<svg class="w-6 h-6" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M4 6h16M4 12h16M4 18h16" id="menu-icon" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+<path class="hidden" d="M6 18L18 6M6 6l12 12" id="close-icon" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+</button>
+</div>
+<!-- Left Links (Desktop) -->
+<div class="hidden lg:flex items-center justify-end space-x-6 lg:space-x-10 flex-1 pr-4 lg:pr-8">
+<a class="text-ash hover:text-gold text-sm uppercase tracking-widest font-bold transition-colors" href="ueber-uns.html">Über uns</a>
+<a class="text-ash hover:text-gold text-sm uppercase tracking-widest font-bold transition-colors" href="rezepte.html">Rezepte</a>
+</div>
+<!-- Logo (Center) -->
+<a class="flex-shrink-0 flex justify-center items-center group relative z-50 w-48 lg:w-[260px]" href="index.html">
+<img alt="Anadoa Naturhaus Logo" class="h-16 md:h-24 w-auto object-contain transition-transform duration-500 group-hover:scale-105 drop-shadow-xl scale-125 md:scale-125" src="assets/anadoa-logo-1000-500.png"/>
+</a>
+<!-- Right Links (Desktop) -->
+<div class="hidden lg:flex justify-start items-center space-x-6 lg:space-x-10 h-full flex-1 pl-4 lg:pl-8">
+<a class="text-ash hover:text-gold text-sm uppercase tracking-widest font-bold transition-colors" href="magazin.html">Magazin</a>
+<!-- Mega Menu Dropdown -->
+<div class="group h-full flex items-center relative">
+<button class="flex items-center text-ash hover:text-gold text-sm uppercase tracking-widest font-bold transition-colors focus:outline-none h-full">
                       Kategorien
-                      <svg class="w-4 h-4 ml-1 transition-transform group-hover:rotate-180 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
-                  </button>
-                  
-                  <!-- The Dropdown -->
-                  <div class="absolute left-1/2 -translate-x-[75%] top-[72px] w-[95vw] max-w-[1200px] bg-earth-surface border border-earth-light shadow-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform origin-top z-50 rounded-3xl mt-4">
-                      <div class="p-10">
-                          <div class="grid grid-cols-5 gap-8">
-                              
-                              <!-- Col 1: Oele -->
-                              <div>
-                                  <h3 class="font-serif font-bold text-lg text-mocha mb-3 border-b border-earth-light pb-2"><a href="kaltgepresste-oele.html" class="hover:text-gold">Kaltgepresste Öle</a></h3>
-                                  <ul class="space-y-2 text-sm max-h-[300px] overflow-y-auto custom-scrollbar pr-2">
-                                      <li><a href="schwarzkummelol.html" class="text-gold font-medium hover:text-mocha block">Premium Schwarzkümmelöl</a></li>
-                                      <li><a href="schwarzkummelol-fuer-kinder.html" class="text-ash-light hover:text-gold block ml-3 text-[11px] uppercase tracking-wider">↳ Für Kinder (Orange)</a></li>
-                                      <li><a href="schwarzkummelol-kinder-erdbeer.html" class="text-ash-light hover:text-gold block ml-3 text-[11px] uppercase tracking-wider">↳ Für Kinder (Erdbeer)</a></li>
-                                      <li><a href="schwarzkummelol-mit-minze.html" class="text-ash-light hover:text-gold block ml-3 mb-2 text-[11px] uppercase tracking-wider">↳ Mit Minze</a></li>
-                                      <li><a href="leinoel.html" class="text-ash-light hover:text-gold block">Leinöl</a></li>
-                                      <li><a href="kuerbiskernoel.html" class="text-ash-light hover:text-gold block">Kürbiskernöl</a></li>
-                                      <li><a href="granatapfelkernoel.html" class="text-ash-light hover:text-gold block">Granatapfelkernöl</a></li>
-                                      <li><a href="walnussoel.html" class="text-ash-light hover:text-gold block">Walnussöl</a></li>
-                                      <li><a href="mandelol.html" class="text-ash-light hover:text-gold block">Mandelöl</a></li>
-                                      <li><a href="jojobaoel.html" class="text-ash-light hover:text-gold block">Jojobaöl</a></li>
-                                      <li><a href="aprikosenkernoel.html" class="text-ash-light hover:text-gold block">Aprikosenkernöl</a></li>
-                                      <li><a href="traubenkernoel.html" class="text-ash-light hover:text-gold block">Traubenkernöl</a></li>
-                                      <li><a href="sesamoel.html" class="text-ash-light hover:text-gold block">Sesamöl</a></li>
-                                      <li><a href="hanfoel.html" class="text-ash-light hover:text-gold block">Hanföl</a></li>
-                                      <li><a href="nachtkerzenoel.html" class="text-ash-light hover:text-gold block">Nachtkerzenöl</a></li>
-                                      <li><a href="arganoel.html" class="text-ash-light hover:text-gold block">Arganöl</a></li>
-                                      <li><a href="kaltgepresste-oele.html" class="text-sage hover:text-gold block mt-2 text-xs uppercase tracking-wider font-bold">Alle 29 Öle ansehen &rarr;</a></li>
-                                  </ul>
-                              </div>
-
-                              <!-- Col 2: Ätherische Öle -->
-                              <div>
-                                  <h3 class="font-serif font-bold text-lg text-mocha mb-3 border-b border-earth-light pb-2"><a href="aetherische-oele.html" class="hover:text-gold">Ätherische Öle</a></h3>
-                                  <ul class="space-y-2 text-sm max-h-[300px] overflow-y-auto custom-scrollbar pr-2">
-                                      <li><a href="lavendeloel.html" class="text-ash-light hover:text-gold block">Lavendelöl</a></li>
-                                      <li><a href="rosenoel.html" class="text-ash-light hover:text-gold block">Rosenöl</a></li>
-                                      <li><a href="teebaumoel.html" class="text-ash-light hover:text-gold block">Teebaumöl</a></li>
-                                      <li><a href="pfefferminzoel.html" class="text-ash-light hover:text-gold block">Pfefferminzöl</a></li>
-                                      <li><a href="weihrauchoel.html" class="text-ash-light hover:text-gold block">Weihrauchöl</a></li>
-                                      <li><a href="eukalyptusoel.html" class="text-ash-light hover:text-gold block">Eukalyptusöl</a></li>
-                                      <li><a href="zitronenoel.html" class="text-ash-light hover:text-gold block">Zitronenöl</a></li>
-                                      <li><a href="orangenoel.html" class="text-ash-light hover:text-gold block">Orangenöl</a></li>
-                                      <li><a href="oreganool.html" class="text-ash-light hover:text-gold block">Oreganoöl</a></li>
-                                      <li><a href="nelkenoel.html" class="text-ash-light hover:text-gold block">Nelkenöl</a></li>
-                                      <li><a href="zirbenoel.html" class="text-ash-light hover:text-gold block">Zirbenöl</a></li>
-                                      <li><a href="bergamotteoel.html" class="text-ash-light hover:text-gold block">Bergamotteöl</a></li>
-                                      <li><a href="aetherische-oele.html" class="text-sage hover:text-gold block mt-2 text-xs uppercase tracking-wider font-bold">Alle 30 Öle ansehen &rarr;</a></li>
-                                  </ul>
-                              </div>
-
-                              <!-- Col 3: Pasten & Melassen -->
-                              <div>
-                                  <h3 class="font-serif font-bold text-lg text-mocha mb-3 border-b border-earth-light pb-2"><a href="pasten.html" class="hover:text-gold">Traditionelle Pasten</a></h3>
-                                  <ul class="space-y-2 text-sm mb-6">
-                                      <li><a href="zypressenzapfen-paste.html" class="text-ash-light hover:text-gold block">Zypressenzapfen Paste</a></li>
-                                      <li><a href="tannenzapfen-paste-kinder.html" class="text-ash-light hover:text-gold block">Tannenzapfen Paste (Kinder)</a></li>
-                                      <li><a href="mariendistel-paste.html" class="text-ash-light hover:text-gold block">Mariendistel Paste</a></li>
-                                      <li><a href="paste-fuer-maenner.html" class="text-ash-light hover:text-gold block">Paste für Männer (Mesir)</a></li>
-                                      <li><a href="paste-fuer-frauen.html" class="text-ash-light hover:text-gold block">Paste für Frauen (Kadın)</a></li>
-                                      <li><a href="bittermelone-paste-honig.html" class="text-ash-light hover:text-gold block">Bittermelone Paste</a></li>
-                                      <li><a href="tahini.html" class="text-ash-light hover:text-gold block">Tahini (Sesammus)</a></li>
-                                  </ul>
-
-                                  <h3 class="font-serif font-bold text-lg text-mocha mb-3 border-b border-earth-light pb-2"><a href="melassen.html" class="hover:text-gold">Melassen</a></h3>
-                                  <ul class="space-y-2 text-sm">
-                                      <li><a href="traubenmelasse.html" class="text-ash-light hover:text-gold block">Traubenmelasse</a></li>
-                                      <li><a href="johannisbrot-melasse.html" class="text-ash-light hover:text-gold block">Johannisbrot Melasse</a></li>
-                                      <li><a href="wacholderbeeren-melasse.html" class="text-ash-light hover:text-gold block">Wacholderbeeren</a></li>
-                                      <li><a href="maulbeeren-melasse.html" class="text-ash-light hover:text-gold block">Maulbeeren Melasse</a></li>
-                                      <li><a href="dattel-melasse.html" class="text-ash-light hover:text-gold block">Dattel Melasse</a></li>
-                                  </ul>
-
-                                  <h3 class="font-serif font-bold text-lg text-mocha mb-3 border-b border-earth-light pb-2 mt-6"><a href="gewuerze.html" class="hover:text-gold">Natürliche Gewürze</a></h3>
-                                  <ul class="space-y-2 text-sm">
-                                      <li><a href="sumach-kerne.html" class="text-ash-light hover:text-gold block">Sumach Kerne</a></li>
-                                      <li><a href="sumach-pulver.html" class="text-ash-light hover:text-gold block">Sumach Pulver</a></li>
-                                      <li><a href="tuerkischer-oregano.html" class="text-ash-light hover:text-gold block">Türkischer Oregano</a></li>
-                                  </ul>
-                              </div>
-
-                              <!-- Col 4: Tees & Sirupe -->
-                              <div>
-                                  <h3 class="font-serif font-bold text-lg text-mocha mb-3 border-b border-earth-light pb-2"><a href="tee.html" class="hover:text-gold">Naturtee & Kuren</a></h3>
-                                  <ul class="space-y-2 text-sm mb-6 max-h-[160px] overflow-y-auto custom-scrollbar pr-2">
-                                      <li><a href="spitzwegerich-tee.html" class="text-ash-light hover:text-gold block">Spitzwegerich Tee</a></li>
-                                      <li><a href="kirschstiel-tee.html" class="text-ash-light hover:text-gold block">Kirschstiel Tee</a></li>
-                                      <li><a href="atom-tee.html" class="text-ash-light hover:text-gold block">Atom Tee (Winter-Mix)</a></li>
-                                      <li><a href="schopflavendel-tee.html" class="text-ash-light hover:text-gold block">Schopflavendel Tee</a></li>
-                                      <li><a href="gruener-tee.html" class="text-ash-light hover:text-gold block">Magischer Grüntee</a></li>
-                                      <li><a href="love-tee.html" class="text-ash-light hover:text-gold block">Love Tee</a></li>
-                                      <li><a href="wintertee.html" class="text-ash-light hover:text-gold block">Wintertee</a></li>
-                                      <li><a href="tee.html" class="text-sage hover:text-gold block mt-2 text-xs uppercase tracking-wider font-bold">Alle 15 Tees ansehen &rarr;</a></li>
-                                  </ul>
-
-                                  <h3 class="font-serif font-bold text-lg text-mocha mb-3 border-b border-earth-light pb-2"><a href="sirupe.html" class="hover:text-gold">Sirupe</a></h3>
-                                  <ul class="space-y-2 text-sm mb-6">
-                                      <li><a href="tannenzapfen-sirup.html" class="text-ash-light hover:text-gold block">Tannenzapfen Sirup</a></li>
-                                      <li><a href="granatapfelsirup.html" class="text-ash-light hover:text-gold block">Granatapfelsirup</a></li>
-                                      <li><a href="schwarzer-maulbeersirup.html" class="text-ash-light hover:text-gold block">Maulbeer-Sirup</a></li>
-                                  </ul>
-
-                                  <h3 class="font-serif font-bold text-lg text-mocha mb-3 border-b border-earth-light pb-2"><a href="essig.html" class="hover:text-gold">Lebendiger Essig</a></h3>
-                                  <ul class="space-y-2 text-sm">
-                                      <li><a href="apfelessig.html" class="text-ash-light hover:text-gold block">Apfelessig</a></li>
-                                      <li><a href="weissdorn-essig.html" class="text-ash-light hover:text-gold block">Weißdorn Essig (Alıç)</a></li>
-                                      <li><a href="traubenessig.html" class="text-ash-light hover:text-gold block">Traubenessig</a></li>
-                                      <li><a href="ananas-essig.html" class="text-ash-light hover:text-gold block">Ananas Essig</a></li>
-                                      <li><a href="oxymel-gold-essig.html" class="text-gold font-medium hover:text-mocha block mt-2">Oxymel Gold Tonic</a></li>
-                                      <li><a href="detox-mix.html" class="text-gold font-medium hover:text-mocha block">Detox Mix Elixier</a></li>
-                                  </ul>
-                              </div>
-
-                              <!-- Col 5: Promo -->
-                              <div class="h-full flex flex-col">
-                                  <div class="flex-grow rounded-2xl overflow-hidden relative group/promo shadow-lg border border-gold/20 min-h-[250px]">
-                                      <img src="assets/zypressenzapfen_paste.png" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover/promo:scale-110" alt="Premium Produkte">
-                                      <div class="absolute inset-0 bg-gradient-to-t from-mocha/90 via-mocha/40 to-transparent flex flex-col items-center justify-end p-6">
-                                          <span class="text-earth font-serif text-xl text-center drop-shadow-md mb-2">Entdecken Sie die Essenz der Natur</span>
-                                          <a href="zypressenzapfen-paste.html" class="inline-block mt-3 px-5 py-2 bg-gold text-white text-sm font-medium rounded-full shadow-md hover:bg-white hover:text-mocha transition-colors">Zum Bestseller</a>
-                                      </div>
-                                  </div>
-                              </div>
-                  </div>
-              </div>
-          </div>
-          
-          <!-- Empty div to balance flex on mobile -->
-          <div class="lg:hidden flex-1"></div>
-
-      </div>
-  </div>
-
-      <!-- Mobile Drawer Menu -->
-  <div id="mobile-menu" class="fixed inset-0 bg-white/98 backdrop-blur-2xl z-40 transition-all duration-500 opacity-0 pointer-events-none lg:hidden flex flex-col h-screen">
-      
-      <div class="flex-1 overflow-y-auto pt-32 pb-20 px-8 flex flex-col gap-8 custom-scrollbar">
-          
-          <!-- Main Navigation Links -->
-          <nav class="flex flex-col space-y-6">
-              <a href="ueber-uns.html" class="text-4xl md:text-5xl font-serif text-mocha hover:text-gold transition-colors block" onclick="document.getElementById(\'mobile-menu-btn\').click();">Über uns</a>
-              <a href="rezepte.html" class="text-4xl md:text-5xl font-serif text-mocha hover:text-gold transition-colors block" onclick="document.getElementById('mobile-menu-btn').click();">Rezepte</a>
-              <a href="magazin.html" class="text-4xl md:text-5xl font-serif text-mocha hover:text-gold transition-colors block" onclick="document.getElementById('mobile-menu-btn').click();">Magazin</a>
-          </nav>
-
-          <hr class="border-earth-light my-2">
-
-          <!-- Shop Categories Accordion -->
-          <div class="space-y-6">
-              <h2 class="text-xs uppercase tracking-[0.2em] text-ash/50 font-bold mb-4">Unsere Kategorien</h2>
-              
-              <!-- Kaltgepresste Öle -->
-              <div class="border-b border-earth-light pb-4">
-                  <button class="w-full text-left flex justify-between items-center text-2xl font-serif text-mocha hover:text-gold transition-colors group" onclick="this.nextElementSibling.classList.toggle('max-h-0'); this.nextElementSibling.classList.toggle('max-h-[500px]'); this.nextElementSibling.classList.toggle('mt-4'); this.nextElementSibling.classList.toggle('opacity-0'); this.querySelector('svg').classList.toggle('rotate-180');">
+                      <svg class="w-4 h-4 ml-1 transition-transform group-hover:rotate-180 text-gold" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</button>
+<!-- The Dropdown -->
+<div class="absolute left-1/2 -translate-x-[75%] top-[72px] w-[98vw] max-w-[1400px] bg-earth-surface border border-earth-light shadow-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform origin-top z-50 rounded-3xl mt-4">
+<div class="p-10">
+<div class="grid grid-cols-5 gap-8 items-start">
+<!-- Col 1: Oele -->
+<div>
+<h3 class="font-serif font-bold text-lg text-mocha mb-3 border-b border-earth-light pb-2"><a class="hover:text-gold" href="kaltgepresste-oele.html">Kaltgepresste Öle</a></h3>
+<ul class="space-y-2 text-sm max-h-[220px] overflow-y-auto custom-scrollbar pr-2">
+<li><a class="text-gold font-medium hover:text-mocha block" href="schwarzkummelol.html">Premium Schwarzkümmelöl</a></li>
+<li><a class="text-ash-light hover:text-gold block ml-3 text-[11px] uppercase tracking-wider" href="schwarzkummelol-fuer-kinder.html">↳ Für Kinder (Orange)</a></li>
+<li><a class="text-ash-light hover:text-gold block ml-3 text-[11px] uppercase tracking-wider" href="schwarzkummelol-kinder-erdbeer.html">↳ Für Kinder (Erdbeer)</a></li>
+<li><a class="text-ash-light hover:text-gold block ml-3 mb-2 text-[11px] uppercase tracking-wider" href="schwarzkummelol-mit-minze.html">↳ Mit Minze</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="leinoel.html">Leinöl</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="kuerbiskernoel.html">Kürbiskernöl</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="granatapfelkernoel.html">Granatapfelkernöl</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="walnussoel.html">Walnussöl</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="mandelol.html">Mandelöl</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="jojobaoel.html">Jojobaöl</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="aprikosenkernoel.html">Aprikosenkernöl</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="traubenkernoel.html">Traubenkernöl</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="sesamoel.html">Sesamöl</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="hanfoel.html">Hanföl</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="nachtkerzenoel.html">Nachtkerzenöl</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="arganoel.html">Arganöl</a></li>
+<li><a class="text-sage hover:text-gold block mt-2 text-xs uppercase tracking-wider font-bold" href="kaltgepresste-oele.html">Alle 29 Öle ansehen →</a></li>
+</ul>
+<h3 class="font-serif font-bold text-lg text-mocha mb-3 border-b border-earth-light pb-2 mt-5"><a class="hover:text-gold" href="gewuerze.html">Natürliche Gewürze</a></h3>
+<ul class="space-y-2 text-sm mb-4">
+<li><a class="text-ash-light hover:text-gold block" href="sumach-kerne.html">Sumach Kerne</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="sumach-pulver.html">Sumach Pulver</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="tuerkischer-oregano.html">Türkischer Oregano</a></li>
+</ul>
+<h3 class="font-serif font-bold text-lg text-mocha mb-3 border-b border-earth-light pb-2"><a class="hover:text-gold" href="tarhana.html">Tarhana Suppe</a></h3>
+<ul class="space-y-2 text-sm">
+<li><a class="text-ash-light hover:text-gold block" href="tarhana-suppe.html">Klassische Tarhana Suppe</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="scharfe-tarhana-suppe.html">Scharfe Tarhana Suppe</a></li>
+</ul>
+</div>
+<!-- Col 2: Ätherische Öle -->
+<div>
+<h3 class="font-serif font-bold text-lg text-mocha mb-3 border-b border-earth-light pb-2"><a class="hover:text-gold" href="aetherische-oele.html">Ätherische Öle</a></h3>
+<ul class="space-y-2 text-sm max-h-[220px] overflow-y-auto custom-scrollbar pr-2">
+<li><a class="text-ash-light hover:text-gold block" href="lavendeloel.html">Lavendelöl</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="rosenoel.html">Rosenöl</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="teebaumoel.html">Teebaumöl</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="pfefferminzoel.html">Pfefferminzöl</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="weihrauchoel.html">Weihrauchöl</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="eukalyptusoel.html">Eukalyptusöl</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="zitronenoel.html">Zitronenöl</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="orangenoel.html">Orangenöl</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="oreganool.html">Oreganoöl</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="nelkenoel.html">Nelkenöl</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="zirbenoel.html">Zirbenöl</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="bergamotteoel.html">Bergamotteöl</a></li>
+<li><a class="text-sage hover:text-gold block mt-2 text-xs uppercase tracking-wider font-bold" href="aetherische-oele.html">Alle 30 Öle ansehen →</a></li>
+</ul>
+<h3 class="font-serif font-bold text-lg text-mocha mb-3 border-b border-earth-light pb-2 mt-5"><a class="hover:text-gold" href="essig.html">Lebendiger Essig</a></h3>
+<ul class="space-y-2 text-sm">
+<li><a class="text-ash-light hover:text-gold block" href="apfelessig.html">Apfelessig</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="traubenessig.html">Traubenessig</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="weissdorn-essig.html">Weißdorn Essig</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="ananas-essig.html">Ananas Essig</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="oxymel-gold-essig.html">Oxymel Gold Essig</a></li>
+<li><a class="text-gold font-medium hover:text-mocha block" href="detox-mix.html">Detox Mix Elixier</a></li>
+</ul>
+</div>
+<!-- Col 3: Pasten & Melassen -->
+<div>
+<h3 class="font-serif font-bold text-lg text-mocha mb-3 border-b border-earth-light pb-2"><a class="hover:text-gold" href="pasten.html">Traditionelle Pasten</a></h3>
+<ul class="space-y-2 text-sm mb-6">
+<li><a class="text-ash-light hover:text-gold block" href="zypressenzapfen-paste.html">Zypressenzapfen Paste</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="tannenzapfen-paste-kinder.html">Tannenzapfen Paste (Kinder)</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="mariendistel-paste.html">Mariendistel Paste</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="paste-fuer-maenner.html">Paste für Männer (Mesir)</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="paste-fuer-frauen.html">Paste für Frauen (Kadın)</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="bittermelone-paste-honig.html">Bittermelone Paste</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="tahini.html">Tahini (Sesammus)</a></li>
+</ul>
+<h3 class="font-serif font-bold text-lg text-mocha mb-3 border-b border-earth-light pb-2"><a class="hover:text-gold" href="melassen.html">Melassen</a></h3>
+<ul class="space-y-2 text-sm">
+<li><a class="text-ash-light hover:text-gold block" href="traubenmelasse.html">Traubenmelasse</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="johannisbrot-melasse.html">Johannisbrot Melasse</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="wacholderbeeren-melasse.html">Wacholderbeeren</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="maulbeeren-melasse.html">Maulbeeren Melasse</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="dattel-melasse.html">Dattel Melasse</a></li>
+</ul>
+</div>
+<!-- Col 4: Tees & Sirupe -->
+<div>
+<h3 class="font-serif font-bold text-lg text-mocha mb-3 border-b border-earth-light pb-2"><a class="hover:text-gold" href="tee.html">Naturtee & Kuren</a></h3>
+<ul class="space-y-2 text-sm mb-6 max-h-[160px] overflow-y-auto custom-scrollbar pr-2">
+<li><a class="text-ash-light hover:text-gold block" href="spitzwegerich-tee.html">Spitzwegerich Tee</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="kirschstiel-tee.html">Kirschstiel Tee</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="atom-tee.html">Atom Tee (Winter-Mix)</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="schopflavendel-tee.html">Schopflavendel Tee</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="gruener-tee.html">Magischer Grüntee</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="love-tee.html">Love Tee</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="wintertee.html">Wintertee</a></li>
+<li><a class="text-sage hover:text-gold block mt-2 text-xs uppercase tracking-wider font-bold" href="tee.html">Alle 15 Tees ansehen →</a></li>
+</ul>
+<h3 class="font-serif font-bold text-lg text-mocha mb-3 border-b border-earth-light pb-2"><a class="hover:text-gold" href="sirupe.html">Sirupe</a></h3>
+<ul class="space-y-2 text-sm mb-6">
+<li><a class="text-ash-light hover:text-gold block" href="tannenzapfen-sirup.html">Tannenzapfen Sirup</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="granatapfelsirup.html">Granatapfelsirup</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="schwarzer-maulbeersirup.html">Maulbeer-Sirup</a></li>
+</ul>
+</div>
+<!-- Col 5: Promo -->
+<div class="flex flex-col min-h-0">
+<div class="rounded-2xl overflow-hidden relative group/promo shadow-lg border border-gold/20" style="min-height:300px">
+<img alt="Premium Produkte" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover/promo:scale-110" src="assets/zypressenzapfen_paste.png"/>
+<div class="absolute inset-0 bg-gradient-to-t from-mocha/90 via-mocha/40 to-transparent flex flex-col items-center justify-end p-6">
+<span class="text-earth font-serif text-xl text-center drop-shadow-md mb-2">Entdecken Sie die Essenz der Natur</span>
+<a class="inline-block mt-3 px-5 py-2 bg-gold text-white text-sm font-medium rounded-full shadow-md hover:bg-white hover:text-mocha transition-colors" href="zypressenzapfen-paste.html">Zum Bestseller</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Empty div to balance flex on mobile -->
+<div class="lg:hidden flex-1"></div>
+</div>
+</div>
+<!-- Mobile Drawer Menu -->
+<div class="fixed inset-0 bg-[#fbf5eb] backdrop-blur-2xl z-40 transition-all duration-500 opacity-0 pointer-events-none lg:hidden flex flex-col h-screen" id="mobile-menu">
+<div class="flex-1 overflow-y-auto pt-32 pb-20 px-8 flex flex-col gap-8 custom-scrollbar">
+<!-- Main Navigation Links -->
+<nav class="flex flex-col space-y-6">
+<a class="text-4xl md:text-5xl font-serif text-mocha hover:text-gold transition-colors block" href="ueber-uns.html" onclick="document.getElementById('mobile-menu-btn').click();">Über uns</a>
+<a class="text-4xl md:text-5xl font-serif text-mocha hover:text-gold transition-colors block" href="rezepte.html" onclick="document.getElementById('mobile-menu-btn').click();">Rezepte</a>
+<a class="text-4xl md:text-5xl font-serif text-mocha hover:text-gold transition-colors block" href="magazin.html" onclick="document.getElementById('mobile-menu-btn').click();">Magazin</a>
+</nav>
+<hr class="border-earth-light my-2"/>
+<!-- Shop Categories Accordion -->
+<div class="space-y-6">
+<h2 class="text-xs uppercase tracking-[0.2em] text-ash/50 font-bold mb-4">Unsere Kategorien</h2>
+<!-- Kaltgepresste Öle -->
+<div class="border-b border-earth-light pb-4">
+<button class="w-full text-left flex justify-between items-center text-2xl font-serif text-mocha hover:text-gold transition-colors group" onclick="this.nextElementSibling.classList.toggle('max-h-0'); this.nextElementSibling.classList.toggle('max-h-[500px]'); this.nextElementSibling.classList.toggle('mt-4'); this.nextElementSibling.classList.toggle('opacity-0'); this.querySelector('svg').classList.toggle('rotate-180');">
                       Kaltgepresste Öle
-                      <svg class="w-6 h-6 text-gold transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
-                  </button>
-                  <div class="max-h-0 opacity-0 overflow-hidden transition-all duration-500 ease-in-out px-2 space-y-4">
-                      <a href="kaltgepresste-oele.html" class="block text-gold font-bold text-lg mb-2 uppercase tracking-widest text-sm">Übersicht ansehen</a>
-                      <a href="schwarzkummelol.html" class="block text-ash hover:text-gold text-lg font-light">Premium Schwarzkümmelöl</a>
-                      <a href="leinoel.html" class="block text-ash hover:text-gold text-lg font-light">Leinöl</a>
-                      <a href="kuerbiskernoel.html" class="block text-ash hover:text-gold text-lg font-light">Kürbiskernöl</a>
-                      <a href="walnussoel.html" class="block text-ash hover:text-gold text-lg font-light">Walnussöl</a>
-                      <a href="arganoel.html" class="block text-ash hover:text-gold text-lg font-light">Arganöl</a>
-                  </div>
-              </div>
-              
-              <!-- Ätherische Öle -->
-              <div class="border-b border-earth-light pb-4">
-                  <button class="w-full text-left flex justify-between items-center text-2xl font-serif text-mocha hover:text-gold transition-colors group" onclick="this.nextElementSibling.classList.toggle('max-h-0'); this.nextElementSibling.classList.toggle('max-h-[500px]'); this.nextElementSibling.classList.toggle('mt-4'); this.nextElementSibling.classList.toggle('opacity-0'); this.querySelector('svg').classList.toggle('rotate-180');">
+                      <svg class="w-6 h-6 text-gold transition-transform duration-300" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</button>
+<div class="max-h-0 opacity-0 overflow-hidden transition-all duration-500 ease-in-out px-2 space-y-4">
+<a class="block text-gold font-bold text-lg mb-2 uppercase tracking-widest text-sm" href="kaltgepresste-oele.html">Übersicht ansehen</a>
+<a class="block text-ash hover:text-gold text-lg font-light" href="schwarzkummelol.html">Premium Schwarzkümmelöl</a>
+<a class="block text-ash hover:text-gold text-lg font-light" href="leinoel.html">Leinöl</a>
+<a class="block text-ash hover:text-gold text-lg font-light" href="kuerbiskernoel.html">Kürbiskernöl</a>
+<a class="block text-ash hover:text-gold text-lg font-light" href="walnussoel.html">Walnussöl</a>
+<a class="block text-ash hover:text-gold text-lg font-light" href="arganoel.html">Arganöl</a>
+</div>
+</div>
+<!-- Ätherische Öle -->
+<div class="border-b border-earth-light pb-4">
+<button class="w-full text-left flex justify-between items-center text-2xl font-serif text-mocha hover:text-gold transition-colors group" onclick="this.nextElementSibling.classList.toggle('max-h-0'); this.nextElementSibling.classList.toggle('max-h-[500px]'); this.nextElementSibling.classList.toggle('mt-4'); this.nextElementSibling.classList.toggle('opacity-0'); this.querySelector('svg').classList.toggle('rotate-180');">
                       Ätherische Öle
-                      <svg class="w-6 h-6 text-gold transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
-                  </button>
-                  <div class="max-h-0 opacity-0 overflow-hidden transition-all duration-500 ease-in-out px-2 space-y-4">
-                      <a href="aetherische-oele.html" class="block text-gold font-bold text-lg mb-2 uppercase tracking-widest text-sm">Übersicht ansehen</a>
-                      <a href="lavendeloel.html" class="block text-ash hover:text-gold text-lg font-light">Lavendelöl</a>
-                      <a href="rosenoel.html" class="block text-ash hover:text-gold text-lg font-light">Rosenöl</a>
-                      <a href="teebaumoel.html" class="block text-ash hover:text-gold text-lg font-light">Teebaumöl</a>
-                      <a href="oreganool.html" class="block text-ash hover:text-gold text-lg font-light">Oreganoöl</a>
-                  </div>
-              </div>
-              
-              <!-- Traditionelle Pasten & Melassen -->
-              <div class="border-b border-earth-light pb-4">
-                  <button class="w-full text-left flex justify-between items-center text-2xl font-serif text-mocha hover:text-gold transition-colors group" onclick="this.nextElementSibling.classList.toggle('max-h-0'); this.nextElementSibling.classList.toggle('max-h-[500px]'); this.nextElementSibling.classList.toggle('mt-4'); this.nextElementSibling.classList.toggle('opacity-0'); this.querySelector('svg').classList.toggle('rotate-180');">
-                      Pasten & Melassen
-                      <svg class="w-6 h-6 text-gold transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
-                  </button>
-                  <div class="max-h-0 opacity-0 overflow-hidden transition-all duration-500 ease-in-out px-2 space-y-4">
-                      <a href="pasten.html" class="block text-gold font-bold text-lg mb-2 uppercase tracking-widest text-sm">Pasten Übersicht</a>
-                      <a href="zypressenzapfen-paste.html" class="block text-ash hover:text-gold text-lg font-light">Zypressenzapfen Paste</a>
-                      <a href="mariendistel-paste.html" class="block text-ash hover:text-gold text-lg font-light">Mariendistel Paste</a>
-                      <a href="bittermelone-paste-olivenoel.html" class="block text-ash hover:text-gold text-lg font-light">Bittermelone Paste</a>
-                      <a href="traubenmelasse.html" class="block text-ash hover:text-gold text-lg font-light mt-4">Traubenmelasse</a>
-                      <a href="johannisbrot-melasse.html" class="block text-ash hover:text-gold text-lg font-light">Johannisbrot Melasse</a>
-                  </div>
-              </div>
-
-              <!-- Naturtee & Kuren -->
-              <div class="border-b border-earth-light pb-4">
-                  <button class="w-full text-left flex justify-between items-center text-2xl font-serif text-mocha hover:text-gold transition-colors group" onclick="this.nextElementSibling.classList.toggle('max-h-0'); this.nextElementSibling.classList.toggle('max-h-[500px]'); this.nextElementSibling.classList.toggle('mt-4'); this.nextElementSibling.classList.toggle('opacity-0'); this.querySelector('svg').classList.toggle('rotate-180');">
-                      Naturtee & Kuren
-                      <svg class="w-6 h-6 text-gold transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
-                  </button>
-                  <div class="max-h-0 opacity-0 overflow-hidden transition-all duration-500 ease-in-out px-2 space-y-4">
-                      <a href="tee.html" class="block text-gold font-bold text-lg mb-2 uppercase tracking-widest text-sm">Alle Tees ansehen</a>
-                      <a href="spitzwegerich-tee.html" class="block text-ash hover:text-gold text-lg font-light">Spitzwegerich Tee</a>
-                      <a href="atom-tee.html" class="block text-ash hover:text-gold text-lg font-light">Atom Tee (Winter-Mix)</a>
-                      <a href="wintertee.html" class="block text-ash hover:text-gold text-lg font-light">Wintertee</a>
-                      <a href="schopflavendel-tee.html" class="block text-ash hover:text-gold text-lg font-light">Schopflavendel Tee</a>
-                  </div>
-              </div>
-
-              <!-- Essig & Gewürze -->
-              <div class="border-b border-earth-light pb-4">
-                  <button class="w-full text-left flex justify-between items-center text-2xl font-serif text-mocha hover:text-gold transition-colors group" onclick="this.nextElementSibling.classList.toggle('max-h-0'); this.nextElementSibling.classList.toggle('max-h-[500px]'); this.nextElementSibling.classList.toggle('mt-4'); this.nextElementSibling.classList.toggle('opacity-0'); this.querySelector('svg').classList.toggle('rotate-180');">
-                      Essig & Gewürze
-                      <svg class="w-6 h-6 text-gold transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
-                  </button>
-                  <div class="max-h-0 opacity-0 overflow-hidden transition-all duration-500 ease-in-out px-2 space-y-4">
-                      <a href="essig.html" class="block text-gold font-bold text-lg mb-2 uppercase tracking-widest text-sm">Essig ansehen</a>
-                      <a href="apfelessig.html" class="block text-ash hover:text-gold text-lg font-light">Apfelessig</a>
-                      <a href="detox-mix.html" class="block text-ash hover:text-gold text-lg font-light">Detox Mix Elixier</a>
-                      <a href="gewuerze.html" class="block text-gold font-bold text-lg mb-2 mt-4 uppercase tracking-widest text-sm">Gewürze ansehen</a>
-                      <a href="sumach-kerne.html" class="block text-ash hover:text-gold text-lg font-light">Sumach Kerne</a>
-                  </div>
-              </div>
-          </div>
-
-          <div class="mt-8 mb-8">
-              <div class="bg-earth-light/30 rounded-[2rem] p-8 border border-earth-light text-center relative overflow-hidden group">
-                  <div class="absolute inset-0 bg-gold/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-                  <p class="text-ash/60 text-sm mb-4 relative z-10 uppercase tracking-widest">Premium Service</p>
-                  <p class="text-mocha font-serif text-xl mb-6 relative z-10">Haben Sie Fragen zu unseren Naturkuren?</p>
-                  <a href="tel:+490000000" class="inline-block bg-gold text-white font-bold py-3 px-8 rounded-full shadow-lg text-sm relative z-10 hover:bg-mocha transition-colors duration-300">
+                      <svg class="w-6 h-6 text-gold transition-transform duration-300" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</button>
+<div class="max-h-0 opacity-0 overflow-hidden transition-all duration-500 ease-in-out px-2 space-y-4">
+<a class="block text-gold font-bold text-lg mb-2 uppercase tracking-widest text-sm" href="aetherische-oele.html">Übersicht ansehen</a>
+<a class="block text-ash hover:text-gold text-lg font-light" href="lavendeloel.html">Lavendelöl</a>
+<a class="block text-ash hover:text-gold text-lg font-light" href="rosenoel.html">Rosenöl</a>
+<a class="block text-ash hover:text-gold text-lg font-light" href="teebaumoel.html">Teebaumöl</a>
+<a class="block text-ash hover:text-gold text-lg font-light" href="oreganool.html">Oreganoöl</a>
+</div>
+</div>
+<!-- Traditionelle Pasten & Melassen -->
+<div class="border-b border-earth-light pb-4">
+<button class="w-full text-left flex justify-between items-center text-2xl font-serif text-mocha hover:text-gold transition-colors group" onclick="this.nextElementSibling.classList.toggle('max-h-0'); this.nextElementSibling.classList.toggle('max-h-[500px]'); this.nextElementSibling.classList.toggle('mt-4'); this.nextElementSibling.classList.toggle('opacity-0'); this.querySelector('svg').classList.toggle('rotate-180');">
+                      Pasten &amp; Melassen
+                      <svg class="w-6 h-6 text-gold transition-transform duration-300" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</button>
+<div class="max-h-0 opacity-0 overflow-hidden transition-all duration-500 ease-in-out px-2 space-y-4">
+<a class="block text-gold font-bold text-lg mb-2 uppercase tracking-widest text-sm" href="pasten.html">Pasten Übersicht</a>
+<a class="block text-ash hover:text-gold text-lg font-light" href="zypressenzapfen-paste.html">Zypressenzapfen Paste</a>
+<a class="block text-ash hover:text-gold text-lg font-light" href="mariendistel-paste.html">Mariendistel Paste</a>
+<a class="block text-ash hover:text-gold text-lg font-light" href="bittermelone-paste-olivenoel.html">Bittermelone Paste</a>
+<a class="block text-ash hover:text-gold text-lg font-light mt-4" href="traubenmelasse.html">Traubenmelasse</a>
+<a class="block text-ash hover:text-gold text-lg font-light" href="johannisbrot-melasse.html">Johannisbrot Melasse</a>
+</div>
+</div>
+<!-- Naturtee & Kuren -->
+<div class="border-b border-earth-light pb-4">
+<button class="w-full text-left flex justify-between items-center text-2xl font-serif text-mocha hover:text-gold transition-colors group" onclick="this.nextElementSibling.classList.toggle('max-h-0'); this.nextElementSibling.classList.toggle('max-h-[500px]'); this.nextElementSibling.classList.toggle('mt-4'); this.nextElementSibling.classList.toggle('opacity-0'); this.querySelector('svg').classList.toggle('rotate-180');">
+                      Naturtee &amp; Kuren
+                      <svg class="w-6 h-6 text-gold transition-transform duration-300" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</button>
+<div class="max-h-0 opacity-0 overflow-hidden transition-all duration-500 ease-in-out px-2 space-y-4">
+<a class="block text-gold font-bold text-lg mb-2 uppercase tracking-widest text-sm" href="tee.html">Alle Tees ansehen</a>
+<a class="block text-ash hover:text-gold text-lg font-light" href="spitzwegerich-tee.html">Spitzwegerich Tee</a>
+<a class="block text-ash hover:text-gold text-lg font-light" href="atom-tee.html">Atom Tee (Winter-Mix)</a>
+<a class="block text-ash hover:text-gold text-lg font-light" href="wintertee.html">Wintertee</a>
+<a class="block text-ash hover:text-gold text-lg font-light" href="schopflavendel-tee.html">Schopflavendel Tee</a>
+</div>
+</div>
+<!-- Essig & Gewürze -->
+<div class="border-b border-earth-light pb-4">
+<button class="w-full text-left flex justify-between items-center text-2xl font-serif text-mocha hover:text-gold transition-colors group" onclick="this.nextElementSibling.classList.toggle('max-h-0'); this.nextElementSibling.classList.toggle('max-h-[500px]'); this.nextElementSibling.classList.toggle('mt-4'); this.nextElementSibling.classList.toggle('opacity-0'); this.querySelector('svg').classList.toggle('rotate-180');">
+                      Essig &amp; Gewürze
+                      <svg class="w-6 h-6 text-gold transition-transform duration-300" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</button>
+<div class="max-h-0 opacity-0 overflow-hidden transition-all duration-500 ease-in-out px-2 space-y-4">
+<a class="block text-gold font-bold text-lg mb-2 uppercase tracking-widest text-sm" href="essig.html">Essig ansehen</a>
+<a class="block text-ash hover:text-gold text-lg font-light" href="apfelessig.html">Apfelessig</a>
+<a class="block text-ash hover:text-gold text-lg font-light" href="detox-mix.html">Detox Mix Elixier</a>
+<a class="block text-gold font-bold text-lg mb-2 mt-4 uppercase tracking-widest text-sm" href="gewuerze.html">Gewürze ansehen</a>
+<a class="block text-ash hover:text-gold text-lg font-light" href="sumach-kerne.html">Sumach Kerne</a>
+</div>
+</div>
+</div>
+<div class="mt-8 mb-8">
+<div class="bg-earth-light/30 rounded-[2rem] p-8 border border-earth-light text-center relative overflow-hidden group">
+<div class="absolute inset-0 bg-gold/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+<p class="text-ash/60 text-sm mb-4 relative z-10 uppercase tracking-widest">Premium Service</p>
+<p class="text-mocha font-serif text-xl mb-6 relative z-10">Haben Sie Fragen zu unseren Naturkuren?</p>
+<a class="inline-block bg-gold text-white font-bold py-3 px-8 rounded-full shadow-lg text-sm relative z-10 hover:bg-mocha transition-colors duration-300" href="tel:+490000000">
                       Kundenservice anrufen
                   </a>
-              </div>
-          </div>
-
-      </div>
-  </div>
-</nav>
-
-          
-
-    <main class="flex-grow pt-32 pb-24">
-        <article class="max-w-4xl mx-auto px-6">
-            
-            <!-- Article Header -->
-            <header class="mb-12 text-center">
-                <div class="inline-block bg-earth bg-opacity-30 text-mocha px-4 py-1 rounded-full text-sm font-semibold tracking-wider uppercase mb-6 shadow-sm border border-mocha border-opacity-20">22. Juli 2026</div>
-                <h1 class="text-4xl md:text-6xl font-bold font-serif text-mocha leading-tight mb-8">Traditionelles Tahin: Die Kunst der Steinmühle</h1>
-            </header>
-            
-            <!-- Hero Image -->
-            <div class="rounded-3xl overflow-hidden shadow-2xl mb-16 h-[60vh] relative group">
-                <div class="absolute inset-0 bg-mocha opacity-10 group-hover:opacity-0 transition-opacity duration-700 z-10 pointer-events-none"></div>
-                <img src="assets/magazin_2.png" alt="Traditionelles Tahin: Die Kunst der Steinmühle" class="w-full h-full object-cover transform transition-transform duration-1000 group-hover:scale-105">
-            </div>
-
-            <!-- Content Area -->
-            <div class="prose prose-lg md:prose-xl max-w-none text-ash prose-headings:font-serif prose-headings:text-mocha prose-a:text-mocha hover:prose-a:text-earth prose-strong:text-mocha">
-                
-        <p class="text-xl text-ash mb-8 leading-relaxed">Sesammus, weltweit besser bekannt unter dem Namen Tahin (oder Tahini), ist ein elementarer Bestandteil der mediterranen, nahöstlichen und anatolischen Küche. Während es im Westen oft nur als Zutat für Hummus bekannt ist, stellt Tahin in seinen Ursprungsländern ein hochgeschätztes, vielseitiges Grundnahrungsmittel dar. In diesem tiefgehenden Artikel beleuchten wir den komplexen, handwerklichen Herstellungsprozess, die gesundheitlichen Aspekte und die kulinarische Bedeutung von traditionellem Tahin.</p>
-        
-        <h2 class="text-3xl font-bold font-serif text-mocha mt-12 mb-6">Der Sesam (Sesamum indicum): Eine uralte Kulturpflanze</h2>
-        <p class="text-lg text-ash mb-6 leading-relaxed">Sesam ist eine der ältesten bekannten Ölpflanzen der Welt, mit einer Anbaugeschichte, die bis ins vierte Jahrtausend vor Christus nach Mesopotamien und auf den indischen Subkontinent zurückreicht. Die Pflanze gedeiht besonders gut in heißen, trockenen Klimazonen. Aus den trompetenförmigen Blüten entwickeln sich Kapseln, die aufplatzen, sobald die Samen reif sind - ein Prozess, der dem berühmten Spruch "Sesam, öffne dich" aus Tausendundeiner Nacht seinen Ursprung gab. Für hochwertiges Tahin wird oft spezieller weißer oder leicht goldener Sesam verwendet, der ein besonders feines, nussiges Aroma und einen hohen Ölgehalt aufweist.</p>
-        
-        <h2 class="text-3xl font-bold font-serif text-mocha mt-12 mb-6">Der Herstellungsprozess: Ein Meisterwerk der Geduld</h2>
-        <p class="text-lg text-ash mb-6 leading-relaxed">Die Herstellung von industriellem Tahin und traditionellem, handwerklichem Tahin unterscheidet sich grundlegend. Der traditionelle Weg, den wir bei Anadoa schätzen, ist arbeits- und zeitintensiv, garantiert aber ein unvergleichliches Endprodukt.</p>
-        <p class="text-lg text-ash mb-6 leading-relaxed"><strong>1. Das Einweichen und Schälen:</strong> Die Sesamsamen werden zunächst in großen Becken mit Salzwasser eingeweicht. Durch das Salz trennen sich die äußeren Schalen von den Kernen - die Schalen sinken zu Boden, während die reinen Kerne an der Oberfläche schwimmen. Dieser Schritt ist essenziell, da die Schalen Bitterstoffe enthalten, die den Geschmack des fertigen Tahins trüben würden.</p>
-        <p class="text-lg text-ash mb-6 leading-relaxed"><strong>2. Die Röstung:</strong> Nach dem Waschen und Trocknen folgt das Herzstück der Aromaentwicklung: Die Röstung. In speziellen Öfen werden die Samen bei schonenden Temperaturen und unter ständiger Bewegung sanft geröstet. Hier ist das Fingerspitzengefühl des Röstmeisters gefragt. Ein zu kurzes Rösten führt zu einem flachen Geschmack, ein zu langes Rösten zu einem verbrannten, bitteren Aroma. Die perfekte Röstung verleiht dem Sesam seine warme, nussige Tiefe und bereitet die Öle auf die Vermahlung vor.</p>
-        
-        <h2 class="text-3xl font-bold font-serif text-mocha mt-12 mb-6">Das Geheimnis der Steinmühle</h2>
-        <p class="text-lg text-ash mb-6 leading-relaxed">Der entscheidende Unterschied liegt jedoch im letzten Schritt: der Vermahlung. Industrielle Stahlmühlen mahlen den Sesam mit hoher Geschwindigkeit. Dabei entsteht starke Reibungshitze, die die feinen Öle im Sesam oxidieren lässt, wichtige Nährstoffe zerstört und den Geschmack abstumpft.</p>
-        <p class="text-lg text-ash mb-6 leading-relaxed">Die traditionelle Steinmühle arbeitet völlig anders. Zwei massive, schwere Mahlsteine - oft aus speziellem Granit oder Basalt - drehen sich mit sehr langsamer Geschwindigkeit übereinander. Die Sesamsamen rieseln durch das Auge des oberen Steins und werden zwischen den Steinen buchstäblich zerrieben. Dieser langsame Prozess erzeugt kaum Hitze. Die ätherischen Öle bleiben intakt, die Proteinstrukturen unversehrt. Das Ergebnis ist ein Tahin von seidig-flüssiger Konsistenz, das förmlich aus der Mühle fließt - ein flüssiges Gold mit einem intensiven, runden und tief nussigen Aroma, das kein industrielles Produkt jemals erreichen kann.</p>
-        
-        <h2 class="text-3xl font-bold font-serif text-mocha mt-12 mb-6">Nährstoffprofil: Ein pflanzliches Kraftpaket</h2>
-        <p class="text-lg text-ash mb-6 leading-relaxed">Tahin ist ernährungsphysiologisch ein echtes Schwergewicht. Es ist eine der besten pflanzlichen Quellen für Calcium, was es besonders für Veganer und Menschen mit Laktoseintoleranz unverzichtbar macht. Zwei Esslöffel Tahin enthalten oft mehr Calcium als ein halbes Glas Milch. Calcium ist essenziell für starke Knochen, Zähne und die Muskelfunktion.</p>
-        <p class="text-lg text-ash mb-6 leading-relaxed">Darüber hinaus ist Sesammus extrem reich an pflanzlichen Proteinen (ca. 20-25%) und enthält eine Fülle an B-Vitaminen (insbesondere B1 und B6), die das Nervensystem unterstützen. Die im Tahin enthaltenen Fette sind zu über 80% ungesättigte Fettsäuren, die für die Herzgesundheit und die Senkung des Cholesterinspiegels von großer Bedeutung sind. Spezielle Lignane (Sesamin und Sesamolin) in den Samen weisen zudem starke antioxidative Eigenschaften auf und schützen die Leber vor oxidativem Stress.</p>
-        
-        <h2 class="text-3xl font-bold font-serif text-mocha mt-12 mb-6">Die kulinarische Vielseitigkeit</h2>
-        <p class="text-lg text-ash mb-6 leading-relaxed">In der anatolischen Kultur ist das Frühstück ohne "Tahin-Pekmez" kaum vorstellbar. Durch das Mischen des leicht herben, cremigen Tahins mit der intensiven, fruchtigen Süße von Traubenmelasse (Pekmez) entsteht ein Aufstrich, der geschmacklich an flüssiges Halva erinnert, jedoch vollkommen natürlich und ohne industriellen Zucker auskommt. Diese Kombination liefert langanhaltende Energie und wärmt den Körper an kalten Wintertagen.</p>
-        <p class="text-lg text-ash mb-6 leading-relaxed">Aber Tahin kann weit mehr. Es ist die Basis für herzhafte Dips wie Baba Ghanoush und Mutabbal. Gemischt mit Zitronensaft, etwas Knoblauch, Wasser und Salz entsteht das klassische Tahin-Dressing, das jeden Salat, gebackenes Gemüse oder Falafel auf ein neues Level hebt. Auch in der modernen pflanzlichen Bäckerei wird Tahin zunehmend als gesunder Ersatz für Butter eingesetzt, um Cookies und Kuchen eine wunderbar saftige Textur und ein umami-artiges Aroma zu verleihen.</p>
-        
-        <h2 class="text-3xl font-bold font-serif text-mocha mt-12 mb-6">Fazit: Qualität, die man schmeckt</h2>
-        <p class="text-lg text-ash mb-6 leading-relaxed">Wenn Sie ein Glas traditionelles, steinvermahlenes Tahin öffnen, sehen Sie oft eine Ölschicht an der Oberfläche. Dies ist kein Fehler, sondern ein Qualitätsmerkmal. Es beweist, dass das Produkt zu 100% aus reinem Sesam besteht und auf künstliche Emulgatoren oder Stabilisatoren verzichtet wurde. Ein einfaches Umrühren mit dem Löffel reicht aus, um das Öl wieder unter die Paste zu mischen. Wer die Kunst der Steinmühle einmal geschmeckt hat, versteht, warum wir bei Anadoa Naturhaus diesen alten, traditionellen Weg als den einzig wahren für unser Tahin erachten.</p>
-        
-            </div>
-            
-            <hr class="my-16 border-earth border-opacity-50">
-            
-            <!-- FAQs Section -->
-            <div class="mt-16">
-                <h3 class="text-3xl font-bold font-serif text-mocha mb-8 text-center">Häufig gestellte Fragen (FAQ)</h3>
-                <div class="space-y-2">
-                    
-        <div class="border border-earth rounded-xl overflow-hidden bg-cream mb-4">
-            <button class="w-full text-left px-6 py-4 font-serif text-xl text-mocha hover:bg-earth hover:bg-opacity-50 transition-colors focus:outline-none flex justify-between items-center" onclick="document.getElementById('faq-tahin-sesammus-gesundheit-0').classList.toggle('hidden'); this.querySelector('svg').classList.toggle('rotate-180')">
+</div>
+</div>
+</div>
+</div>
+</div></div></nav>
+<main class="flex-grow pt-32 pb-24">
+<article class="max-w-4xl mx-auto px-6">
+<!-- Article Header -->
+<header class="mb-12 text-center">
+<div class="inline-block bg-earth bg-opacity-30 text-mocha px-4 py-1 rounded-full text-sm font-semibold tracking-wider uppercase mb-6 shadow-sm border border-mocha border-opacity-20">22. Juli 2026</div>
+<h1 class="text-4xl md:text-6xl font-bold font-serif text-mocha leading-tight mb-8">Traditionelles Tahin: Die Kunst der Steinmühle</h1>
+</header>
+<!-- Hero Image -->
+<div class="rounded-3xl overflow-hidden shadow-2xl mb-16 h-[60vh] relative group">
+<div class="absolute inset-0 bg-mocha opacity-10 group-hover:opacity-0 transition-opacity duration-700 z-10 pointer-events-none"></div>
+<img alt="Traditionelles Tahin: Die Kunst der Steinmühle" class="w-full h-full object-cover transform transition-transform duration-1000 group-hover:scale-105" src="assets/magazin_2.png"/>
+</div>
+<!-- Content Area -->
+<div class="prose prose-lg md:prose-xl max-w-none text-ash prose-headings:font-serif prose-headings:text-mocha prose-a:text-mocha hover:prose-a:text-earth prose-strong:text-mocha">
+<p class="text-xl text-ash mb-8 leading-relaxed">Sesammus, weltweit besser bekannt unter dem Namen Tahin (oder Tahini), ist ein elementarer Bestandteil der mediterranen, nahöstlichen und anatolischen Küche. Während es im Westen oft nur als Zutat für Hummus bekannt ist, stellt Tahin in seinen Ursprungsländern ein hochgeschätztes, vielseitiges Grundnahrungsmittel dar. In diesem tiefgehenden Artikel beleuchten wir den komplexen, handwerklichen Herstellungsprozess, die gesundheitlichen Aspekte und die kulinarische Bedeutung von traditionellem Tahin.</p>
+<h2 class="text-3xl font-bold font-serif text-mocha mt-12 mb-6">Der Sesam (Sesamum indicum): Eine uralte Kulturpflanze</h2>
+<p class="text-lg text-ash mb-6 leading-relaxed">Sesam ist eine der ältesten bekannten Ölpflanzen der Welt, mit einer Anbaugeschichte, die bis ins vierte Jahrtausend vor Christus nach Mesopotamien und auf den indischen Subkontinent zurückreicht. Die Pflanze gedeiht besonders gut in heißen, trockenen Klimazonen. Aus den trompetenförmigen Blüten entwickeln sich Kapseln, die aufplatzen, sobald die Samen reif sind - ein Prozess, der dem berühmten Spruch "Sesam, öffne dich" aus Tausendundeiner Nacht seinen Ursprung gab. Für hochwertiges Tahin wird oft spezieller weißer oder leicht goldener Sesam verwendet, der ein besonders feines, nussiges Aroma und einen hohen Ölgehalt aufweist.</p>
+<h2 class="text-3xl font-bold font-serif text-mocha mt-12 mb-6">Der Herstellungsprozess: Ein Meisterwerk der Geduld</h2>
+<p class="text-lg text-ash mb-6 leading-relaxed">Die Herstellung von industriellem Tahin und traditionellem, handwerklichem Tahin unterscheidet sich grundlegend. Der traditionelle Weg, den wir bei Anadoa schätzen, ist arbeits- und zeitintensiv, garantiert aber ein unvergleichliches Endprodukt.</p>
+<p class="text-lg text-ash mb-6 leading-relaxed"><strong>1. Das Einweichen und Schälen:</strong> Die Sesamsamen werden zunächst in großen Becken mit Salzwasser eingeweicht. Durch das Salz trennen sich die äußeren Schalen von den Kernen - die Schalen sinken zu Boden, während die reinen Kerne an der Oberfläche schwimmen. Dieser Schritt ist essenziell, da die Schalen Bitterstoffe enthalten, die den Geschmack des fertigen Tahins trüben würden.</p>
+<p class="text-lg text-ash mb-6 leading-relaxed"><strong>2. Die Röstung:</strong> Nach dem Waschen und Trocknen folgt das Herzstück der Aromaentwicklung: Die Röstung. In speziellen Öfen werden die Samen bei schonenden Temperaturen und unter ständiger Bewegung sanft geröstet. Hier ist das Fingerspitzengefühl des Röstmeisters gefragt. Ein zu kurzes Rösten führt zu einem flachen Geschmack, ein zu langes Rösten zu einem verbrannten, bitteren Aroma. Die perfekte Röstung verleiht dem Sesam seine warme, nussige Tiefe und bereitet die Öle auf die Vermahlung vor.</p>
+<h2 class="text-3xl font-bold font-serif text-mocha mt-12 mb-6">Das Geheimnis der Steinmühle</h2>
+<p class="text-lg text-ash mb-6 leading-relaxed">Der entscheidende Unterschied liegt jedoch im letzten Schritt: der Vermahlung. Industrielle Stahlmühlen mahlen den Sesam mit hoher Geschwindigkeit. Dabei entsteht starke Reibungshitze, die die feinen Öle im Sesam oxidieren lässt, wichtige Nährstoffe zerstört und den Geschmack abstumpft.</p>
+<p class="text-lg text-ash mb-6 leading-relaxed">Die traditionelle Steinmühle arbeitet völlig anders. Zwei massive, schwere Mahlsteine - oft aus speziellem Granit oder Basalt - drehen sich mit sehr langsamer Geschwindigkeit übereinander. Die Sesamsamen rieseln durch das Auge des oberen Steins und werden zwischen den Steinen buchstäblich zerrieben. Dieser langsame Prozess erzeugt kaum Hitze. Die ätherischen Öle bleiben intakt, die Proteinstrukturen unversehrt. Das Ergebnis ist ein Tahin von seidig-flüssiger Konsistenz, das förmlich aus der Mühle fließt - ein flüssiges Gold mit einem intensiven, runden und tief nussigen Aroma, das kein industrielles Produkt jemals erreichen kann.</p>
+<h2 class="text-3xl font-bold font-serif text-mocha mt-12 mb-6">Nährstoffprofil: Ein pflanzliches Kraftpaket</h2>
+<p class="text-lg text-ash mb-6 leading-relaxed">Tahin ist ernährungsphysiologisch ein echtes Schwergewicht. Es ist eine der besten pflanzlichen Quellen für Calcium, was es besonders für Veganer und Menschen mit Laktoseintoleranz unverzichtbar macht. Zwei Esslöffel Tahin enthalten oft mehr Calcium als ein halbes Glas Milch. Calcium ist essenziell für starke Knochen, Zähne und die Muskelfunktion.</p>
+<p class="text-lg text-ash mb-6 leading-relaxed">Darüber hinaus ist Sesammus extrem reich an pflanzlichen Proteinen (ca. 20-25%) und enthält eine Fülle an B-Vitaminen (insbesondere B1 und B6), die das Nervensystem unterstützen. Die im Tahin enthaltenen Fette sind zu über 80% ungesättigte Fettsäuren, die für die Herzgesundheit und die Senkung des Cholesterinspiegels von großer Bedeutung sind. Spezielle Lignane (Sesamin und Sesamolin) in den Samen weisen zudem starke antioxidative Eigenschaften auf und schützen die Leber vor oxidativem Stress.</p>
+<h2 class="text-3xl font-bold font-serif text-mocha mt-12 mb-6">Die kulinarische Vielseitigkeit</h2>
+<p class="text-lg text-ash mb-6 leading-relaxed">In der anatolischen Kultur ist das Frühstück ohne "Tahin-Pekmez" kaum vorstellbar. Durch das Mischen des leicht herben, cremigen Tahins mit der intensiven, fruchtigen Süße von Traubenmelasse (Pekmez) entsteht ein Aufstrich, der geschmacklich an flüssiges Halva erinnert, jedoch vollkommen natürlich und ohne industriellen Zucker auskommt. Diese Kombination liefert langanhaltende Energie und wärmt den Körper an kalten Wintertagen.</p>
+<p class="text-lg text-ash mb-6 leading-relaxed">Aber Tahin kann weit mehr. Es ist die Basis für herzhafte Dips wie Baba Ghanoush und Mutabbal. Gemischt mit Zitronensaft, etwas Knoblauch, Wasser und Salz entsteht das klassische Tahin-Dressing, das jeden Salat, gebackenes Gemüse oder Falafel auf ein neues Level hebt. Auch in der modernen pflanzlichen Bäckerei wird Tahin zunehmend als gesunder Ersatz für Butter eingesetzt, um Cookies und Kuchen eine wunderbar saftige Textur und ein umami-artiges Aroma zu verleihen.</p>
+<h2 class="text-3xl font-bold font-serif text-mocha mt-12 mb-6">Fazit: Qualität, die man schmeckt</h2>
+<p class="text-lg text-ash mb-6 leading-relaxed">Wenn Sie ein Glas traditionelles, steinvermahlenes Tahin öffnen, sehen Sie oft eine Ölschicht an der Oberfläche. Dies ist kein Fehler, sondern ein Qualitätsmerkmal. Es beweist, dass das Produkt zu 100% aus reinem Sesam besteht und auf künstliche Emulgatoren oder Stabilisatoren verzichtet wurde. Ein einfaches Umrühren mit dem Löffel reicht aus, um das Öl wieder unter die Paste zu mischen. Wer die Kunst der Steinmühle einmal geschmeckt hat, versteht, warum wir bei Anadoa Naturhaus diesen alten, traditionellen Weg als den einzig wahren für unser Tahin erachten.</p>
+</div>
+<hr class="my-16 border-earth border-opacity-50"/>
+<!-- FAQs Section -->
+<div class="mt-16">
+<h3 class="text-3xl font-bold font-serif text-mocha mb-8 text-center">Häufig gestellte Fragen (FAQ)</h3>
+<div class="space-y-2">
+<div class="border border-earth rounded-xl overflow-hidden bg-cream mb-4">
+<button class="w-full text-left px-6 py-4 font-serif text-xl text-mocha hover:bg-earth hover:bg-opacity-50 transition-colors focus:outline-none flex justify-between items-center" onclick="document.getElementById('faq-tahin-sesammus-gesundheit-0').classList.toggle('hidden'); this.querySelector('svg').classList.toggle('rotate-180')">
                 Was ist echtes traditionelles Tahin?
-                <svg class="w-5 h-5 text-mocha transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
-            </button>
-            <div id="faq-tahin-sesammus-gesundheit-0" class="hidden px-6 py-4 text-ash bg-white border-t border-earth">
+                <svg class="w-5 h-5 text-mocha transition-transform duration-300" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</button>
+<div class="hidden px-6 py-4 text-ash bg-white border-t border-earth" id="faq-tahin-sesammus-gesundheit-0">
                 Echtes Tahin besteht zu 100% aus Sesam. Es wird aus geschälten, sanft gerösteten Sesamsamen hergestellt, die in traditionellen Steinmühlen zu einer feinen Paste vermahlen werden.
             </div>
-        </div>
-        
-        <div class="border border-earth rounded-xl overflow-hidden bg-cream mb-4">
-            <button class="w-full text-left px-6 py-4 font-serif text-xl text-mocha hover:bg-earth hover:bg-opacity-50 transition-colors focus:outline-none flex justify-between items-center" onclick="document.getElementById('faq-tahin-sesammus-gesundheit-1').classList.toggle('hidden'); this.querySelector('svg').classList.toggle('rotate-180')">
+</div>
+<div class="border border-earth rounded-xl overflow-hidden bg-cream mb-4">
+<button class="w-full text-left px-6 py-4 font-serif text-xl text-mocha hover:bg-earth hover:bg-opacity-50 transition-colors focus:outline-none flex justify-between items-center" onclick="document.getElementById('faq-tahin-sesammus-gesundheit-1').classList.toggle('hidden'); this.querySelector('svg').classList.toggle('rotate-180')">
                 Warum ist die Steinmühle so wichtig?
-                <svg class="w-5 h-5 text-mocha transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
-            </button>
-            <div id="faq-tahin-sesammus-gesundheit-1" class="hidden px-6 py-4 text-ash bg-white border-t border-earth">
+                <svg class="w-5 h-5 text-mocha transition-transform duration-300" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</button>
+<div class="hidden px-6 py-4 text-ash bg-white border-t border-earth" id="faq-tahin-sesammus-gesundheit-1">
                 Die Steinmühle mahlt die Samen besonders langsam und bei niedrigen Temperaturen. Dies verhindert, dass die wertvollen Öle oxidieren, und bewahrt den vollen, nussigen Geschmack des Sesams.
             </div>
-        </div>
-        
-        <div class="border border-earth rounded-xl overflow-hidden bg-cream mb-4">
-            <button class="w-full text-left px-6 py-4 font-serif text-xl text-mocha hover:bg-earth hover:bg-opacity-50 transition-colors focus:outline-none flex justify-between items-center" onclick="document.getElementById('faq-tahin-sesammus-gesundheit-2').classList.toggle('hidden'); this.querySelector('svg').classList.toggle('rotate-180')">
+</div>
+<div class="border border-earth rounded-xl overflow-hidden bg-cream mb-4">
+<button class="w-full text-left px-6 py-4 font-serif text-xl text-mocha hover:bg-earth hover:bg-opacity-50 transition-colors focus:outline-none flex justify-between items-center" onclick="document.getElementById('faq-tahin-sesammus-gesundheit-2').classList.toggle('hidden'); this.querySelector('svg').classList.toggle('rotate-180')">
                 Ist Tahin gesund?
-                <svg class="w-5 h-5 text-mocha transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
-            </button>
-            <div id="faq-tahin-sesammus-gesundheit-2" class="hidden px-6 py-4 text-ash bg-white border-t border-earth">
+                <svg class="w-5 h-5 text-mocha transition-transform duration-300" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</button>
+<div class="hidden px-6 py-4 text-ash bg-white border-t border-earth" id="faq-tahin-sesammus-gesundheit-2">
                 Ja, Tahin ist ein echtes Superfood. Es ist reich an pflanzlichen Proteinen, gesunden ungesättigten Fettsäuren, Calcium, Eisen, Magnesium und den Vitaminen der B-Gruppe.
             </div>
-        </div>
-        
-        <div class="border border-earth rounded-xl overflow-hidden bg-cream mb-4">
-            <button class="w-full text-left px-6 py-4 font-serif text-xl text-mocha hover:bg-earth hover:bg-opacity-50 transition-colors focus:outline-none flex justify-between items-center" onclick="document.getElementById('faq-tahin-sesammus-gesundheit-3').classList.toggle('hidden'); this.querySelector('svg').classList.toggle('rotate-180')">
+</div>
+<div class="border border-earth rounded-xl overflow-hidden bg-cream mb-4">
+<button class="w-full text-left px-6 py-4 font-serif text-xl text-mocha hover:bg-earth hover:bg-opacity-50 transition-colors focus:outline-none flex justify-between items-center" onclick="document.getElementById('faq-tahin-sesammus-gesundheit-3').classList.toggle('hidden'); this.querySelector('svg').classList.toggle('rotate-180')">
                 Wie lange ist Tahin haltbar?
-                <svg class="w-5 h-5 text-mocha transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
-            </button>
-            <div id="faq-tahin-sesammus-gesundheit-3" class="hidden px-6 py-4 text-ash bg-white border-t border-earth">
+                <svg class="w-5 h-5 text-mocha transition-transform duration-300" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</button>
+<div class="hidden px-6 py-4 text-ash bg-white border-t border-earth" id="faq-tahin-sesammus-gesundheit-3">
                 Dank des hohen Gehalts an natürlichen Ölen ist Tahin ungekühlt oft über Monate haltbar. Das Absetzen von Öl an der Oberfläche ist ein natürliches Zeichen für Qualität ohne Emulgatoren.
             </div>
-        </div>
-        
-        <div class="border border-earth rounded-xl overflow-hidden bg-cream mb-4">
-            <button class="w-full text-left px-6 py-4 font-serif text-xl text-mocha hover:bg-earth hover:bg-opacity-50 transition-colors focus:outline-none flex justify-between items-center" onclick="document.getElementById('faq-tahin-sesammus-gesundheit-4').classList.toggle('hidden'); this.querySelector('svg').classList.toggle('rotate-180')">
+</div>
+<div class="border border-earth rounded-xl overflow-hidden bg-cream mb-4">
+<button class="w-full text-left px-6 py-4 font-serif text-xl text-mocha hover:bg-earth hover:bg-opacity-50 transition-colors focus:outline-none flex justify-between items-center" onclick="document.getElementById('faq-tahin-sesammus-gesundheit-4').classList.toggle('hidden'); this.querySelector('svg').classList.toggle('rotate-180')">
                 Wie wird Tahin in der anatolischen Küche verwendet?
-                <svg class="w-5 h-5 text-mocha transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
-            </button>
-            <div id="faq-tahin-sesammus-gesundheit-4" class="hidden px-6 py-4 text-ash bg-white border-t border-earth">
+                <svg class="w-5 h-5 text-mocha transition-transform duration-300" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</button>
+<div class="hidden px-6 py-4 text-ash bg-white border-t border-earth" id="faq-tahin-sesammus-gesundheit-4">
                 Klassisch wird Tahin oft zu gleichen Teilen mit Traubenmelasse (Pekmez) gemischt und als süßer, energieliefernder Brotaufstrich zum Frühstück serviert.
             </div>
-        </div>
-        
-                </div>
-            </div>
-            
-            <!-- Back to Magazin Button -->
-            <div class="mt-20 text-center">
-                <a href="magazin.html" class="inline-flex items-center px-8 py-4 bg-mocha text-cream font-medium rounded-full shadow-xl shadow-mocha/20 hover:bg-ash hover:shadow-2xl transition-all duration-300 hover:-translate-y-1">
-                    <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path></svg>
+</div>
+</div>
+</div>
+<!-- Back to Magazin Button -->
+<div class="mt-20 text-center">
+<a class="inline-flex items-center px-8 py-4 bg-mocha text-cream font-medium rounded-full shadow-xl shadow-mocha/20 hover:bg-ash hover:shadow-2xl transition-all duration-300 hover:-translate-y-1" href="magazin.html">
+<svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M10 19l-7-7m0 0l7-7m-7 7h18" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
                     Zurück zur Übersicht
                 </a>
-            </div>
-            
-        </article>
-    </main>
-
-    <footer class="bg-mocha text-white pt-24 pb-12 relative overflow-hidden" id="mega-footer">
-    <div class="max-w-7xl mx-auto px-6 relative z-10">
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
-            
-            <!-- Col 1: Brand & About -->
-            <div class="space-y-6">
-                <img src="assets/anadoa-logo-1000-500.png" alt="Anadoa Logo" class="h-20 w-auto brightness-0 invert opacity-90 -ml-2">
-                <p class="text-white/70 font-light text-sm leading-relaxed pr-4">
+</div>
+</article>
+</main>
+<footer class="bg-mocha text-white pt-24 pb-12 relative overflow-hidden" id="mega-footer">
+<div class="max-w-7xl mx-auto px-6 relative z-10">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
+<!-- Col 1: Brand & About -->
+<div class="space-y-6 transform">
+<img alt="Anadoa Logo" class="h-20 w-auto brightness-0 invert opacity-90 -ml-2" src="assets/anadoa-logo-1000-500.png"/>
+<p class="text-white/70 font-light text-sm leading-relaxed pr-4">
                     Die pure Kraft anatolischer Natur. Entdecken Sie traditionelle Heilmittel, schonend kaltgepresste Öle und natürliche Pflegeprodukte für Ihr tiefes Wohlbefinden.
                 </p>
-                <div class="flex space-x-4 pt-2">
-                    <a href="#" class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-gold transition-colors shadow-lg">
-                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
-                    </a>
-                </div>
-            </div>
-
-            <!-- Col 2: Shop -->
-            <div>
-                <h4 class="font-serif font-bold text-lg mb-6 text-gold border-b border-white/10 pb-2 inline-block">Online Shop</h4>
-                <ul class="space-y-3 text-white/70 text-sm font-medium">
-                    <li><a href="kaltgepresste-oele.html" class="hover:text-gold hover:translate-x-1 transform transition-all block">Kaltgepresste Öle</a></li>
-                    <li><a href="aetherische-oele.html" class="hover:text-gold hover:translate-x-1 transform transition-all block">Ätherische Öle</a></li>
-                    <li><a href="pasten.html" class="hover:text-gold hover:translate-x-1 transform transition-all block">Traditionelle Pasten</a></li>
-                    <li><a href="tee.html" class="hover:text-gold hover:translate-x-1 transform transition-all block">Naturtee & Kuren</a></li>
-                    <li><a href="sirupe.html" class="hover:text-gold hover:translate-x-1 transform transition-all block">Natürliche Sirupe</a></li>
-                    <li><a href="essig.html" class="hover:text-gold hover:translate-x-1 transform transition-all block">Lebendige Essige</a></li>
-                    <li><a href="gewuerze.html" class="hover:text-gold hover:translate-x-1 transform transition-all block">Natürliche Gewürze</a></li>
-                </ul>
-            </div>
-
-            <!-- Col 3: Unternehmen -->
-            <div>
-                <h4 class="font-serif font-bold text-lg mb-6 text-gold border-b border-white/10 pb-2 inline-block">Unternehmen</h4>
-                <ul class="space-y-3 text-white/70 text-sm font-medium">
-                    <li><a href="index.html#philosophie" class="hover:text-gold hover:translate-x-1 transform transition-all block">Unsere Philosophie</a></li>
-                    <li><a href="index.html#qualitaet" class="hover:text-gold hover:translate-x-1 transform transition-all block">Qualitätsversprechen</a></li>
-                    <li><a href="magazin.html" class="hover:text-gold hover:translate-x-1 transform transition-all block">Magazin (Wissen)</a></li>
-                    <li><a href="rezepte.html" class="hover:text-gold hover:translate-x-1 transform transition-all block">Rezepte & Kochen</a></li>
-                    <li><a href="index.html#faq" class="hover:text-gold hover:translate-x-1 transform transition-all block">Häufige Fragen (FAQ)</a></li>
-                </ul>
-            </div>
-
-            <!-- Col 4: Rechtliches & Kontakt -->
-            <div>
-                <h4 class="font-serif font-bold text-lg mb-6 text-gold border-b border-white/10 pb-2 inline-block">Rechtliches & Service</h4>
-                <ul class="space-y-3 text-white/70 text-sm font-medium">
-                    <li><a href="#" class="hover:text-gold hover:translate-x-1 transform transition-all block">Impressum</a></li>
-                    <li><a href="#" class="hover:text-gold hover:translate-x-1 transform transition-all block">AGB</a></li>
-                    <li><a href="#" class="hover:text-gold hover:translate-x-1 transform transition-all block">Datenschutz</a></li>
-                    <li><a href="#" class="hover:text-gold hover:translate-x-1 transform transition-all block">Widerrufsbelehrung</a></li>
-                    <li><a href="#" class="hover:text-gold hover:translate-x-1 transform transition-all block">Versand & Zahlung</a></li>
-                </ul>
-            </div>
-        </div>
-
-        <!-- Bottom Bar -->
-        <div class="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-            <p class="text-white/50 text-xs text-center md:text-left">
-                &copy; 2026 Anadoa Naturhaus. Alle Rechte vorbehalten.
+<div class="flex space-x-4 pt-2">
+<a class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-gold transition-colors shadow-lg" href="#">
+<svg class="w-5 h-5" fill="currentColor" viewbox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"></path></svg>
+</a>
+</div>
+</div>
+<!-- Col 2: Shop -->
+<div class="transform">
+<h4 class="font-serif font-bold text-lg mb-6 text-gold border-b border-white/10 pb-2 inline-block">Online Shop</h4>
+<ul class="space-y-3 text-white/70 text-sm font-medium">
+<li><a class="hover:text-gold hover:translate-x-1 transform transition-all block" href="kaltgepresste-oele.html">Kaltgepresste Öle</a></li>
+<li><a class="hover:text-gold hover:translate-x-1 transform transition-all block" href="aetherische-oele.html">Ätherische Öle</a></li>
+<li><a class="hover:text-gold hover:translate-x-1 transform transition-all block" href="pasten.html">Traditionelle Pasten</a></li>
+<li><a class="hover:text-gold hover:translate-x-1 transform transition-all block" href="tee.html">Naturtee &amp; Kuren</a></li>
+<li><a class="hover:text-gold hover:translate-x-1 transform transition-all block" href="sirupe.html">Natürliche Sirupe</a></li>
+<li><a class="hover:text-gold hover:translate-x-1 transform transition-all block" href="essig.html">Lebendige Essige</a></li>
+<li><a class="hover:text-gold hover:translate-x-1 transform transition-all block" href="gewuerze.html">Natürliche Gewürze</a></li>
+</ul>
+</div>
+<!-- Col 3: Unternehmen -->
+<div class="transform">
+<h4 class="font-serif font-bold text-lg mb-6 text-gold border-b border-white/10 pb-2 inline-block">Unternehmen</h4>
+<ul class="space-y-3 text-white/70 text-sm font-medium">
+<li><a class="hover:text-gold hover:translate-x-1 transform transition-all block" href="index.html#philosophie">Unsere Philosophie</a></li>
+<li><a class="hover:text-gold hover:translate-x-1 transform transition-all block" href="index.html#qualitaet">Qualitätsversprechen</a></li>
+<li><a class="hover:text-gold hover:translate-x-1 transform transition-all block" href="magazin.html">Magazin (Wissen)</a></li>
+<li><a class="hover:text-gold hover:translate-x-1 transform transition-all block" href="rezepte.html">Rezepte &amp; Kochen</a></li>
+<li><a class="hover:text-gold hover:translate-x-1 transform transition-all block" href="index.html#faq">Häufige Fragen (FAQ)</a></li>
+</ul>
+</div>
+<!-- Col 4: Rechtliches & Kontakt -->
+<div class="transform">
+<h4 class="font-serif font-bold text-lg mb-6 text-gold border-b border-white/10 pb-2 inline-block">Rechtliches &amp; Service</h4>
+<ul class="space-y-3 text-white/70 text-sm font-medium">
+<li><a class="hover:text-gold hover:translate-x-1 transform transition-all block" href="#">Impressum</a></li>
+<li><a class="hover:text-gold hover:translate-x-1 transform transition-all block" href="#">AGB</a></li>
+<li><a class="hover:text-gold hover:translate-x-1 transform transition-all block" href="#">Datenschutz</a></li>
+<li><a class="hover:text-gold hover:translate-x-1 transform transition-all block" href="#">Widerrufsbelehrung</a></li>
+<li><a class="hover:text-gold hover:translate-x-1 transform transition-all block" href="#">Versand &amp; Zahlung</a></li>
+</ul>
+</div>
+</div>
+<!-- Bottom Bar -->
+<div class="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+<p class="text-white/50 text-xs text-center md:text-left">
+                © 2026 Anadoa Naturhaus. Alle Rechte vorbehalten.
             </p>
-            <div class="flex items-center gap-6 text-white/50 text-xs font-medium">
-                <span class="flex items-center gap-2"><svg class="w-4 h-4 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg> Sichere Zahlung</span>
-                <span class="flex items-center gap-2"><svg class="w-4 h-4 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4"></path></svg> Schneller Versand (DHL)</span>
-            </div>
-        </div>
-    </div>
+<div class="flex items-center gap-6 text-white/50 text-xs font-medium">
+<span class="flex items-center gap-2"><svg class="w-4 h-4 text-gold" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg> Sichere Zahlung</span>
+<span class="flex items-center gap-2"><svg class="w-4 h-4 text-gold" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg> Schneller Versand (DHL)</span>
+</div>
+</div>
+</div>
 </footer>
-    <script src="scripts.js"></script>
+<script src="scripts.js"></script>
 </body>
 </html>

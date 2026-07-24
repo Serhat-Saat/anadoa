@@ -125,7 +125,7 @@ details[open] summary ~ * {
   margin-bottom: 1.5rem;
   line-height: 1.8;
   font-size: 1.125rem;
-  color: #a3b8a8;
+  color: var(--color-ash);
 }
 .content-body h2 {
   margin-top: 3rem;

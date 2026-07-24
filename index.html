@@ -1,18 +1,17 @@
 <!DOCTYPE html>
+
 <html lang="de" style="scroll-behavior: smooth;">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anadoa Naturhaus | Traditionelle Naturheilkunde & Heilmittel</title>
-    <meta name="description" content="Entdecken Sie die reinste Form der anatolischen Naturheilkunde. Premium Kaltpressungen, Zypressenzapfen Paste und Gilaburu Saft für Ihre ganzheitliche Gesundheit.">
-    
-    <link rel="canonical" href="https://anadoa.com/">
-    <link rel="alternate" hreflang="de-DE" href="https://anadoa.com/">
-    <link rel="alternate" hreflang="de-AT" href="https://anadoa.com/at/">
-    <link rel="alternate" hreflang="de-CH" href="https://anadoa.com/ch/">
-    
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Anadoa Naturhaus | Traditionelle Naturheilkunde &amp; Heilmittel</title>
+<meta content="Entdecken Sie die reinste Form der anatolischen Naturheilkunde. Premium Kaltpressungen, Zypressenzapfen Paste und Gilaburu Saft für Ihre ganzheitliche Gesundheit." name="description"/>
+<link href="https://anadoa.com/" rel="canonical"/>
+<link href="https://anadoa.com/" hreflang="de-DE" rel="alternate"/>
+<link href="https://anadoa.com/at/" hreflang="de-AT" rel="alternate"/>
+<link href="https://anadoa.com/ch/" hreflang="de-CH" rel="alternate"/>
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
         tailwind.config = {
             theme: {
                 extend: {
@@ -29,10 +28,9 @@
             }
         }
     </script>
-    <link rel="stylesheet" href="styles.css">
-    
-    <!-- JSON-LD Article Schema -->
-    <script type="application/ld+json">
+<link href="styles.css" rel="stylesheet"/>
+<!-- JSON-LD Article Schema -->
+<script type="application/ld+json">
 {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -57,9 +55,8 @@
     "image": "https://anadoanaturhaus.com/assets/zypressenzapfen_paste.png"
 }
 </script>
-    
-    <!-- JSON-LD FAQPage Schema -->
-    <script type="application/ld+json">
+<!-- JSON-LD FAQPage Schema -->
+<script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
@@ -101,525 +98,488 @@
       }]
     }
     </script>
-
-    <style>
+<style>
         .custom-scrollbar::-webkit-scrollbar { width: 6px; }
         .custom-scrollbar::-webkit-scrollbar-track { background: rgba(0,0,0,0.05); border-radius: 10px; }
         .custom-scrollbar::-webkit-scrollbar-thumb { background: rgba(193, 151, 104, 0.4); border-radius: 10px; }
         .custom-scrollbar::-webkit-scrollbar-thumb:hover { background: rgba(193, 151, 104, 0.8); }
     </style>
-
-    <link rel="icon" href="assets/anadoa-favicon.png" type="image/png">
-    <link rel="apple-touch-icon" href="assets/anadoa-favicon.png">
+<link href="assets/anadoa-favicon.png" rel="icon" type="image/png"/>
+<link href="assets/anadoa-favicon.png" rel="apple-touch-icon"/>
 </head>
 <body class="bg-noise text-ash">
-    
-    <!-- Global Navigation -->
-        <nav class="fixed w-full z-50 top-6 transition-all duration-300" id="global-nav">
-  <div class="max-w-[95%] md:max-w-6xl mx-auto relative z-50">
-      <div class="bg-earth/95 backdrop-blur-md border border-earth-light shadow-xl rounded-full px-6 flex justify-between items-center h-[72px] transition-all duration-300" id="nav-container">
-          
-          <!-- Mobile Menu Button (Left) -->
-          <div class="lg:hidden flex items-center flex-1">
-              <button id="mobile-menu-btn" class="text-ash hover:text-gold focus:outline-none p-2 bg-white/50 rounded-full transition-colors" onclick="document.getElementById('mobile-menu').classList.toggle('opacity-0'); document.getElementById('mobile-menu').classList.toggle('pointer-events-none'); document.getElementById('menu-icon').classList.toggle('hidden'); document.getElementById('close-icon').classList.toggle('hidden'); document.body.style.overflow = document.body.style.overflow === 'hidden' ? '' : 'hidden';">
-                  <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path id="menu-icon" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
-                      <path id="close-icon" class="hidden" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
-                  </svg>
-              </button>
-          </div>
-
-          <!-- Left Links (Desktop) -->
-          <div class="hidden lg:flex items-center justify-end space-x-6 lg:space-x-10 flex-1 pr-4 lg:pr-8">
-              <a href="ueber-uns.html" class="text-ash hover:text-gold text-sm uppercase tracking-widest font-bold transition-colors">Über uns</a>
-              <a href="rezepte.html" class="text-ash hover:text-gold text-sm uppercase tracking-widest font-bold transition-colors">Rezepte</a>
-          </div>
-
-          <!-- Logo (Center) -->
-          <a href="index.html" class="flex-shrink-0 flex justify-center items-center group relative z-50 w-48 lg:w-[260px]">
-              <img src="assets/anadoa-logo-1000-500.png" alt="Anadoa Naturhaus Logo" class="h-16 md:h-24 w-auto object-contain transition-transform duration-500 group-hover:scale-105 drop-shadow-xl scale-125 md:scale-125">
-          </a>
-          
-          <!-- Right Links (Desktop) -->
-          <div class="hidden lg:flex justify-start items-center space-x-6 lg:space-x-10 h-full flex-1 pl-4 lg:pl-8">
-              <a href="magazin.html" class="text-ash hover:text-gold text-sm uppercase tracking-widest font-bold transition-colors">Magazin</a>
-              
-              <!-- Mega Menu Dropdown -->
-              <div class="group h-full flex items-center relative">
-                  <button class="flex items-center text-ash hover:text-gold text-sm uppercase tracking-widest font-bold transition-colors focus:outline-none h-full">
+<!-- Global Navigation -->
+<nav class="fixed w-full z-50 top-6 transition-all duration-300" id="global-nav">
+<div class="max-w-[95%] md:max-w-6xl mx-auto relative z-50">
+<div class="bg-earth/95 backdrop-blur-md border border-earth-light shadow-xl rounded-full px-6 flex justify-between items-center h-[72px] transition-all duration-300" id="nav-container">
+<!-- Mobile Menu Button (Left) -->
+<div class="lg:hidden flex items-center flex-1">
+<button class="text-ash hover:text-gold focus:outline-none p-2 bg-white/50 rounded-full transition-colors" id="mobile-menu-btn" onclick="document.getElementById('mobile-menu').classList.toggle('opacity-0'); document.getElementById('mobile-menu').classList.toggle('pointer-events-none'); document.getElementById('menu-icon').classList.toggle('hidden'); document.getElementById('close-icon').classList.toggle('hidden'); document.body.style.overflow = document.body.style.overflow === 'hidden' ? '' : 'hidden';">
+<svg class="w-6 h-6" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M4 6h16M4 12h16M4 18h16" id="menu-icon" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+<path class="hidden" d="M6 18L18 6M6 6l12 12" id="close-icon" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+</button>
+</div>
+<!-- Left Links (Desktop) -->
+<div class="hidden lg:flex items-center justify-end space-x-6 lg:space-x-10 flex-1 pr-4 lg:pr-8">
+<a class="text-ash hover:text-gold text-sm uppercase tracking-widest font-bold transition-colors" href="ueber-uns.html">Über uns</a>
+<a class="text-ash hover:text-gold text-sm uppercase tracking-widest font-bold transition-colors" href="rezepte.html">Rezepte</a>
+</div>
+<!-- Logo (Center) -->
+<a class="flex-shrink-0 flex justify-center items-center group relative z-50 w-48 lg:w-[260px]" href="index.html">
+<img alt="Anadoa Naturhaus Logo" class="h-16 md:h-24 w-auto object-contain transition-transform duration-500 group-hover:scale-105 drop-shadow-xl scale-125 md:scale-125" src="assets/anadoa-logo-1000-500.png"/>
+</a>
+<!-- Right Links (Desktop) -->
+<div class="hidden lg:flex justify-start items-center space-x-6 lg:space-x-10 h-full flex-1 pl-4 lg:pl-8">
+<a class="text-ash hover:text-gold text-sm uppercase tracking-widest font-bold transition-colors" href="magazin.html">Magazin</a>
+<!-- Mega Menu Dropdown -->
+<div class="group h-full flex items-center relative">
+<button class="flex items-center text-ash hover:text-gold text-sm uppercase tracking-widest font-bold transition-colors focus:outline-none h-full">
                       Kategorien
-                      <svg class="w-4 h-4 ml-1 transition-transform group-hover:rotate-180 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
-                  </button>
-                  
-                  <!-- The Dropdown -->
-                  <div class="absolute left-1/2 -translate-x-[75%] top-[72px] w-[95vw] max-w-[1200px] bg-earth-surface border border-earth-light shadow-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform origin-top z-50 rounded-3xl mt-4">
-                      <div class="p-10">
-                          <div class="grid grid-cols-5 gap-8">
-                              
-                              <!-- Col 1: Oele -->
-                              <div>
-                                  <h3 class="font-serif font-bold text-lg text-mocha mb-3 border-b border-earth-light pb-2"><a href="kaltgepresste-oele.html" class="hover:text-gold">Kaltgepresste Öle</a></h3>
-                                  <ul class="space-y-2 text-sm max-h-[300px] overflow-y-auto custom-scrollbar pr-2">
-                                      <li><a href="schwarzkummelol.html" class="text-gold font-medium hover:text-mocha block">Premium Schwarzkümmelöl</a></li>
-                                      <li><a href="schwarzkummelol-fuer-kinder.html" class="text-ash-light hover:text-gold block ml-3 text-[11px] uppercase tracking-wider">↳ Für Kinder (Orange)</a></li>
-                                      <li><a href="schwarzkummelol-kinder-erdbeer.html" class="text-ash-light hover:text-gold block ml-3 text-[11px] uppercase tracking-wider">↳ Für Kinder (Erdbeer)</a></li>
-                                      <li><a href="schwarzkummelol-mit-minze.html" class="text-ash-light hover:text-gold block ml-3 mb-2 text-[11px] uppercase tracking-wider">↳ Mit Minze</a></li>
-                                      <li><a href="leinoel.html" class="text-ash-light hover:text-gold block">Leinöl</a></li>
-                                      <li><a href="kuerbiskernoel.html" class="text-ash-light hover:text-gold block">Kürbiskernöl</a></li>
-                                      <li><a href="granatapfelkernoel.html" class="text-ash-light hover:text-gold block">Granatapfelkernöl</a></li>
-                                      <li><a href="walnussoel.html" class="text-ash-light hover:text-gold block">Walnussöl</a></li>
-                                      <li><a href="mandelol.html" class="text-ash-light hover:text-gold block">Mandelöl</a></li>
-                                      <li><a href="jojobaoel.html" class="text-ash-light hover:text-gold block">Jojobaöl</a></li>
-                                      <li><a href="aprikosenkernoel.html" class="text-ash-light hover:text-gold block">Aprikosenkernöl</a></li>
-                                      <li><a href="traubenkernoel.html" class="text-ash-light hover:text-gold block">Traubenkernöl</a></li>
-                                      <li><a href="sesamoel.html" class="text-ash-light hover:text-gold block">Sesamöl</a></li>
-                                      <li><a href="hanfoel.html" class="text-ash-light hover:text-gold block">Hanföl</a></li>
-                                      <li><a href="nachtkerzenoel.html" class="text-ash-light hover:text-gold block">Nachtkerzenöl</a></li>
-                                      <li><a href="arganoel.html" class="text-ash-light hover:text-gold block">Arganöl</a></li>
-                                      <li><a href="kaltgepresste-oele.html" class="text-sage hover:text-gold block mt-2 text-xs uppercase tracking-wider font-bold">Alle 29 Öle ansehen &rarr;</a></li>
-                                  </ul>
-                              </div>
-
-                              <!-- Col 2: Ätherische Öle -->
-                              <div>
-                                  <h3 class="font-serif font-bold text-lg text-mocha mb-3 border-b border-earth-light pb-2"><a href="aetherische-oele.html" class="hover:text-gold">Ätherische Öle</a></h3>
-                                  <ul class="space-y-2 text-sm max-h-[300px] overflow-y-auto custom-scrollbar pr-2">
-                                      <li><a href="lavendeloel.html" class="text-ash-light hover:text-gold block">Lavendelöl</a></li>
-                                      <li><a href="rosenoel.html" class="text-ash-light hover:text-gold block">Rosenöl</a></li>
-                                      <li><a href="teebaumoel.html" class="text-ash-light hover:text-gold block">Teebaumöl</a></li>
-                                      <li><a href="pfefferminzoel.html" class="text-ash-light hover:text-gold block">Pfefferminzöl</a></li>
-                                      <li><a href="weihrauchoel.html" class="text-ash-light hover:text-gold block">Weihrauchöl</a></li>
-                                      <li><a href="eukalyptusoel.html" class="text-ash-light hover:text-gold block">Eukalyptusöl</a></li>
-                                      <li><a href="zitronenoel.html" class="text-ash-light hover:text-gold block">Zitronenöl</a></li>
-                                      <li><a href="orangenoel.html" class="text-ash-light hover:text-gold block">Orangenöl</a></li>
-                                      <li><a href="oreganool.html" class="text-ash-light hover:text-gold block">Oreganoöl</a></li>
-                                      <li><a href="nelkenoel.html" class="text-ash-light hover:text-gold block">Nelkenöl</a></li>
-                                      <li><a href="zirbenoel.html" class="text-ash-light hover:text-gold block">Zirbenöl</a></li>
-                                      <li><a href="bergamotteoel.html" class="text-ash-light hover:text-gold block">Bergamotteöl</a></li>
-                                      <li><a href="aetherische-oele.html" class="text-sage hover:text-gold block mt-2 text-xs uppercase tracking-wider font-bold">Alle 30 Öle ansehen &rarr;</a></li>
-                                  </ul>
-                              </div>
-
-                              <!-- Col 3: Pasten & Melassen -->
-                              <div>
-                                  <h3 class="font-serif font-bold text-lg text-mocha mb-3 border-b border-earth-light pb-2"><a href="pasten.html" class="hover:text-gold">Traditionelle Pasten</a></h3>
-                                  <ul class="space-y-2 text-sm mb-6">
-                                      <li><a href="zypressenzapfen-paste.html" class="text-ash-light hover:text-gold block">Zypressenzapfen Paste</a></li>
-                                      <li><a href="tannenzapfen-paste-kinder.html" class="text-ash-light hover:text-gold block">Tannenzapfen Paste (Kinder)</a></li>
-                                      <li><a href="mariendistel-paste.html" class="text-ash-light hover:text-gold block">Mariendistel Paste</a></li>
-                                      <li><a href="paste-fuer-maenner.html" class="text-ash-light hover:text-gold block">Paste für Männer (Mesir)</a></li>
-                                      <li><a href="paste-fuer-frauen.html" class="text-ash-light hover:text-gold block">Paste für Frauen (Kadın)</a></li>
-                                      <li><a href="bittermelone-paste-honig.html" class="text-ash-light hover:text-gold block">Bittermelone Paste</a></li>
-                                      <li><a href="tahini.html" class="text-ash-light hover:text-gold block">Tahini (Sesammus)</a></li>
-                                  </ul>
-
-                                  <h3 class="font-serif font-bold text-lg text-mocha mb-3 border-b border-earth-light pb-2"><a href="melassen.html" class="hover:text-gold">Melassen</a></h3>
-                                  <ul class="space-y-2 text-sm">
-                                      <li><a href="traubenmelasse.html" class="text-ash-light hover:text-gold block">Traubenmelasse</a></li>
-                                      <li><a href="johannisbrot-melasse.html" class="text-ash-light hover:text-gold block">Johannisbrot Melasse</a></li>
-                                      <li><a href="wacholderbeeren-melasse.html" class="text-ash-light hover:text-gold block">Wacholderbeeren</a></li>
-                                      <li><a href="maulbeeren-melasse.html" class="text-ash-light hover:text-gold block">Maulbeeren Melasse</a></li>
-                                      <li><a href="dattel-melasse.html" class="text-ash-light hover:text-gold block">Dattel Melasse</a></li>
-                                  </ul>
-
-                                  <h3 class="font-serif font-bold text-lg text-mocha mb-3 border-b border-earth-light pb-2 mt-6"><a href="gewuerze.html" class="hover:text-gold">Natürliche Gewürze</a></h3>
-                                  <ul class="space-y-2 text-sm">
-                                      <li><a href="sumach-kerne.html" class="text-ash-light hover:text-gold block">Sumach Kerne</a></li>
-                                      <li><a href="sumach-pulver.html" class="text-ash-light hover:text-gold block">Sumach Pulver</a></li>
-                                      <li><a href="tuerkischer-oregano.html" class="text-ash-light hover:text-gold block">Türkischer Oregano</a></li>
-                                  </ul>
-                              </div>
-
-                              <!-- Col 4: Tees & Sirupe -->
-                              <div>
-                                  <h3 class="font-serif font-bold text-lg text-mocha mb-3 border-b border-earth-light pb-2"><a href="tee.html" class="hover:text-gold">Naturtee & Kuren</a></h3>
-                                  <ul class="space-y-2 text-sm mb-6 max-h-[160px] overflow-y-auto custom-scrollbar pr-2">
-                                      <li><a href="spitzwegerich-tee.html" class="text-ash-light hover:text-gold block">Spitzwegerich Tee</a></li>
-                                      <li><a href="kirschstiel-tee.html" class="text-ash-light hover:text-gold block">Kirschstiel Tee</a></li>
-                                      <li><a href="atom-tee.html" class="text-ash-light hover:text-gold block">Atom Tee (Winter-Mix)</a></li>
-                                      <li><a href="schopflavendel-tee.html" class="text-ash-light hover:text-gold block">Schopflavendel Tee</a></li>
-                                      <li><a href="gruener-tee.html" class="text-ash-light hover:text-gold block">Magischer Grüntee</a></li>
-                                      <li><a href="love-tee.html" class="text-ash-light hover:text-gold block">Love Tee</a></li>
-                                      <li><a href="wintertee.html" class="text-ash-light hover:text-gold block">Wintertee</a></li>
-                                      <li><a href="tee.html" class="text-sage hover:text-gold block mt-2 text-xs uppercase tracking-wider font-bold">Alle 15 Tees ansehen &rarr;</a></li>
-                                  </ul>
-
-                                  <h3 class="font-serif font-bold text-lg text-mocha mb-3 border-b border-earth-light pb-2"><a href="sirupe.html" class="hover:text-gold">Sirupe</a></h3>
-                                  <ul class="space-y-2 text-sm mb-6">
-                                      <li><a href="tannenzapfen-sirup.html" class="text-ash-light hover:text-gold block">Tannenzapfen Sirup</a></li>
-                                      <li><a href="granatapfelsirup.html" class="text-ash-light hover:text-gold block">Granatapfelsirup</a></li>
-                                      <li><a href="schwarzer-maulbeersirup.html" class="text-ash-light hover:text-gold block">Maulbeer-Sirup</a></li>
-                                  </ul>
-
-                                  <h3 class="font-serif font-bold text-lg text-mocha mb-3 border-b border-earth-light pb-2"><a href="essig.html" class="hover:text-gold">Lebendiger Essig</a></h3>
-                                  <ul class="space-y-2 text-sm">
-                                      <li><a href="apfelessig.html" class="text-ash-light hover:text-gold block">Apfelessig</a></li>
-                                      <li><a href="detox-mix.html" class="text-gold font-medium hover:text-mocha block">Detox Mix Elixier</a></li>
-                                  </ul>
-                              </div>
-
-                              <!-- Col 5: Promo -->
-                              <div class="h-full flex flex-col">
-                                  <div class="flex-grow rounded-2xl overflow-hidden relative group/promo shadow-lg border border-gold/20 min-h-[250px]">
-                                      <img src="assets/zypressenzapfen_paste.png" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover/promo:scale-110" alt="Premium Produkte">
-                                      <div class="absolute inset-0 bg-gradient-to-t from-mocha/90 via-mocha/40 to-transparent flex flex-col items-center justify-end p-6">
-                                          <span class="text-earth font-serif text-xl text-center drop-shadow-md mb-2">Entdecken Sie die Essenz der Natur</span>
-                                          <a href="zypressenzapfen-paste.html" class="inline-block mt-3 px-5 py-2 bg-gold text-white text-sm font-medium rounded-full shadow-md hover:bg-white hover:text-mocha transition-colors">Zum Bestseller</a>
-                                      </div>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-          
-          <!-- Empty div to balance flex on mobile -->
-          <div class="lg:hidden flex-1"></div>
-
-      </div>
-  </div>
-
-      <!-- Mobile Drawer Menu -->
-  <div id="mobile-menu" class="fixed inset-0 bg-white/98 backdrop-blur-2xl z-40 transition-all duration-500 opacity-0 pointer-events-none lg:hidden flex flex-col h-screen">
-      
-      <div class="flex-1 overflow-y-auto pt-32 pb-20 px-8 flex flex-col gap-8 custom-scrollbar">
-          
-          <!-- Main Navigation Links -->
-          <nav class="flex flex-col space-y-6">
-              <a href="ueber-uns.html" class="text-4xl md:text-5xl font-serif text-mocha hover:text-gold transition-colors block" onclick="document.getElementById(\'mobile-menu-btn\').click();">Über uns</a>
-              <a href="rezepte.html" class="text-4xl md:text-5xl font-serif text-mocha hover:text-gold transition-colors block" onclick="document.getElementById('mobile-menu-btn').click();">Rezepte</a>
-              <a href="magazin.html" class="text-4xl md:text-5xl font-serif text-mocha hover:text-gold transition-colors block" onclick="document.getElementById('mobile-menu-btn').click();">Magazin</a>
-          </nav>
-
-          <hr class="border-earth-light my-2">
-
-          <!-- Shop Categories Accordion -->
-          <div class="space-y-6">
-              <h2 class="text-xs uppercase tracking-[0.2em] text-ash/50 font-bold mb-4">Unsere Kategorien</h2>
-              
-              <!-- Kaltgepresste Öle -->
-              <div class="border-b border-earth-light pb-4">
-                  <button class="w-full text-left flex justify-between items-center text-2xl font-serif text-mocha hover:text-gold transition-colors group" onclick="this.nextElementSibling.classList.toggle('max-h-0'); this.nextElementSibling.classList.toggle('max-h-[500px]'); this.nextElementSibling.classList.toggle('mt-4'); this.nextElementSibling.classList.toggle('opacity-0'); this.querySelector('svg').classList.toggle('rotate-180');">
+                      <svg class="w-4 h-4 ml-1 transition-transform group-hover:rotate-180 text-gold" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</button>
+<!-- The Dropdown -->
+<div class="absolute left-1/2 -translate-x-[75%] top-[72px] w-[98vw] max-w-[1400px] bg-earth-surface border border-earth-light shadow-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform origin-top z-50 rounded-3xl mt-4">
+<div class="p-10">
+<div class="grid grid-cols-5 gap-8 items-start">
+<!-- Col 1: Oele -->
+<div>
+<h3 class="font-serif font-bold text-lg text-mocha mb-3 border-b border-earth-light pb-2"><a class="hover:text-gold" href="kaltgepresste-oele.html">Kaltgepresste Öle</a></h3>
+<ul class="space-y-2 text-sm max-h-[220px] overflow-y-auto custom-scrollbar pr-2">
+<li><a class="text-gold font-medium hover:text-mocha block" href="schwarzkummelol.html">Premium Schwarzkümmelöl</a></li>
+<li><a class="text-ash-light hover:text-gold block ml-3 text-[11px] uppercase tracking-wider" href="schwarzkummelol-fuer-kinder.html">↳ Für Kinder (Orange)</a></li>
+<li><a class="text-ash-light hover:text-gold block ml-3 text-[11px] uppercase tracking-wider" href="schwarzkummelol-kinder-erdbeer.html">↳ Für Kinder (Erdbeer)</a></li>
+<li><a class="text-ash-light hover:text-gold block ml-3 mb-2 text-[11px] uppercase tracking-wider" href="schwarzkummelol-mit-minze.html">↳ Mit Minze</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="leinoel.html">Leinöl</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="kuerbiskernoel.html">Kürbiskernöl</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="granatapfelkernoel.html">Granatapfelkernöl</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="walnussoel.html">Walnussöl</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="mandelol.html">Mandelöl</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="jojobaoel.html">Jojobaöl</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="aprikosenkernoel.html">Aprikosenkernöl</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="traubenkernoel.html">Traubenkernöl</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="sesamoel.html">Sesamöl</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="hanfoel.html">Hanföl</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="nachtkerzenoel.html">Nachtkerzenöl</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="arganoel.html">Arganöl</a></li>
+<li><a class="text-sage hover:text-gold block mt-2 text-xs uppercase tracking-wider font-bold" href="kaltgepresste-oele.html">Alle 29 Öle ansehen →</a></li>
+</ul>
+<h3 class="font-serif font-bold text-lg text-mocha mb-3 border-b border-earth-light pb-2 mt-5"><a class="hover:text-gold" href="gewuerze.html">Natürliche Gewürze</a></h3>
+<ul class="space-y-2 text-sm mb-4">
+<li><a class="text-ash-light hover:text-gold block" href="sumach-kerne.html">Sumach Kerne</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="sumach-pulver.html">Sumach Pulver</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="tuerkischer-oregano.html">Türkischer Oregano</a></li>
+</ul>
+<h3 class="font-serif font-bold text-lg text-mocha mb-3 border-b border-earth-light pb-2"><a class="hover:text-gold" href="tarhana.html">Tarhana Suppe</a></h3>
+<ul class="space-y-2 text-sm">
+<li><a class="text-ash-light hover:text-gold block" href="tarhana-suppe.html">Klassische Tarhana Suppe</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="scharfe-tarhana-suppe.html">Scharfe Tarhana Suppe</a></li>
+</ul>
+</div>
+<!-- Col 2: Ätherische Öle -->
+<div>
+<h3 class="font-serif font-bold text-lg text-mocha mb-3 border-b border-earth-light pb-2"><a class="hover:text-gold" href="aetherische-oele.html">Ätherische Öle</a></h3>
+<ul class="space-y-2 text-sm max-h-[220px] overflow-y-auto custom-scrollbar pr-2">
+<li><a class="text-ash-light hover:text-gold block" href="lavendeloel.html">Lavendelöl</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="rosenoel.html">Rosenöl</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="teebaumoel.html">Teebaumöl</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="pfefferminzoel.html">Pfefferminzöl</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="weihrauchoel.html">Weihrauchöl</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="eukalyptusoel.html">Eukalyptusöl</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="zitronenoel.html">Zitronenöl</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="orangenoel.html">Orangenöl</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="oreganool.html">Oreganoöl</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="nelkenoel.html">Nelkenöl</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="zirbenoel.html">Zirbenöl</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="bergamotteoel.html">Bergamotteöl</a></li>
+<li><a class="text-sage hover:text-gold block mt-2 text-xs uppercase tracking-wider font-bold" href="aetherische-oele.html">Alle 30 Öle ansehen →</a></li>
+</ul>
+<h3 class="font-serif font-bold text-lg text-mocha mb-3 border-b border-earth-light pb-2 mt-5"><a class="hover:text-gold" href="essig.html">Lebendiger Essig</a></h3>
+<ul class="space-y-2 text-sm">
+<li><a class="text-ash-light hover:text-gold block" href="apfelessig.html">Apfelessig</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="traubenessig.html">Traubenessig</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="weissdorn-essig.html">Weißdorn Essig</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="ananas-essig.html">Ananas Essig</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="oxymel-gold-essig.html">Oxymel Gold Essig</a></li>
+<li><a class="text-gold font-medium hover:text-mocha block" href="detox-mix.html">Detox Mix Elixier</a></li>
+</ul>
+</div>
+<!-- Col 3: Pasten & Melassen -->
+<div>
+<h3 class="font-serif font-bold text-lg text-mocha mb-3 border-b border-earth-light pb-2"><a class="hover:text-gold" href="pasten.html">Traditionelle Pasten</a></h3>
+<ul class="space-y-2 text-sm mb-6">
+<li><a class="text-ash-light hover:text-gold block" href="zypressenzapfen-paste.html">Zypressenzapfen Paste</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="tannenzapfen-paste-kinder.html">Tannenzapfen Paste (Kinder)</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="mariendistel-paste.html">Mariendistel Paste</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="paste-fuer-maenner.html">Paste für Männer (Mesir)</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="paste-fuer-frauen.html">Paste für Frauen (Kadın)</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="bittermelone-paste-honig.html">Bittermelone Paste</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="tahini.html">Tahini (Sesammus)</a></li>
+</ul>
+<h3 class="font-serif font-bold text-lg text-mocha mb-3 border-b border-earth-light pb-2"><a class="hover:text-gold" href="melassen.html">Melassen</a></h3>
+<ul class="space-y-2 text-sm">
+<li><a class="text-ash-light hover:text-gold block" href="traubenmelasse.html">Traubenmelasse</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="johannisbrot-melasse.html">Johannisbrot Melasse</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="wacholderbeeren-melasse.html">Wacholderbeeren</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="maulbeeren-melasse.html">Maulbeeren Melasse</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="dattel-melasse.html">Dattel Melasse</a></li>
+</ul>
+</div>
+<!-- Col 4: Tees & Sirupe -->
+<div>
+<h3 class="font-serif font-bold text-lg text-mocha mb-3 border-b border-earth-light pb-2"><a class="hover:text-gold" href="tee.html">Naturtee & Kuren</a></h3>
+<ul class="space-y-2 text-sm mb-6 max-h-[160px] overflow-y-auto custom-scrollbar pr-2">
+<li><a class="text-ash-light hover:text-gold block" href="spitzwegerich-tee.html">Spitzwegerich Tee</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="kirschstiel-tee.html">Kirschstiel Tee</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="atom-tee.html">Atom Tee (Winter-Mix)</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="schopflavendel-tee.html">Schopflavendel Tee</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="gruener-tee.html">Magischer Grüntee</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="love-tee.html">Love Tee</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="wintertee.html">Wintertee</a></li>
+<li><a class="text-sage hover:text-gold block mt-2 text-xs uppercase tracking-wider font-bold" href="tee.html">Alle 15 Tees ansehen →</a></li>
+</ul>
+<h3 class="font-serif font-bold text-lg text-mocha mb-3 border-b border-earth-light pb-2"><a class="hover:text-gold" href="sirupe.html">Sirupe</a></h3>
+<ul class="space-y-2 text-sm mb-6">
+<li><a class="text-ash-light hover:text-gold block" href="tannenzapfen-sirup.html">Tannenzapfen Sirup</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="granatapfelsirup.html">Granatapfelsirup</a></li>
+<li><a class="text-ash-light hover:text-gold block" href="schwarzer-maulbeersirup.html">Maulbeer-Sirup</a></li>
+</ul>
+</div>
+<!-- Col 5: Promo -->
+<div class="flex flex-col min-h-0">
+<div class="rounded-2xl overflow-hidden relative group/promo shadow-lg border border-gold/20" style="min-height:300px">
+<img alt="Premium Produkte" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover/promo:scale-110" src="assets/zypressenzapfen_paste.png"/>
+<div class="absolute inset-0 bg-gradient-to-t from-mocha/90 via-mocha/40 to-transparent flex flex-col items-center justify-end p-6">
+<span class="text-earth font-serif text-xl text-center drop-shadow-md mb-2">Entdecken Sie die Essenz der Natur</span>
+<a class="inline-block mt-3 px-5 py-2 bg-gold text-white text-sm font-medium rounded-full shadow-md hover:bg-white hover:text-mocha transition-colors" href="zypressenzapfen-paste.html">Zum Bestseller</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Empty div to balance flex on mobile -->
+<div class="lg:hidden flex-1"></div>
+</div>
+</div>
+<!-- Mobile Drawer Menu -->
+<div class="fixed inset-0 bg-[#fbf5eb] backdrop-blur-2xl z-40 transition-all duration-500 opacity-0 pointer-events-none lg:hidden flex flex-col h-screen" id="mobile-menu">
+<div class="flex-1 overflow-y-auto pt-32 pb-20 px-8 flex flex-col gap-8 custom-scrollbar">
+<!-- Main Navigation Links -->
+<nav class="flex flex-col space-y-6">
+<a class="text-4xl md:text-5xl font-serif text-mocha hover:text-gold transition-colors block" href="ueber-uns.html" onclick="document.getElementById('mobile-menu-btn').click();">Über uns</a>
+<a class="text-4xl md:text-5xl font-serif text-mocha hover:text-gold transition-colors block" href="rezepte.html" onclick="document.getElementById('mobile-menu-btn').click();">Rezepte</a>
+<a class="text-4xl md:text-5xl font-serif text-mocha hover:text-gold transition-colors block" href="magazin.html" onclick="document.getElementById('mobile-menu-btn').click();">Magazin</a>
+</nav>
+<hr class="border-earth-light my-2"/>
+<!-- Shop Categories Accordion -->
+<div class="space-y-6">
+<h2 class="text-xs uppercase tracking-[0.2em] text-ash/50 font-bold mb-4">Unsere Kategorien</h2>
+<!-- Kaltgepresste Öle -->
+<div class="border-b border-earth-light pb-4">
+<button class="w-full text-left flex justify-between items-center text-2xl font-serif text-mocha hover:text-gold transition-colors group" onclick="this.nextElementSibling.classList.toggle('max-h-0'); this.nextElementSibling.classList.toggle('max-h-[500px]'); this.nextElementSibling.classList.toggle('mt-4'); this.nextElementSibling.classList.toggle('opacity-0'); this.querySelector('svg').classList.toggle('rotate-180');">
                       Kaltgepresste Öle
-                      <svg class="w-6 h-6 text-gold transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
-                  </button>
-                  <div class="max-h-0 opacity-0 overflow-hidden transition-all duration-500 ease-in-out px-2 space-y-4">
-                      <a href="kaltgepresste-oele.html" class="block text-gold font-bold text-lg mb-2 uppercase tracking-widest text-sm">Übersicht ansehen</a>
-                      <a href="schwarzkummelol.html" class="block text-ash hover:text-gold text-lg font-light">Premium Schwarzkümmelöl</a>
-                      <a href="leinoel.html" class="block text-ash hover:text-gold text-lg font-light">Leinöl</a>
-                      <a href="kuerbiskernoel.html" class="block text-ash hover:text-gold text-lg font-light">Kürbiskernöl</a>
-                      <a href="walnussoel.html" class="block text-ash hover:text-gold text-lg font-light">Walnussöl</a>
-                      <a href="arganoel.html" class="block text-ash hover:text-gold text-lg font-light">Arganöl</a>
-                  </div>
-              </div>
-              
-              <!-- Ätherische Öle -->
-              <div class="border-b border-earth-light pb-4">
-                  <button class="w-full text-left flex justify-between items-center text-2xl font-serif text-mocha hover:text-gold transition-colors group" onclick="this.nextElementSibling.classList.toggle('max-h-0'); this.nextElementSibling.classList.toggle('max-h-[500px]'); this.nextElementSibling.classList.toggle('mt-4'); this.nextElementSibling.classList.toggle('opacity-0'); this.querySelector('svg').classList.toggle('rotate-180');">
+                      <svg class="w-6 h-6 text-gold transition-transform duration-300" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</button>
+<div class="max-h-0 opacity-0 overflow-hidden transition-all duration-500 ease-in-out px-2 space-y-4">
+<a class="block text-gold font-bold text-lg mb-2 uppercase tracking-widest text-sm" href="kaltgepresste-oele.html">Übersicht ansehen</a>
+<a class="block text-ash hover:text-gold text-lg font-light" href="schwarzkummelol.html">Premium Schwarzkümmelöl</a>
+<a class="block text-ash hover:text-gold text-lg font-light" href="leinoel.html">Leinöl</a>
+<a class="block text-ash hover:text-gold text-lg font-light" href="kuerbiskernoel.html">Kürbiskernöl</a>
+<a class="block text-ash hover:text-gold text-lg font-light" href="walnussoel.html">Walnussöl</a>
+<a class="block text-ash hover:text-gold text-lg font-light" href="arganoel.html">Arganöl</a>
+</div>
+</div>
+<!-- Ätherische Öle -->
+<div class="border-b border-earth-light pb-4">
+<button class="w-full text-left flex justify-between items-center text-2xl font-serif text-mocha hover:text-gold transition-colors group" onclick="this.nextElementSibling.classList.toggle('max-h-0'); this.nextElementSibling.classList.toggle('max-h-[500px]'); this.nextElementSibling.classList.toggle('mt-4'); this.nextElementSibling.classList.toggle('opacity-0'); this.querySelector('svg').classList.toggle('rotate-180');">
                       Ätherische Öle
-                      <svg class="w-6 h-6 text-gold transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
-                  </button>
-                  <div class="max-h-0 opacity-0 overflow-hidden transition-all duration-500 ease-in-out px-2 space-y-4">
-                      <a href="aetherische-oele.html" class="block text-gold font-bold text-lg mb-2 uppercase tracking-widest text-sm">Übersicht ansehen</a>
-                      <a href="lavendeloel.html" class="block text-ash hover:text-gold text-lg font-light">Lavendelöl</a>
-                      <a href="rosenoel.html" class="block text-ash hover:text-gold text-lg font-light">Rosenöl</a>
-                      <a href="teebaumoel.html" class="block text-ash hover:text-gold text-lg font-light">Teebaumöl</a>
-                      <a href="oreganool.html" class="block text-ash hover:text-gold text-lg font-light">Oreganoöl</a>
-                  </div>
-              </div>
-              
-              <!-- Traditionelle Pasten & Melassen -->
-              <div class="border-b border-earth-light pb-4">
-                  <button class="w-full text-left flex justify-between items-center text-2xl font-serif text-mocha hover:text-gold transition-colors group" onclick="this.nextElementSibling.classList.toggle('max-h-0'); this.nextElementSibling.classList.toggle('max-h-[500px]'); this.nextElementSibling.classList.toggle('mt-4'); this.nextElementSibling.classList.toggle('opacity-0'); this.querySelector('svg').classList.toggle('rotate-180');">
-                      Pasten & Melassen
-                      <svg class="w-6 h-6 text-gold transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
-                  </button>
-                  <div class="max-h-0 opacity-0 overflow-hidden transition-all duration-500 ease-in-out px-2 space-y-4">
-                      <a href="pasten.html" class="block text-gold font-bold text-lg mb-2 uppercase tracking-widest text-sm">Pasten Übersicht</a>
-                      <a href="zypressenzapfen-paste.html" class="block text-ash hover:text-gold text-lg font-light">Zypressenzapfen Paste</a>
-                      <a href="mariendistel-paste.html" class="block text-ash hover:text-gold text-lg font-light">Mariendistel Paste</a>
-                      <a href="bittermelone-paste-olivenoel.html" class="block text-ash hover:text-gold text-lg font-light">Bittermelone Paste</a>
-                      <a href="traubenmelasse.html" class="block text-ash hover:text-gold text-lg font-light mt-4">Traubenmelasse</a>
-                      <a href="johannisbrot-melasse.html" class="block text-ash hover:text-gold text-lg font-light">Johannisbrot Melasse</a>
-                  </div>
-              </div>
-
-              <!-- Naturtee & Kuren -->
-              <div class="border-b border-earth-light pb-4">
-                  <button class="w-full text-left flex justify-between items-center text-2xl font-serif text-mocha hover:text-gold transition-colors group" onclick="this.nextElementSibling.classList.toggle('max-h-0'); this.nextElementSibling.classList.toggle('max-h-[500px]'); this.nextElementSibling.classList.toggle('mt-4'); this.nextElementSibling.classList.toggle('opacity-0'); this.querySelector('svg').classList.toggle('rotate-180');">
-                      Naturtee & Kuren
-                      <svg class="w-6 h-6 text-gold transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
-                  </button>
-                  <div class="max-h-0 opacity-0 overflow-hidden transition-all duration-500 ease-in-out px-2 space-y-4">
-                      <a href="tee.html" class="block text-gold font-bold text-lg mb-2 uppercase tracking-widest text-sm">Alle Tees ansehen</a>
-                      <a href="spitzwegerich-tee.html" class="block text-ash hover:text-gold text-lg font-light">Spitzwegerich Tee</a>
-                      <a href="atom-tee.html" class="block text-ash hover:text-gold text-lg font-light">Atom Tee (Winter-Mix)</a>
-                      <a href="wintertee.html" class="block text-ash hover:text-gold text-lg font-light">Wintertee</a>
-                      <a href="schopflavendel-tee.html" class="block text-ash hover:text-gold text-lg font-light">Schopflavendel Tee</a>
-                  </div>
-              </div>
-
-              <!-- Essig & Gewürze -->
-              <div class="border-b border-earth-light pb-4">
-                  <button class="w-full text-left flex justify-between items-center text-2xl font-serif text-mocha hover:text-gold transition-colors group" onclick="this.nextElementSibling.classList.toggle('max-h-0'); this.nextElementSibling.classList.toggle('max-h-[500px]'); this.nextElementSibling.classList.toggle('mt-4'); this.nextElementSibling.classList.toggle('opacity-0'); this.querySelector('svg').classList.toggle('rotate-180');">
-                      Essig & Gewürze
-                      <svg class="w-6 h-6 text-gold transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
-                  </button>
-                  <div class="max-h-0 opacity-0 overflow-hidden transition-all duration-500 ease-in-out px-2 space-y-4">
-                      <a href="essig.html" class="block text-gold font-bold text-lg mb-2 uppercase tracking-widest text-sm">Essig ansehen</a>
-                      <a href="apfelessig.html" class="block text-ash hover:text-gold text-lg font-light">Apfelessig</a>
-                      <a href="detox-mix.html" class="block text-ash hover:text-gold text-lg font-light">Detox Mix Elixier</a>
-                      <a href="gewuerze.html" class="block text-gold font-bold text-lg mb-2 mt-4 uppercase tracking-widest text-sm">Gewürze ansehen</a>
-                      <a href="sumach-kerne.html" class="block text-ash hover:text-gold text-lg font-light">Sumach Kerne</a>
-                  </div>
-              </div>
-          </div>
-
-          <div class="mt-8 mb-8">
-              <div class="bg-earth-light/30 rounded-[2rem] p-8 border border-earth-light text-center relative overflow-hidden group">
-                  <div class="absolute inset-0 bg-gold/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-                  <p class="text-ash/60 text-sm mb-4 relative z-10 uppercase tracking-widest">Premium Service</p>
-                  <p class="text-mocha font-serif text-xl mb-6 relative z-10">Haben Sie Fragen zu unseren Naturkuren?</p>
-                  <a href="tel:+490000000" class="inline-block bg-gold text-white font-bold py-3 px-8 rounded-full shadow-lg text-sm relative z-10 hover:bg-mocha transition-colors duration-300">
+                      <svg class="w-6 h-6 text-gold transition-transform duration-300" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</button>
+<div class="max-h-0 opacity-0 overflow-hidden transition-all duration-500 ease-in-out px-2 space-y-4">
+<a class="block text-gold font-bold text-lg mb-2 uppercase tracking-widest text-sm" href="aetherische-oele.html">Übersicht ansehen</a>
+<a class="block text-ash hover:text-gold text-lg font-light" href="lavendeloel.html">Lavendelöl</a>
+<a class="block text-ash hover:text-gold text-lg font-light" href="rosenoel.html">Rosenöl</a>
+<a class="block text-ash hover:text-gold text-lg font-light" href="teebaumoel.html">Teebaumöl</a>
+<a class="block text-ash hover:text-gold text-lg font-light" href="oreganool.html">Oreganoöl</a>
+</div>
+</div>
+<!-- Traditionelle Pasten & Melassen -->
+<div class="border-b border-earth-light pb-4">
+<button class="w-full text-left flex justify-between items-center text-2xl font-serif text-mocha hover:text-gold transition-colors group" onclick="this.nextElementSibling.classList.toggle('max-h-0'); this.nextElementSibling.classList.toggle('max-h-[500px]'); this.nextElementSibling.classList.toggle('mt-4'); this.nextElementSibling.classList.toggle('opacity-0'); this.querySelector('svg').classList.toggle('rotate-180');">
+                      Pasten &amp; Melassen
+                      <svg class="w-6 h-6 text-gold transition-transform duration-300" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</button>
+<div class="max-h-0 opacity-0 overflow-hidden transition-all duration-500 ease-in-out px-2 space-y-4">
+<a class="block text-gold font-bold text-lg mb-2 uppercase tracking-widest text-sm" href="pasten.html">Pasten Übersicht</a>
+<a class="block text-ash hover:text-gold text-lg font-light" href="zypressenzapfen-paste.html">Zypressenzapfen Paste</a>
+<a class="block text-ash hover:text-gold text-lg font-light" href="mariendistel-paste.html">Mariendistel Paste</a>
+<a class="block text-ash hover:text-gold text-lg font-light" href="bittermelone-paste-olivenoel.html">Bittermelone Paste</a>
+<a class="block text-ash hover:text-gold text-lg font-light mt-4" href="traubenmelasse.html">Traubenmelasse</a>
+<a class="block text-ash hover:text-gold text-lg font-light" href="johannisbrot-melasse.html">Johannisbrot Melasse</a>
+</div>
+</div>
+<!-- Tarhana Suppe -->
+<div class="border-b border-earth-light pb-4">
+<button class="w-full text-left flex justify-between items-center text-2xl font-serif text-mocha hover:text-gold transition-colors group" onclick="this.nextElementSibling.classList.toggle('max-h-0'); this.nextElementSibling.classList.toggle('max-h-[500px]'); this.nextElementSibling.classList.toggle('mt-4'); this.nextElementSibling.classList.toggle('opacity-0'); this.querySelector('svg').classList.toggle('rotate-180');">
+                      Tarhana Suppe
+                      <svg class="w-6 h-6 text-gold transition-transform duration-300" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</button>
+<div class="max-h-0 opacity-0 overflow-hidden transition-all duration-500 ease-in-out px-2 space-y-4">
+<a class="block text-gold font-bold text-lg mb-2 uppercase tracking-widest text-sm" href="tarhana.html">Übersicht ansehen</a>
+<a class="block text-ash hover:text-gold text-lg font-light" href="tarhana-suppe.html">Klassische Tarhana Suppe</a>
+<a class="block text-ash hover:text-gold text-lg font-light" href="scharfe-tarhana-suppe.html">Scharfe Tarhana Suppe</a>
+</div>
+</div>
+<!-- Naturtee & Kuren -->
+<div class="border-b border-earth-light pb-4">
+<button class="w-full text-left flex justify-between items-center text-2xl font-serif text-mocha hover:text-gold transition-colors group" onclick="this.nextElementSibling.classList.toggle('max-h-0'); this.nextElementSibling.classList.toggle('max-h-[500px]'); this.nextElementSibling.classList.toggle('mt-4'); this.nextElementSibling.classList.toggle('opacity-0'); this.querySelector('svg').classList.toggle('rotate-180');">
+                      Naturtee &amp; Kuren
+                      <svg class="w-6 h-6 text-gold transition-transform duration-300" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</button>
+<div class="max-h-0 opacity-0 overflow-hidden transition-all duration-500 ease-in-out px-2 space-y-4">
+<a class="block text-gold font-bold text-lg mb-2 uppercase tracking-widest text-sm" href="tee.html">Alle Tees ansehen</a>
+<a class="block text-ash hover:text-gold text-lg font-light" href="spitzwegerich-tee.html">Spitzwegerich Tee</a>
+<a class="block text-ash hover:text-gold text-lg font-light" href="atom-tee.html">Atom Tee (Winter-Mix)</a>
+<a class="block text-ash hover:text-gold text-lg font-light" href="wintertee.html">Wintertee</a>
+<a class="block text-ash hover:text-gold text-lg font-light" href="schopflavendel-tee.html">Schopflavendel Tee</a>
+</div>
+</div>
+<!-- Essig & Gewürze -->
+<div class="border-b border-earth-light pb-4">
+<button class="w-full text-left flex justify-between items-center text-2xl font-serif text-mocha hover:text-gold transition-colors group" onclick="this.nextElementSibling.classList.toggle('max-h-0'); this.nextElementSibling.classList.toggle('max-h-[500px]'); this.nextElementSibling.classList.toggle('mt-4'); this.nextElementSibling.classList.toggle('opacity-0'); this.querySelector('svg').classList.toggle('rotate-180');">
+                      Essig &amp; Gewürze
+                      <svg class="w-6 h-6 text-gold transition-transform duration-300" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</button>
+<div class="max-h-0 opacity-0 overflow-hidden transition-all duration-500 ease-in-out px-2 space-y-4">
+<a class="block text-gold font-bold text-lg mb-2 uppercase tracking-widest text-sm" href="essig.html">Essig ansehen</a>
+<a class="block text-ash hover:text-gold text-lg font-light" href="apfelessig.html">Apfelessig</a>
+<a class="block text-ash hover:text-gold text-lg font-light" href="traubenessig.html">Traubenessig</a>
+<a class="block text-ash hover:text-gold text-lg font-light" href="weissdorn-essig.html">Weißdorn Essig</a>
+<a class="block text-ash hover:text-gold text-lg font-light" href="ananas-essig.html">Ananas Essig</a>
+<a class="block text-ash hover:text-gold text-lg font-light" href="oxymel-gold-essig.html">Oxymel Gold Essig</a>
+<a class="block text-ash hover:text-gold text-lg font-light" href="detox-mix.html">Detox Mix Elixier</a>
+<a class="block text-gold font-bold text-lg mb-2 mt-4 uppercase tracking-widest text-sm" href="gewuerze.html">Gewürze ansehen</a>
+<a class="block text-ash hover:text-gold text-lg font-light" href="sumach-kerne.html">Sumach Kerne</a>
+</div>
+</div>
+</div>
+<div class="mt-8 mb-8">
+<div class="bg-earth-light/30 rounded-[2rem] p-8 border border-earth-light text-center relative overflow-hidden group">
+<div class="absolute inset-0 bg-gold/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+<p class="text-ash/60 text-sm mb-4 relative z-10 uppercase tracking-widest">Premium Service</p>
+<p class="text-mocha font-serif text-xl mb-6 relative z-10">Haben Sie Fragen zu unseren Naturkuren?</p>
+<a class="inline-block bg-gold text-white font-bold py-3 px-8 rounded-full shadow-lg text-sm relative z-10 hover:bg-mocha transition-colors duration-300" href="tel:+490000000">
                       Kundenservice anrufen
                   </a>
-              </div>
-          </div>
-
-      </div>
-  </div>
+</div>
+</div>
+</div>
+</div>
 </nav>
-
-          
-
-    <!-- 1. Full-Bleed Hero Section -->
-    <header class="relative w-full h-[80vh] md:h-[90vh] min-h-[600px] overflow-hidden">
-        <img src="assets/hero-background.png" alt="Anadoa Naturhaus" class="absolute inset-0 w-full h-full object-cover">
-        
-        <!-- Text Overlay on the Left -->
-        <div class="relative z-10 max-w-7xl mx-auto h-full px-6 flex items-center">
-            <div class="w-full md:w-1/2 mt-12 md:mt-24">
-                <h1 class="text-6xl md:text-[6rem] font-bold mb-10 text-ash leading-none drop-shadow-sm">
-                    Natur <br> aus Liebe
+<!-- 1. Full-Bleed Hero Section -->
+<header class="relative w-full h-[80vh] md:h-[90vh] min-h-[600px] overflow-hidden">
+<img alt="Anadoa Naturhaus" class="absolute inset-0 w-full h-full object-cover" src="assets/hero-background.png"/>
+<!-- Text Overlay on the Left -->
+<div class="relative z-10 max-w-7xl mx-auto h-full px-6 flex items-center">
+<div class="w-full md:w-1/2 mt-12 md:mt-24">
+<h1 class="text-6xl md:text-[6rem] font-bold mb-10 text-ash leading-none drop-shadow-sm">
+                    Natur <br/> aus Liebe
                 </h1>
-                <a href="#entdecken" class="inline-block bg-[#007b3e] text-white font-bold py-4 px-10 rounded-full hover:bg-ash hover:text-white transition-colors duration-300 shadow-xl text-lg">
+<a class="inline-block bg-[#006C3E] text-white font-bold py-4 px-10 rounded-full hover:bg-ash hover:text-white transition-colors duration-300 shadow-xl text-lg" href="#entdecken">
                     Anadoa entdecken
                 </a>
-            </div>
-        </div>
-        
-        <!-- Bottom SVG Wave (Transition to #fbf5eb) -->
-        <div class="absolute bottom-0 left-0 w-full overflow-hidden leading-none z-20">
-            <svg class="relative block w-full h-[60px] md:h-[120px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 120" preserveAspectRatio="none">
-                <path fill="#fbf5eb" d="M0,64L80,69.3C160,75,320,85,480,80C640,75,800,53,960,48C1120,43,1280,53,1360,58.7L1440,64L1440,120L1360,120C1280,120,1120,120,960,120C800,120,640,120,480,120C320,120,160,120,80,120L0,120Z"></path>
-            </svg>
-        </div>
-    </header>
-
-    <!-- 2. Intro Statement Block (Cream Background) -->
-    <section id="entdecken" class="bg-[#fbf5eb] py-24 text-center px-6 relative">
-        <div class="max-w-5xl mx-auto">
-            <h2 class="text-[#007b3e] text-sm font-bold tracking-[0.2em] mb-8 uppercase">ENTDECKE DIE VIELFALT VON ANADOA</h2>
-            
-            <div class="flex flex-col md:flex-row items-center justify-center gap-8 mb-8">
-                <img src="assets/decor-illustration.png" alt="Natur Decor" class="w-32 h-32 object-contain animate-pulse">
-                <p class="text-2xl md:text-4xl font-serif text-ash leading-relaxed text-left">
+</div>
+</div>
+<!-- Bottom SVG Wave (Transition to #fbf5eb) -->
+<div class="absolute bottom-0 left-0 w-full overflow-hidden leading-none z-20">
+<svg class="relative block w-full h-[60px] md:h-[120px]" preserveaspectratio="none" viewbox="0 0 1440 120" xmlns="http://www.w3.org/2000/svg">
+<path d="M0,64L80,69.3C160,75,320,85,480,80C640,75,800,53,960,48C1120,43,1280,53,1360,58.7L1440,64L1440,120L1360,120C1280,120,1120,120,960,120C800,120,640,120,480,120C320,120,160,120,80,120L0,120Z" fill="#fbf5eb"></path>
+</svg>
+</div>
+</header>
+<!-- 2. Intro Statement Block (Cream Background) -->
+<section class="bg-[#fbf5eb] py-24 text-center px-6 relative" id="entdecken">
+<div class="max-w-5xl mx-auto">
+<h2 class="text-[#006C3E] text-sm font-bold tracking-[0.2em] mb-8 uppercase">ENTDECKE DIE VIELFALT VON ANADOA</h2>
+<div class="flex flex-col md:flex-row items-center justify-center gap-8 mb-8">
+<img alt="Natur Decor" class="w-32 h-32 object-contain animate-pulse" src="assets/decor-illustration.png"/>
+<p class="text-2xl md:text-4xl font-serif text-ash leading-relaxed text-left">
                     Rein, kaltgepresst, unverfälscht – Anadoa bringt natürliche Heilmittel auf den Tisch, die Menschen und Umwelt achten. Von Kaltgepressten Ölen über Pasten bis zu traditionellen Kräutern: Alles aus Liebe zu Natur, Gesundheit und Tradition.
                 </p>
-            </div>
-            
-            <a href="kaltgepresste-oele.html" class="inline-block bg-[#007b3e] text-white font-bold py-3 px-8 rounded-full hover:bg-ash transition-colors duration-300 mt-6">
+</div>
+<a class="inline-block bg-[#006C3E] text-white font-bold py-3 px-8 rounded-full hover:bg-ash hover:text-white transition-colors duration-300 mt-6" href="kaltgepresste-oele.html">
                 Unsere Philosophie kennenlernen
             </a>
-        </div>
-    </section>
-
-    <!-- 3. "Die Anadoa Welt" - Colored Block with Overlap -->
-    <section class="bg-[#fbf5eb] pb-32 pt-16">
-        <div class="max-w-7xl mx-auto px-6">
-            <!-- The Green Block -->
-            <div class="bg-[#6cb33e] rounded-[3rem] relative p-12 md:p-24 flex flex-col lg:flex-row items-center gap-16 mt-12">
-                
-                <!-- Collage / Illustration on the Left -->
-                <div class="w-full lg:w-1/2 relative">
-                    <img src="assets/world_collage.png" alt="Die Anadoa Welt" class="w-full max-w-[550px] mx-auto z-10 relative drop-shadow-2xl hover:scale-105 transition-transform duration-500 rounded-full">
-                </div>
-                
-                <!-- Text on the Right -->
-                <div class="w-full lg:w-1/2 text-white relative z-20">
-                    <h2 class="text-5xl md:text-6xl font-bold font-serif mb-8 leading-tight">Die pure Kraft anatolischer Natur.</h2>
-                    <p class="text-xl mb-10 font-light leading-relaxed">
+</div>
+</section>
+<!-- 3. "Die Anadoa Welt" - Colored Block with Overlap -->
+<section class="bg-[#fbf5eb] pb-32 pt-16">
+<div class="max-w-7xl mx-auto px-6">
+<!-- The Green Block -->
+<div class="bg-[#006C3E] rounded-[3rem] relative p-12 md:p-24 flex flex-col lg:flex-row items-center gap-16 mt-12">
+<!-- Collage / Illustration on the Left -->
+<div class="w-full lg:w-1/2 relative">
+<div class="w-full max-w-[550px] mx-auto z-10 relative drop-shadow-2xl hover:scale-105 transition-transform duration-500 rounded-full aspect-square">
+<img alt="Die Anadoa Welt" class="w-full h-full rounded-full object-cover animate-spin" src="assets/realistic_anadoa_world.png" style="animation-duration: 60s;"/>
+</div>
+</div>
+<!-- Text on the Right -->
+<div class="w-full lg:w-1/2 text-white relative z-20">
+<h2 class="text-5xl md:text-6xl font-bold font-serif mb-8 leading-tight text-white/80">Das Naturerbe, wie es ist.</h2>
+<p class="text-xl mb-10 font-light leading-relaxed">
                         Wir glauben daran, dass die wirksamsten Schätze tief in unberührten Böden verwurzelt sind. Mit tiefem Respekt vor jahrtausendealten Traditionen und kompromisslosem Qualitätsanspruch bringen wir Ihnen das Wertvollste, was die Natur zu bieten hat.
                     </p>
-                    <a href="philosophie.html" class="inline-block bg-white text-gold font-bold py-4 px-10 rounded-full hover:bg-ash hover:text-white transition-colors duration-300 text-lg shadow-lg">
+<a class="inline-block bg-white text-[#006C3E] font-bold py-4 px-10 rounded-full hover:bg-ash hover:text-white transition-colors duration-300 text-lg shadow-lg" href="philosophie.html">
                         Unsere Philosophie entdecken
                     </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- 4. Bunte Produkt-Highlights -->
-    <section id="produkte" class="bg-[#fbf5eb] pb-32 px-6">
-        <div class="max-w-7xl mx-auto relative flex">
-            
-            <div class="hidden lg:flex w-12 items-center justify-center">
-                <h3 class="text-mocha text-sm font-bold tracking-[0.2em] uppercase transform -rotate-90 whitespace-nowrap opacity-70">
+</div>
+</div>
+</div>
+</section>
+<!-- 4. Bunte Produkt-Highlights -->
+<section class="bg-[#fbf5eb] pb-32 px-6" id="produkte">
+<div class="max-w-7xl mx-auto relative flex">
+<div class="hidden lg:flex w-12 items-center justify-center">
+<h3 class="text-mocha text-sm font-bold tracking-[0.2em] uppercase transform -rotate-90 whitespace-nowrap opacity-70">
                     AKTUELLE PRODUKT-HIGHLIGHTS
                 </h3>
-            </div>
-            
-            <div class="w-full lg:w-[calc(100%-3rem)] lg:pl-12">
-                <h3 class="lg:hidden text-mocha text-sm font-bold tracking-[0.2em] uppercase mb-16 text-center opacity-70">
+</div>
+<div class="w-full lg:w-[calc(100%-3rem)] lg:pl-12">
+<h3 class="lg:hidden text-mocha text-sm font-bold tracking-[0.2em] uppercase mb-16 text-center opacity-70">
                     AKTUELLE PRODUKT-HIGHLIGHTS
                 </h3>
-
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-                    <!-- Card 1 (Yellow) -->
-                    <a href="schwarzkummelol-fuer-kinder.html" class="bg-[#f1c40f] rounded-3xl p-8 pt-16 relative group hover:-translate-y-4 transition-all duration-300 h-[450px] flex flex-col justify-end text-center shadow-lg hover:shadow-2xl border-4 border-transparent hover:border-white">
-                        <span class="absolute top-6 right-6 bg-white text-ash font-bold text-xs py-1.5 px-4 rounded-full shadow-md z-20">NEU</span>
-                        <div class="absolute inset-x-0 top-0 md:-top-32 bottom-28 md:bottom-auto md:h-[380px] flex justify-center items-center md:items-end z-10 pointer-events-none">
-                            <img src="assets/product_dekupe-schwarzkuemmeloel-fuer-kinder.png" alt="Für Kinder" class="max-h-[90%] md:max-h-full w-auto object-contain object-bottom drop-shadow-2xl group-hover:scale-110 transition-transform duration-500 pointer-events-auto">
-                        </div>
-                        <h4 class="text-white font-bold text-2xl drop-shadow-md pb-8 relative z-20">Schwarzkümmelöl <br> für Kinder</h4>
-                    </a>
-                    
-                    <!-- Card 2 (Dark Blue/Gray) -->
-                    <a href="bittermelone-paste-olivenoel.html" class="bg-[#34495e] rounded-3xl p-8 pt-16 relative group hover:-translate-y-4 transition-all duration-300 h-[450px] flex flex-col justify-end text-center shadow-lg hover:shadow-2xl border-4 border-transparent hover:border-white mt-28 md:mt-0">
-                        <span class="absolute top-6 right-6 bg-[#f1c40f] text-ash font-bold text-xs py-1.5 px-4 rounded-full shadow-md z-20">NEU</span>
-                        <div class="absolute inset-x-0 top-0 md:-top-32 bottom-28 md:bottom-auto md:h-[380px] flex justify-center items-center md:items-end z-10 pointer-events-none">
-                            <img src="assets/product_dekupe-bittermelone-paste-mit-olivenoel.png" alt="Paste" class="max-h-[90%] md:max-h-full w-auto object-contain object-bottom drop-shadow-2xl group-hover:scale-110 transition-transform duration-500 pointer-events-auto">
-                        </div>
-                        <h4 class="text-white font-bold text-2xl drop-shadow-md pb-8 relative z-20">Bittermelone Paste <br> mit Olivenöl</h4>
-                    </a>
-
-                    <!-- Card 3 (Green) -->
-                    <a href="sumak.html" class="bg-[#598c4a] rounded-3xl p-8 pt-16 relative group hover:-translate-y-4 transition-all duration-300 h-[450px] flex flex-col justify-end text-center shadow-lg hover:shadow-2xl border-4 border-transparent hover:border-white mt-28 lg:mt-0">
-                        <div class="absolute inset-x-0 top-0 md:-top-32 bottom-28 md:bottom-auto md:h-[380px] flex justify-center items-center md:items-end z-10 pointer-events-none">
-                            <img src="assets/product_dekupe-sumak-gemahlen.png" alt="Sumach" class="max-h-[90%] md:max-h-full w-auto object-contain object-bottom drop-shadow-2xl group-hover:scale-110 transition-transform duration-500 pointer-events-auto">
-                        </div>
-                        <h4 class="text-white font-bold text-2xl drop-shadow-md pb-8 relative z-20">Sumach <br> Pulver</h4>
-                    </a>
-
-                    <!-- Card 4 (Red/Magenta) -->
-                    <a href="melassen.html" class="bg-[#a8324a] rounded-3xl p-8 pt-16 relative group hover:-translate-y-4 transition-all duration-300 h-[450px] flex flex-col justify-end text-center shadow-lg hover:shadow-2xl border-4 border-transparent hover:border-white mt-28 lg:mt-0">
-                        <div class="absolute inset-x-0 top-0 md:-top-32 bottom-28 md:bottom-auto md:h-[380px] flex justify-center items-center md:items-end z-10 pointer-events-none">
-                            <img src="assets/product_dekupe-traubenmelasse.png" alt="Traubenmelasse" class="max-h-[90%] md:max-h-full w-auto object-contain object-bottom drop-shadow-2xl group-hover:scale-110 transition-transform duration-500 pointer-events-auto">
-                        </div>
-                        <h4 class="text-white font-bold text-2xl drop-shadow-md pb-8 relative z-20">Anatolische <br> Traubenmelasse</h4>
-                    </a>
-                </div>
-            </div>
-        </div>
-        
-        <!-- Elegant Shop Button -->
-        <div class="max-w-7xl mx-auto flex justify-end mt-16 pr-6 relative z-30">
-            <a href="kaltgepresste-oele.html" class="group flex items-center gap-4 bg-white border border-gold/30 text-mocha font-serif font-bold py-3 pl-8 pr-3 rounded-full hover:bg-gold hover:text-white transition-all duration-500 shadow-xl hover:shadow-2xl hover:-translate-y-1 text-xl">
-                <span>Zum Anadoa Shop</span>
-                <span class="bg-earth-light/50 text-gold group-hover:bg-white group-hover:text-mocha rounded-full p-3 transition-colors duration-500 shadow-sm">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" class="transform group-hover:translate-x-1 transition-transform"><path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14M12 5l7 7-7 7"/></svg>
-                </span>
-            </a>
-        </div>
-    </section>
-
-    <!-- Anadoa Philosophie Section -->
-    <section class="bg-white pt-40 pb-24 text-center px-6 relative overflow-hidden">
-        <!-- Top SVG Wave (Transition from #fbf5eb) -->
-        <div class="absolute top-0 left-0 w-full overflow-hidden leading-none z-0">
-            <svg class="relative block w-full h-[60px] md:h-[120px] transform -scale-x-100" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" fill="#fbf5eb"></path>
-            </svg>
-        </div>
-
-        <!-- Background decorative letter -->
-        <div class="absolute left-[-5%] top-10 text-[20rem] font-serif font-bold text-earth-light/40 select-none pointer-events-none leading-none z-0">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+<!-- Card 1 (Yellow) -->
+<a class="bg-[#f1c40f] rounded-3xl p-8 pt-16 relative group hover:-translate-y-4 transition-all duration-300 h-[450px] flex flex-col justify-end text-center shadow-lg hover:shadow-2xl border-4 border-transparent hover:border-white transform" href="schwarzkummelol-fuer-kinder.html">
+<span class="absolute top-6 right-6 bg-white text-ash font-bold text-xs py-1.5 px-4 rounded-full shadow-md z-20">NEU</span>
+<div class="absolute inset-x-0 top-0 md:-top-32 bottom-28 md:bottom-auto md:h-[380px] flex justify-center items-center md:items-end z-10 pointer-events-none">
+<img alt="Für Kinder" class="max-h-[90%] md:max-h-full w-auto object-contain object-bottom drop-shadow-2xl group-hover:scale-110 transition-transform duration-500 pointer-events-auto" src="assets/product_dekupe-schwarzkuemmeloel-fuer-kinder.png"/>
+</div>
+<h4 class="text-white font-bold text-xl lg:text-2xl drop-shadow-md pb-8 relative z-20 w-full text-center break-words hyphens-auto" lang="de">Schwarzkümmelöl <br/> für Kinder</h4>
+</a>
+<!-- Card 2 (Dark Blue/Gray) -->
+<a class="bg-[#34495e] rounded-3xl p-8 pt-16 relative group hover:-translate-y-4 transition-all duration-300 h-[450px] flex flex-col justify-end text-center shadow-lg hover:shadow-2xl border-4 border-transparent hover:border-white mt-28 md:mt-0 transform" href="bittermelone-paste-olivenoel.html">
+<span class="absolute top-6 right-6 bg-[#f1c40f] text-ash font-bold text-xs py-1.5 px-4 rounded-full shadow-md z-20">NEU</span>
+<div class="absolute inset-x-0 top-0 md:-top-32 bottom-28 md:bottom-auto md:h-[380px] flex justify-center items-center md:items-end z-10 pointer-events-none">
+<img alt="Paste" class="max-h-[90%] md:max-h-full w-auto object-contain object-bottom drop-shadow-2xl group-hover:scale-110 transition-transform duration-500 pointer-events-auto" src="assets/product_dekupe-bittermelone-paste-mit-olivenoel.png"/>
+</div>
+<h4 class="text-white font-bold text-2xl drop-shadow-md pb-8 relative z-20">Bittermelone Paste <br/> mit Olivenöl</h4>
+</a>
+<!-- Card 3 (Green) -->
+<a class="bg-[#598c4a] rounded-3xl p-8 pt-16 relative group hover:-translate-y-4 transition-all duration-300 h-[450px] flex flex-col justify-end text-center shadow-lg hover:shadow-2xl border-4 border-transparent hover:border-white mt-28 lg:mt-0 transform" href="sumak.html">
+<div class="absolute inset-x-0 top-0 md:-top-32 bottom-28 md:bottom-auto md:h-[380px] flex justify-center items-center md:items-end z-10 pointer-events-none">
+<img alt="Sumach" class="max-h-[90%] md:max-h-full w-auto object-contain object-bottom drop-shadow-2xl group-hover:scale-110 transition-transform duration-500 pointer-events-auto" src="assets/product_dekupe-sumak-gemahlen.png"/>
+</div>
+<h4 class="text-white font-bold text-2xl drop-shadow-md pb-8 relative z-20">Sumach <br/> Pulver</h4>
+</a>
+<!-- Card 4 (Red/Magenta) -->
+<a class="bg-[#a8324a] rounded-3xl p-8 pt-16 relative group hover:-translate-y-4 transition-all duration-300 h-[450px] flex flex-col justify-end text-center shadow-lg hover:shadow-2xl border-4 border-transparent hover:border-white mt-28 lg:mt-0 transform" href="melassen.html">
+<div class="absolute inset-x-0 top-0 md:-top-32 bottom-28 md:bottom-auto md:h-[380px] flex justify-center items-center md:items-end z-10 pointer-events-none">
+<img alt="Traubenmelasse" class="max-h-[90%] md:max-h-full w-auto object-contain object-bottom drop-shadow-2xl group-hover:scale-110 transition-transform duration-500 pointer-events-auto" src="assets/product_dekupe-traubenmelasse.png"/>
+</div>
+<h4 class="text-white font-bold text-2xl drop-shadow-md pb-8 relative z-20">Anatolische <br/> Traubenmelasse</h4>
+</a>
+</div>
+</div>
+</div>
+<!-- Elegant Shop Button -->
+<div class="max-w-7xl mx-auto flex justify-end mt-16 pr-6 relative z-30">
+<a class="group flex items-center gap-4 bg-white border border-gold/30 text-mocha font-serif font-bold py-3 pl-8 pr-3 rounded-full hover:bg-gold hover:text-white transition-all duration-500 shadow-xl hover:shadow-2xl hover:-translate-y-1 text-xl" href="kaltgepresste-oele.html">
+<span>Zum Anadoa Shop</span>
+<span class="bg-earth-light/50 text-gold group-hover:bg-white group-hover:text-mocha rounded-full p-3 transition-colors duration-500 shadow-sm">
+<svg class="transform group-hover:translate-x-1 transition-transform" fill="none" height="20" stroke="currentColor" stroke-width="2.5" viewbox="0 0 24 24" width="20"><path d="M5 12h14M12 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+</span>
+</a>
+</div>
+</section>
+<!-- Anadoa Philosophie Section -->
+<section class="bg-white pt-40 pb-24 text-center px-6 relative overflow-hidden">
+<!-- Top SVG Wave (Transition from #fbf5eb) -->
+<div class="absolute top-0 left-0 w-full overflow-hidden leading-none z-0">
+<svg class="relative block w-full h-[60px] md:h-[120px] transform -scale-x-100" data-name="Layer 1" preserveaspectratio="none" viewbox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg">
+<path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" fill="#fbf5eb"></path>
+</svg>
+</div>
+<!-- Background decorative letter -->
+<div class="absolute left-[-5%] top-10 text-[20rem] font-serif font-bold text-earth-light/40 select-none pointer-events-none leading-none z-0">
             A
         </div>
-
-        <div class="max-w-4xl mx-auto mb-16 relative z-10">
-            <h2 class="text-4xl md:text-5xl font-serif font-bold text-mocha mb-6">Anadoa in Kürze</h2>
-            <p class="text-xl text-ash leading-relaxed">Wahre Schönheit und Gesundheit beginnen in der Natur – entfalten ihre Kraft aber erst vollständig durch Respekt und moderne Forschung.</p>
-        </div>
-
-        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 relative z-10">
-            <!-- Card 1 -->
-            <div class="bg-earth-light/30 rounded-[2.5rem] p-10 border border-gold/10 hover:border-gold/40 hover:bg-white hover:shadow-xl transition-all duration-500 group">
-                <div class="h-20 w-20 mx-auto bg-white rounded-full flex items-center justify-center shadow-md mb-8 group-hover:scale-110 group-hover:shadow-lg transition-transform duration-500 text-gold">
-                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418" /></svg>
-                </div>
-                <h3 class="text-2xl font-serif font-bold text-mocha mb-4 group-hover:text-gold transition-colors">Respekt vor Mutter Erde</h3>
-                <p class="text-ash leading-relaxed">Inspiriert von „Anadoa“, dem Begriff für Mutter Erde, wurzeln wir in Anatolien. Kein Massenhandel, sondern eine bewusste Auswahl – verantwortungsvoll gefunden und weitergegeben.</p>
-            </div>
-
-            <!-- Card 2 -->
-            <div class="bg-earth-light/30 rounded-[2.5rem] p-10 border border-gold/10 hover:border-gold/40 hover:bg-white hover:shadow-xl transition-all duration-500 group">
-                <div class="h-20 w-20 mx-auto bg-white rounded-full flex items-center justify-center shadow-md mb-8 group-hover:scale-110 group-hover:shadow-lg transition-transform duration-500 text-gold">
-                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" /></svg>
-                </div>
-                <h3 class="text-2xl font-serif font-bold text-mocha mb-4 group-hover:text-gold transition-colors">Geprüfte Qualität</h3>
-                <p class="text-ash leading-relaxed">Wir glauben nicht an große Versprechen, sondern an überprüfbare Qualität nach deutschen Standards. Reinheit, Herkunft und Transparenz sind für uns keine Marketingbegriffe, sondern Grundvoraussetzung.</p>
-            </div>
-
-            <!-- Card 3 -->
-            <div class="bg-earth-light/30 rounded-[2.5rem] p-10 border border-gold/10 hover:border-gold/40 hover:bg-white hover:shadow-xl transition-all duration-500 group">
-                <div class="h-20 w-20 mx-auto bg-white rounded-full flex items-center justify-center shadow-md mb-8 group-hover:scale-110 group-hover:shadow-lg transition-transform duration-500 text-gold">
-                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" /></svg>
-                </div>
-                <h3 class="text-2xl font-serif font-bold text-mocha mb-4 group-hover:text-gold transition-colors">Tradition & Forschung</h3>
-                <p class="text-ash leading-relaxed">Wir verbinden alte anatolische Pflanzenkunde mit modernen, schonenden Herstellungsverfahren. Ob traditionelle Kaltpressungen, naturreine Extrakte oder Fruchtmelassen – für uns stehen Tradition und Innovation im perfekten Dialog.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Rezepte Teaser (Creative Redesign) -->
-    <section class="relative bg-earth-light pt-40 pb-32 px-6 overflow-hidden">
-        <!-- Top SVG Wave (Transition from bg-white) -->
-        <div class="absolute top-0 left-0 w-full overflow-hidden leading-none z-0">
-            <svg class="relative block w-full h-[60px] md:h-[120px]" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" fill="#FFFFFF"></path>
-            </svg>
-        </div>
-
-        <!-- Floating SVG Leaves (Decor) -->
-        <svg class="absolute left-[-5%] top-[20%] w-48 h-48 text-sage opacity-20 transform -rotate-12 z-0 pointer-events-none" viewBox="0 0 200 200" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path d="M50.4,142.3c-1.3,0-2.6-0.3-3.8-0.8c-7.3-3.1-10.7-11.6-7.6-18.9c6-14.3,16.7-25.9,30.3-32.9c13.6-7,29.1-8.9,43.6-5.3c7.8,1.9,12.5,9.8,10.6,17.6c-1.9,7.8-9.8,12.5-17.6,10.6c-8.1-2-16.7-0.9-24.3,3c-7.6,3.9-13.6,10.4-17,18.4C61.3,139.7,56,142.3,50.4,142.3z"/>
-            <path d="M141.2,165.7c-5.8,0-11-3.6-12.8-9.3c-2.3-7.6,2-15.6,9.6-17.9c14.1-4.3,26-13.1,33.5-24.8c7.5-11.7,10-25.7,7-39.4c-1.7-7.8,3.2-15.5,11-17.2c7.8-1.7,15.5,3.2,17.2,11c5.3,24.2,0.9,49.1-12.4,69.9c-13.3,20.8-34.3,36.4-59.2,44C133.7,162.3,132.3,162.4,130.8,162.4C134.3,164.5,137.7,165.7,141.2,165.7z"/>
-        </svg>
-
-        <svg class="absolute right-[-2%] bottom-[10%] w-64 h-64 text-gold opacity-10 transform rotate-45 z-0 pointer-events-none" viewBox="0 0 200 200" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path d="M99.5,165c-35.6,0-64.6-29-64.6-64.6s29-64.6,64.6-64.6c35.6,0,64.6,29,64.6,64.6S135.1,165,99.5,165z M99.5,45.8c-30.1,0-54.6,24.5-54.6,54.6s24.5,54.6,54.6,54.6s54.6-24.5,54.6-54.6S129.6,45.8,99.5,45.8z"/>
-            <circle cx="99.5" cy="100.4" r="25.5"/>
-        </svg>
-
-        <div class="relative z-10 max-w-4xl mx-auto mb-20">
-            <div class="flex justify-center mb-6">
-                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" class="text-gold"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" /></svg>
-            </div>
-            <h2 class="text-5xl md:text-6xl font-serif font-bold text-mocha mb-6 drop-shadow-sm">Rezepte aus der Natur</h2>
-            <p class="text-xl text-ash md:px-16 leading-relaxed">Entdecken Sie, wie Sie unsere traditionellen Kaltpressungen, Pasten und Fruchtmelassen in <span class="text-gold font-serif italic">köstliche & gesunde</span> Meisterwerke verwandeln können.</p>
-        </div>
-        
-        <!-- Slider Container -->
-        <div class="relative z-10 max-w-7xl mx-auto mb-20 px-4 md:px-12">
-            <!-- Arrows -->
-            <button id="slider-prev" class="absolute left-2 md:-left-6 top-1/2 -translate-y-1/2 bg-white rounded-full p-4 shadow-xl z-30 text-mocha hover:bg-gold hover:text-white transition-all duration-300 focus:outline-none hover:scale-110">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" /></svg>
-            </button>
-            <button id="slider-next" class="absolute right-2 md:-right-6 top-1/2 -translate-y-1/2 bg-white rounded-full p-4 shadow-xl z-30 text-mocha hover:bg-gold hover:text-white transition-all duration-300 focus:outline-none hover:scale-110">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" /></svg>
-            </button>
-
-            <!-- Track Container -->
-            <div class="overflow-hidden py-12 md:px-4">
-                <div id="slider-track" class="flex transition-transform duration-700 ease-[cubic-bezier(0.25,1,0.5,1)]">
-                    <!-- Javascript will inject 8 cards here -->
-                </div>
-            </div>
-        </div>
-
-        <script>
+<div class="max-w-4xl mx-auto mb-16 relative z-10">
+<h2 class="text-4xl md:text-5xl font-serif font-bold text-mocha mb-6">Anadoa in Kürze</h2>
+<p class="text-xl text-ash leading-relaxed">Wahre Schönheit und Gesundheit beginnen in der Natur – entfalten ihre Kraft aber erst vollständig durch Respekt und moderne Forschung.</p>
+</div>
+<div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 relative z-10">
+<!-- Card 1 -->
+<div class="bg-earth-light/30 rounded-[2.5rem] p-10 border border-gold/10 hover:border-gold/40 hover:bg-white hover:shadow-xl transition-all duration-500 group">
+<div class="h-20 w-20 mx-auto bg-white rounded-full flex items-center justify-center shadow-md mb-8 group-hover:scale-110 group-hover:shadow-lg transition-transform duration-500 text-gold">
+<svg fill="none" height="40" stroke="currentColor" stroke-width="1.5" viewbox="0 0 24 24" width="40"><path d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+</div>
+<h3 class="text-2xl font-serif font-bold text-mocha mb-4 group-hover:text-gold transition-colors">Respekt vor Mutter Erde</h3>
+<p class="text-ash leading-relaxed">Inspiriert von „Anadoa“, dem Begriff für Mutter Erde, wurzeln wir in Anatolien. Kein Massenhandel, sondern eine bewusste Auswahl – verantwortungsvoll gefunden und weitergegeben.</p>
+</div>
+<!-- Card 2 -->
+<div class="bg-earth-light/30 rounded-[2.5rem] p-10 border border-gold/10 hover:border-gold/40 hover:bg-white hover:shadow-xl transition-all duration-500 group">
+<div class="h-20 w-20 mx-auto bg-white rounded-full flex items-center justify-center shadow-md mb-8 group-hover:scale-110 group-hover:shadow-lg transition-transform duration-500 text-gold">
+<svg fill="none" height="40" stroke="currentColor" stroke-width="1.5" viewbox="0 0 24 24" width="40"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+</div>
+<h3 class="text-2xl font-serif font-bold text-mocha mb-4 group-hover:text-gold transition-colors">Geprüfte Qualität</h3>
+<p class="text-ash leading-relaxed">Wir glauben nicht an große Versprechen, sondern an überprüfbare Qualität nach deutschen Standards. Reinheit, Herkunft und Transparenz sind für uns keine Marketingbegriffe, sondern Grundvoraussetzung.</p>
+</div>
+<!-- Card 3 -->
+<div class="bg-earth-light/30 rounded-[2.5rem] p-10 border border-gold/10 hover:border-gold/40 hover:bg-white hover:shadow-xl transition-all duration-500 group">
+<div class="h-20 w-20 mx-auto bg-white rounded-full flex items-center justify-center shadow-md mb-8 group-hover:scale-110 group-hover:shadow-lg transition-transform duration-500 text-gold">
+<svg fill="none" height="40" stroke="currentColor" stroke-width="1.5" viewbox="0 0 24 24" width="40"><path d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+</div>
+<h3 class="text-2xl font-serif font-bold text-mocha mb-4 group-hover:text-gold transition-colors">Tradition &amp; Forschung</h3>
+<p class="text-ash leading-relaxed">Wir verbinden alte anatolische Pflanzenkunde mit modernen, schonenden Herstellungsverfahren. Ob traditionelle Kaltpressungen, naturreine Extrakte oder Fruchtmelassen – für uns stehen Tradition und Innovation im perfekten Dialog.</p>
+</div>
+</div>
+</section>
+<!-- Rezepte Teaser (Creative Redesign) -->
+<section class="relative bg-earth-light pt-40 pb-32 px-6 overflow-hidden">
+<!-- Top SVG Wave (Transition from bg-white) -->
+<div class="absolute top-0 left-0 w-full overflow-hidden leading-none z-0">
+<svg class="relative block w-full h-[60px] md:h-[120px]" data-name="Layer 1" preserveaspectratio="none" viewbox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg">
+<path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" fill="#FFFFFF"></path>
+</svg>
+</div>
+<!-- Floating SVG Leaves (Decor) -->
+<svg class="absolute left-[-5%] top-[20%] w-48 h-48 text-sage opacity-20 transform -rotate-12 z-0 pointer-events-none" fill="currentColor" viewbox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+<path d="M50.4,142.3c-1.3,0-2.6-0.3-3.8-0.8c-7.3-3.1-10.7-11.6-7.6-18.9c6-14.3,16.7-25.9,30.3-32.9c13.6-7,29.1-8.9,43.6-5.3c7.8,1.9,12.5,9.8,10.6,17.6c-1.9,7.8-9.8,12.5-17.6,10.6c-8.1-2-16.7-0.9-24.3,3c-7.6,3.9-13.6,10.4-17,18.4C61.3,139.7,56,142.3,50.4,142.3z"></path>
+<path d="M141.2,165.7c-5.8,0-11-3.6-12.8-9.3c-2.3-7.6,2-15.6,9.6-17.9c14.1-4.3,26-13.1,33.5-24.8c7.5-11.7,10-25.7,7-39.4c-1.7-7.8,3.2-15.5,11-17.2c7.8-1.7,15.5,3.2,17.2,11c5.3,24.2,0.9,49.1-12.4,69.9c-13.3,20.8-34.3,36.4-59.2,44C133.7,162.3,132.3,162.4,130.8,162.4C134.3,164.5,137.7,165.7,141.2,165.7z"></path>
+</svg>
+<svg class="absolute right-[-2%] bottom-[10%] w-64 h-64 text-gold opacity-10 transform rotate-45 z-0 pointer-events-none" fill="currentColor" viewbox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+<path d="M99.5,165c-35.6,0-64.6-29-64.6-64.6s29-64.6,64.6-64.6c35.6,0,64.6,29,64.6,64.6S135.1,165,99.5,165z M99.5,45.8c-30.1,0-54.6,24.5-54.6,54.6s24.5,54.6,54.6,54.6s54.6-24.5,54.6-54.6S129.6,45.8,99.5,45.8z"></path>
+<circle cx="99.5" cy="100.4" r="25.5"></circle>
+</svg>
+<div class="relative z-10 max-w-4xl mx-auto mb-20">
+<div class="flex justify-center mb-6">
+<svg class="text-gold" fill="none" height="40" stroke="currentColor" stroke-width="1.5" viewbox="0 0 24 24" width="40"><path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+</div>
+<h2 class="text-5xl md:text-6xl font-serif font-bold text-mocha mb-6 drop-shadow-sm">Rezepte aus der Natur</h2>
+<p class="text-xl text-ash md:px-16 leading-relaxed">Entdecken Sie, wie Sie unsere traditionellen Kaltpressungen, Pasten und Fruchtmelassen in <span class="text-gold font-serif italic">köstliche &amp; gesunde</span> Meisterwerke verwandeln können.</p>
+</div>
+<!-- Slider Container -->
+<div class="relative z-10 max-w-7xl mx-auto mb-20 px-4 md:px-12">
+<!-- Arrows -->
+<button class="absolute left-2 md:-left-6 top-1/2 -translate-y-1/2 bg-white rounded-full p-4 shadow-xl z-30 text-mocha hover:bg-gold hover:text-white transition-all duration-300 focus:outline-none hover:scale-110" id="slider-prev">
+<svg fill="none" height="24" stroke="currentColor" stroke-width="2.5" viewbox="0 0 24 24" width="24"><path d="M15 19l-7-7 7-7" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+</button>
+<button class="absolute right-2 md:-right-6 top-1/2 -translate-y-1/2 bg-white rounded-full p-4 shadow-xl z-30 text-mocha hover:bg-gold hover:text-white transition-all duration-300 focus:outline-none hover:scale-110" id="slider-next">
+<svg fill="none" height="24" stroke="currentColor" stroke-width="2.5" viewbox="0 0 24 24" width="24"><path d="M9 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+</button>
+<!-- Track Container -->
+<div class="overflow-hidden py-12 md:px-4">
+<div class="flex transition-transform duration-700 ease-[cubic-bezier(0.25,1,0.5,1)]" id="slider-track">
+<!-- Javascript will inject 8 cards here -->
+</div>
+</div>
+</div>
+<script>
             document.addEventListener("DOMContentLoaded", () => {
                 const recipes = [
                     { id: "rezept-klassischer-hummus", title: "Klassischer Hummus", category: "Meze", desc: "Mit extra feinem Anadoa Tahin & Kaltgepresstem Olivenöl.", img: "assets/rezept_hummus.png" },
@@ -729,187 +689,172 @@
                 updateSlider();
             });
         </script>
-        
-        <div class="relative z-10 mt-12 md:mt-24 flex justify-center">
-            <a href="rezepte.html" class="inline-flex items-center gap-3 bg-mocha text-earth font-bold py-5 px-12 rounded-full hover:bg-gold transition-colors duration-300 shadow-xl text-lg group">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="group-hover:rotate-12 transition-transform"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" /></svg>
+<div class="relative z-10 mt-12 md:mt-24 flex justify-center">
+<a class="inline-flex items-center gap-3 bg-mocha text-earth font-bold py-5 px-12 rounded-full hover:bg-gold transition-colors duration-300 shadow-xl text-lg group" href="rezepte.html">
+<svg class="group-hover:rotate-12 transition-transform" fill="none" height="24" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="24"><path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" stroke-linecap="round" stroke-linejoin="round"></path></svg>
                 Alle Rezepte entdecken
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="transform group-hover:translate-x-1 transition-transform"><path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14M12 5l7 7-7 7"/></svg>
-            </a>
-        </div>
-    </section>
-
-    <!-- Magazin Teaser Section -->
-    <section class="bg-white py-24 px-6 relative overflow-hidden">
-        <!-- Top SVG Wave (Transition from bg-earth-light) -->
-        <div class="absolute top-0 left-0 w-full overflow-hidden leading-none z-0 transform -scale-x-100">
-            <svg class="relative block w-full h-[60px] md:h-[120px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" fill="#E8E2D8"></path>
-            </svg>
-        </div>
-
-        <div class="max-w-7xl mx-auto relative z-10">
-            <div class="text-center mb-16 mt-8">
-                <h2 class="text-5xl font-serif font-bold text-mocha mb-6">Wissen aus Anatolien</h2>
-                <p class="text-lg text-ash max-w-2xl mx-auto">Tauche ein in unser Magazin und entdecke die faszinierende Welt der Heilpflanzen, traditionellen Handwerkskunst und natürlichen Lebensweise.</p>
-            </div>
-
-            <!-- Magazin Grid -->
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- Article 1 -->
-                <a href="schwarzkuemmeloel-thymoquinon-wirkung.html" class="group block bg-[#fbf5eb] rounded-3xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300">
-                    <div class="relative h-64 overflow-hidden">
-                        <img src="assets/magazin_1.png" alt="Schwarzkümmelöl" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
-                        <div class="absolute top-4 left-4 bg-white/90 px-3 py-1 rounded-full text-xs font-bold text-mocha uppercase tracking-wider backdrop-blur-sm">Pflanzenkunde</div>
-                    </div>
-                    <div class="p-8">
-                        <div class="text-sm text-ash-light mb-3">24. Juli 2026</div>
-                        <h3 class="text-2xl font-serif font-bold text-mocha mb-3 group-hover:text-gold transition-colors">Schwarzkümmelöl & Thymoquinon</h3>
-                        <p class="text-ash mb-4">Das Gold der Pharaonen und seine unglaublichen wissenschaftlichen Eigenschaften.</p>
-                        <span class="inline-flex items-center text-gold font-bold group-hover:translate-x-2 transition-transform">Weiterlesen &rarr;</span>
-                    </div>
+                <svg class="transform group-hover:translate-x-1 transition-transform" fill="none" height="20" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="20"><path d="M5 12h14M12 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+</a>
+</div>
+</section>
+<!-- Magazin Teaser Section -->
+<section class="bg-white py-24 px-6 relative overflow-hidden">
+<!-- Top SVG Wave (Transition from bg-earth-light) -->
+<div class="absolute top-0 left-0 w-full overflow-hidden leading-none z-0 transform -scale-x-100">
+<svg class="relative block w-full h-[60px] md:h-[120px]" preserveaspectratio="none" viewbox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg">
+<path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" fill="#E8E2D8"></path>
+</svg>
+</div>
+<div class="max-w-7xl mx-auto relative z-10">
+<div class="text-center mb-16 mt-8">
+<h2 class="text-5xl font-serif font-bold text-mocha mb-6">Wissen aus Anatolien</h2>
+<p class="text-lg text-ash max-w-2xl mx-auto">Tauche ein in unser Magazin und entdecke die faszinierende Welt der Heilpflanzen, traditionellen Handwerkskunst und natürlichen Lebensweise.</p>
+</div>
+<!-- Magazin Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<!-- Article 1 -->
+<a class="group block bg-[#fbf5eb] rounded-3xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 transform" href="schwarzkuemmeloel-thymoquinon-wirkung.html">
+<div class="relative h-64 overflow-hidden">
+<img alt="Schwarzkümmelöl" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="assets/magazin_1.png"/>
+<div class="absolute top-4 left-4 bg-white/90 px-3 py-1 rounded-full text-xs font-bold text-mocha uppercase tracking-wider backdrop-blur-sm">Pflanzenkunde</div>
+</div>
+<div class="p-8">
+<div class="text-sm text-ash-light mb-3">24. Juli 2026</div>
+<h3 class="text-2xl font-serif font-bold text-mocha mb-3 group-hover:text-gold transition-colors">Schwarzkümmelöl &amp; Thymoquinon</h3>
+<p class="text-ash mb-4">Das Gold der Pharaonen und seine unglaublichen wissenschaftlichen Eigenschaften.</p>
+<span class="inline-flex items-center text-gold font-bold group-hover:translate-x-2 transition-transform">Weiterlesen →</span>
+</div>
+</a>
+<!-- Article 2 -->
+<a class="group block bg-[#fbf5eb] rounded-3xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 transform" href="tahin-sesammus-gesundheit.html">
+<div class="relative h-64 overflow-hidden">
+<img alt="Tahin" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="assets/magazin_2.png"/>
+<div class="absolute top-4 left-4 bg-white/90 px-3 py-1 rounded-full text-xs font-bold text-mocha uppercase tracking-wider backdrop-blur-sm">Tradition</div>
+</div>
+<div class="p-8">
+<div class="text-sm text-ash-light mb-3">22. Juli 2026</div>
+<h3 class="text-2xl font-serif font-bold text-mocha mb-3 group-hover:text-gold transition-colors">Die Kunst der Steinmühle</h3>
+<p class="text-ash mb-4">Warum traditionelles Tahin aus der Steinmühle jedem Industrieprodukt überlegen ist.</p>
+<span class="inline-flex items-center text-gold font-bold group-hover:translate-x-2 transition-transform">Weiterlesen →</span>
+</div>
+</a>
+<!-- Article 3 -->
+<a class="group block bg-[#fbf5eb] rounded-3xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 transform" href="zypressenzapfen-paste-husten-naturheilkunde.html">
+<div class="relative h-64 overflow-hidden">
+<img alt="Zypressenzapfen" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="assets/magazin_3.png"/>
+<div class="absolute top-4 left-4 bg-white/90 px-3 py-1 rounded-full text-xs font-bold text-mocha uppercase tracking-wider backdrop-blur-sm">Naturheilkunde</div>
+</div>
+<div class="p-8">
+<div class="text-sm text-ash-light mb-3">18. Juli 2026</div>
+<h3 class="text-2xl font-serif font-bold text-mocha mb-3 group-hover:text-gold transition-colors">Das alte Geheimnis der Berge</h3>
+<p class="text-ash mb-4">Wie die Zypressenzapfen Paste seit Jahrhunderten als natürliches Stärkungsmittel dient.</p>
+<span class="inline-flex items-center text-gold font-bold group-hover:translate-x-2 transition-transform">Weiterlesen →</span>
+</div>
+</a>
+</div>
+<div class="flex justify-center mt-12">
+<a class="inline-flex items-center gap-3 bg-white border border-gold text-mocha font-serif font-bold py-3 px-8 rounded-full hover:bg-gold hover:text-white transition-colors duration-300 shadow-md" href="magazin.html">
+                    Alle Artikel entdecken →
                 </a>
-                
-                <!-- Article 2 -->
-                <a href="tahin-sesammus-gesundheit.html" class="group block bg-[#fbf5eb] rounded-3xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300">
-                    <div class="relative h-64 overflow-hidden">
-                        <img src="assets/magazin_2.png" alt="Tahin" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
-                        <div class="absolute top-4 left-4 bg-white/90 px-3 py-1 rounded-full text-xs font-bold text-mocha uppercase tracking-wider backdrop-blur-sm">Tradition</div>
-                    </div>
-                    <div class="p-8">
-                        <div class="text-sm text-ash-light mb-3">22. Juli 2026</div>
-                        <h3 class="text-2xl font-serif font-bold text-mocha mb-3 group-hover:text-gold transition-colors">Die Kunst der Steinmühle</h3>
-                        <p class="text-ash mb-4">Warum traditionelles Tahin aus der Steinmühle jedem Industrieprodukt überlegen ist.</p>
-                        <span class="inline-flex items-center text-gold font-bold group-hover:translate-x-2 transition-transform">Weiterlesen &rarr;</span>
-                    </div>
-                </a>
-
-                <!-- Article 3 -->
-                <a href="zypressenzapfen-paste-husten-naturheilkunde.html" class="group block bg-[#fbf5eb] rounded-3xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300">
-                    <div class="relative h-64 overflow-hidden">
-                        <img src="assets/magazin_3.png" alt="Zypressenzapfen" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
-                        <div class="absolute top-4 left-4 bg-white/90 px-3 py-1 rounded-full text-xs font-bold text-mocha uppercase tracking-wider backdrop-blur-sm">Naturheilkunde</div>
-                    </div>
-                    <div class="p-8">
-                        <div class="text-sm text-ash-light mb-3">18. Juli 2026</div>
-                        <h3 class="text-2xl font-serif font-bold text-mocha mb-3 group-hover:text-gold transition-colors">Das alte Geheimnis der Berge</h3>
-                        <p class="text-ash mb-4">Wie die Zypressenzapfen Paste seit Jahrhunderten als natürliches Stärkungsmittel dient.</p>
-                        <span class="inline-flex items-center text-gold font-bold group-hover:translate-x-2 transition-transform">Weiterlesen &rarr;</span>
-                    </div>
-                </a>
-            </div>
-            
-            <div class="flex justify-center mt-12">
-                <a href="magazin.html" class="inline-flex items-center gap-3 bg-white border border-gold text-mocha font-serif font-bold py-3 px-8 rounded-full hover:bg-gold hover:text-white transition-colors duration-300 shadow-md">
-                    Alle Artikel entdecken &rarr;
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Trust Badges Strip -->
-    <section class="bg-earth-light py-12 relative z-10 border-t border-earth/10">
-        <div class="max-w-7xl mx-auto px-6">
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center md:divide-x divide-earth/20">
-                <!-- Badge 1 -->
-                <div class="flex flex-col items-center justify-center px-4">
-                    <svg class="w-12 h-12 text-gold mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"></path></svg>
-                    <h4 class="font-serif font-bold text-mocha text-lg">100% Naturrein</h4>
-                </div>
-                <!-- Badge 2 -->
-                <div class="flex flex-col items-center justify-center px-4">
-                    <svg class="w-12 h-12 text-gold mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"></path></svg>
-                    <h4 class="font-serif font-bold text-mocha text-lg">Schonende Kaltpressung</h4>
-                </div>
-                <!-- Badge 3 -->
-                <div class="flex flex-col items-center justify-center px-4 mt-8 md:mt-0">
-                    <svg class="w-12 h-12 text-gold mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M7 11.5V14m0-2.5v-6a1.5 1.5 0 113 0m-3 6a1.5 1.5 0 00-3 0v2a7.5 7.5 0 0015 0v-5a1.5 1.5 0 00-3 0m-6-3V11m0-5.5v-1a1.5 1.5 0 013 0v1m0 0V11m0-5.5a1.5 1.5 0 013 0v3m0 0V11"></path></svg>
-                    <h4 class="font-serif font-bold text-mocha text-lg">Handwerkskunst</h4>
-                </div>
-                <!-- Badge 4 -->
-                <div class="flex flex-col items-center justify-center px-4 mt-8 md:mt-0">
-                    <svg class="w-12 h-12 text-gold mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path></svg>
-                    <h4 class="font-serif font-bold text-mocha text-lg">Vegan & Ohne Zusätze</h4>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <footer class="bg-mocha text-white pt-24 pb-12 relative overflow-hidden" id="mega-footer">
-    <div class="max-w-7xl mx-auto px-6 relative z-10">
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
-            
-            <!-- Col 1: Brand & About -->
-            <div class="space-y-6">
-                <img src="assets/anadoa-logo-1000-500.png" alt="Anadoa Logo" class="h-20 w-auto brightness-0 invert opacity-90 -ml-2">
-                <p class="text-white/70 font-light text-sm leading-relaxed pr-4">
+</div>
+</div>
+</section>
+<!-- Trust Badges Strip -->
+<section class="bg-earth-light py-12 relative z-10 border-t border-earth/10">
+<div class="max-w-7xl mx-auto px-6">
+<div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center md:divide-x divide-earth/20">
+<!-- Badge 1 -->
+<div class="flex flex-col items-center justify-center px-4">
+<svg class="w-12 h-12 text-gold mb-4" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+<h4 class="font-serif font-bold text-mocha text-lg">100% Naturrein</h4>
+</div>
+<!-- Badge 2 -->
+<div class="flex flex-col items-center justify-center px-4">
+<svg class="w-12 h-12 text-gold mb-4" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+<h4 class="font-serif font-bold text-mocha text-lg">Schonende Kaltpressung</h4>
+</div>
+<!-- Badge 3 -->
+<div class="flex flex-col items-center justify-center px-4 mt-8 md:mt-0">
+<svg class="w-12 h-12 text-gold mb-4" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M7 11.5V14m0-2.5v-6a1.5 1.5 0 113 0m-3 6a1.5 1.5 0 00-3 0v2a7.5 7.5 0 0015 0v-5a1.5 1.5 0 00-3 0m-6-3V11m0-5.5v-1a1.5 1.5 0 013 0v1m0 0V11m0-5.5a1.5 1.5 0 013 0v3m0 0V11" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+<h4 class="font-serif font-bold text-mocha text-lg">Handwerkskunst</h4>
+</div>
+<!-- Badge 4 -->
+<div class="flex flex-col items-center justify-center px-4 mt-8 md:mt-0">
+<svg class="w-12 h-12 text-gold mb-4" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+<h4 class="font-serif font-bold text-mocha text-lg">Vegan &amp; Ohne Zusätze</h4>
+</div>
+</div>
+</div>
+</section>
+<footer class="bg-mocha text-white pt-24 pb-12 relative overflow-hidden" id="mega-footer">
+<div class="max-w-7xl mx-auto px-6 relative z-10">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
+<!-- Col 1: Brand & About -->
+<div class="space-y-6 transform">
+<img alt="Anadoa Logo" class="h-20 w-auto brightness-0 invert opacity-90 -ml-2" src="assets/anadoa-logo-1000-500.png"/>
+<p class="text-white/70 font-light text-sm leading-relaxed pr-4">
                     Die pure Kraft anatolischer Natur. Entdecken Sie traditionelle Heilmittel, schonend kaltgepresste Öle und natürliche Pflegeprodukte für Ihr tiefes Wohlbefinden.
                 </p>
-                <div class="flex space-x-4 pt-2">
-                    <a href="#" class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-gold transition-colors shadow-lg">
-                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
-                    </a>
-                </div>
-            </div>
-
-            <!-- Col 2: Shop -->
-            <div>
-                <h4 class="font-serif font-bold text-lg mb-6 text-gold border-b border-white/10 pb-2 inline-block">Online Shop</h4>
-                <ul class="space-y-3 text-white/70 text-sm font-medium">
-                    <li><a href="kaltgepresste-oele.html" class="hover:text-gold hover:translate-x-1 transform transition-all block">Kaltgepresste Öle</a></li>
-                    <li><a href="aetherische-oele.html" class="hover:text-gold hover:translate-x-1 transform transition-all block">Ätherische Öle</a></li>
-                    <li><a href="pasten.html" class="hover:text-gold hover:translate-x-1 transform transition-all block">Traditionelle Pasten</a></li>
-                    <li><a href="tee.html" class="hover:text-gold hover:translate-x-1 transform transition-all block">Naturtee & Kuren</a></li>
-                    <li><a href="sirupe.html" class="hover:text-gold hover:translate-x-1 transform transition-all block">Natürliche Sirupe</a></li>
-                    <li><a href="essig.html" class="hover:text-gold hover:translate-x-1 transform transition-all block">Lebendige Essige</a></li>
-                    <li><a href="gewuerze.html" class="hover:text-gold hover:translate-x-1 transform transition-all block">Natürliche Gewürze</a></li>
-                </ul>
-            </div>
-
-            <!-- Col 3: Unternehmen -->
-            <div>
-                <h4 class="font-serif font-bold text-lg mb-6 text-gold border-b border-white/10 pb-2 inline-block">Unternehmen</h4>
-                <ul class="space-y-3 text-white/70 text-sm font-medium">
-                    <li><a href="index.html#philosophie" class="hover:text-gold hover:translate-x-1 transform transition-all block">Unsere Philosophie</a></li>
-                    <li><a href="index.html#qualitaet" class="hover:text-gold hover:translate-x-1 transform transition-all block">Qualitätsversprechen</a></li>
-                    <li><a href="magazin.html" class="hover:text-gold hover:translate-x-1 transform transition-all block">Magazin (Wissen)</a></li>
-                    <li><a href="rezepte.html" class="hover:text-gold hover:translate-x-1 transform transition-all block">Rezepte & Kochen</a></li>
-                    <li><a href="index.html#faq" class="hover:text-gold hover:translate-x-1 transform transition-all block">Häufige Fragen (FAQ)</a></li>
-                </ul>
-            </div>
-
-            <!-- Col 4: Rechtliches & Kontakt -->
-            <div>
-                <h4 class="font-serif font-bold text-lg mb-6 text-gold border-b border-white/10 pb-2 inline-block">Rechtliches & Service</h4>
-                <ul class="space-y-3 text-white/70 text-sm font-medium">
-                    <li><a href="#" class="hover:text-gold hover:translate-x-1 transform transition-all block">Impressum</a></li>
-                    <li><a href="#" class="hover:text-gold hover:translate-x-1 transform transition-all block">AGB</a></li>
-                    <li><a href="#" class="hover:text-gold hover:translate-x-1 transform transition-all block">Datenschutz</a></li>
-                    <li><a href="#" class="hover:text-gold hover:translate-x-1 transform transition-all block">Widerrufsbelehrung</a></li>
-                    <li><a href="#" class="hover:text-gold hover:translate-x-1 transform transition-all block">Versand & Zahlung</a></li>
-                </ul>
-            </div>
-        </div>
-
-        <!-- Bottom Bar -->
-        <div class="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-            <p class="text-white/50 text-xs text-center md:text-left">
-                &copy; 2026 Anadoa Naturhaus. Alle Rechte vorbehalten.
+<div class="flex space-x-4 pt-2">
+<a class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-gold transition-colors shadow-lg" href="#">
+<svg class="w-5 h-5" fill="currentColor" viewbox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"></path></svg>
+</a>
+</div>
+</div>
+<!-- Col 2: Shop -->
+<div class="transform">
+<h4 class="font-serif font-bold text-lg mb-6 text-gold border-b border-white/10 pb-2 inline-block">Online Shop</h4>
+<ul class="space-y-3 text-white/70 text-sm font-medium">
+<li><a class="hover:text-gold hover:translate-x-1 transform transition-all block" href="kaltgepresste-oele.html">Kaltgepresste Öle</a></li>
+<li><a class="hover:text-gold hover:translate-x-1 transform transition-all block" href="aetherische-oele.html">Ätherische Öle</a></li>
+<li><a class="hover:text-gold hover:translate-x-1 transform transition-all block" href="pasten.html">Traditionelle Pasten</a></li>
+<li><a class="hover:text-gold hover:translate-x-1 transform transition-all block" href="tee.html">Naturtee &amp; Kuren</a></li>
+<li><a class="hover:text-gold hover:translate-x-1 transform transition-all block" href="sirupe.html">Natürliche Sirupe</a></li>
+<li><a class="hover:text-gold hover:translate-x-1 transform transition-all block" href="essig.html">Lebendige Essige</a></li>
+<li><a class="hover:text-gold hover:translate-x-1 transform transition-all block" href="gewuerze.html">Natürliche Gewürze</a></li>
+</ul>
+</div>
+<!-- Col 3: Unternehmen -->
+<div class="transform">
+<h4 class="font-serif font-bold text-lg mb-6 text-gold border-b border-white/10 pb-2 inline-block">Unternehmen</h4>
+<ul class="space-y-3 text-white/70 text-sm font-medium">
+<li><a class="hover:text-gold hover:translate-x-1 transform transition-all block" href="index.html#philosophie">Unsere Philosophie</a></li>
+<li><a class="hover:text-gold hover:translate-x-1 transform transition-all block" href="index.html#qualitaet">Qualitätsversprechen</a></li>
+<li><a class="hover:text-gold hover:translate-x-1 transform transition-all block" href="magazin.html">Magazin (Wissen)</a></li>
+<li><a class="hover:text-gold hover:translate-x-1 transform transition-all block" href="rezepte.html">Rezepte &amp; Kochen</a></li>
+<li><a class="hover:text-gold hover:translate-x-1 transform transition-all block" href="index.html#faq">Häufige Fragen (FAQ)</a></li>
+</ul>
+</div>
+<!-- Col 4: Rechtliches & Kontakt -->
+<div class="transform">
+<h4 class="font-serif font-bold text-lg mb-6 text-gold border-b border-white/10 pb-2 inline-block">Rechtliches &amp; Service</h4>
+<ul class="space-y-3 text-white/70 text-sm font-medium">
+<li><a class="hover:text-gold hover:translate-x-1 transform transition-all block" href="#">Impressum</a></li>
+<li><a class="hover:text-gold hover:translate-x-1 transform transition-all block" href="#">AGB</a></li>
+<li><a class="hover:text-gold hover:translate-x-1 transform transition-all block" href="#">Datenschutz</a></li>
+<li><a class="hover:text-gold hover:translate-x-1 transform transition-all block" href="#">Widerrufsbelehrung</a></li>
+<li><a class="hover:text-gold hover:translate-x-1 transform transition-all block" href="#">Versand &amp; Zahlung</a></li>
+</ul>
+</div>
+</div>
+<!-- Bottom Bar -->
+<div class="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+<p class="text-white/50 text-xs text-center md:text-left">
+                © 2026 Anadoa Naturhaus. Alle Rechte vorbehalten.
             </p>
-            <div class="flex items-center gap-6 text-white/50 text-xs font-medium">
-                <span class="flex items-center gap-2"><svg class="w-4 h-4 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg> Sichere Zahlung</span>
-                <span class="flex items-center gap-2"><svg class="w-4 h-4 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4"></path></svg> Schneller Versand (DHL)</span>
-            </div>
-        </div>
-    </div>
+<div class="flex items-center gap-6 text-white/50 text-xs font-medium">
+<span class="flex items-center gap-2"><svg class="w-4 h-4 text-gold" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg> Sichere Zahlung</span>
+<span class="flex items-center gap-2"><svg class="w-4 h-4 text-gold" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg> Schneller Versand (DHL)</span>
+</div>
+</div>
+</div>
 </footer>
-    <script src="main.js"></script>
-
-    <!-- Back to Top Button -->
-    <button id="backToTop" class="fixed bottom-8 right-8 bg-gold hover:bg-mocha text-earth-surface p-3 rounded-full shadow-2xl opacity-0 pointer-events-none transition-all duration-300 z-50" aria-label="Nach oben scrollen">
-        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"></path></svg>
-    </button>
-    <script>
+<script src="main.js"></script>
+<!-- Back to Top Button -->
+<button aria-label="Nach oben scrollen" class="fixed bottom-8 right-8 bg-gold hover:bg-mocha text-earth-surface p-3 rounded-full shadow-2xl opacity-0 pointer-events-none transition-all duration-300 z-50" id="backToTop">
+<svg class="w-6 h-6" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M5 10l7-7m0 0l7 7m-7-7v18" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</button>
+<script>
         document.addEventListener('DOMContentLoaded', function() {
             const backToTop = document.getElementById('backToTop');
             if(backToTop) {
@@ -929,5 +874,4 @@
         });
     </script>
 </body>
-
 </html>
