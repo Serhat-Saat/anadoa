@@ -341,7 +341,8 @@ function initNavigation() {
         "h1": "Aetherische Oele",
         "url": "aetherische-oele.html",
         "image": "assets/anadoa-logo-1100-1100.png",
-        "category": "Kaltgepresste Öle"
+        "category": "Kaltgepresste Öle",
+        "keywords": ""
       },
       {
         "title": "Ananas Essig",
@@ -349,7 +350,8 @@ function initNavigation() {
         "h1": "Ananas Essig",
         "url": "ananas-essig.html",
         "image": "assets/anadoa-logo-1100-1100.png",
-        "category": "Lebendige Essige"
+        "category": "Lebendige Essige",
+        "keywords": "apple cider vinegar, vinegar, elma sirkesi, sirke, alıç sirkesi, alic sirkesi"
       },
       {
         "title": "Apfelessig",
@@ -357,7 +359,8 @@ function initNavigation() {
         "h1": "Apfelessig",
         "url": "apfelessig.html",
         "image": "assets/anadoa-logo-1100-1100.png",
-        "category": "Lebendige Essige"
+        "category": "Lebendige Essige",
+        "keywords": "apple cider vinegar, vinegar, elma sirkesi, sirke, alıç sirkesi, alic sirkesi"
       },
       {
         "title": "Aprikosenkernöl Kaltgepresst 100% Nativ (Prunus armeniaca)",
@@ -365,7 +368,8 @@ function initNavigation() {
         "h1": "Aprikosenkernöl",
         "url": "aprikosenkernoel.html",
         "image": "assets/aprikosenkernoel.png",
-        "category": "Kaltgepresste Öle"
+        "category": "Kaltgepresste Öle",
+        "keywords": "apricot kernel oil, apricot, kayısı çekirdeği yağı, kayisi cekirdegi"
       },
       {
         "title": "Arganöl Kaltgepresst 100% Nativ Kosmetik (Argania spinosa)",
@@ -373,7 +377,8 @@ function initNavigation() {
         "h1": "Arganöl",
         "url": "arganoel.html",
         "image": "assets/arganoel.png",
-        "category": "Kaltgepresste Öle"
+        "category": "Kaltgepresste Öle",
+        "keywords": "argan oil, argan, argan yağı, argan yagi"
       },
       {
         "title": "Artischockenblätter Tee kaufen",
@@ -381,7 +386,8 @@ function initNavigation() {
         "h1": "Artischockenblätter Tee (Enginar Yaprağı)",
         "url": "artischockenblaetter-tee.html",
         "image": "assets/artischockenblaetter_tee.png",
-        "category": "Tee"
+        "category": "Tee",
+        "keywords": ""
       },
       {
         "title": "Atom Tee kaufen",
@@ -389,7 +395,8 @@ function initNavigation() {
         "h1": "Atom Tee (Türkischer Wintertee)",
         "url": "atom-tee.html",
         "image": "assets/atom_tee.png",
-        "category": "Tee"
+        "category": "Tee",
+        "keywords": ""
       },
       {
         "title": "Avocadoöl Kaltgepresst 100% Nativ (Persea gratissima)",
@@ -397,7 +404,8 @@ function initNavigation() {
         "h1": "Avocadoöl",
         "url": "avocadooel.html",
         "image": "assets/avocadooel.png",
-        "category": "Kaltgepresste Öle"
+        "category": "Kaltgepresste Öle",
+        "keywords": ""
       },
       {
         "title": "Bergamotteöl 100% Naturrein (Citrus bergamia)",
@@ -405,7 +413,8 @@ function initNavigation() {
         "h1": "Bergamotteöl",
         "url": "bergamotteoel.html",
         "image": "assets/bergamotteoel.png",
-        "category": "Ätherische Öle"
+        "category": "Ätherische Öle",
+        "keywords": "bergamot oil, bergamot, bergamot yağı, bergamot yagi"
       },
       {
         "title": "Bittermelone Paste mit Honig",
@@ -413,7 +422,8 @@ function initNavigation() {
         "h1": "Bittermelone Paste mit Honig",
         "url": "bittermelone-paste-honig.html",
         "image": "assets/anadoa-logo-1100-1100.png",
-        "category": "Traditionelle Pasten"
+        "category": "Traditionelle Pasten",
+        "keywords": ""
       },
       {
         "title": "Bittermelone mit Olivenöl",
@@ -421,7 +431,8 @@ function initNavigation() {
         "h1": "Bittermelone Paste mit Olivenöl",
         "url": "bittermelone-paste-olivenoel.html",
         "image": "assets/anadoa-logo-1100-1100.png",
-        "category": "Kaltgepresste Öle"
+        "category": "Kaltgepresste Öle",
+        "keywords": "olive oil, olive, zeytinyağı, zeytin yagi"
       },
       {
         "title": "Borretschöl Kaltgepresst 100% Nativ (Borago officinalis)",
@@ -429,7 +440,8 @@ function initNavigation() {
         "h1": "Borretschöl",
         "url": "borretschoel.html",
         "image": "assets/borretschoel.png",
-        "category": "Kaltgepresste Öle"
+        "category": "Kaltgepresste Öle",
+        "keywords": "borage oil, borage starflower, hodan yağı, hodan yagi"
       },
       {
         "title": "Brokkolisamenöl Kaltgepresst 100% Nativ (Brassica oleracea)",
@@ -437,7 +449,8 @@ function initNavigation() {
         "h1": "Brokkolisamenöl",
         "url": "brokkolisamenoel.html",
         "image": "assets/brokkolisamenoel.png",
-        "category": "Kaltgepresste Öle"
+        "category": "Kaltgepresste Öle",
+        "keywords": ""
       },
       {
         "title": "Cajeputöl 100% Naturrein (Melaleuca leucadendron)",
@@ -445,7 +458,8 @@ function initNavigation() {
         "h1": "Cajeputöl",
         "url": "cajeputoel.html",
         "image": "assets/cajeputoel.png",
-        "category": "Ätherische Öle"
+        "category": "Ätherische Öle",
+        "keywords": ""
       },
       {
         "title": "Dattel Melasse (Hurma Pekmezi)",
@@ -453,7 +467,8 @@ function initNavigation() {
         "h1": "Dattel Melasse (Hurma Pekmezi)",
         "url": "dattel-melasse.html",
         "image": "assets/anadoa-logo-1100-1100.png",
-        "category": "Melassen (Pekmez)"
+        "category": "Melassen (Pekmez)",
+        "keywords": "grape molasses, grape syrup, carob, keçiboynuzu, pekmez, üzüm pekmezi, harnup pekmezi"
       },
       {
         "title": "Detox Mix Elixier",
@@ -461,7 +476,8 @@ function initNavigation() {
         "h1": "Detox Mix Elixier",
         "url": "detox-mix.html",
         "image": "assets/anadoa-logo-1100-1100.png",
-        "category": "Produkt"
+        "category": "Produkt",
+        "keywords": ""
       },
       {
         "title": "Eibischblüten Tee kaufen",
@@ -469,7 +485,8 @@ function initNavigation() {
         "h1": "Eibischblüten Tee (Hatmi Çiçeği)",
         "url": "eibischblueten-tee.html",
         "image": "assets/eibischblueten_tee.png",
-        "category": "Tee"
+        "category": "Tee",
+        "keywords": ""
       },
       {
         "title": "Lebendige Essige (Sirke) & Detox Elixiere",
@@ -477,7 +494,8 @@ function initNavigation() {
         "h1": "Lebendige Essige",
         "url": "essig.html",
         "image": "assets/anadoa-logo-1000-500.png",
-        "category": "Lebendige Essige"
+        "category": "Lebendige Essige",
+        "keywords": "apple cider vinegar, vinegar, elma sirkesi, sirke, alıç sirkesi, alic sirkesi"
       },
       {
         "title": "Eukalyptusöl 100% Naturrein (Eucalyptus globulus)",
@@ -485,7 +503,8 @@ function initNavigation() {
         "h1": "Eukalyptusöl",
         "url": "eukalyptusoel.html",
         "image": "assets/eukalyptusoel.png",
-        "category": "Ätherische Öle"
+        "category": "Ätherische Öle",
+        "keywords": "eucalyptus oil, eucalyptus, okaliptüs yağı, okaliptus yagi"
       },
       {
         "title": "Fencheltee kaufen",
@@ -493,7 +512,8 @@ function initNavigation() {
         "h1": "Fencheltee (Rezene)",
         "url": "fenchel-tee.html",
         "image": "assets/fenchel_tee.png",
-        "category": "Tee"
+        "category": "Tee",
+        "keywords": ""
       },
       {
         "title": "Flohsamenschalen Pulver kaufen",
@@ -501,7 +521,8 @@ function initNavigation() {
         "h1": "Flohsamenschalen (Karnıyarık Tozu)",
         "url": "flohsamenschalen.html",
         "image": "assets/anadoa-logo-1100-1100.png",
-        "category": "Produkt"
+        "category": "Produkt",
+        "keywords": ""
       },
       {
         "title": "Geranienöl 100% Naturrein (Pelargonium graveolens)",
@@ -509,7 +530,8 @@ function initNavigation() {
         "h1": "Geranienöl",
         "url": "geranienoel.html",
         "image": "assets/geranienoel.png",
-        "category": "Ätherische Öle"
+        "category": "Ätherische Öle",
+        "keywords": ""
       },
       {
         "title": "Natürliche Gewürze & Superfoods",
@@ -517,7 +539,8 @@ function initNavigation() {
         "h1": "Gewürze",
         "url": "gewuerze.html",
         "image": "https://images.unsplash.com/photo-1595015333792-74f0d611ee67?q=80&w=2000&auto=format&fit=crop",
-        "category": "Gewürze"
+        "category": "Gewürze",
+        "keywords": ""
       },
       {
         "title": "Original Gilaburu Saft (Schneeball)",
@@ -525,7 +548,8 @@ function initNavigation() {
         "h1": "100% Purer Gilaburu Saft",
         "url": "gilaburu-saft.html",
         "image": "assets/anadoa-logo-1100-1100.png",
-        "category": "Produkt"
+        "category": "Produkt",
+        "keywords": "gilaburu juice, cramp bark juice, gilaburu suyu, gilaburu"
       },
       {
         "title": "Granatapfelkernöl Kaltgepresst 100% Nativ (Punica granatum)",
@@ -533,7 +557,8 @@ function initNavigation() {
         "h1": "Granatapfelkernöl",
         "url": "granatapfelkernoel.html",
         "image": "assets/granatapfelkernoel.png",
-        "category": "Kaltgepresste Öle"
+        "category": "Kaltgepresste Öle",
+        "keywords": "pomegranate seed oil, pomegranate, nar çekirdeği yağı, nar cekirdegi"
       },
       {
         "title": "Granatapfelsirup",
@@ -541,7 +566,8 @@ function initNavigation() {
         "h1": "Granatapfelsirup | Nar Ekşisi",
         "url": "granatapfelsirup.html",
         "image": "assets/anadoa-logo-1100-1100.png",
-        "category": "Natürliche Sirupe"
+        "category": "Natürliche Sirupe",
+        "keywords": "pomegranate seed oil, pomegranate, nar çekirdeği yağı, nar cekirdegi"
       },
       {
         "title": "Grapefruitöl 100% Naturrein (Citrus paradisi)",
@@ -549,7 +575,8 @@ function initNavigation() {
         "h1": "Grapefruitöl",
         "url": "grapefruitoel.html",
         "image": "assets/grapefruitoel.png",
-        "category": "Ätherische Öle"
+        "category": "Ätherische Öle",
+        "keywords": ""
       },
       {
         "title": "Grüner Tee kaufen",
@@ -557,7 +584,8 @@ function initNavigation() {
         "h1": "Magischer Grüntee",
         "url": "gruener-tee.html",
         "image": "assets/gruener_tee.png",
-        "category": "Tee"
+        "category": "Tee",
+        "keywords": ""
       },
       {
         "title": "Bio Hagebutten Pulver kaufen",
@@ -565,7 +593,8 @@ function initNavigation() {
         "h1": "Hagebutten BIO Pulver",
         "url": "hagebutten-pulver.html",
         "image": "assets/anadoa-logo-1100-1100.png",
-        "category": "Produkt"
+        "category": "Produkt",
+        "keywords": ""
       },
       {
         "title": "Hagebutten Tee kaufen",
@@ -573,7 +602,8 @@ function initNavigation() {
         "h1": "Hagebutten Tee (Kuşburnu)",
         "url": "hagebutten-tee.html",
         "image": "assets/hagebutten_tee.png",
-        "category": "Tee"
+        "category": "Tee",
+        "keywords": ""
       },
       {
         "title": "Hagebuttenkernöl Kaltgepresst 100% Nativ (Rosa canina)",
@@ -581,7 +611,8 @@ function initNavigation() {
         "h1": "Hagebuttenkernöl",
         "url": "hagebuttenkernoel.html",
         "image": "assets/hagebuttenkernoel.png",
-        "category": "Kaltgepresste Öle"
+        "category": "Kaltgepresste Öle",
+        "keywords": ""
       },
       {
         "title": "Hanföl Kaltgepresst 100% Nativ (Cannabis sativa)",
@@ -589,7 +620,8 @@ function initNavigation() {
         "h1": "Hanföl",
         "url": "hanfoel.html",
         "image": "assets/hanfoel.png",
-        "category": "Kaltgepresste Öle"
+        "category": "Kaltgepresste Öle",
+        "keywords": "hemp oil, hemp seed oil, hemp, kenevir yağı, kenevir tohumu"
       },
       {
         "title": "Hibiskus Tee kaufen",
@@ -597,7 +629,8 @@ function initNavigation() {
         "h1": "Hibiskus Tee",
         "url": "hibiskus-tee.html",
         "image": "assets/hibiskus_tee.png",
-        "category": "Tee"
+        "category": "Tee",
+        "keywords": ""
       },
       {
         "title": "Johannisbrot Melasse (Keçiboynuzu Pekmezi)",
@@ -605,7 +638,8 @@ function initNavigation() {
         "h1": "Johannisbrot Melasse (Keçiboynuzu)",
         "url": "johannisbrot-melasse.html",
         "image": "assets/anadoa-logo-1100-1100.png",
-        "category": "Melassen (Pekmez)"
+        "category": "Melassen (Pekmez)",
+        "keywords": "grape molasses, grape syrup, carob, keçiboynuzu, pekmez, üzüm pekmezi, harnup pekmezi"
       },
       {
         "title": "Jojobaöl Kaltgepresst 100% Nativ (Simmondsia chinensis)",
@@ -613,7 +647,8 @@ function initNavigation() {
         "h1": "Jojobaöl",
         "url": "jojobaoel.html",
         "image": "assets/jojobaoel.png",
-        "category": "Kaltgepresste Öle"
+        "category": "Kaltgepresste Öle",
+        "keywords": "jojoba oil, jojoba, jojoba yağı, jojoba yagi"
       },
       {
         "title": "Kaktusfeigenkernöl Kaltgepresst 100% Nativ",
@@ -621,7 +656,8 @@ function initNavigation() {
         "h1": "Kaktusfeigenkernöl",
         "url": "kaktusfeigenkernoel.html",
         "image": "assets/kaktusfeigenkernoel.png",
-        "category": "Kaltgepresste Öle"
+        "category": "Kaltgepresste Öle",
+        "keywords": ""
       },
       {
         "title": "Kaltgepresste Öle",
@@ -629,7 +665,8 @@ function initNavigation() {
         "h1": "Kaltgepresste Premium Öle",
         "url": "kaltgepresste-oele.html",
         "image": "https://images.unsplash.com/photo-1595015333792-74f0d611ee67?q=80&w=2000&auto=format&fit=crop",
-        "category": "Kaltgepresste Öle"
+        "category": "Kaltgepresste Öle",
+        "keywords": ""
       },
       {
         "title": "Die Wahrheit über Kaltpressung: Warum Temperatur den Unterschied macht",
@@ -637,7 +674,8 @@ function initNavigation() {
         "h1": "Die Wahrheit über Kaltpressung: Warum Temperatur den Unterschied macht",
         "url": "kaltpressung-oele-herstellung-qualitaet.html",
         "image": "assets/anadoa-logo-1100-1100.png",
-        "category": "Kaltgepresste Öle"
+        "category": "Kaltgepresste Öle",
+        "keywords": ""
       },
       {
         "title": "Kamillenöl 100% Naturrein (Echte & Römische Kamille)",
@@ -645,7 +683,8 @@ function initNavigation() {
         "h1": "Kamillenöl",
         "url": "kamillenoel.html",
         "image": "assets/kamillenoel.png",
-        "category": "Ätherische Öle"
+        "category": "Ätherische Öle",
+        "keywords": ""
       },
       {
         "title": "Kiefernnadelöl 100% Naturrein (Pinus sylvestris)",
@@ -653,7 +692,8 @@ function initNavigation() {
         "h1": "Kiefernnadelöl",
         "url": "kiefernnadeloel.html",
         "image": "assets/kiefernnadeloel.png",
-        "category": "Ätherische Öle"
+        "category": "Ätherische Öle",
+        "keywords": ""
       },
       {
         "title": "Kinder Sirup Mix",
@@ -661,7 +701,8 @@ function initNavigation() {
         "h1": "Anadoa Kinder Sirup Mix",
         "url": "kinder-sirup-mix-mit-honig-propolis.html",
         "image": "assets/anadoa-logo-1100-1100.png",
-        "category": "Kaltgepresste Öle"
+        "category": "Kaltgepresste Öle",
+        "keywords": ""
       },
       {
         "title": "Kirschstiel Tee (Kiraz Sapı) kaufen",
@@ -669,7 +710,8 @@ function initNavigation() {
         "h1": "Kirschstiel Tee (Kiraz Sapı)",
         "url": "kirschstiel-tee.html",
         "image": "assets/kirschstiel_tee.png",
-        "category": "Tee"
+        "category": "Tee",
+        "keywords": ""
       },
       {
         "title": "Kokosöl Kaltgepresst 100% Nativ (Virgin Coconut Oil)",
@@ -677,7 +719,8 @@ function initNavigation() {
         "h1": "Kokosöl (Nativ / Virgin)",
         "url": "kokosoel.html",
         "image": "assets/kokosoel.png",
-        "category": "Kaltgepresste Öle"
+        "category": "Kaltgepresste Öle",
+        "keywords": ""
       },
       {
         "title": "Lavendeltee kaufen",
@@ -685,7 +728,8 @@ function initNavigation() {
         "h1": "Lavendeltee (Lavanta Çayı)",
         "url": "lavendel-tee.html",
         "image": "assets/lavendel_tee.png",
-        "category": "Tee"
+        "category": "Tee",
+        "keywords": "lavender oil, lavender, lavanta yağı, lavanta yagi"
       },
       {
         "title": "Lavendelöl 100% Naturrein (Lavandula angustifolia)",
@@ -693,7 +737,8 @@ function initNavigation() {
         "h1": "Lavendelöl",
         "url": "lavendeloel.html",
         "image": "assets/lavendeloel.png",
-        "category": "Ätherische Öle"
+        "category": "Ätherische Öle",
+        "keywords": "lavender oil, lavender, lavanta yağı, lavanta yagi"
       },
       {
         "title": "Leinöl Kaltgepresst 100% Nativ (Omega-3)",
@@ -701,7 +746,8 @@ function initNavigation() {
         "h1": "Leinöl",
         "url": "leinoel.html",
         "image": "assets/leinoel.png",
-        "category": "Kaltgepresste Öle"
+        "category": "Kaltgepresste Öle",
+        "keywords": "linseed oil, flaxseed oil, flaxseed, linseed, keten tohumu yağı, keten tohumu"
       },
       {
         "title": "Löwenzahn Tee kaufen",
@@ -709,7 +755,8 @@ function initNavigation() {
         "h1": "Löwenzahn Tee (Karahindiba)",
         "url": "loewenzahn-tee.html",
         "image": "assets/loewenzahn_tee.png",
-        "category": "Tee"
+        "category": "Tee",
+        "keywords": ""
       },
       {
         "title": "Lorbeerkernöl Kaltgepresst / Nativ (Laurus nobilis)",
@@ -717,7 +764,8 @@ function initNavigation() {
         "h1": "Lorbeerkernöl",
         "url": "lorbeerkernoel.html",
         "image": "assets/lorbeerkernoel.png",
-        "category": "Kaltgepresste Öle"
+        "category": "Kaltgepresste Öle",
+        "keywords": ""
       },
       {
         "title": "Love Tee kaufen",
@@ -725,7 +773,8 @@ function initNavigation() {
         "h1": "Love Tee (Spezial Mix)",
         "url": "love-tee.html",
         "image": "assets/love_tee.png",
-        "category": "Tee"
+        "category": "Tee",
+        "keywords": ""
       },
       {
         "title": "Macadamianussöl Kaltgepresst 100% Nativ",
@@ -733,7 +782,8 @@ function initNavigation() {
         "h1": "Macadamianussöl",
         "url": "macadamianussoel.html",
         "image": "assets/macadamianussoel.png",
-        "category": "Kaltgepresste Öle"
+        "category": "Kaltgepresste Öle",
+        "keywords": "macadamia oil, macadamia nut, makadamya yağı, makademya"
       },
       {
         "title": "Maisbart Tee kaufen",
@@ -741,7 +791,8 @@ function initNavigation() {
         "h1": "Maisbart Tee (Mısır Püskülü)",
         "url": "maisbart-tee.html",
         "image": "assets/maisbart_tee.png",
-        "category": "Tee"
+        "category": "Tee",
+        "keywords": ""
       },
       {
         "title": "Malvenblüten Tee kaufen",
@@ -749,7 +800,8 @@ function initNavigation() {
         "h1": "Malvenblüten Tee (Ebegümeci)",
         "url": "malvenblueten-tee.html",
         "image": "assets/malvenblueten_tee.png",
-        "category": "Tee"
+        "category": "Tee",
+        "keywords": ""
       },
       {
         "title": "Mandelöl (Süßmandel) Kaltgepresst 100% Nativ",
@@ -757,7 +809,8 @@ function initNavigation() {
         "h1": "Mandelöl (Süßmandel)",
         "url": "mandeloel.html",
         "image": "assets/mandeloel.png",
-        "category": "Kaltgepresste Öle"
+        "category": "Kaltgepresste Öle",
+        "keywords": "almond oil, almond, badem yağı, badem yagi"
       },
       {
         "title": "Mariendistel Paste kaufen",
@@ -765,7 +818,8 @@ function initNavigation() {
         "h1": "Mariendistel Paste",
         "url": "mariendistel-paste.html",
         "image": "assets/anadoa-logo-1100-1100.png",
-        "category": "Traditionelle Pasten"
+        "category": "Traditionelle Pasten",
+        "keywords": "safflower oil, safflower, aspir yağı, aspir yagi"
       },
       {
         "title": "Maulbeeren Melasse (Dut Pekmezi)",
@@ -773,7 +827,8 @@ function initNavigation() {
         "h1": "Maulbeeren Melasse (Dut Pekmezi)",
         "url": "maulbeeren-melasse.html",
         "image": "assets/anadoa-logo-1100-1100.png",
-        "category": "Melassen (Pekmez)"
+        "category": "Melassen (Pekmez)",
+        "keywords": "grape molasses, grape syrup, carob, keçiboynuzu, pekmez, üzüm pekmezi, harnup pekmezi"
       },
       {
         "title": "Fruchtmelassen (Pekmez)",
@@ -781,7 +836,8 @@ function initNavigation() {
         "h1": "Fruchtmelassen (Pekmez)",
         "url": "melassen.html",
         "image": "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?q=80&w=2000&auto=format&fit=crop",
-        "category": "Fruchtmelassen"
+        "category": "Fruchtmelassen",
+        "keywords": "grape molasses, grape syrup, carob, keçiboynuzu, pekmez, üzüm pekmezi, harnup pekmezi"
       },
       {
         "title": "Muskatellersalbeiöl 100% Naturrein (Salvia sclarea)",
@@ -789,7 +845,8 @@ function initNavigation() {
         "h1": "Muskatellersalbeiöl",
         "url": "muskatellersalbeioel.html",
         "image": "assets/muskatellersalbeioel.png",
-        "category": "Ätherische Öle"
+        "category": "Ätherische Öle",
+        "keywords": ""
       },
       {
         "title": "Myrrheöl 100% Naturrein (Commiphora myrrha)",
@@ -797,7 +854,8 @@ function initNavigation() {
         "h1": "Myrrheöl",
         "url": "myrrheoel.html",
         "image": "assets/myrrheoel.png",
-        "category": "Ätherische Öle"
+        "category": "Ätherische Öle",
+        "keywords": ""
       },
       {
         "title": "Nachtkerzenöl Kaltgepresst 100% Nativ (Oenothera biennis)",
@@ -805,7 +863,8 @@ function initNavigation() {
         "h1": "Nachtkerzenöl",
         "url": "nachtkerzenoel.html",
         "image": "assets/nachtkerzenoel.png",
-        "category": "Kaltgepresste Öle"
+        "category": "Kaltgepresste Öle",
+        "keywords": "evening primrose oil, primrose, çuha çiçeği yağı, cuha cicegi"
       },
       {
         "title": "Neemöl Kaltgepresst 100% Nativ (Azadirachta indica)",
@@ -813,7 +872,8 @@ function initNavigation() {
         "h1": "Neemöl (Niemöl)",
         "url": "neemoel.html",
         "image": "assets/neemoel.png",
-        "category": "Kaltgepresste Öle"
+        "category": "Kaltgepresste Öle",
+        "keywords": ""
       },
       {
         "title": "Nelkenöl 100% Naturrein (Nelkenknospe)",
@@ -821,7 +881,8 @@ function initNavigation() {
         "h1": "Nelkenöl (Knospe)",
         "url": "nelkenoel.html",
         "image": "assets/nelkenoel.png",
-        "category": "Ätherische Öle"
+        "category": "Ätherische Öle",
+        "keywords": "clove oil, clove, karanfil yağı, karanfil yagi"
       },
       {
         "title": "Neroliöl 100% Naturrein (Bitterorangenblüte)",
@@ -829,7 +890,8 @@ function initNavigation() {
         "h1": "Neroliöl",
         "url": "nerolioel.html",
         "image": "assets/nerolioel.png",
-        "category": "Ätherische Öle"
+        "category": "Ätherische Öle",
+        "keywords": ""
       },
       {
         "title": "Niaouliöl 100% Naturrein (Melaleuca quinquenervia)",
@@ -837,7 +899,8 @@ function initNavigation() {
         "h1": "Niaouliöl",
         "url": "niaoulioel.html",
         "image": "assets/niaoulioel.png",
-        "category": "Ätherische Öle"
+        "category": "Ätherische Öle",
+        "keywords": ""
       },
       {
         "title": "Orangenöl 100% Naturrein Kaltgepresst (Citrus sinensis)",
@@ -845,7 +908,8 @@ function initNavigation() {
         "h1": "Orangenöl",
         "url": "orangenoel.html",
         "image": "assets/orangenoel.png",
-        "category": "Ätherische Öle"
+        "category": "Ätherische Öle",
+        "keywords": "orange oil, sweet orange, portakal yağı, portakal yagi"
       },
       {
         "title": "Oreganoöl 100% Naturrein (Origanum vulgare)",
@@ -853,7 +917,8 @@ function initNavigation() {
         "h1": "Oreganoöl",
         "url": "oreganool.html",
         "image": "assets/oreganool.png",
-        "category": "Ätherische Öle"
+        "category": "Ätherische Öle",
+        "keywords": "oregano oil, oregano, kekik yağı, kekik yagi"
       },
       {
         "title": "Oxymel Gold Tonic",
@@ -861,7 +926,8 @@ function initNavigation() {
         "h1": "Oxymel Gold Essig",
         "url": "oxymel-gold-essig.html",
         "image": "assets/anadoa-logo-1100-1100.png",
-        "category": "Kaltgepresste Öle"
+        "category": "Kaltgepresste Öle",
+        "keywords": "apple cider vinegar, vinegar, elma sirkesi, sirke, alıç sirkesi, alic sirkesi"
       },
       {
         "title": "Paste für Frauen",
@@ -869,7 +935,8 @@ function initNavigation() {
         "h1": "Paste für Frauen (Kadın Macunu)",
         "url": "paste-fuer-frauen.html",
         "image": "assets/anadoa-logo-1100-1100.png",
-        "category": "Traditionelle Pasten"
+        "category": "Traditionelle Pasten",
+        "keywords": ""
       },
       {
         "title": "Paste für Männer",
@@ -877,7 +944,8 @@ function initNavigation() {
         "h1": "Paste für Männer (Mesir Macunu)",
         "url": "paste-fuer-maenner.html",
         "image": "assets/anadoa-logo-1100-1100.png",
-        "category": "Traditionelle Pasten"
+        "category": "Traditionelle Pasten",
+        "keywords": ""
       },
       {
         "title": "Traditionelle Anatolische Pasten & Macun",
@@ -885,7 +953,8 @@ function initNavigation() {
         "h1": "Traditionelle Pasten",
         "url": "pasten.html",
         "image": "https://images.unsplash.com/photo-1595015333792-74f0d611ee67?q=80&w=2000&auto=format&fit=crop",
-        "category": "Traditionelle Pasten"
+        "category": "Traditionelle Pasten",
+        "keywords": ""
       },
       {
         "title": "Patchouliöl 100% Naturrein (Pogostemon cablin)",
@@ -893,7 +962,8 @@ function initNavigation() {
         "h1": "Patchouliöl",
         "url": "patchoulioel.html",
         "image": "assets/patchoulioel.png",
-        "category": "Ätherische Öle"
+        "category": "Ätherische Öle",
+        "keywords": ""
       },
       {
         "title": "Pfefferminzöl 100% Naturrein (Mentha piperita)",
@@ -901,7 +971,8 @@ function initNavigation() {
         "h1": "Pfefferminzöl",
         "url": "pfefferminzoel.html",
         "image": "assets/pfefferminzoel.png",
-        "category": "Ätherische Öle"
+        "category": "Ätherische Öle",
+        "keywords": "peppermint oil, peppermint, mint, nane yağı, nane yagi"
       },
       {
         "title": "Naturreine Pflanzenwasser & Hydrolate",
@@ -909,7 +980,8 @@ function initNavigation() {
         "h1": "",
         "url": "pflanzenwasser.html",
         "image": "assets/anadoa-logo-1100-1100.png",
-        "category": "Produkt"
+        "category": "Produkt",
+        "keywords": ""
       },
       {
         "title": "Traditionelle Anatolische Tarhana-Suppe",
@@ -917,7 +989,8 @@ function initNavigation() {
         "h1": "Traditionelle Anatolische Tarhana-Suppe",
         "url": "rezept-anatolische-tarhana-suppe.html",
         "image": "assets/rezept_tarhana.png",
-        "category": "Rezepte"
+        "category": "Rezepte",
+        "keywords": ""
       },
       {
         "title": "Gefüllte Weinblätter (Sarma)",
@@ -925,7 +998,8 @@ function initNavigation() {
         "h1": "Gefüllte Weinblätter (Sarma)",
         "url": "rezept-gefuellte-weinblaetter.html",
         "image": "assets/rezept_sarma.png",
-        "category": "Rezepte"
+        "category": "Rezepte",
+        "keywords": ""
       },
       {
         "title": "Glutenfreies Fladenbrot",
@@ -933,7 +1007,8 @@ function initNavigation() {
         "h1": "Glutenfreies Fladenbrot",
         "url": "rezept-glutenfreies-fladenbrot.html",
         "image": "assets/rezept_brot.png",
-        "category": "Rezepte"
+        "category": "Rezepte",
+        "keywords": ""
       },
       {
         "title": "Frischer Granatapfel-Walnuss-Salat",
@@ -941,7 +1016,8 @@ function initNavigation() {
         "h1": "Frischer Granatapfel-Walnuss-Salat",
         "url": "rezept-granatapfel-walnuss-salat.html",
         "image": "assets/rezept_salat.png",
-        "category": "Rezepte"
+        "category": "Rezepte",
+        "keywords": "pomegranate seed oil, pomegranate, nar çekirdeği yağı, nar cekirdegi, walnut oil, walnut, ceviz yağı, ceviz yagi"
       },
       {
         "title": "Johannisbrot-Pudding",
@@ -949,7 +1025,8 @@ function initNavigation() {
         "h1": "Johannisbrot-Pudding",
         "url": "rezept-johannisbrot-pudding.html",
         "image": "assets/rezept_pudding.png",
-        "category": "Rezepte"
+        "category": "Rezepte",
+        "keywords": ""
       },
       {
         "title": "Klassischer Anatolischer Hummus",
@@ -957,7 +1034,8 @@ function initNavigation() {
         "h1": "Klassischer Anatolischer Hummus",
         "url": "rezept-klassischer-hummus.html",
         "image": "assets/rezept_hummus.png",
-        "category": "Rezepte"
+        "category": "Rezepte",
+        "keywords": ""
       },
       {
         "title": "Vegane Tahin-Kekse",
@@ -965,7 +1043,8 @@ function initNavigation() {
         "h1": "Vegane Tahin-Kekse",
         "url": "rezept-vegane-tahin-kekse.html",
         "image": "assets/rezept_kekse.png",
-        "category": "Rezepte"
+        "category": "Rezepte",
+        "keywords": "tahini, sesame paste, tahin, susam ezmesi"
       },
       {
         "title": "Zuckerfreier Schoko-Kuchen",
@@ -973,7 +1052,8 @@ function initNavigation() {
         "h1": "Zuckerfreier Schoko-Kuchen",
         "url": "rezept-zuckerfreier-schoko-kuchen.html",
         "image": "assets/rezept_kuchen.png",
-        "category": "Rezepte"
+        "category": "Rezepte",
+        "keywords": ""
       },
       {
         "title": "Rizinusöl Kaltgepresst 100% Nativ (Castor Oil)",
@@ -981,7 +1061,8 @@ function initNavigation() {
         "h1": "Rizinusöl",
         "url": "rizinusoel.html",
         "image": "assets/rizinusoel.png",
-        "category": "Kaltgepresste Öle"
+        "category": "Kaltgepresste Öle",
+        "keywords": "castor oil, castor, hint yağı, hint yagi"
       },
       {
         "title": "Rosenholzöl 100% Naturrein (Aniba rosaeodora)",
@@ -989,7 +1070,8 @@ function initNavigation() {
         "h1": "Rosenholzöl",
         "url": "rosenholzoel.html",
         "image": "assets/rosenholzoel.png",
-        "category": "Ätherische Öle"
+        "category": "Ätherische Öle",
+        "keywords": "rose oil, rose essential oil, gül yağı, gul yagi"
       },
       {
         "title": "Rosenöl 100% Naturrein (Rosa damascena)",
@@ -997,7 +1079,8 @@ function initNavigation() {
         "h1": "Rosenöl",
         "url": "rosenoel.html",
         "image": "assets/rosenoel.png",
-        "category": "Ätherische Öle"
+        "category": "Ätherische Öle",
+        "keywords": "rose oil, rose essential oil, gül yağı, gul yagi"
       },
       {
         "title": "Rosenwasser (Gül Suyu) 100% Naturrein",
@@ -1005,7 +1088,8 @@ function initNavigation() {
         "h1": "Rosenwasser (Gül Suyu)",
         "url": "rosenwasser.html",
         "image": "assets/anadoa-logo-1100-1100.png",
-        "category": "Produkt"
+        "category": "Produkt",
+        "keywords": "rose oil, rose essential oil, gül yağı, gul yagi"
       },
       {
         "title": "Rosmarinöl 100% Naturrein (Rosmarinus officinalis)",
@@ -1013,7 +1097,8 @@ function initNavigation() {
         "h1": "Rosmarinöl",
         "url": "rosmarinoel.html",
         "image": "assets/rosmarinoel.png",
-        "category": "Ätherische Öle"
+        "category": "Ätherische Öle",
+        "keywords": ""
       },
       {
         "title": "Rosmarinwasser (Biberiye Suyu) Haar & Haut",
@@ -1021,7 +1106,8 @@ function initNavigation() {
         "h1": "Rosmarinwasser (Biberiye)",
         "url": "rosmarinwasser.html",
         "image": "assets/anadoa-logo-1100-1100.png",
-        "category": "Produkt"
+        "category": "Produkt",
+        "keywords": ""
       },
       {
         "title": "Original Rushur Stein (Ruşur Taşı) 5 Stück",
@@ -1029,7 +1115,8 @@ function initNavigation() {
         "h1": "Original Rushur Stein (Ruşur Taşı)",
         "url": "rusur-stein.html",
         "image": "assets/rushur_stein.png",
-        "category": "Traditionelle Pasten"
+        "category": "Traditionelle Pasten",
+        "keywords": ""
       },
       {
         "title": "Salbei Tee kaufen",
@@ -1037,7 +1124,8 @@ function initNavigation() {
         "h1": "Salbei Tee (Adaçayı)",
         "url": "salbei-tee.html",
         "image": "assets/salbei_tee.png",
-        "category": "Tee"
+        "category": "Tee",
+        "keywords": ""
       },
       {
         "title": "Sanddornfruchtöl Kaltgepresst 100% Nativ",
@@ -1045,7 +1133,8 @@ function initNavigation() {
         "h1": "Sanddornfruchtöl",
         "url": "sanddornfruchtoel.html",
         "image": "assets/sanddornfruchtoel.png",
-        "category": "Kaltgepresste Öle"
+        "category": "Kaltgepresste Öle",
+        "keywords": "sea buckthorn fruit oil, seabuckthorn, yabani iğde yağı, yabani igde"
       },
       {
         "title": "Sandelholzöl 100% Naturrein (Santalum album)",
@@ -1053,7 +1142,8 @@ function initNavigation() {
         "h1": "Sandelholzöl",
         "url": "sandelholzoel.html",
         "image": "assets/sandelholzoel.png",
-        "category": "Ätherische Öle"
+        "category": "Ätherische Öle",
+        "keywords": ""
       },
       {
         "title": "Schafgarbentee kaufen",
@@ -1061,7 +1151,8 @@ function initNavigation() {
         "h1": "Schafgarbentee (Civan Perçemi)",
         "url": "schafgarben-tee.html",
         "image": "assets/schafgarben_tee.png",
-        "category": "Tee"
+        "category": "Tee",
+        "keywords": ""
       },
       {
         "title": "Scharfe Tarhana Suppe (Acılı) kaufen",
@@ -1069,7 +1160,8 @@ function initNavigation() {
         "h1": "Scharfe Tarhana Suppe (Acılı)",
         "url": "scharfe-tarhana-suppe.html",
         "image": "assets/anadoa-logo-1100-1100.png",
-        "category": "Produkt"
+        "category": "Produkt",
+        "keywords": ""
       },
       {
         "title": "Schopflavendel Tee (Karabaş Otu) kaufen",
@@ -1077,7 +1169,8 @@ function initNavigation() {
         "h1": "Schopflavendel Tee (Karabaş Otu)",
         "url": "schopflavendel-tee.html",
         "image": "assets/schopflavendel_tee.png",
-        "category": "Tee"
+        "category": "Tee",
+        "keywords": "lavender oil, lavender, lavanta yağı, lavanta yagi"
       },
       {
         "title": "Schwarze Maulbeere Sirup Mix für Kinder",
@@ -1085,7 +1178,8 @@ function initNavigation() {
         "h1": "Maulbeere Sirup Mix für Kinder",
         "url": "schwarze-maulbeere-sirup-fur-kinder.html",
         "image": "assets/anadoa-logo-1100-1100.png",
-        "category": "Natürliche Sirupe"
+        "category": "Natürliche Sirupe",
+        "keywords": ""
       },
       {
         "title": "Schwarzer Maulbeer-Sirup",
@@ -1093,7 +1187,8 @@ function initNavigation() {
         "h1": "Schwarzer Maulbeer-Sirup",
         "url": "schwarzer-maulbeersirup.html",
         "image": "assets/anadoa-logo-1100-1100.png",
-        "category": "Natürliche Sirupe"
+        "category": "Natürliche Sirupe",
+        "keywords": ""
       },
       {
         "title": "Schwarzkümmelöl & Thymoquinon: Das Gold der Pharaonen",
@@ -1101,7 +1196,8 @@ function initNavigation() {
         "h1": "Schwarzkümmelöl & Thymoquinon: Das Gold der Pharaonen",
         "url": "schwarzkuemmeloel-thymoquinon-wirkung.html",
         "image": "assets/anadoa-logo-1100-1100.png",
-        "category": "Kaltgepresste Öle"
+        "category": "Kaltgepresste Öle",
+        "keywords": ""
       },
       {
         "title": "Schwarzkümmelöl für Kinder (Orangengeschmack)",
@@ -1109,7 +1205,8 @@ function initNavigation() {
         "h1": "Schwarzkümmelöl für Kinder (Orangengeschmack)",
         "url": "schwarzkummelol-fuer-kinder.html",
         "image": "assets/schwarzkummel_kinder_orange.png",
-        "category": "Kaltgepresste Öle"
+        "category": "Kaltgepresste Öle",
+        "keywords": "black seed oil, black cumin, nigella sativa, blackseed, çörek otu yağı, çörekotu, corek otu yagi"
       },
       {
         "title": "Schwarzkümmelöl für Kinder (Erdbeergeschmack)",
@@ -1117,7 +1214,8 @@ function initNavigation() {
         "h1": "Schwarzkümmelöl für Kinder (Erdbeergeschmack)",
         "url": "schwarzkummelol-kinder-erdbeer.html",
         "image": "assets/schwarzkummel_kinder_erdbeer.png",
-        "category": "Kaltgepresste Öle"
+        "category": "Kaltgepresste Öle",
+        "keywords": "black seed oil, black cumin, nigella sativa, blackseed, çörek otu yağı, çörekotu, corek otu yagi"
       },
       {
         "title": "Schwarzkümmelöl mit Minze",
@@ -1125,7 +1223,8 @@ function initNavigation() {
         "h1": "Schwarzkümmelöl mit Minze",
         "url": "schwarzkummelol-mit-minze.html",
         "image": "assets/schwarzkummel_minze.png",
-        "category": "Kaltgepresste Öle"
+        "category": "Kaltgepresste Öle",
+        "keywords": "black seed oil, black cumin, nigella sativa, blackseed, çörek otu yağı, çörekotu, corek otu yagi"
       },
       {
         "title": "Schwarzkümmelöl (Nigella Sativa)",
@@ -1133,7 +1232,8 @@ function initNavigation() {
         "h1": "Schwarzkümmelöl (Nigella Sativa)",
         "url": "schwarzkummelol.html",
         "image": "assets/schwarzkummel_hero.png",
-        "category": "Kaltgepresste Öle"
+        "category": "Kaltgepresste Öle",
+        "keywords": "black seed oil, black cumin, nigella sativa, blackseed, çörek otu yağı, çörekotu, corek otu yagi"
       },
       {
         "title": "Senna Blättertee kaufen",
@@ -1141,7 +1241,8 @@ function initNavigation() {
         "h1": "Alexandrische Senna (Sinameki)",
         "url": "senna-blaettertee.html",
         "image": "assets/senna_blaettertee.png",
-        "category": "Tee"
+        "category": "Tee",
+        "keywords": ""
       },
       {
         "title": "Natürliche Sirupe & Fruchtsirupe",
@@ -1149,7 +1250,8 @@ function initNavigation() {
         "h1": "Natur Sirupe & Fruchtsirupe",
         "url": "sirupe.html",
         "image": "https://images.unsplash.com/photo-1595015333792-74f0d611ee67?q=80&w=2000&auto=format&fit=crop",
-        "category": "Sirupe"
+        "category": "Sirupe",
+        "keywords": ""
       },
       {
         "title": "Spitzwegerich Tee (Sinir Otu) kaufen",
@@ -1157,7 +1259,8 @@ function initNavigation() {
         "h1": "Spitzwegerich Tee (Sinir Otu)",
         "url": "spitzwegerich-tee.html",
         "image": "assets/spitzwegerich_tee.png",
-        "category": "Tee"
+        "category": "Tee",
+        "keywords": ""
       },
       {
         "title": "Süßholzwurzel Tee kaufen",
@@ -1165,7 +1268,8 @@ function initNavigation() {
         "h1": "Süßholzwurzel Tee (Meyan Kökü)",
         "url": "suessholzwurzel-tee.html",
         "image": "assets/suessholzwurzel_tee.png",
-        "category": "Tee"
+        "category": "Tee",
+        "keywords": ""
       },
       {
         "title": "Sumach Kerne – ungemahlen",
@@ -1173,7 +1277,8 @@ function initNavigation() {
         "h1": "Sumach Kerne – ungemahlen",
         "url": "sumach-kerne.html",
         "image": "assets/anadoa-logo-1100-1100.png",
-        "category": "Produkt"
+        "category": "Produkt",
+        "keywords": ""
       },
       {
         "title": "Sumach Pulver – Gemahlen (Ohne Salz)",
@@ -1181,7 +1286,8 @@ function initNavigation() {
         "h1": "Sumach Pulver – Gemahlen (Ohne Salz)",
         "url": "sumach-pulver.html",
         "image": "assets/anadoa-logo-1100-1100.png",
-        "category": "Produkt"
+        "category": "Produkt",
+        "keywords": ""
       },
       {
         "title": "Sumach & Traditionelle Gewürze",
@@ -1189,7 +1295,8 @@ function initNavigation() {
         "h1": "Sumach & Traditionelle Gewürze",
         "url": "sumak.html",
         "image": "assets/anadoa-logo-1100-1100.png",
-        "category": "Produkt"
+        "category": "Produkt",
+        "keywords": ""
       },
       {
         "title": "Traditionelles Tahin: Die Kunst der Steinmühle",
@@ -1197,7 +1304,8 @@ function initNavigation() {
         "h1": "Traditionelles Tahin: Die Kunst der Steinmühle",
         "url": "tahin-sesammus-gesundheit.html",
         "image": "assets/anadoa-logo-1100-1100.png",
-        "category": "Produkt"
+        "category": "Produkt",
+        "keywords": "sesame oil, sesame, susam yağı, susam yagi, tahini, sesame paste, tahin, susam ezmesi"
       },
       {
         "title": "Premium Tahini",
@@ -1205,7 +1313,8 @@ function initNavigation() {
         "h1": "Tahini | Sesammus",
         "url": "tahini.html",
         "image": "assets/anadoa-logo-1100-1100.png",
-        "category": "Produkt"
+        "category": "Produkt",
+        "keywords": "tahini, sesame paste, tahin, susam ezmesi"
       },
       {
         "title": "Tamanuöl Kaltgepresst 100% Nativ (Calophyllum inophyllum)",
@@ -1213,7 +1322,8 @@ function initNavigation() {
         "h1": "Tamanuöl",
         "url": "tamanuoel.html",
         "image": "assets/tamanuoel.png",
-        "category": "Kaltgepresste Öle"
+        "category": "Kaltgepresste Öle",
+        "keywords": ""
       },
       {
         "title": "Tannenzapfen Paste für Kinder",
@@ -1221,7 +1331,8 @@ function initNavigation() {
         "h1": "Tannenzapfen Paste für Kinder",
         "url": "tannenzapfen-paste-kinder.html",
         "image": "assets/anadoa-logo-1100-1100.png",
-        "category": "Traditionelle Pasten"
+        "category": "Traditionelle Pasten",
+        "keywords": "pine cone paste, cypress cone paste, kozalak macunu, çam kozalağı pekmezi, selvi kozalagi"
       },
       {
         "title": "Tannenzapfen Sirup",
@@ -1229,7 +1340,8 @@ function initNavigation() {
         "h1": "Tannenzapfen Sirup",
         "url": "tannenzapfen-sirup.html",
         "image": "assets/anadoa-logo-1100-1100.png",
-        "category": "Natürliche Sirupe"
+        "category": "Natürliche Sirupe",
+        "keywords": "pine cone paste, cypress cone paste, kozalak macunu, çam kozalağı pekmezi, selvi kozalagi"
       },
       {
         "title": "Klassische Tarhana Suppe kaufen",
@@ -1237,7 +1349,8 @@ function initNavigation() {
         "h1": "Klassische",
         "url": "tarhana-suppe.html",
         "image": "assets/anadoa-logo-1100-1100.png",
-        "category": "Produkt"
+        "category": "Produkt",
+        "keywords": ""
       },
       {
         "title": "Tarhana Suppe",
@@ -1245,7 +1358,8 @@ function initNavigation() {
         "h1": "Traditionelle Tarhana Suppe",
         "url": "tarhana.html",
         "image": "assets/anadoa-logo-1100-1100.png",
-        "category": "Produkt"
+        "category": "Produkt",
+        "keywords": ""
       },
       {
         "title": "Naturtee & Traditionelle Kräuterkuren kaufen",
@@ -1253,7 +1367,8 @@ function initNavigation() {
         "h1": "Naturtee & Kuren",
         "url": "tee.html",
         "image": "assets/lavendel_tee.png",
-        "category": "Naturtee & Kuren"
+        "category": "Naturtee & Kuren",
+        "keywords": ""
       },
       {
         "title": "Teebaumöl 100% Naturrein (Melaleuca alternifolia)",
@@ -1261,7 +1376,8 @@ function initNavigation() {
         "h1": "Teebaumöl",
         "url": "teebaumoel.html",
         "image": "assets/teebaumoel.png",
-        "category": "Ätherische Öle"
+        "category": "Ätherische Öle",
+        "keywords": "tea tree oil, teatree, çay ağacı yağı, cay agaci yagi"
       },
       {
         "title": "Thymianöl 100% Naturrein (Thymus vulgaris)",
@@ -1269,7 +1385,8 @@ function initNavigation() {
         "h1": "Thymianöl",
         "url": "thymianoel.html",
         "image": "assets/thymianoel.png",
-        "category": "Ätherische Öle"
+        "category": "Ätherische Öle",
+        "keywords": ""
       },
       {
         "title": "Traubenessig",
@@ -1277,7 +1394,8 @@ function initNavigation() {
         "h1": "Traubenessig",
         "url": "traubenessig.html",
         "image": "assets/anadoa-logo-1100-1100.png",
-        "category": "Lebendige Essige"
+        "category": "Lebendige Essige",
+        "keywords": "apple cider vinegar, vinegar, elma sirkesi, sirke, alıç sirkesi, alic sirkesi"
       },
       {
         "title": "Traubenkernöl Kaltgepresst 100% Nativ (Vitis vinifera)",
@@ -1285,7 +1403,8 @@ function initNavigation() {
         "h1": "Traubenkernöl",
         "url": "traubenkernoel.html",
         "image": "assets/traubenkernoel.png",
-        "category": "Kaltgepresste Öle"
+        "category": "Kaltgepresste Öle",
+        "keywords": "grapeseed oil, grape seed, grape, üzüm çekirdeği yağı, uzum cekirdegi"
       },
       {
         "title": "Anatolische Traubenmelasse (Pekmez): Natürliche Energie",
@@ -1293,7 +1412,8 @@ function initNavigation() {
         "h1": "Anatolische Traubenmelasse (Pekmez): Natürliche Energie",
         "url": "traubenmelasse-pekmez-eisen-gesundheit.html",
         "image": "assets/anadoa-logo-1100-1100.png",
-        "category": "Melassen (Pekmez)"
+        "category": "Melassen (Pekmez)",
+        "keywords": "grape molasses, grape syrup, carob, keçiboynuzu, pekmez, üzüm pekmezi, harnup pekmezi, grape molasses, grape syrup, carob, keçiboynuzu, pekmez, üzüm pekmezi, harnup pekmezi"
       },
       {
         "title": "Premium Traubenmelasse (Üzüm Pekmezi)",
@@ -1301,7 +1421,8 @@ function initNavigation() {
         "h1": "Traubenmelasse (Üzüm Pekmezi)",
         "url": "traubenmelasse.html",
         "image": "assets/anadoa-logo-1100-1100.png",
-        "category": "Melassen (Pekmez)"
+        "category": "Melassen (Pekmez)",
+        "keywords": "grape molasses, grape syrup, carob, keçiboynuzu, pekmez, üzüm pekmezi, harnup pekmezi"
       },
       {
         "title": "Türkischer Oregano – Bilyeli Kekik",
@@ -1309,7 +1430,8 @@ function initNavigation() {
         "h1": "Türkischer Oregano – Bilyeli Kekik",
         "url": "tuerkischer-oregano.html",
         "image": "assets/anadoa-logo-1100-1100.png",
-        "category": "Produkt"
+        "category": "Produkt",
+        "keywords": "oregano oil, oregano, kekik yağı, kekik yagi"
       },
       {
         "title": "Udi Hindi Öl (Kust al Hindi Auszug) 100% Naturrein",
@@ -1317,7 +1439,8 @@ function initNavigation() {
         "h1": "Udi Hindi Öl (Kust al Hindi)",
         "url": "udi-hindi-oel.html",
         "image": "assets/udi-hindi-oel.png",
-        "category": "Kaltgepresste Öle"
+        "category": "Kaltgepresste Öle",
+        "keywords": ""
       },
       {
         "title": "Vetiveröl 100% Naturrein (Vetiveria zizanioides)",
@@ -1325,7 +1448,8 @@ function initNavigation() {
         "h1": "Vetiveröl",
         "url": "vetiveroel.html",
         "image": "assets/vetiveroel.png",
-        "category": "Ätherische Öle"
+        "category": "Ätherische Öle",
+        "keywords": ""
       },
       {
         "title": "Wacholderbeeren Melasse (Andız Pekmezi)",
@@ -1333,7 +1457,8 @@ function initNavigation() {
         "h1": "Wacholderbeeren Melasse (Andız)",
         "url": "wacholderbeeren-melasse.html",
         "image": "assets/anadoa-logo-1100-1100.png",
-        "category": "Kaltgepresste Öle"
+        "category": "Kaltgepresste Öle",
+        "keywords": "grape molasses, grape syrup, carob, keçiboynuzu, pekmez, üzüm pekmezi, harnup pekmezi"
       },
       {
         "title": "Walnussöl Kaltgepresst 100% Nativ (Juglans regia)",
@@ -1341,7 +1466,8 @@ function initNavigation() {
         "h1": "Walnussöl",
         "url": "walnussoel.html",
         "image": "assets/walnussoel.png",
-        "category": "Kaltgepresste Öle"
+        "category": "Kaltgepresste Öle",
+        "keywords": "walnut oil, walnut, ceviz yağı, ceviz yagi"
       },
       {
         "title": "Weihrauchöl 100% Naturrein (Boswellia)",
@@ -1349,7 +1475,8 @@ function initNavigation() {
         "h1": "Weihrauchöl",
         "url": "weihrauchoel.html",
         "image": "assets/weihrauchoel.png",
-        "category": "Ätherische Öle"
+        "category": "Ätherische Öle",
+        "keywords": "frankincense oil, frankincense, günlük yağı, akgünlük, gunluk yagi"
       },
       {
         "title": "Weißdorn Essig",
@@ -1357,7 +1484,8 @@ function initNavigation() {
         "h1": "Weißdorn Essig",
         "url": "weissdorn-essig.html",
         "image": "assets/anadoa-logo-1100-1100.png",
-        "category": "Lebendige Essige"
+        "category": "Lebendige Essige",
+        "keywords": "apple cider vinegar, vinegar, elma sirkesi, sirke, alıç sirkesi, alic sirkesi, hawthorn vinegar, alıç sirkesi, alic sirkesi"
       },
       {
         "title": "Wildrosenöl Kaltgepresst 100% Nativ (Rosa mosqueta)",
@@ -1365,7 +1493,8 @@ function initNavigation() {
         "h1": "Wildrosenöl (Rosa mosqueta)",
         "url": "wildrosenoel.html",
         "image": "assets/wildrosenoel.png",
-        "category": "Kaltgepresste Öle"
+        "category": "Kaltgepresste Öle",
+        "keywords": "rosehip seed oil, rosehip, wild rose, kuşburnu yağı, kusburnu cekirdegi yagi, rose oil, rose essential oil, gül yağı, gul yagi"
       },
       {
         "title": "Wintertee kaufen",
@@ -1373,7 +1502,8 @@ function initNavigation() {
         "h1": "Wintertee (Winter Mix)",
         "url": "wintertee.html",
         "image": "assets/wintertee.png",
-        "category": "Tee"
+        "category": "Tee",
+        "keywords": ""
       },
       {
         "title": "Ylang-Ylang Öl 100% Naturrein (Cananga odorata)",
@@ -1381,7 +1511,8 @@ function initNavigation() {
         "h1": "Ylang-Ylang-Öl",
         "url": "ylang-ylang-oel.html",
         "image": "assets/ylang-ylang-oel.png",
-        "category": "Ätherische Öle"
+        "category": "Ätherische Öle",
+        "keywords": ""
       },
       {
         "title": "Zaatar Tee kaufen",
@@ -1389,7 +1520,8 @@ function initNavigation() {
         "h1": "Zaatar Tee (Schwarzer Thymian)",
         "url": "zaatar-tee.html",
         "image": "assets/zaatar_tee.png",
-        "category": "Tee"
+        "category": "Tee",
+        "keywords": ""
       },
       {
         "title": "Zedernholzöl 100% Naturrein (Cedrus atlantica)",
@@ -1397,7 +1529,8 @@ function initNavigation() {
         "h1": "Zedernholzöl",
         "url": "zedernholzoel.html",
         "image": "assets/zedernholzoel.png",
-        "category": "Ätherische Öle"
+        "category": "Ätherische Öle",
+        "keywords": ""
       },
       {
         "title": "Zirbenöl 100% Naturrein (Pinus cembra)",
@@ -1405,7 +1538,8 @@ function initNavigation() {
         "h1": "Zirbenöl",
         "url": "zirbenoel.html",
         "image": "assets/zirbenoel.png",
-        "category": "Ätherische Öle"
+        "category": "Ätherische Öle",
+        "keywords": "stone pine oil, swiss pine, çam yağı, cem yagi, arve"
       },
       {
         "title": "Zitronengrasöl (Lemongrass) 100% Naturrein",
@@ -1413,7 +1547,8 @@ function initNavigation() {
         "h1": "Zitronengrasöl (Lemongrass)",
         "url": "zitronengrasoel.html",
         "image": "assets/zitronengrasoel.png",
-        "category": "Ätherische Öle"
+        "category": "Ätherische Öle",
+        "keywords": "lemon oil, lemon, limon yağı, limon yagi"
       },
       {
         "title": "Zitronenöl 100% Naturrein Kaltgepresst (Citrus limon)",
@@ -1421,7 +1556,8 @@ function initNavigation() {
         "h1": "Zitronenöl",
         "url": "zitronenoel.html",
         "image": "assets/zitronenoel.png",
-        "category": "Ätherische Öle"
+        "category": "Ätherische Öle",
+        "keywords": "lemon oil, lemon, limon yağı, limon yagi"
       },
       {
         "title": "Das alte Geheimnis der Berge: Zypressenzapfen Paste",
@@ -1429,7 +1565,8 @@ function initNavigation() {
         "h1": "Das alte Geheimnis der Berge: Zypressenzapfen Paste",
         "url": "zypressenzapfen-paste-husten-naturheilkunde.html",
         "image": "assets/anadoa-logo-1100-1100.png",
-        "category": "Traditionelle Pasten"
+        "category": "Traditionelle Pasten",
+        "keywords": "pine cone paste, cypress cone paste, kozalak macunu, çam kozalağı pekmezi, selvi kozalagi"
       },
       {
         "title": "Traditionelle Zypressenzapfen Paste",
@@ -1437,7 +1574,8 @@ function initNavigation() {
         "h1": "Zypressenzapfen Paste",
         "url": "zypressenzapfen-paste.html",
         "image": "assets/anadoa-logo-1100-1100.png",
-        "category": "Traditionelle Pasten"
+        "category": "Traditionelle Pasten",
+        "keywords": "pine cone paste, cypress cone paste, kozalak macunu, çam kozalağı pekmezi, selvi kozalagi"
       }
     ];
     // SEARCH_INDEX_END
@@ -1453,7 +1591,10 @@ function initNavigation() {
             .replace(/ş/g, 's')
             .replace(/ç/g, 'c')
             .replace(/ğ/g, 'g')
-            .replace(/ß/g, 'ss');
+            .replace(/ß/g, 'ss')
+            .replace(/ae/g, 'a')
+            .replace(/oe/g, 'o')
+            .replace(/ue/g, 'u');
     }
 
     function escapeHtml(str) {
@@ -1474,11 +1615,13 @@ function initNavigation() {
             const normalizedDesc = normalizeString(item.description || '');
             const normalizedH1 = normalizeString(item.h1 || '');
             const normalizedCategory = normalizeString(item.category || '');
+            const normalizedKeywords = normalizeString(item.keywords || '');
             
             return normalizedTitle.includes(normalizedQuery) || 
                    normalizedDesc.includes(normalizedQuery) || 
                    normalizedH1.includes(normalizedQuery) || 
-                   normalizedCategory.includes(normalizedQuery);
+                   normalizedCategory.includes(normalizedQuery) ||
+                   normalizedKeywords.includes(normalizedQuery);
         });
 
         renderResults(matches, query);

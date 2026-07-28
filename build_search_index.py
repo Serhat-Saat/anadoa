@@ -74,6 +74,52 @@ def extract_category_from_breadcrumbs(json_ld_list):
                             return items[1].get('name', '')
     return ""
 
+SYNONYMS = {
+    "schwarzkummel": "black seed oil, black cumin, nigella sativa, blackseed, çörek otu yağı, çörekotu, corek otu yagi",
+    "lein": "linseed oil, flaxseed oil, flaxseed, linseed, keten tohumu yağı, keten tohumu",
+    "kuerbis": "pumpkin seed oil, pumpkinseed, pumpkin, kabak çekirdeği yağı, kabak cekirdegi yagi",
+    "granatapfel": "pomegranate seed oil, pomegranate, nar çekirdeği yağı, nar cekirdegi",
+    "walnuss": "walnut oil, walnut, ceviz yağı, ceviz yagi",
+    "mandel": "almond oil, almond, badem yağı, badem yagi",
+    "jojoba": "jojoba oil, jojoba, jojoba yağı, jojoba yagi",
+    "aprikosen": "apricot kernel oil, apricot, kayısı çekirdeği yağı, kayisi cekirdegi",
+    "traubenkern": "grapeseed oil, grape seed, grape, üzüm çekirdeği yağı, uzum cekirdegi",
+    "sesam": "sesame oil, sesame, susam yağı, susam yagi",
+    "hanf": "hemp oil, hemp seed oil, hemp, kenevir yağı, kenevir tohumu",
+    "nachtkerze": "evening primrose oil, primrose, çuha çiçeği yağı, cuha cicegi",
+    "argan": "argan oil, argan, argan yağı, argan yagi",
+    "baobab": "baobab oil, baobab, baobab yağı, baobab yagi",
+    "borretsch": "borage oil, borage starflower, hodan yağı, hodan yagi",
+    "distel": "safflower oil, safflower, aspir yağı, aspir yagi",
+    "erdnuss": "peanut oil, peanut, groundnut, yer fıstığı yağı, yer fistigi",
+    "haselnuss": "hazelnut oil, hazelnut, fındık yağı, findik yagi",
+    "kakao": "cocoa butter, cacao butter, cocoa, kakao yağı, kakao yagi, kakao yagi katı",
+    "macadamia": "macadamia oil, macadamia nut, makadamya yağı, makademya",
+    "olive": "olive oil, olive, zeytinyağı, zeytin yagi",
+    "rizinus": "castor oil, castor, hint yağı, hint yagi",
+    "sanddorn": "sea buckthorn fruit oil, seabuckthorn, yabani iğde yağı, yabani igde",
+    "wildrose": "rosehip seed oil, rosehip, wild rose, kuşburnu yağı, kusburnu cekirdegi yagi",
+    "lavendel": "lavender oil, lavender, lavanta yağı, lavanta yagi",
+    "rosen": "rose oil, rose essential oil, gül yağı, gul yagi",
+    "teebaum": "tea tree oil, teatree, çay ağacı yağı, cay agaci yagi",
+    "pfefferminz": "peppermint oil, peppermint, mint, nane yağı, nane yagi",
+    "weihrauch": "frankincense oil, frankincense, günlük yağı, akgünlük, gunluk yagi",
+    "eukalyptus": "eucalyptus oil, eucalyptus, okaliptüs yağı, okaliptus yagi",
+    "zitronen": "lemon oil, lemon, limon yağı, limon yagi",
+    "orange": "orange oil, sweet orange, portakal yağı, portakal yagi",
+    "oregano": "oregano oil, oregano, kekik yağı, kekik yagi",
+    "nelken": "clove oil, clove, karanfil yağı, karanfil yagi",
+    "zirbe": "stone pine oil, swiss pine, çam yağı, cem yagi, arve",
+    "bergamotte": "bergamot oil, bergamot, bergamot yağı, bergamot yagi",
+    "tahin": "tahini, sesame paste, tahin, susam ezmesi",
+    "zapfen": "pine cone paste, cypress cone paste, kozalak macunu, çam kozalağı pekmezi, selvi kozalagi",
+    "melasse": "grape molasses, grape syrup, carob, keçiboynuzu, pekmez, üzüm pekmezi, harnup pekmezi",
+    "pekmez": "grape molasses, grape syrup, carob, keçiboynuzu, pekmez, üzüm pekmezi, harnup pekmezi",
+    "gilaburu": "gilaburu juice, cramp bark juice, gilaburu suyu, gilaburu",
+    "essig": "apple cider vinegar, vinegar, elma sirkesi, sirke, alıç sirkesi, alic sirkesi",
+    "weissdorn": "hawthorn vinegar, alıç sirkesi, alic sirkesi"
+}
+
 def process_html_file(filepath):
     with open(filepath, 'r', encoding='utf-8') as f:
         html_content = f.read()
@@ -114,13 +160,21 @@ def process_html_file(filepath):
     else:
         title = parser.h1 if parser.h1 else os.path.basename(filepath).replace('.html', '').replace('-', ' ').title()
 
+    filename_lower = os.path.basename(filepath).lower()
+    keywords_list = []
+    for key, value in SYNONYMS.items():
+        if key in filename_lower:
+            keywords_list.append(value)
+    keywords = ", ".join(keywords_list)
+
     return {
         "title": title,
         "description": parser.description,
         "h1": parser.h1,
         "url": os.path.basename(filepath),
         "image": image if image else "assets/anadoa-logo-1100-1100.png",
-        "category": category
+        "category": category,
+        "keywords": keywords
     }
 
 if __name__ == "__main__":
