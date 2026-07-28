@@ -255,18 +255,8 @@
 
     <!-- Footer placeholder -->
     <div id="footer-placeholder"></div>
+<script src="components/footer.js"></script>
 
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            fetch('index.html')
-            .then(res => res.text())
-            .then(html => {
-                const parser = new DOMParser();
-                const doc = parser.parseFromString(html, 'text/html');
-                const footer = doc.querySelector('footer');
-                if(footer) document.getElementById('footer-placeholder').replaceWith(footer);
-            });
-        });
-    </script>
+    
 </body>
 </html>
