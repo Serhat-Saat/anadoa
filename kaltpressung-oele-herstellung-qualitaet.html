@@ -103,21 +103,24 @@
 <body class="font-sans text-ash bg-cream antialiased selection:bg-mocha selection:text-cream flex flex-col min-h-screen">
 <div id="nav-placeholder"></div>
 <script src="components/nav.js"></script>
-<main class="flex-grow pt-32 pb-24">
-<article class="max-w-4xl mx-auto px-6">
+<main class="flex-grow pt-32 pb-24 bg-noise">
+<article class="max-w-7xl mx-auto px-6">
 <!-- Article Header -->
-<header class="mb-12 text-center">
-<div class="inline-block bg-earth bg-opacity-30 text-mocha px-4 py-1 rounded-full text-sm font-semibold tracking-wider uppercase mb-6 shadow-sm border border-mocha border-opacity-20">15. Juli 2026</div>
-<h1 class="text-4xl md:text-6xl font-bold font-serif text-mocha leading-tight mb-8">Die Wahrheit über Kaltpressung: Warum Temperatur den Unterschied macht</h1>
+<header class="mb-12 text-center max-w-3xl mx-auto">
+<div class="inline-block bg-[#FDFBF7] border border-gold/20 text-mocha px-4 py-1.5 rounded-full text-xs font-bold tracking-wider uppercase mb-6 shadow-sm">15. Juli 2026</div>
+<h1 class="text-4xl md:text-5xl font-bold font-serif text-mocha leading-tight mb-8">Die Wahrheit über Kaltpressung: Warum Temperatur den Unterschied macht</h1>
 </header>
 <!-- Hero Image -->
-<div class="rounded-3xl overflow-hidden shadow-2xl mb-16 h-[60vh] relative group">
+<div class="rounded-3xl overflow-hidden shadow-2xl mb-16 h-[50vh] md:h-[60vh] relative group">
 <div class="absolute inset-0 bg-mocha opacity-10 group-hover:opacity-0 transition-opacity duration-700 z-10 pointer-events-none"></div>
 <img alt="Die Wahrheit über Kaltpressung: Warum Temperatur den Unterschied macht" class="w-full h-full object-cover transform transition-transform duration-1000 group-hover:scale-105" src="assets/magazin_4.png"/>
 </div>
-<!-- Content Area -->
-<div class="prose prose-lg md:prose-xl max-w-none text-ash prose-headings:font-serif prose-headings:text-mocha prose-a:text-mocha hover:prose-a:text-earth prose-strong:text-mocha">
-<p class="text-xl text-ash mb-8 leading-relaxed">Wenn Sie heute in einen Supermarkt gehen, sind die Regale voll mit Ölen, die alle gesundheitsbezogene Versprechen auf ihren Etiketten tragen. Begriffe wie "Nativ", "Extra Virgin" oder "Kaltgepresst" werden oft inflationär verwendet. Doch hinter den Kulissen der globalen Ölproduktion verbirgt sich ein enormer Unterschied in der Herstellungsqualität. In diesem Artikel decken wir auf, warum die echte, temperaturkontrollierte Kaltpressung das absolute Fundament für ein gesundes, heilendes Öl ist und warum Hitze der größte Feind pflanzlicher Nährstoffe ist.</p>
+
+<!-- Layout Grid -->
+<div class="grid grid-cols-1 lg:grid-cols-4 gap-12 items-start">
+    <!-- Left Column: Content -->
+    <div class="lg:col-span-3 order-2 lg:order-1 blog-content prose prose-lg max-w-none text-ash prose-headings:font-serif prose-headings:text-mocha prose-a:text-mocha hover:prose-a:text-gold prose-strong:text-mocha">
+        <p class="text-xl text-ash mb-8 leading-relaxed">Wenn Sie heute in einen Supermarkt gehen, sind die Regale voll mit Ölen, die alle gesundheitsbezogene Versprechen auf ihren Etiketten tragen. Begriffe wie "Nativ", "Extra Virgin" oder "Kaltgepresst" werden oft inflationär verwendet. Doch hinter den Kulissen der globalen Ölproduktion verbirgt sich ein enormer Unterschied in der Herstellungsqualität. In diesem Artikel decken wir auf, warum die echte, temperaturkontrollierte Kaltpressung das absolute Fundament für ein gesundes, heilendes Öl ist und warum Hitze der größte Feind pflanzlicher Nährstoffe ist.</p>
 <h2 class="text-3xl font-bold font-serif text-mocha mt-12 mb-6">Die Chemie des Lebens: Die Empfindlichkeit von Fettsäuren</h2>
 <p class="text-lg text-ash mb-6 leading-relaxed">Um zu verstehen, warum die Pressmethode so wichtig ist, müssen wir einen kurzen Blick in die Chemie werfen. Pflanzenöle, insbesondere jene mit medizinischem Wert wie Schwarzkümmel-, Lein- oder Kürbiskernöl, bestehen zu einem großen Teil aus mehrfach ungesättigten Fettsäuren. Diese Moleküle haben Doppelbindungen in ihrer Kohlenstoffkette, die sie extrem flexibel, aber auch hochreaktiv machen.</p>
 <p class="text-lg text-ash mb-6 leading-relaxed">Diese Reaktivität ist im menschlichen Körper großartig, weil sie biologisch hochaktiv sind. Außerhalb des Körpers ist sie jedoch ein Problem: Ungesättigte Fettsäuren reagieren sofort auf Hitze, Licht und Sauerstoff. Setzt man sie Temperaturen über 40-50 Grad Celsius aus, brechen die Molekülstrukturen auf (Oxidation). Das Öl wird buchstäblich zerstört. Die Fettsäuren verwandeln sich von gesunden Bausteinen in entzündungsfördernde Verbindungen und Transfette. Zudem sind die in hochwertigen Ölen enthaltenen bioaktiven Stoffe (wie Thymoquinon im Schwarzkümmelöl oder Vitamin E) extrem flüchtig. Hitze lässt diese wertvollen sekundären Pflanzenstoffe einfach verdampfen.</p>
@@ -135,8 +138,37 @@
 <p class="text-lg text-ash mb-6 leading-relaxed"><strong>3. Die Verpackung:</strong> Da hochwertige Öle lichtempfindlich sind, müssen sie zwingend in abgedunkelten Flaschen (Braunglas, Violettglas oder undurchsichtigen Weißblechdosen) abgefüllt werden. Ein hochwertiges Öl in einer durchsichtigen Plastikflasche im Supermarktregal ist ein Widerspruch in sich.</p>
 <h2 class="text-3xl font-bold font-serif text-mocha mt-12 mb-6">Fazit: Kompromisslose Reinheit</h2>
 <p class="text-lg text-ash mb-6 leading-relaxed">Die Wahl des Öls ist eine der wichtigsten Entscheidungen für Ihre tägliche Ernährung und Gesundheit. Ein Löffel eines toten, raffinierten Öls belastet den Körper, während ein Löffel eines sorgfältig kaltgepressten Öls ihn nährt, schützt und heilt. Wir bei Anadoa Naturhaus machen bei der Kaltpressung keine Kompromisse. Jede Flasche, die unser Haus verlässt, ist das Resultat eines handwerklichen, schonenden Prozesses, der die volle Kraft der anatolischen Natur respektiert und bewahrt.</p>
+    </div>
+    
+    <!-- Right Column: Sticky Sidebar -->
+    <aside class="lg:col-span-1 lg:sticky lg:top-28 order-1 lg:order-2 space-y-8">
+        <!-- Table of Contents -->
+        <div class="bg-white border border-earth-light rounded-3xl p-6 shadow-sm">
+            <button class="w-full flex justify-between items-center lg:cursor-default lg:pointer-events-none text-left focus:outline-none" id="toc-toggle">
+                <h4 class="font-serif font-bold text-lg text-mocha flex-grow">Inhalt</h4>
+                <svg class="w-5 h-5 text-mocha transition-transform duration-300 lg:hidden" id="toc-chevron" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+                </svg>
+            </button>
+            <nav class="space-y-2 text-sm text-ash-light font-medium mt-4 hidden lg:block transition-all duration-300" id="toc-nav">
+                <!-- Dynamically generated anchor links -->
+            </nav>
+        </div>
+        
+        <!-- Related Product CTA Card -->
+        <div class="bg-white border border-earth-light rounded-3xl p-6 shadow-sm text-center group relative overflow-hidden">
+            <div class="absolute inset-0 bg-gold/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
+            <div class="w-24 h-24 mx-auto rounded-2xl overflow-hidden bg-earth-light mb-4 border border-gold/10">
+                <img src="assets/schwarzkummelol.png" alt="Schwarzkümmelöl" class="w-full h-full object-cover">
+            </div>
+            <span class="text-[10px] uppercase tracking-widest text-sage font-bold block mb-1">Entdecken</span>
+            <h5 class="font-serif font-bold text-mocha mb-2 group-hover:text-gold transition-colors leading-tight">Schwarzkümmelöl (Kaltgepresst)</h5>
+            <p class="text-xs text-ash-light/80 mb-4 leading-relaxed">Erfahren Sie die Kraft des Schwarzkümmelöls aus 100% schonender Kaltpressung.</p>
+            <a href="schwarzkummelol.html" class="inline-block w-full bg-gold text-white hover:bg-mocha hover:text-white py-2.5 px-4 rounded-full text-xs font-bold tracking-wider transition-colors shadow-sm">Jetzt ansehen</a>
+        </div>
+    </aside>
 </div>
-<hr class="my-16 border-earth border-opacity-50"/>
+<hr class="my-16 border-earth-light/50"/>
 <!-- FAQs Section -->
 <div class="mt-16">
 <h3 class="text-3xl font-bold font-serif text-mocha mb-8 text-center">Häufig gestellte Fragen (FAQ)</h3>
@@ -199,6 +231,6 @@
 </main>
 <div id="footer-placeholder"></div>
 <script src="components/footer.js"></script>
-<script src="scripts.js"></script>
+<script src="components/blog.js"></script>
 </body>
 </html>

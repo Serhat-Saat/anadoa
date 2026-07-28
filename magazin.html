@@ -67,96 +67,166 @@
 <body class="font-sans text-ash bg-cream antialiased selection:bg-mocha selection:text-cream flex flex-col min-h-screen">
 <div id="nav-placeholder"></div>
 <script src="components/nav.js"></script>
-<main class="flex-grow pt-32 pb-24">
+<main class="flex-grow pt-32 pb-24 bg-noise">
 <div class="max-w-7xl mx-auto px-6">
-<header class="text-center mb-20 max-w-3xl mx-auto">
+<header class="text-center mb-16 max-w-3xl mx-auto">
 <nav aria-label="Breadcrumb" class="mb-6">
     <ol class="flex items-center justify-center space-x-2 text-sm text-ash-light/80 font-medium">
         <li><a href="index.html" class="hover:text-gold transition-colors">Startseite</a></li>
-        <li><span class="mx-2">/</span></li>
-        <li class="text-gold" aria-current="page">Magazin</li>
+        <li><span class="mx-2 text-ash-light/40">/</span></li>
+        <li class="text-gold font-semibold" aria-current="page">Magazin</li>
     </ol>
 </nav>
-<div class="inline-block bg-earth bg-opacity-30 text-mocha px-4 py-1 rounded-full text-sm font-semibold tracking-wider uppercase mb-4 shadow-sm border border-mocha border-opacity-20">Entdecken &amp; Lernen</div>
-<h1 class="text-5xl md:text-7xl font-bold font-serif text-mocha mb-6">Wissen aus Anatolien</h1>
-<p class="text-xl text-ash leading-relaxed">Tauchen Sie ein in unsere Sammlung an tiefgreifenden Artikeln über traditionelle Herstellungsmethoden, Pflanzenheilkunde und die Geheimnisse echter Kaltpressung.</p>
+<div class="inline-block bg-[#FDFBF7] border border-gold/20 text-mocha px-4 py-1.5 rounded-full text-xs font-bold tracking-wider uppercase mb-4 shadow-sm">Entdecken &amp; Lernen</div>
+<h1 class="text-5xl md:text-6xl font-bold font-serif text-mocha mb-6 leading-tight">Wissen aus Anatolien</h1>
+<p class="text-lg text-ash/80 leading-relaxed">Tauchen Sie ein in unsere Sammlung an tiefgreifenden Artikeln über traditionelle Herstellungsmethoden, Pflanzenheilkunde und die Geheimnisse echter Kaltpressung.</p>
 </header>
-<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-<a class="group bg-white rounded-3xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 flex flex-col border border-earth border-opacity-30 transform" href="schwarzkuemmeloel-thymoquinon-wirkung.html">
-<div class="relative h-64 overflow-hidden">
-<div class="absolute inset-0 bg-mocha opacity-10 group-hover:opacity-0 transition-opacity duration-500 z-10"></div>
-<img alt="Schwarzkümmelöl &amp; Thymoquinon: Das Gold der Pharaonen" class="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-110" src="assets/magazin_1.png"/>
+
+<!-- Category Filter Tabs -->
+<div class="flex flex-wrap justify-center gap-3 mb-16" id="category-filters">
+    <button class="px-6 py-2.5 rounded-full text-xs uppercase tracking-wider font-bold transition-all duration-300 border border-mocha bg-mocha text-white shadow-md active-filter" data-category="all">Alle</button>
+    <button class="px-6 py-2.5 rounded-full text-xs uppercase tracking-wider font-bold transition-all duration-300 border border-earth-light bg-white text-ash hover:bg-earth-light/40" data-category="oele">Öle & Herstellungsverfahren</button>
+    <button class="px-6 py-2.5 rounded-full text-xs uppercase tracking-wider font-bold transition-all duration-300 border border-earth-light bg-white text-ash hover:bg-earth-light/40" data-category="pasten">Pasten & Kosmetik</button>
+    <button class="px-6 py-2.5 rounded-full text-xs uppercase tracking-wider font-bold transition-all duration-300 border border-earth-light bg-white text-ash hover:bg-earth-light/40" data-category="melasse-essig">Melassen & Essig</button>
 </div>
-<div class="p-8 flex flex-col flex-grow bg-cream">
-<div class="text-sm font-semibold text-mocha uppercase tracking-wider mb-3">24. Juli 2026</div>
-<h3 class="text-2xl font-bold font-serif text-mocha mb-4 group-hover:text-ash transition-colors">Schwarzkümmelöl &amp; Thymoquinon: Das Gold der Pharaonen</h3>
-<p class="text-ash mb-6 line-clamp-3 leading-relaxed">Eine tiefgreifende wissenschaftliche und historische Analyse von Schwarzkümmelöl (Nigella sativa), seinem Hauptwirkstoff Thymoquinon und seinen unzähligen gesundheitlichen Vorteilen.</p>
-<div class="mt-auto text-mocha font-semibold inline-flex items-center group-hover:translate-x-2 transition-transform">
-                Artikel lesen <span class="ml-2">→</span>
-</div>
-</div>
-</a>
-<a class="group bg-white rounded-3xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 flex flex-col border border-earth border-opacity-30 transform" href="tahin-sesammus-gesundheit.html">
-<div class="relative h-64 overflow-hidden">
-<div class="absolute inset-0 bg-mocha opacity-10 group-hover:opacity-0 transition-opacity duration-500 z-10"></div>
-<img alt="Traditionelles Tahin: Die Kunst der Steinmühle" class="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-110" src="assets/magazin_2.png"/>
-</div>
-<div class="p-8 flex flex-col flex-grow bg-cream">
-<div class="text-sm font-semibold text-mocha uppercase tracking-wider mb-3">22. Juli 2026</div>
-<h3 class="text-2xl font-bold font-serif text-mocha mb-4 group-hover:text-ash transition-colors">Traditionelles Tahin: Die Kunst der Steinmühle</h3>
-<p class="text-ash mb-6 line-clamp-3 leading-relaxed">Erfahren Sie, warum die traditionelle Steinvermahlung von geröstetem Sesam der einzige Weg ist, um das seidige, aromatische und hochnährwertige Tahin zu produzieren.</p>
-<div class="mt-auto text-mocha font-semibold inline-flex items-center group-hover:translate-x-2 transition-transform">
-                Artikel lesen <span class="ml-2">→</span>
-</div>
-</div>
-</a>
-<a class="group bg-white rounded-3xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 flex flex-col border border-earth border-opacity-30 transform" href="zypressenzapfen-paste-husten-naturheilkunde.html">
-<div class="relative h-64 overflow-hidden">
-<div class="absolute inset-0 bg-mocha opacity-10 group-hover:opacity-0 transition-opacity duration-500 z-10"></div>
-<img alt="Das alte Geheimnis der Berge: Zypressenzapfen Paste" class="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-110" src="assets/magazin_3.png"/>
-</div>
-<div class="p-8 flex flex-col flex-grow bg-cream">
-<div class="text-sm font-semibold text-mocha uppercase tracking-wider mb-3">18. Juli 2026</div>
-<h3 class="text-2xl font-bold font-serif text-mocha mb-4 group-hover:text-ash transition-colors">Das alte Geheimnis der Berge: Zypressenzapfen Paste</h3>
-<p class="text-ash mb-6 line-clamp-3 leading-relaxed">Entdecken Sie die historische Bedeutung und die atmungsunterstützenden Eigenschaften der traditionellen anatolischen Zypressenzapfen Paste.</p>
-<div class="mt-auto text-mocha font-semibold inline-flex items-center group-hover:translate-x-2 transition-transform">
-                Artikel lesen <span class="ml-2">→</span>
-</div>
-</div>
-</a>
-<a class="group bg-white rounded-3xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 flex flex-col border border-earth border-opacity-30 transform" href="kaltpressung-oele-herstellung-qualitaet.html">
-<div class="relative h-64 overflow-hidden">
-<div class="absolute inset-0 bg-mocha opacity-10 group-hover:opacity-0 transition-opacity duration-500 z-10"></div>
-<img alt="Die Wahrheit über Kaltpressung: Warum Temperatur den Unterschied macht" class="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-110" src="assets/magazin_4.png"/>
-</div>
-<div class="p-8 flex flex-col flex-grow bg-cream">
-<div class="text-sm font-semibold text-mocha uppercase tracking-wider mb-3">15. Juli 2026</div>
-<h3 class="text-2xl font-bold font-serif text-mocha mb-4 group-hover:text-ash transition-colors">Die Wahrheit über Kaltpressung: Warum Temperatur den Unterschied macht</h3>
-<p class="text-ash mb-6 line-clamp-3 leading-relaxed">Erfahren Sie, warum die echte, temperaturkontrollierte Kaltpressung entscheidend für die Qualität, den Geschmack und die Heilwirkung von Pflanzenölen ist.</p>
-<div class="mt-auto text-mocha font-semibold inline-flex items-center group-hover:translate-x-2 transition-transform">
-                Artikel lesen <span class="ml-2">→</span>
-</div>
-</div>
-</a>
-<a class="group bg-white rounded-3xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 flex flex-col border border-earth border-opacity-30 transform" href="traubenmelasse-pekmez-eisen-gesundheit.html">
-<div class="relative h-64 overflow-hidden">
-<div class="absolute inset-0 bg-mocha opacity-10 group-hover:opacity-0 transition-opacity duration-500 z-10"></div>
-<img alt="Anatolische Traubenmelasse (Pekmez): Natürliche Energie" class="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-110" src="assets/hero-background.png"/>
-</div>
-<div class="p-8 flex flex-col flex-grow bg-cream">
-<div class="text-sm font-semibold text-mocha uppercase tracking-wider mb-3">10. Juli 2026</div>
-<h3 class="text-2xl font-bold font-serif text-mocha mb-4 group-hover:text-ash transition-colors">Anatolische Traubenmelasse (Pekmez): Natürliche Energie</h3>
-<p class="text-ash mb-6 line-clamp-3 leading-relaxed">Erfahren Sie, wie aus sonnengereiften anatolischen Trauben durch stundenlanges Einkochen die dickflüssige, mineralstoffreiche Melasse 'Pekmez' entsteht und warum sie so gesund ist.</p>
-<div class="mt-auto text-mocha font-semibold inline-flex items-center group-hover:translate-x-2 transition-transform">
-                Artikel lesen <span class="ml-2">→</span>
-</div>
-</div>
-</a>
+
+<!-- Blog Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" id="blog-grid">
+    <!-- Card 1 -->
+    <a class="group bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-500 hover:-translate-y-1.5 flex flex-col border border-earth-light/50 transform blog-card" data-category="oele" href="schwarzkuemmeloel-thymoquinon-wirkung.html">
+        <div class="relative h-64 overflow-hidden bg-earth-light">
+            <div class="absolute inset-0 bg-mocha/5 opacity-10 group-hover:opacity-0 transition-opacity duration-500 z-10 pointer-events-none"></div>
+            <img alt="Schwarzkümmelöl &amp; Thymoquinon: Das Gold der Pharaonen" class="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-105" src="assets/magazin_1.png"/>
+        </div>
+        <div class="p-8 flex flex-col flex-grow bg-white">
+            <span class="text-[10px] uppercase tracking-widest text-sage font-extrabold mb-2 block">Kaltgepresste Öle</span>
+            <h3 class="text-xl md:text-2xl font-bold font-serif text-mocha mb-3 group-hover:text-gold transition-colors leading-tight">Schwarzkümmelöl &amp; Thymoquinon: Das Gold der Pharaonen</h3>
+            <p class="text-ash/70 text-sm mb-6 line-clamp-3 leading-relaxed">Eine tiefgreifende wissenschaftliche und historische Analyse von Schwarzkümmelöl (Nigella sativa), seinem Hauptwirkstoff Thymoquinon und seinen unzähligen gesundheitlichen Vorteilen.</p>
+            <div class="flex items-center justify-between text-xs text-ash-light font-medium mt-auto pt-5 border-t border-earth-light/60">
+                <span>24. Juli 2026</span>
+                <span class="inline-flex items-center">
+                    <svg class="w-4 h-4 mr-1 text-gold/80" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                    8 Min. Lesezeit
+                </span>
+            </div>
+        </div>
+    </a>
+
+    <!-- Card 2 -->
+    <a class="group bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-500 hover:-translate-y-1.5 flex flex-col border border-earth-light/50 transform blog-card" data-category="pasten" href="tahin-sesammus-gesundheit.html">
+        <div class="relative h-64 overflow-hidden bg-earth-light">
+            <div class="absolute inset-0 bg-mocha/5 opacity-10 group-hover:opacity-0 transition-opacity duration-500 z-10 pointer-events-none"></div>
+            <img alt="Traditionelles Tahin: Die Kunst der Steinmühle" class="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-105" src="assets/magazin_2.png"/>
+        </div>
+        <div class="p-8 flex flex-col flex-grow bg-white">
+            <span class="text-[10px] uppercase tracking-widest text-sage font-extrabold mb-2 block">Traditionelle Pasten</span>
+            <h3 class="text-xl md:text-2xl font-bold font-serif text-mocha mb-3 group-hover:text-gold transition-colors leading-tight">Traditionelles Tahin: Die Kunst der Steinmühle</h3>
+            <p class="text-ash/70 text-sm mb-6 line-clamp-3 leading-relaxed">Erfahren Sie, warum die traditionelle Steinvermahlung von geröstetem Sesam der einzige Weg ist, um das seidige, aromatische und hochnährwertige Tahin zu produzieren.</p>
+            <div class="flex items-center justify-between text-xs text-ash-light font-medium mt-auto pt-5 border-t border-earth-light/60">
+                <span>22. Juli 2026</span>
+                <span class="inline-flex items-center">
+                    <svg class="w-4 h-4 mr-1 text-gold/80" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                    5 Min. Lesezeit
+                </span>
+            </div>
+        </div>
+    </a>
+
+    <!-- Card 3 -->
+    <a class="group bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-500 hover:-translate-y-1.5 flex flex-col border border-earth-light/50 transform blog-card" data-category="pasten" href="zypressenzapfen-paste-husten-naturheilkunde.html">
+        <div class="relative h-64 overflow-hidden bg-earth-light">
+            <div class="absolute inset-0 bg-mocha/5 opacity-10 group-hover:opacity-0 transition-opacity duration-500 z-10 pointer-events-none"></div>
+            <img alt="Das alte Geheimnis der Berge: Zypressenzapfen Paste" class="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-105" src="assets/magazin_3.png"/>
+        </div>
+        <div class="p-8 flex flex-col flex-grow bg-white">
+            <span class="text-[10px] uppercase tracking-widest text-sage font-extrabold mb-2 block">Traditionelle Pasten</span>
+            <h3 class="text-xl md:text-2xl font-bold font-serif text-mocha mb-3 group-hover:text-gold transition-colors leading-tight">Das alte Geheimnis der Berge: Zypressenzapfen Paste</h3>
+            <p class="text-ash/70 text-sm mb-6 line-clamp-3 leading-relaxed">Entdecken Sie die historische Bedeutung und die atmungsunterstützenden Eigenschaften der traditionellen anatolischen Zypressenzapfen Paste.</p>
+            <div class="flex items-center justify-between text-xs text-ash-light font-medium mt-auto pt-5 border-t border-earth-light/60">
+                <span>18. Juli 2026</span>
+                <span class="inline-flex items-center">
+                    <svg class="w-4 h-4 mr-1 text-gold/80" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                    6 Min. Lesezeit
+                </span>
+            </div>
+        </div>
+    </a>
+
+    <!-- Card 4 -->
+    <a class="group bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-500 hover:-translate-y-1.5 flex flex-col border border-earth-light/50 transform blog-card" data-category="oele" href="kaltpressung-oele-herstellung-qualitaet.html">
+        <div class="relative h-64 overflow-hidden bg-earth-light">
+            <div class="absolute inset-0 bg-mocha/5 opacity-10 group-hover:opacity-0 transition-opacity duration-500 z-10 pointer-events-none"></div>
+            <img alt="Die Wahrheit über Kaltpressung: Warum Temperatur den Unterschied macht" class="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-105" src="assets/magazin_4.png"/>
+        </div>
+        <div class="p-8 flex flex-col flex-grow bg-white">
+            <span class="text-[10px] uppercase tracking-widest text-sage font-extrabold mb-2 block">Öle &amp; Qualität</span>
+            <h3 class="text-xl md:text-2xl font-bold font-serif text-mocha mb-3 group-hover:text-gold transition-colors leading-tight">Die Wahrheit über Kaltpressung: Temperatur macht den Unterschied</h3>
+            <p class="text-ash/70 text-sm mb-6 line-clamp-3 leading-relaxed">Erfahren Sie, warum die echte, temperaturkontrollierte Kaltpressung entscheidend für die Qualität, den Geschmack und die Heilwirkung von Pflanzenölen ist.</p>
+            <div class="flex items-center justify-between text-xs text-ash-light font-medium mt-auto pt-5 border-t border-earth-light/60">
+                <span>15. Juli 2026</span>
+                <span class="inline-flex items-center">
+                    <svg class="w-4 h-4 mr-1 text-gold/80" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                    7 Min. Lesezeit
+                </span>
+            </div>
+        </div>
+    </a>
+
+    <!-- Card 5 -->
+    <a class="group bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-500 hover:-translate-y-1.5 flex flex-col border border-earth-light/50 transform blog-card" data-category="melasse-essig" href="traubenmelasse-pekmez-eisen-gesundheit.html">
+        <div class="relative h-64 overflow-hidden bg-earth-light">
+            <div class="absolute inset-0 bg-mocha/5 opacity-10 group-hover:opacity-0 transition-opacity duration-500 z-10 pointer-events-none"></div>
+            <img alt="Anatolische Traubenmelasse (Pekmez): Natürliche Energie" class="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-105" src="assets/hero-background.png"/>
+        </div>
+        <div class="p-8 flex flex-col flex-grow bg-white">
+            <span class="text-[10px] uppercase tracking-widest text-sage font-extrabold mb-2 block">Melassen &amp; Essig</span>
+            <h3 class="text-xl md:text-2xl font-bold font-serif text-mocha mb-3 group-hover:text-gold transition-colors leading-tight">Anatolische Traubenmelasse (Pekmez): Natürliche Energie</h3>
+            <p class="text-ash/70 text-sm mb-6 line-clamp-3 leading-relaxed">Erfahren Sie, wie aus sonnengereiften anatolischen Trauben durch stundenlanges Einkochen die mineralstoffreiche Melasse 'Pekmez' entsteht.</p>
+            <div class="flex items-center justify-between text-xs text-ash-light font-medium mt-auto pt-5 border-t border-earth-light/60">
+                <span>10. Juli 2026</span>
+                <span class="inline-flex items-center">
+                    <svg class="w-4 h-4 mr-1 text-gold/80" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                    6 Min. Lesezeit
+                </span>
+            </div>
+        </div>
+    </a>
 </div>
 </div>
 </main>
 <div id="footer-placeholder"></div>
 <script src="components/footer.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const filters = document.querySelectorAll('#category-filters button');
+    const cards = document.querySelectorAll('.blog-card');
+
+    filters.forEach(filter => {
+        filter.addEventListener('click', () => {
+            // Remove active classes
+            filters.forEach(btn => {
+                btn.classList.remove('bg-mocha', 'text-white', 'shadow-md');
+                btn.classList.add('bg-white', 'text-ash', 'border-earth-light');
+            });
+
+            // Set current active
+            filter.classList.add('bg-mocha', 'text-white', 'shadow-md');
+            filter.classList.remove('bg-white', 'text-ash', 'border-earth-light');
+
+            const selectedCategory = filter.getAttribute('data-category');
+
+            cards.forEach(card => {
+                const cardCategory = card.getAttribute('data-category');
+                if (selectedCategory === 'all' || cardCategory === selectedCategory) {
+                    card.style.display = 'flex';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        });
+    });
+});
+</script>
 <script src="scripts.js"></script>
 </body>
 </html>

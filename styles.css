@@ -154,3 +154,26 @@ details[open] summary ~ * {
 .text-gold { color: var(--color-mocha); }
 .border-gold { border-color: var(--color-mocha); }
 .bg-gold { background-color: var(--color-mocha); }
+
+/* Custom Scrollbars for Dropdown Menus */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 5px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: rgba(232, 226, 216, 0.1);
+  border-radius: 10px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(95, 60, 23, 0.2);
+  border-radius: 10px;
+  transition: background 0.3s ease;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(95, 60, 23, 0.4);
+}
+/* Firefox support */
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(95, 60, 23, 0.2) rgba(232, 226, 216, 0.1);
+}
+
