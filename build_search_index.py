@@ -27,7 +27,7 @@ class PageParser(HTMLParser):
         elif tag == 'h1':
             self.in_h1 = True
         elif tag == 'meta':
-            if attrs_dict.get('name', '').lower() == 'description':
+            if attrs_dict.get('name', '').lower() == 'description' and not self.description:
                 self.description = attrs_dict.get('content', '')
             elif attrs_dict.get('property', '').lower() == 'og:image':
                 self.og_image = attrs_dict.get('content', '')

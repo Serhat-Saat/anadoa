@@ -463,7 +463,7 @@ function initNavigation() {
       },
       {
         "title": "Dattel Melasse (Hurma Pekmezi)",
-        "description": "Kaltgepresste anatolische Fruchtmelassen (Pekmez) aus Maulbeeren, Trauben, Johannisbrot und Wacholder. 100% rein, ohne Zuckerzusatz und extrem eisenreich.",
+        "description": "Verdauungsfreundliche Dattelmelasse. Reich an Ballaststoffen, Kalium und Magnesium. Die perfekte vegane Honig-Alternative für Pancakes.",
         "h1": "Dattel Melasse (Hurma Pekmezi)",
         "url": "dattel-melasse.html",
         "image": "assets/anadoa-logo-1100-1100.png",
@@ -481,7 +481,7 @@ function initNavigation() {
       },
       {
         "title": "Eibischblüten Tee kaufen",
-        "description": "Kaltgepresste anatolische Fruchtmelassen (Pekmez) aus Maulbeeren, Trauben, Johannisbrot und Wacholder. 100% rein, ohne Zuckerzusatz und extrem eisenreich.",
+        "description": "Wunderschöne Eibischblüten (Hatmi Çiçeği). Das sanfteste, pflanzliche Heilmittel aus Anatolien bei Reizhusten, Heiserkeit und Magenbeschwerden.",
         "h1": "Eibischblüten Tee (Hatmi Çiçeği)",
         "url": "eibischblueten-tee.html",
         "image": "assets/eibischblueten_tee.png",
@@ -508,7 +508,7 @@ function initNavigation() {
       },
       {
         "title": "Fencheltee kaufen",
-        "description": "Kaltgepresste anatolische Fruchtmelassen (Pekmez) aus Maulbeeren, Trauben, Johannisbrot und Wacholder. 100% rein, ohne Zuckerzusatz und extrem eisenreich.",
+        "description": "Premium Fenchelsamen (Rezene Çayı). Der sanfte Klassiker für die ganze Familie zur Linderung von Magenkrämpfen, Blähungen und Völlegefühl.",
         "h1": "Fencheltee (Rezene)",
         "url": "fenchel-tee.html",
         "image": "assets/fenchel_tee.png",
@@ -517,7 +517,7 @@ function initNavigation() {
       },
       {
         "title": "Flohsamenschalen Pulver kaufen",
-        "description": "Kaltgepresste anatolische Fruchtmelassen (Pekmez) aus Maulbeeren, Trauben, Johannisbrot und Wacholder. 100% rein, ohne Zuckerzusatz und extrem eisenreich.",
+        "description": "Premium Flohsamenschalen Pulver (Karnıyarık Tozu). Die höchste Qualität an pflanzlichen Ballaststoffen für einen gesunden Darm und sanfte Verdauung.",
         "h1": "Flohsamenschalen (Karnıyarık Tozu)",
         "url": "flohsamenschalen.html",
         "image": "assets/anadoa-logo-1100-1100.png",
@@ -580,7 +580,7 @@ function initNavigation() {
       },
       {
         "title": "Grüner Tee kaufen",
-        "description": "Kaltgepresste anatolische Fruchtmelassen (Pekmez) aus Maulbeeren, Trauben, Johannisbrot und Wacholder. 100% rein, ohne Zuckerzusatz und extrem eisenreich.",
+        "description": "Premium Grüner Tee zur natürlichen Stoffwechselanregung und für antioxidativen Zellschutz. Handverlesene Qualität für den perfekten Fokus.",
         "h1": "Magischer Grüntee",
         "url": "gruener-tee.html",
         "image": "assets/gruener_tee.png",
@@ -589,7 +589,7 @@ function initNavigation() {
       },
       {
         "title": "Bio Hagebutten Pulver kaufen",
-        "description": "Kaltgepresste anatolische Fruchtmelassen (Pekmez) aus Maulbeeren, Trauben, Johannisbrot und Wacholder. 100% rein, ohne Zuckerzusatz und extrem eisenreich.",
+        "description": "100% reines, fein gemahlenes BIO Hagebutten Pulver (Kuşburnu). Natürliche, hochdosierte Vitamin-C-Quelle für Immunsystem, Gelenke und Haut.",
         "h1": "Hagebutten BIO Pulver",
         "url": "hagebutten-pulver.html",
         "image": "assets/anadoa-logo-1100-1100.png",
@@ -598,7 +598,7 @@ function initNavigation() {
       },
       {
         "title": "Hagebutten Tee kaufen",
-        "description": "Kaltgepresste anatolische Fruchtmelassen (Pekmez) aus Maulbeeren, Trauben, Johannisbrot und Wacholder. 100% rein, ohne Zuckerzusatz und extrem eisenreich.",
+        "description": "Traditioneller Hagebutten Tee (Kuşburnu). Hergestellt aus ganzen, schonend getrockneten Wildfrüchten. Säuerlich-frischer Geschmack und reich an Vitaminen.",
         "h1": "Hagebutten Tee (Kuşburnu)",
         "url": "hagebutten-tee.html",
         "image": "assets/hagebutten_tee.png",
@@ -625,7 +625,7 @@ function initNavigation() {
       },
       {
         "title": "Hibiskus Tee kaufen",
-        "description": "Kaltgepresste anatolische Fruchtmelassen (Pekmez) aus Maulbeeren, Trauben, Johannisbrot und Wacholder. 100% rein, ohne Zuckerzusatz und extrem eisenreich.",
+        "description": "Premium Hibiskus Tee (Nar Çiçeği / Hibiscus Sabdariffa). Reich an organischen Säuren und Antioxidantien. Unterstützt das Herz-Kreislauf-System.",
         "h1": "Hibiskus Tee",
         "url": "hibiskus-tee.html",
         "image": "assets/hibiskus_tee.png",
@@ -634,7 +634,7 @@ function initNavigation() {
       },
       {
         "title": "Johannisbrot Melasse (Keçiboynuzu Pekmezi)",
-        "description": "Kaltgepresste anatolische Fruchtmelassen (Pekmez) aus Maulbeeren, Trauben, Johannisbrot und Wacholder. 100% rein, ohne Zuckerzusatz und extrem eisenreich.",
+        "description": "Natürliche Kalziumquelle und Hustenstiller. Johannisbrotmelasse aus dem Mittelmeerraum, 100% rein, ohne Zucker und glutenfrei.",
         "h1": "Johannisbrot Melasse (Keçiboynuzu)",
         "url": "johannisbrot-melasse.html",
         "image": "assets/anadoa-logo-1100-1100.png",
@@ -706,7 +706,7 @@ function initNavigation() {
       },
       {
         "title": "Kirschstiel Tee (Kiraz Sapı) kaufen",
-        "description": "Kaltgepresste anatolische Fruchtmelassen (Pekmez) aus Maulbeeren, Trauben, Johannisbrot und Wacholder. 100% rein, ohne Zuckerzusatz und extrem eisenreich.",
+        "description": "Reine Kirschstiele zur sanften Entwässerung und Detox. Das traditionelle Naturheilmittel zur Nierenreinigung und Reduzierung von Ödemen.",
         "h1": "Kirschstiel Tee (Kiraz Sapı)",
         "url": "kirschstiel-tee.html",
         "image": "assets/kirschstiel_tee.png",
@@ -724,7 +724,7 @@ function initNavigation() {
       },
       {
         "title": "Lavendeltee kaufen",
-        "description": "Kaltgepresste anatolische Fruchtmelassen (Pekmez) aus Maulbeeren, Trauben, Johannisbrot und Wacholder. 100% rein, ohne Zuckerzusatz und extrem eisenreich.",
+        "description": "Premium Lavendeltee (Lavanta Çayı) aus echten Blüten. Der florale Ruhepol zur Beruhigung von Nerven, bei Stress und leichten Schlafproblemen.",
         "h1": "Lavendeltee (Lavanta Çayı)",
         "url": "lavendel-tee.html",
         "image": "assets/lavendel_tee.png",
@@ -751,7 +751,7 @@ function initNavigation() {
       },
       {
         "title": "Löwenzahn Tee kaufen",
-        "description": "Kaltgepresste anatolische Fruchtmelassen (Pekmez) aus Maulbeeren, Trauben, Johannisbrot und Wacholder. 100% rein, ohne Zuckerzusatz und extrem eisenreich.",
+        "description": "Reiner Löwenzahn Tee aus Anatolien. Das ultimative Detox-Kraut zur Leberreinigung, Unterstützung der Galle und Entschlackung.",
         "h1": "Löwenzahn Tee (Karahindiba)",
         "url": "loewenzahn-tee.html",
         "image": "assets/loewenzahn_tee.png",
@@ -769,7 +769,7 @@ function initNavigation() {
       },
       {
         "title": "Love Tee kaufen",
-        "description": "Kaltgepresste anatolische Fruchtmelassen (Pekmez) aus Maulbeeren, Trauben, Johannisbrot und Wacholder. 100% rein, ohne Zuckerzusatz und extrem eisenreich.",
+        "description": "Sinnlicher Love Tee. Eine meisterhaft komponierte, aphrodisierende Kräutermischung für romantische Abende, Stressabbau und tiefe Entspannung.",
         "h1": "Love Tee (Spezial Mix)",
         "url": "love-tee.html",
         "image": "assets/love_tee.png",
@@ -787,7 +787,7 @@ function initNavigation() {
       },
       {
         "title": "Maisbart Tee kaufen",
-        "description": "Kaltgepresste anatolische Fruchtmelassen (Pekmez) aus Maulbeeren, Trauben, Johannisbrot und Wacholder. 100% rein, ohne Zuckerzusatz und extrem eisenreich.",
+        "description": "Maisbart Tee (Mısır Püskülü) aus Anatolien. Das sanfteste, natürliche Entwässerungsmittel zur Durchspülung von Niere, Blase und Harnwegen.",
         "h1": "Maisbart Tee (Mısır Püskülü)",
         "url": "maisbart-tee.html",
         "image": "assets/maisbart_tee.png",
@@ -796,7 +796,7 @@ function initNavigation() {
       },
       {
         "title": "Malvenblüten Tee kaufen",
-        "description": "Kaltgepresste anatolische Fruchtmelassen (Pekmez) aus Maulbeeren, Trauben, Johannisbrot und Wacholder. 100% rein, ohne Zuckerzusatz und extrem eisenreich.",
+        "description": "Wunderschöne, blaue Malvenblüten (Ebegümeci). Der sanfte Schleimlöser bei hartnäckigem Reizhusten und Entzündungen der Magenschleimhaut.",
         "h1": "Malvenblüten Tee (Ebegümeci)",
         "url": "malvenblueten-tee.html",
         "image": "assets/malvenblueten_tee.png",
@@ -823,7 +823,7 @@ function initNavigation() {
       },
       {
         "title": "Maulbeeren Melasse (Dut Pekmezi)",
-        "description": "Kaltgepresste anatolische Fruchtmelassen (Pekmez) aus Maulbeeren, Trauben, Johannisbrot und Wacholder. 100% rein, ohne Zuckerzusatz und extrem eisenreich.",
+        "description": "Die Beauty-Molasse aus schwarzen Maulbeeren. Extrem reich an Antioxidantien, Eisen und Resveratrol. Perfekt für Smoothie-Bowls.",
         "h1": "Maulbeeren Melasse (Dut Pekmezi)",
         "url": "maulbeeren-melasse.html",
         "image": "assets/anadoa-logo-1100-1100.png",
@@ -1120,7 +1120,7 @@ function initNavigation() {
       },
       {
         "title": "Salbei Tee kaufen",
-        "description": "Kaltgepresste anatolische Fruchtmelassen (Pekmez) aus Maulbeeren, Trauben, Johannisbrot und Wacholder. 100% rein, ohne Zuckerzusatz und extrem eisenreich.",
+        "description": "Traditioneller Salbei Tee (Adaçayı) aus den Bergen Anatoliens. Das stärkste Kraut gegen Halsschmerzen, Entzündungen und starkes Schwitzen.",
         "h1": "Salbei Tee (Adaçayı)",
         "url": "salbei-tee.html",
         "image": "assets/salbei_tee.png",
@@ -1147,7 +1147,7 @@ function initNavigation() {
       },
       {
         "title": "Schafgarbentee kaufen",
-        "description": "Kaltgepresste anatolische Fruchtmelassen (Pekmez) aus Maulbeeren, Trauben, Johannisbrot und Wacholder. 100% rein, ohne Zuckerzusatz und extrem eisenreich.",
+        "description": "Premium Schafgarbentee (Civan Perçemi) aus Anatolien. Das ultimative, traditionelle Heilkraut zur Hormonbalance und Linderung von Menstruationsbeschwerden.",
         "h1": "Schafgarbentee (Civan Perçemi)",
         "url": "schafgarben-tee.html",
         "image": "assets/schafgarben_tee.png",
@@ -1156,7 +1156,7 @@ function initNavigation() {
       },
       {
         "title": "Scharfe Tarhana Suppe (Acılı) kaufen",
-        "description": "Würzig, fermentiert & schnell zubereitet. Ein Hauch Anatolien mit feuriger Note.",
+        "description": "Scharfe Tarhana Suppe (Acılı) kaufen – mit Cayennepfeffer & Capia-Paprika fermentiert. Authentisch anatolisch, 100% natürlich, schnell zubereitet. Jetzt bei Anadoa.",
         "h1": "Scharfe Tarhana Suppe (Acılı)",
         "url": "scharfe-tarhana-suppe.html",
         "image": "assets/anadoa-logo-1100-1100.png",
@@ -1165,7 +1165,7 @@ function initNavigation() {
       },
       {
         "title": "Schopflavendel Tee (Karabaş Otu) kaufen",
-        "description": "Kaltgepresste anatolische Fruchtmelassen (Pekmez) aus Maulbeeren, Trauben, Johannisbrot und Wacholder. 100% rein, ohne Zuckerzusatz und extrem eisenreich.",
+        "description": "Seltener Karabaş Otu Tee aus Anatolien. Das Heilkraut des osmanischen Hofes zur starken Nervenberuhigung, Entspannung und zum Zellschutz.",
         "h1": "Schopflavendel Tee (Karabaş Otu)",
         "url": "schopflavendel-tee.html",
         "image": "assets/schopflavendel_tee.png",
@@ -1237,7 +1237,7 @@ function initNavigation() {
       },
       {
         "title": "Senna Blättertee kaufen",
-        "description": "Kaltgepresste anatolische Fruchtmelassen (Pekmez) aus Maulbeeren, Trauben, Johannisbrot und Wacholder. 100% rein, ohne Zuckerzusatz und extrem eisenreich.",
+        "description": "Alexandrische Senna (Sinameki Çayı). Das stärkste, anatolische Kraut zur akuten, kurzfristigen Behandlung von schwerer Verstopfung. Hochwirksam.",
         "h1": "Alexandrische Senna (Sinameki)",
         "url": "senna-blaettertee.html",
         "image": "assets/senna_blaettertee.png",
@@ -1255,7 +1255,7 @@ function initNavigation() {
       },
       {
         "title": "Spitzwegerich Tee (Sinir Otu) kaufen",
-        "description": "Kaltgepresste anatolische Fruchtmelassen (Pekmez) aus Maulbeeren, Trauben, Johannisbrot und Wacholder. 100% rein, ohne Zuckerzusatz und extrem eisenreich.",
+        "description": "Handverlesener Spitzwegerich Tee. Natürlicher Hustenstiller und Lungenunterstützung. Premium Qualität aus der Türkei.",
         "h1": "Spitzwegerich Tee (Sinir Otu)",
         "url": "spitzwegerich-tee.html",
         "image": "assets/spitzwegerich_tee.png",
@@ -1264,7 +1264,7 @@ function initNavigation() {
       },
       {
         "title": "Süßholzwurzel Tee kaufen",
-        "description": "Kaltgepresste anatolische Fruchtmelassen (Pekmez) aus Maulbeeren, Trauben, Johannisbrot und Wacholder. 100% rein, ohne Zuckerzusatz und extrem eisenreich.",
+        "description": "Naturreine Süßholzwurzel (Meyan Kökü). Der anatolische Balsam für Magen und Atemwege. 50-mal süßer als Zucker, aber ohne Kalorien.",
         "h1": "Süßholzwurzel Tee (Meyan Kökü)",
         "url": "suessholzwurzel-tee.html",
         "image": "assets/suessholzwurzel_tee.png",
@@ -1417,7 +1417,7 @@ function initNavigation() {
       },
       {
         "title": "Premium Traubenmelasse (Üzüm Pekmezi)",
-        "description": "Kaltgepresste anatolische Fruchtmelassen (Pekmez) aus Maulbeeren, Trauben, Johannisbrot und Wacholder. 100% rein, ohne Zuckerzusatz und extrem eisenreich.",
+        "description": "Kaltgepresste Traubenmelasse aus anatolischer Ernte. 100% zuckerfrei, extrem reich an Eisen, Resveratrol und Kalium. Natürliche Süße.",
         "h1": "Traubenmelasse (Üzüm Pekmezi)",
         "url": "traubenmelasse.html",
         "image": "assets/anadoa-logo-1100-1100.png",
@@ -1453,7 +1453,7 @@ function initNavigation() {
       },
       {
         "title": "Wacholderbeeren Melasse (Andız Pekmezi)",
-        "description": "Kaltgepresste anatolische Fruchtmelassen (Pekmez) aus Maulbeeren, Trauben, Johannisbrot und Wacholder. 100% rein, ohne Zuckerzusatz und extrem eisenreich.",
+        "description": "Andız Pekmezi aus wilden Wacholderzapfen des Taurusgebirges. Starkes Antioxidans, Detox-Unterstützer und traditioneller Lungenbalsam.",
         "h1": "Wacholderbeeren Melasse (Andız)",
         "url": "wacholderbeeren-melasse.html",
         "image": "assets/anadoa-logo-1100-1100.png",
@@ -1498,7 +1498,7 @@ function initNavigation() {
       },
       {
         "title": "Wintertee kaufen",
-        "description": "Kaltgepresste anatolische Fruchtmelassen (Pekmez) aus Maulbeeren, Trauben, Johannisbrot und Wacholder. 100% rein, ohne Zuckerzusatz und extrem eisenreich.",
+        "description": "Anadoa Wintertee. Eine wärmende, harmonische Kräutermischung aus Anatolien zur Stärkung der Abwehrkräfte an kalten Tagen.",
         "h1": "Wintertee (Winter Mix)",
         "url": "wintertee.html",
         "image": "assets/wintertee.png",
@@ -1516,7 +1516,7 @@ function initNavigation() {
       },
       {
         "title": "Zaatar Tee kaufen",
-        "description": "Kaltgepresste anatolische Fruchtmelassen (Pekmez) aus Maulbeeren, Trauben, Johannisbrot und Wacholder. 100% rein, ohne Zuckerzusatz und extrem eisenreich.",
+        "description": "Zahter (Schwarzer Thymian) aus dem anatolischen Taurusgebirge. Stark antiseptisch, bei Magenproblemen und Entzündungen im Rachen.",
         "h1": "Zaatar Tee (Schwarzer Thymian)",
         "url": "zaatar-tee.html",
         "image": "assets/zaatar_tee.png",
@@ -1609,20 +1609,68 @@ function initNavigation() {
     function performSearch(query) {
         if (!searchIndex) return;
         const normalizedQuery = normalizeString(query);
+        if (!normalizedQuery) {
+            searchResults.innerHTML = '';
+            searchResults.classList.add('hidden');
+            return;
+        }
         
-        const matches = searchIndex.filter(item => {
+        const scoredItems = [];
+        
+        searchIndex.forEach(item => {
             const normalizedTitle = normalizeString(item.title || '');
             const normalizedDesc = normalizeString(item.description || '');
             const normalizedH1 = normalizeString(item.h1 || '');
             const normalizedCategory = normalizeString(item.category || '');
             const normalizedKeywords = normalizeString(item.keywords || '');
             
-            return normalizedTitle.includes(normalizedQuery) || 
-                   normalizedDesc.includes(normalizedQuery) || 
-                   normalizedH1.includes(normalizedQuery) || 
-                   normalizedCategory.includes(normalizedQuery) ||
-                   normalizedKeywords.includes(normalizedQuery);
+            let score = 0;
+            
+            // 1. Title Match (Highest relevance weight)
+            if (normalizedTitle === normalizedQuery) {
+                score += 500;
+            } else if (normalizedTitle.startsWith(normalizedQuery)) {
+                score += 300;
+            } else if (normalizedTitle.includes(normalizedQuery)) {
+                score += 150;
+            }
+            
+            // 2. Keywords/Synonyms Match (Second weight)
+            if (normalizedKeywords.includes(normalizedQuery)) {
+                if (normalizedKeywords === normalizedQuery) {
+                    score += 250;
+                } else {
+                    score += 100;
+                }
+            }
+            
+            // 3. H1 Match
+            if (normalizedH1 === normalizedQuery) {
+                score += 200;
+            } else if (normalizedH1.includes(normalizedQuery)) {
+                score += 80;
+            }
+            
+            // 4. Category Match
+            if (normalizedCategory.includes(normalizedQuery)) {
+                score += 40;
+            }
+            
+            // 5. Description Match (Lowest weight)
+            if (normalizedDesc.includes(normalizedQuery)) {
+                score += 20;
+            }
+            
+            if (score > 0) {
+                scoredItems.push({ item, score });
+            }
         });
+        
+        // Sort descending by score
+        scoredItems.sort((a, b) => b.score - a.score);
+        
+        // Extract sorted items
+        const matches = scoredItems.map(si => si.item);
 
         renderResults(matches, query);
     }
