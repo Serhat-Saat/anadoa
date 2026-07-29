@@ -284,3 +284,13 @@ details[open] summary ~ * {
   }
 }
 
+/* Prevent TOC Sidebar from being sticky and overlapping content on vertical stacks (mobile & tablet) */
+@media (max-width: 1023px) {
+  .toc-sidebar {
+    position: static !important;
+    max-height: none !important;
+    overflow-y: visible !important;
+  }
+}
+
+
