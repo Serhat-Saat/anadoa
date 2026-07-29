@@ -290,7 +290,7 @@ details[open] summary ~ * {
     position: static !important;
     max-height: none !important;
     overflow-y: visible !important;
-    margin-bottom: 2.5rem !important; /* Push main content down to separate the sections */
+    margin-bottom: 0.5rem !important; /* Push main content down to separate the sections */
   }
 }
 
