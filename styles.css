@@ -309,7 +309,17 @@ details[open] summary ~ * {
 @media (min-width: 768px) {
   #hero-title {
     font-size: 6rem !important;
-  }
+}
+
+/* Fix rounded corners clipping lag / flicker bug on image scale transition in Chrome & Safari */
+.overflow-hidden {
+  isolation: isolate !important;
+  backface-visibility: hidden !important;
+  transform: translate3d(0, 0, 0) !important;
+}
+
+.rounded-\[2rem\] {
+  -webkit-mask-image: -webkit-radial-gradient(white, black) !important;
 }
 
 
