@@ -228,11 +228,24 @@
                 </h3>
             </div>
             <div class="w-full lg:w-[calc(100%-3rem)] lg:pl-12">
-                <h3
-                    class="lg:hidden text-mocha text-sm font-bold tracking-[0.2em] uppercase mb-16 text-center opacity-70">
-                    AKTUELLE PRODUKT-HIGHLIGHTS
-                </h3>
-                <div class="flex overflow-x-auto lg:grid lg:grid-cols-4 gap-8 pb-8 -mx-6 px-6 lg:mx-0 lg:px-0 no-scrollbar snap-x snap-mandatory scroll-smooth">
+                <div class="flex items-center justify-between lg:justify-start mb-8 lg:hidden">
+                    <h3 class="text-mocha text-sm font-bold tracking-[0.2em] uppercase opacity-70">
+                        AKTUELLE PRODUKT-HIGHLIGHTS
+                    </h3>
+                    <div class="flex gap-2">
+                        <button onclick="document.getElementById('highlights-carousel').scrollBy({left: -280, behavior: 'smooth'})" 
+                                class="w-10 h-10 rounded-full border border-mocha/20 flex items-center justify-center text-mocha hover:bg-mocha hover:text-white transition-colors"
+                                aria-label="Vorheriges Produkt">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+                        </button>
+                        <button onclick="document.getElementById('highlights-carousel').scrollBy({left: 280, behavior: 'smooth'})" 
+                                class="w-10 h-10 rounded-full border border-mocha/20 flex items-center justify-center text-mocha hover:bg-mocha hover:text-white transition-colors"
+                                aria-label="Nächstes Produkt">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+                        </button>
+                    </div>
+                </div>
+                <div id="highlights-carousel" class="flex overflow-x-auto lg:grid lg:grid-cols-4 gap-8 pb-8 -mx-6 px-6 lg:mx-0 lg:px-0 no-scrollbar snap-x snap-mandatory scroll-smooth">
                     <!-- Card 1 (Yellow) -->
                     <a class="bg-[#FF7F62] rounded-3xl p-8 pt-16 relative group hover:-translate-y-4 transition-all duration-300 h-[450px] flex flex-col justify-end text-center shadow-lg hover:shadow-2xl border-4 border-transparent hover:border-white transform flex-shrink-0 w-[80vw] sm:w-[50vw] md:w-[40vw] lg:w-auto snap-start"
                         href="schwarzkummelol-fuer-kinder.html">
