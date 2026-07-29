@@ -177,3 +177,13 @@ details[open] summary ~ * {
   scrollbar-color: rgba(95, 60, 23, 0.2) rgba(232, 226, 216, 0.1);
 }
 
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
