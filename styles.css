@@ -22,6 +22,8 @@ html {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Fraunces', serif;
   color: var(--color-mocha);
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 /* Base Body Styles */
@@ -185,5 +187,30 @@ details[open] summary ~ * {
 .no-scrollbar {
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
+}
+
+/* Mobile Typography Overrides to Prevent Overflow */
+@media (max-width: 767px) {
+  h1, .text-4xl, .text-5xl, .text-6xl, .text-7xl, .text-8xl {
+    font-size: 2rem !important; /* ~32px safe size for H1 on mobile */
+    line-height: 1.25 !important;
+  }
+  
+  .content-body h2 {
+    font-size: 1.65rem !important;
+    margin-top: 2rem !important;
+    margin-bottom: 1rem !important;
+  }
+  
+  .content-body h3 {
+    font-size: 1.35rem !important;
+    margin-top: 1.5rem !important;
+    margin-bottom: 0.75rem !important;
+  }
+
+  .content-body p {
+    font-size: 1rem !important;
+    margin-bottom: 1.25rem !important;
+  }
 }
 
