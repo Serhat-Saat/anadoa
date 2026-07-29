@@ -288,7 +288,7 @@ const navHTML = `
 <!-- SEARCH MODAL -->
 <div id="search-modal" class="fixed inset-0 bg-mocha/60 backdrop-blur-md z-50 flex items-start justify-center pt-28 px-4 opacity-0 pointer-events-none transition-all duration-300">
   <div class="bg-[#fbf5eb] w-full max-w-2xl rounded-3xl p-6 md:p-8 shadow-2xl border border-earth-light relative flex flex-col max-h-[80vh]">
-    <button id="search-close-btn" class="absolute top-6 right-6 text-ash hover:text-gold p-2 rounded-full bg-white/50 transition-colors">
+    <button id="search-close-btn" class="absolute top-6 right-6 text-ash hover:text-gold p-2 rounded-full transition-colors">
       <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
     </button>
     <h3 class="font-serif text-2xl text-mocha mb-4 flex-shrink-0">Produkte suchen</h3>
@@ -316,23 +316,23 @@ const navHTML = `
 // HTML Injection
 const placeholder = document.getElementById('nav-placeholder');
 if (placeholder) {
-    placeholder.outerHTML = navHTML;
+  placeholder.outerHTML = navHTML;
 }
 
 // Navigation Handler Functionality
 function initNavigation() {
-    const mobileBtn = document.getElementById('mobile-menu-btn');
-    const mobileMenu = document.getElementById('mobile-menu');
-    const menuIcon = document.getElementById('menu-icon');
-    const closeIcon = document.getElementById('close-icon');
+  const mobileBtn = document.getElementById('mobile-menu-btn');
+  const mobileMenu = document.getElementById('mobile-menu');
+  const menuIcon = document.getElementById('menu-icon');
+  const closeIcon = document.getElementById('close-icon');
 
-    const searchOpenBtn = document.getElementById('search-open-btn');
-    const searchCloseBtn = document.getElementById('search-close-btn');
-    const searchModal = document.getElementById('search-modal');
-    const searchInput = document.getElementById('search-input');
-    const searchResults = document.getElementById('search-results');
+  const searchOpenBtn = document.getElementById('search-open-btn');
+  const searchCloseBtn = document.getElementById('search-close-btn');
+  const searchModal = document.getElementById('search-modal');
+  const searchInput = document.getElementById('search-input');
+  const searchResults = document.getElementById('search-results');
 
-    if (!mobileBtn || !mobileMenu) return;
+  if (!mobileBtn || !mobileMenu) return;
     // SEARCH_INDEX_START
     const searchIndex = [
       {
@@ -1580,107 +1580,107 @@ function initNavigation() {
     ];
     // SEARCH_INDEX_END
 
-    function normalizeString(str) {
-        return str
-            .toLowerCase()
-            .normalize('NFD')
-            .replace(/[\u0300-\u036f]/g, '')
-            .replace(/ı/g, 'i')
-            .replace(/ö/g, 'o')
-            .replace(/ü/g, 'u')
-            .replace(/ş/g, 's')
-            .replace(/ç/g, 'c')
-            .replace(/ğ/g, 'g')
-            .replace(/ß/g, 'ss')
-            .replace(/ae/g, 'a')
-            .replace(/oe/g, 'o')
-            .replace(/ue/g, 'u');
+  function normalizeString(str) {
+    return str
+      .toLowerCase()
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '')
+      .replace(/ı/g, 'i')
+      .replace(/ö/g, 'o')
+      .replace(/ü/g, 'u')
+      .replace(/ş/g, 's')
+      .replace(/ç/g, 'c')
+      .replace(/ğ/g, 'g')
+      .replace(/ß/g, 'ss')
+      .replace(/ae/g, 'a')
+      .replace(/oe/g, 'o')
+      .replace(/ue/g, 'u');
+  }
+
+  function escapeHtml(str) {
+    return str
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#039;');
+  }
+
+  function performSearch(query) {
+    if (!searchIndex) return;
+    const normalizedQuery = normalizeString(query);
+    if (!normalizedQuery) {
+      searchResults.innerHTML = '';
+      searchResults.classList.add('hidden');
+      return;
     }
 
-    function escapeHtml(str) {
-        return str
-            .replace(/&/g, '&amp;')
-            .replace(/</g, '&lt;')
-            .replace(/>/g, '&gt;')
-            .replace(/"/g, '&quot;')
-            .replace(/'/g, '&#039;');
-    }
+    const scoredItems = [];
 
-    function performSearch(query) {
-        if (!searchIndex) return;
-        const normalizedQuery = normalizeString(query);
-        if (!normalizedQuery) {
-            searchResults.innerHTML = '';
-            searchResults.classList.add('hidden');
-            return;
+    searchIndex.forEach(item => {
+      const normalizedTitle = normalizeString(item.title || '');
+      const normalizedDesc = normalizeString(item.description || '');
+      const normalizedH1 = normalizeString(item.h1 || '');
+      const normalizedCategory = normalizeString(item.category || '');
+      const normalizedKeywords = normalizeString(item.keywords || '');
+
+      let score = 0;
+
+      // 1. Title Match (Highest relevance weight)
+      if (normalizedTitle === normalizedQuery) {
+        score += 500;
+      } else if (normalizedTitle.startsWith(normalizedQuery)) {
+        score += 300;
+      } else if (normalizedTitle.includes(normalizedQuery)) {
+        score += 150;
+      }
+
+      // 2. Keywords/Synonyms Match (Second weight)
+      if (normalizedKeywords.includes(normalizedQuery)) {
+        if (normalizedKeywords === normalizedQuery) {
+          score += 250;
+        } else {
+          score += 100;
         }
-        
-        const scoredItems = [];
-        
-        searchIndex.forEach(item => {
-            const normalizedTitle = normalizeString(item.title || '');
-            const normalizedDesc = normalizeString(item.description || '');
-            const normalizedH1 = normalizeString(item.h1 || '');
-            const normalizedCategory = normalizeString(item.category || '');
-            const normalizedKeywords = normalizeString(item.keywords || '');
-            
-            let score = 0;
-            
-            // 1. Title Match (Highest relevance weight)
-            if (normalizedTitle === normalizedQuery) {
-                score += 500;
-            } else if (normalizedTitle.startsWith(normalizedQuery)) {
-                score += 300;
-            } else if (normalizedTitle.includes(normalizedQuery)) {
-                score += 150;
-            }
-            
-            // 2. Keywords/Synonyms Match (Second weight)
-            if (normalizedKeywords.includes(normalizedQuery)) {
-                if (normalizedKeywords === normalizedQuery) {
-                    score += 250;
-                } else {
-                    score += 100;
-                }
-            }
-            
-            // 3. H1 Match
-            if (normalizedH1 === normalizedQuery) {
-                score += 200;
-            } else if (normalizedH1.includes(normalizedQuery)) {
-                score += 80;
-            }
-            
-            // 4. Category Match
-            if (normalizedCategory.includes(normalizedQuery)) {
-                score += 40;
-            }
-            
-            // 5. Description Match (Lowest weight)
-            if (normalizedDesc.includes(normalizedQuery)) {
-                score += 20;
-            }
-            
-            if (score > 0) {
-                scoredItems.push({ item, score });
-            }
-        });
-        
-        // Sort descending by score
-        scoredItems.sort((a, b) => b.score - a.score);
-        
-        // Extract sorted items
-        const matches = scoredItems.map(si => si.item);
+      }
 
-        renderResults(matches, query);
-    }
+      // 3. H1 Match
+      if (normalizedH1 === normalizedQuery) {
+        score += 200;
+      } else if (normalizedH1.includes(normalizedQuery)) {
+        score += 80;
+      }
 
-    function renderResults(matches, query) {
-        if (!searchResults) return;
-        searchResults.classList.remove('hidden');
+      // 4. Category Match
+      if (normalizedCategory.includes(normalizedQuery)) {
+        score += 40;
+      }
 
-        if (matches.length === 0) {
-            searchResults.innerHTML = `
+      // 5. Description Match (Lowest weight)
+      if (normalizedDesc.includes(normalizedQuery)) {
+        score += 20;
+      }
+
+      if (score > 0) {
+        scoredItems.push({ item, score });
+      }
+    });
+
+    // Sort descending by score
+    scoredItems.sort((a, b) => b.score - a.score);
+
+    // Extract sorted items
+    const matches = scoredItems.map(si => si.item);
+
+    renderResults(matches, query);
+  }
+
+  function renderResults(matches, query) {
+    if (!searchResults) return;
+    searchResults.classList.remove('hidden');
+
+    if (matches.length === 0) {
+      searchResults.innerHTML = `
                 <div class="text-center py-10 text-ash-light">
                     <svg class="w-12 h-12 text-ash-light/30 mx-auto mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
@@ -1689,19 +1689,19 @@ function initNavigation() {
                     <p class="text-xs text-ash-light/60 mt-1">Versuchen Sie es mit einem anderen Begriff.</p>
                 </div>
             `;
-            return;
-        }
+      return;
+    }
 
-        searchResults.innerHTML = matches.map(item => {
-            let imgSrc = item.image || '';
-            const isFallback = !imgSrc || imgSrc === 'assets/anadoa-favicon.png' || imgSrc.includes('favicon');
-            if (isFallback) {
-                imgSrc = 'assets/anadoa-logo-1100-1100.png';
-            }
-            const isLogo = imgSrc.includes('logo');
-            const imgClass = isLogo ? 'w-full h-full object-contain p-2' : 'w-full h-full object-cover';
+    searchResults.innerHTML = matches.map(item => {
+      let imgSrc = item.image || '';
+      const isFallback = !imgSrc || imgSrc === 'assets/anadoa-favicon.png' || imgSrc.includes('favicon');
+      if (isFallback) {
+        imgSrc = 'assets/anadoa-logo-1100-1100.png';
+      }
+      const isLogo = imgSrc.includes('logo');
+      const imgClass = isLogo ? 'w-full h-full object-contain p-2' : 'w-full h-full object-cover';
 
-            return `
+      return `
             <a href="${item.url}" class="flex items-center gap-4 p-3 rounded-2xl hover:bg-earth-light/40 transition-colors group">
                 <div class="w-16 h-16 rounded-xl overflow-hidden bg-white flex-shrink-0 border border-gold/10 flex items-center justify-center">
                     <img src="${imgSrc}" alt="${item.title}" class="${imgClass}" onerror="this.src='assets/anadoa-logo-1100-1100.png'; this.className='w-full h-full object-contain p-2'; this.onerror=null;">
@@ -1716,94 +1716,94 @@ function initNavigation() {
                 </svg>
             </a>
             `;
-        }).join('');
-    }
+    }).join('');
+  }
 
-    if (searchOpenBtn && searchModal) {
-        searchOpenBtn.addEventListener('click', () => {
-            searchModal.classList.remove('opacity-0', 'pointer-events-none');
-            searchModal.classList.add('opacity-100', 'pointer-events-auto');
-            if (searchInput) {
-                searchInput.value = '';
-                searchInput.focus();
-            }
-            if (searchResults) {
-                searchResults.innerHTML = '';
-                searchResults.classList.add('hidden');
-            }
-            // Search index is now pre-loaded statically to support local file:// protocol
-            document.body.style.overflow = 'hidden';
-        });
-    }
-
-    if (searchCloseBtn && searchModal) {
-        searchCloseBtn.addEventListener('click', () => {
-            searchModal.classList.remove('opacity-100', 'pointer-events-auto');
-            searchModal.classList.add('opacity-0', 'pointer-events-none');
-            document.body.style.overflow = '';
-        });
-    }
-
-    if (searchModal) {
-        searchModal.addEventListener('click', (e) => {
-            if (e.target === searchModal) {
-                searchCloseBtn.click();
-            }
-        });
-    }
-
-    if (searchInput) {
-        searchInput.addEventListener('input', (e) => {
-            const query = e.target.value.trim();
-            if (!query) {
-                if (searchResults) {
-                    searchResults.innerHTML = '';
-                    searchResults.classList.add('hidden');
-                }
-                return;
-            }
-
-            performSearch(query);
-        });
-    }
-
-    // Popular Searches Event Listeners
-    document.querySelectorAll('.popular-search-tag').forEach(tag => {
-        tag.addEventListener('click', () => {
-            if (searchInput) {
-                searchInput.value = tag.textContent.trim();
-                searchInput.dispatchEvent(new Event('input'));
-                searchInput.focus();
-            }
-        });
+  if (searchOpenBtn && searchModal) {
+    searchOpenBtn.addEventListener('click', () => {
+      searchModal.classList.remove('opacity-0', 'pointer-events-none');
+      searchModal.classList.add('opacity-100', 'pointer-events-auto');
+      if (searchInput) {
+        searchInput.value = '';
+        searchInput.focus();
+      }
+      if (searchResults) {
+        searchResults.innerHTML = '';
+        searchResults.classList.add('hidden');
+      }
+      // Search index is now pre-loaded statically to support local file:// protocol
+      document.body.style.overflow = 'hidden';
     });
+  }
 
-    function toggleMobileMenu() {
-        const isOpen = !mobileMenu.classList.contains('opacity-0');
-
-        mobileMenu.classList.toggle('opacity-0', isOpen);
-        mobileMenu.classList.toggle('pointer-events-none', isOpen);
-
-        // İkonların mantığını düzelttik: Biri gizlenirken diğeri gösterilecek
-        // Animasyonlu SVG geçişi için opacity ve scale kullanıyoruz
-        menuIcon.classList.toggle('opacity-0', !isOpen);
-        menuIcon.classList.toggle('scale-50', !isOpen);
-        closeIcon.classList.toggle('opacity-0', isOpen);
-        closeIcon.classList.toggle('scale-50', isOpen);
-
-        document.body.style.overflow = isOpen ? '' : 'hidden';
-    }
-
-    mobileBtn.addEventListener('click', toggleMobileMenu);
-
-    document.querySelectorAll('.mobile-link').forEach(link => {
-        link.addEventListener('click', toggleMobileMenu);
+  if (searchCloseBtn && searchModal) {
+    searchCloseBtn.addEventListener('click', () => {
+      searchModal.classList.remove('opacity-100', 'pointer-events-auto');
+      searchModal.classList.add('opacity-0', 'pointer-events-none');
+      document.body.style.overflow = '';
     });
+  }
+
+  if (searchModal) {
+    searchModal.addEventListener('click', (e) => {
+      if (e.target === searchModal) {
+        searchCloseBtn.click();
+      }
+    });
+  }
+
+  if (searchInput) {
+    searchInput.addEventListener('input', (e) => {
+      const query = e.target.value.trim();
+      if (!query) {
+        if (searchResults) {
+          searchResults.innerHTML = '';
+          searchResults.classList.add('hidden');
+        }
+        return;
+      }
+
+      performSearch(query);
+    });
+  }
+
+  // Popular Searches Event Listeners
+  document.querySelectorAll('.popular-search-tag').forEach(tag => {
+    tag.addEventListener('click', () => {
+      if (searchInput) {
+        searchInput.value = tag.textContent.trim();
+        searchInput.dispatchEvent(new Event('input'));
+        searchInput.focus();
+      }
+    });
+  });
+
+  function toggleMobileMenu() {
+    const isOpen = !mobileMenu.classList.contains('opacity-0');
+
+    mobileMenu.classList.toggle('opacity-0', isOpen);
+    mobileMenu.classList.toggle('pointer-events-none', isOpen);
+
+    // İkonların mantığını düzelttik: Biri gizlenirken diğeri gösterilecek
+    // Animasyonlu SVG geçişi için opacity ve scale kullanıyoruz
+    menuIcon.classList.toggle('opacity-0', !isOpen);
+    menuIcon.classList.toggle('scale-50', !isOpen);
+    closeIcon.classList.toggle('opacity-0', isOpen);
+    closeIcon.classList.toggle('scale-50', isOpen);
+
+    document.body.style.overflow = isOpen ? '' : 'hidden';
+  }
+
+  mobileBtn.addEventListener('click', toggleMobileMenu);
+
+  document.querySelectorAll('.mobile-link').forEach(link => {
+    link.addEventListener('click', toggleMobileMenu);
+  });
 }
 
 // DOM yüklenince çalıştır
 if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', initNavigation);
+  document.addEventListener('DOMContentLoaded', initNavigation);
 } else {
-    initNavigation();
+  initNavigation();
 }
