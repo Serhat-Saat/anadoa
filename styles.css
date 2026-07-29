@@ -189,28 +189,98 @@ details[open] summary ~ * {
   scrollbar-width: none;  /* Firefox */
 }
 
-/* Mobile Typography Overrides to Prevent Overflow */
+/* Mobile Layout & Typography Optimization to Prevent Bloat & Overflow */
 @media (max-width: 767px) {
+  /* Global Heading Scaling */
   h1, .text-4xl, .text-5xl, .text-6xl, .text-7xl, .text-8xl {
-    font-size: 2rem !important; /* ~32px safe size for H1 on mobile */
-    line-height: 1.25 !important;
+    font-size: 1.75rem !important; /* ~28px safe H1 */
+    line-height: 1.2 !important;
   }
   
+  /* Reduce excessive section heights */
+  section {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+  
+  /* Reduce header banner height on inner pages */
+  header.relative {
+    padding-top: 7rem !important;
+    padding-bottom: 3rem !important;
+  }
+  
+  /* Correct the margin of content blocks over the header */
+  .max-w-7xl.-mt-16, .max-w-7xl.-mt-24 {
+    margin-top: -2.5rem !important;
+    padding-bottom: 2rem !important;
+    gap: 1.5rem !important;
+  }
+
+  /* Compact Card Padding (Recover horizontal space so text wraps less) */
+  .content-body {
+    padding: 1.25rem !important; /* 20px instead of 48px */
+    border-radius: 1.5rem !important;
+  }
+  
+  .toc-sidebar {
+    padding: 1.25rem !important;
+    border-radius: 1.5rem !important;
+  }
+  
+  /* Grid Card Paddings & Gaps */
+  .grid-cols-1.gap-8 {
+    gap: 1rem !important;
+  }
+  
+  /* Select group block links (product list cards) */
+  .grid-cols-1 a.group .p-6,
+  .grid-cols-1 a.group > div {
+    padding: 1rem !important; /* 16px padding on grid cards instead of 24px */
+  }
+  
+  /* Typography Reductions for Content Card */
   .content-body h2 {
-    font-size: 1.65rem !important;
-    margin-top: 2rem !important;
-    margin-bottom: 1rem !important;
+    font-size: 1.35rem !important; /* ~21px */
+    margin-top: 1.75rem !important;
+    margin-bottom: 0.75rem !important;
+    padding-bottom: 0.25rem !important;
   }
   
   .content-body h3 {
-    font-size: 1.35rem !important;
-    margin-top: 1.5rem !important;
-    margin-bottom: 0.75rem !important;
+    font-size: 1.15rem !important; /* ~18px */
+    margin-top: 1.25rem !important;
+    margin-bottom: 0.5rem !important;
   }
 
   .content-body p {
-    font-size: 1rem !important;
-    margin-bottom: 1.25rem !important;
+    font-size: 0.95rem !important; /* ~15px */
+    line-height: 1.6 !important;
+    margin-bottom: 0.85rem !important;
+  }
+  
+  .content-body ul {
+    margin-bottom: 1rem !important;
+    padding-left: 1.25rem !important;
+  }
+  
+  .content-body li {
+    font-size: 0.95rem !important;
+    margin-bottom: 0.35rem !important;
+    line-height: 1.5 !important;
+  }
+  
+  /* Compact FAQ Accordions */
+  details.group {
+    padding: 0.85rem !important;
+  }
+  
+  details.group summary h4 {
+    font-size: 0.95rem !important;
+  }
+  
+  details.group p {
+    font-size: 0.9rem !important;
+    margin-top: 0.5rem !important;
   }
 }
 
