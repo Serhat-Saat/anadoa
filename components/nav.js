@@ -367,7 +367,7 @@ function initNavigation() {
         "description": "Das seidenweiche Gesichtsöl: Kaltgepresstes Aprikosenkernöl. Zieht extrem schnell ein, verleiht einen frischen Glow und ist perfekt für empfindliche Babyhaut.",
         "h1": "Aprikosenkernöl",
         "url": "aprikosenkernoel.html",
-        "image": "assets/aprikosenkernoel-kaltgepresst-bio-kaufen-deutschland.png",
+        "image": "assets/anadoa-logo-1100-1100.png",
         "category": "Kaltgepresste Öle",
         "keywords": "apricot kernel oil, apricot, kayısı çekirdeği yağı, kayisi cekirdegi"
       },
@@ -376,7 +376,7 @@ function initNavigation() {
         "description": "Das Gold Marokkos: Ungeröstetes, kaltgepresstes Arganöl. Das ultimative Anti-Aging-Öl für Gesicht, Haare und rissige Haut. Nicht komedogen. Ratgeber.",
         "h1": "Arganöl",
         "url": "arganoel.html",
-        "image": "assets/arganoel-kaltgepresst-bio-kaufen-deutschland.png",
+        "image": "assets/anadoa-logo-1100-1100.png",
         "category": "Kaltgepresste Öle",
         "keywords": "argan oil, argan, argan yağı, argan yagi"
       },
@@ -403,7 +403,7 @@ function initNavigation() {
         "description": "Der grüne Retter für trockene Haut: Kaltgepresstes natives Avocadoöl. Extrem reichhaltig, zieht tief ein und repariert rissige Haut und spröde Haare. Ratgeber.",
         "h1": "Avocadoöl",
         "url": "avocadooel.html",
-        "image": "assets/avocadooel-kaltgepresst-bio-kaufen-deutschland.png",
+        "image": "assets/anadoa-logo-1100-1100.png",
         "category": "Kaltgepresste Öle",
         "keywords": ""
       },
@@ -538,7 +538,7 @@ function initNavigation() {
         "description": "Entdecken Sie unsere hochwertigen Gewürze: Ungemahlener und gemahlener Sumach sowie wilder türkischer Berg-Oregano für die natürliche Küche.",
         "h1": "Gewürze",
         "url": "gewuerze.html",
-        "image": "https://images.unsplash.com/photo-1595015333792-74f0d611ee67?q=80&w=2000&auto=format&fit=crop",
+        "image": "assets/anadoa-logo-1100-1100.png",
         "category": "Gewürze",
         "keywords": ""
       },
@@ -664,7 +664,7 @@ function initNavigation() {
         "description": "Entdecken Sie unsere hochwertigen, schonend kaltgepressten Premium-Öle: Granatapfelkernöl, Feigenkernöl, Mariendistelöl und mehr für Gesundheit und Pflege.",
         "h1": "Kaltgepresste Premium Öle",
         "url": "kaltgepresste-oele.html",
-        "image": "https://images.unsplash.com/photo-1595015333792-74f0d611ee67?q=80&w=2000&auto=format&fit=crop",
+        "image": "assets/anadoa-logo-1100-1100.png",
         "category": "Kaltgepresste Öle",
         "keywords": ""
       },
@@ -718,7 +718,7 @@ function initNavigation() {
         "description": "Der duftende Alleskönner: Natives Bio-Kokosöl. Stark antibakteriell (als Deo), tiefenwirksam für trockene Haare und natürlicher Zeckenschutz für Hunde. Ratgeber.",
         "h1": "Kokosöl (Nativ / Virgin)",
         "url": "kokosoel.html",
-        "image": "assets/kokosoel-kaltgepresst-bio-kaufen-deutschland.png",
+        "image": "assets/anadoa-logo-1100-1100.png",
         "category": "Kaltgepresste Öle",
         "keywords": ""
       },
@@ -745,7 +745,7 @@ function initNavigation() {
         "description": "Die stärkste pflanzliche Omega-3-Quelle der Welt: Kaltgepresstes Leinöl. Stoppt Entzündungen im Körper, schützt das Herz und ist extrem mild im Geschmack.",
         "h1": "Leinöl",
         "url": "leinoel.html",
-        "image": "assets/leinoel-kaltgepresst-bio-kaufen-deutschland.png",
+        "image": "assets/anadoa-logo-1100-1100.png",
         "category": "Kaltgepresste Öle",
         "keywords": "linseed oil, flaxseed oil, flaxseed, linseed, keten tohumu yağı, keten tohumu"
       },
@@ -808,7 +808,7 @@ function initNavigation() {
         "description": "Der sanfte Alleskönner: Kaltgepresstes Süßmandelöl. Das perfekte, reizarme Massageöl für Schwangerschaft, Babypflege und sensible Haut. Ratgeber.",
         "h1": "Mandelöl (Süßmandel)",
         "url": "mandeloel.html",
-        "image": "assets/mandeloel-kaltgepresst-bio-kaufen-deutschland.png",
+        "image": "assets/anadoa-logo-1100-1100.png",
         "category": "Kaltgepresste Öle",
         "keywords": "almond oil, almond, badem yağı, badem yagi"
       },
@@ -835,7 +835,7 @@ function initNavigation() {
         "description": "Kaltgepresste anatolische Fruchtmelassen (Pekmez) aus Maulbeeren, Trauben, Johannisbrot und Wacholder. 100% rein, ohne Zuckerzusatz und extrem eisenreich.",
         "h1": "Fruchtmelassen (Pekmez)",
         "url": "melassen.html",
-        "image": "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?q=80&w=2000&auto=format&fit=crop",
+        "image": "assets/anadoa-logo-1100-1100.png",
         "category": "Fruchtmelassen",
         "keywords": "grape molasses, grape syrup, carob, keçiboynuzu, pekmez, üzüm pekmezi, harnup pekmezi"
       },
@@ -952,7 +952,7 @@ function initNavigation() {
         "description": "Entdecken Sie unsere hochwertigen Kräuterpasten: Zypressenzapfen, Mariendistel, Bittermelone (Kudret Narı) und vitalisierende Mischungen für natürliche Stärkung.",
         "h1": "Traditionelle Pasten",
         "url": "pasten.html",
-        "image": "https://images.unsplash.com/photo-1595015333792-74f0d611ee67?q=80&w=2000&auto=format&fit=crop",
+        "image": "assets/anadoa-logo-1100-1100.png",
         "category": "Traditionelle Pasten",
         "keywords": ""
       },
@@ -1060,7 +1060,7 @@ function initNavigation() {
         "description": "Das Wundermittel für extrem lange Wimpern und dichte Augenbrauen: Kaltgepresstes Rizinusöl (Castor Oil). Porentiefe Gesichtsreinigung (Cleansing). Ratgeber.",
         "h1": "Rizinusöl",
         "url": "rizinusoel.html",
-        "image": "assets/rizinusoel-kaltgepresst-bio-kaufen-deutschland.png",
+        "image": "assets/anadoa-logo-1100-1100.png",
         "category": "Kaltgepresste Öle",
         "keywords": "castor oil, castor, hint yağı, hint yagi"
       },
@@ -1096,7 +1096,7 @@ function initNavigation() {
         "description": "Der stärkste mentale Wachmacher: Ätherisches Rosmarinöl. Fördert massiv das Haarwachstum, die Durchblutung und die Konzentration. Kompletter Ratgeber.",
         "h1": "Rosmarinöl",
         "url": "rosmarinoel.html",
-        "image": "assets/rosmarinoel-kaltgepresst-bio-kaufen-deutschland.png",
+        "image": "assets/anadoa-logo-1100-1100.png",
         "category": "Ätherische Öle",
         "keywords": ""
       },
@@ -1249,7 +1249,7 @@ function initNavigation() {
         "description": "Hochkonzentrierte, im Vakuumverfahren schonend hergestellte Sirupe: Kozalak (Tannenzapfen), Karadut (Schwarze Maulbeere), Granatapfel (Nar Ekşisi) und Kinder Sirup Mix.",
         "h1": "Natur Sirupe & Fruchtsirupe",
         "url": "sirupe.html",
-        "image": "https://images.unsplash.com/photo-1595015333792-74f0d611ee67?q=80&w=2000&auto=format&fit=crop",
+        "image": "assets/anadoa-logo-1100-1100.png",
         "category": "Sirupe",
         "keywords": ""
       },
@@ -1375,7 +1375,7 @@ function initNavigation() {
         "description": "Das stärkste natürliche Antiseptikum: Echtes Teebaumöl. Hilft bei Akne, Pilzinfektionen und Insektenstichen. Komplett-Ratgeber zur Anwendung.",
         "h1": "Teebaumöl",
         "url": "teebaumoel.html",
-        "image": "assets/teebaumoel-kaltgepresst-bio-kaufen-deutschland.png",
+        "image": "assets/anadoa-logo-1100-1100.png",
         "category": "Ätherische Öle",
         "keywords": "tea tree oil, teatree, çay ağacı yağı, cay agaci yagi"
       },
@@ -1555,7 +1555,7 @@ function initNavigation() {
         "description": "Der ultimative Frische-Kick: Kaltgepresstes Zitronenöl. Wirkt extrem stimmungsaufhellend, konzentrationsfördernd und luftreinigend. Kompletter Ratgeber.",
         "h1": "Zitronenöl",
         "url": "zitronenoel.html",
-        "image": "assets/zitronenoel-kaltgepresst-bio-kaufen-deutschland.png",
+        "image": "assets/anadoa-logo-1100-1100.png",
         "category": "Ätherische Öle",
         "keywords": "lemon oil, lemon, limon yağı, limon yagi"
       },
