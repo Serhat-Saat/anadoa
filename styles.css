@@ -294,4 +294,22 @@ details[open] summary ~ * {
   }
 }
 
+/* Homepage Hero Title Sizing (Override global mobile scaling) */
+#hero-title {
+  font-size: 3.25rem !important; /* Large and prominent on mobile */
+  line-height: 1 !important;
+}
+
+@media (min-width: 640px) {
+  #hero-title {
+    font-size: 4.5rem !important;
+  }
+}
+
+@media (min-width: 768px) {
+  #hero-title {
+    font-size: 6rem !important;
+  }
+}
+
 
