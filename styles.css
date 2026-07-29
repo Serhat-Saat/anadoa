@@ -211,7 +211,7 @@ details[open] summary ~ * {
   
   /* Correct the margin of content blocks over the header */
   .max-w-7xl.-mt-16, .max-w-7xl.-mt-24 {
-    margin-top: -2.5rem !important;
+    margin-top: 1.5rem !important; /* Positive margin to push it down from header text */
     padding-bottom: 2rem !important;
     gap: 1.5rem !important;
   }
@@ -290,7 +290,7 @@ details[open] summary ~ * {
     position: static !important;
     max-height: none !important;
     overflow-y: visible !important;
-    margin-bottom: 0.5rem !important; /* Push main content down to separate the sections */
+    margin-bottom: 1.5rem !important; /* Balanced gap between the categories card and the main card below it */
   }
 }
 
