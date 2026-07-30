@@ -84,8 +84,6 @@ body {
 
 /* Sticky TOC Sidebar */
 .toc-sidebar {
-  position: sticky;
-  top: 7rem;
   max-height: calc(100vh - 8rem);
   overflow-y: auto;
 }

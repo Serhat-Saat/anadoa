@@ -331,12 +331,12 @@ const navHTML = `
       </div>
       </div>
 
-      <div class="mt-8 mb-8">
-        <div class="bg-earth-light/30 rounded-[2rem] p-8 border border-earth-light text-center relative overflow-hidden group">
+      <div class="mt-4 mb-4">
+        <div class="bg-earth-light/30 rounded-2xl p-5 border border-earth-light text-center relative overflow-hidden group">
           <div class="absolute inset-0 bg-gold/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-          <p class="text-ash/60 text-sm mb-4 relative z-10 uppercase tracking-widest">Premium Service</p>
-          <p class="text-mocha font-serif text-xl mb-6 relative z-10">Haben Sie Fragen zu unseren Naturkuren?</p>
-          <a class="inline-block bg-gold text-white font-bold py-3 px-8 rounded-full shadow-lg text-sm relative z-10 hover:bg-mocha transition-colors duration-300" href="tel:+490000000">
+          <p class="text-ash/60 text-xs mb-2 relative z-10 uppercase tracking-widest">Premium Service</p>
+          <p class="text-mocha font-serif text-base mb-4 relative z-10">Haben Sie Fragen zu unseren Naturkuren?</p>
+          <a class="inline-block bg-gold text-white font-bold py-2.5 px-6 rounded-full shadow-lg text-xs relative z-10 hover:bg-mocha transition-colors duration-300" href="tel:+490000000">
             Kundenservice anrufen
           </a>
         </div>
