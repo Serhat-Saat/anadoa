@@ -7,12 +7,8 @@ const navHTML = `
       <!-- Mobile Menu Button (Left) -->
       <div class="lg:hidden flex items-center flex-1">
         <button aria-label="Toggle Menu" class="text-ash hover:text-gold focus:outline-none p-2 transition-colors relative w-10 h-10 flex items-center justify-center" id="mobile-menu-btn">
-          <svg id="menu-icon" class="w-6 h-6 absolute transition-all duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path d="M4 6h16M4 12h16M4 18h16" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
-          </svg>
-          <svg id="close-icon" class="w-6 h-6 absolute transition-all duration-300 opacity-0 scale-50" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path d="M6 18L18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
-          </svg>
+          <i id="menu-icon" class="ri-menu-line text-2xl absolute transition-all duration-300"></i>
+          <i id="close-icon" class="ri-close-line text-2xl absolute transition-all duration-300 opacity-0 scale-50"></i>
         </button>
       </div>
 
@@ -21,9 +17,7 @@ const navHTML = `
         <div class="group h-full flex items-center relative">
           <button class="flex items-center text-ash hover:text-gold text-sm uppercase tracking-widest font-bold transition-colors focus:outline-none h-[72px]">
             Über uns
-            <svg class="w-4 h-4 ml-1 transition-transform group-hover:rotate-180 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
-            </svg>
+            <i class="ri-arrow-down-s-line ml-1 transition-transform group-hover:rotate-180 text-gold font-bold"></i>
           </button>
           <div class="absolute left-0 top-full w-48 bg-[#fbf5eb] border border-earth-light shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform origin-top z-50 rounded-2xl p-4 flex flex-col space-y-3">
             <a class="text-ash hover:text-gold text-sm font-bold transition-colors" href="ueber-uns.html">Über uns</a>
@@ -46,9 +40,7 @@ const navHTML = `
         <div class="group h-full flex items-center">
           <button class="flex items-center text-ash hover:text-gold text-sm uppercase tracking-widest font-bold transition-colors focus:outline-none h-full">
             Kategorien
-            <svg class="w-4 h-4 ml-1 transition-transform group-hover:rotate-180 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
-            </svg>
+            <i class="ri-arrow-down-s-line ml-1 transition-transform group-hover:rotate-180 text-gold font-bold"></i>
           </button>
           
           <!-- The Dropdown (Tam ortalandı: -translate-x-1/2 eklendi) -->
@@ -178,9 +170,7 @@ const navHTML = `
       <!-- Search Icon (Right) -->
 <div class="flex items-center justify-end flex-1 lg:flex-none">
         <button aria-label="Suche öffnen" id="search-open-btn" class="text-ash hover:text-gold focus:outline-none p-2 transition-colors">
-          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
-          </svg>
+          <i class="ri-search-line text-2xl"></i>
         </button>
       </div>
 
@@ -192,8 +182,17 @@ const navHTML = `
     <div class="flex-1 overflow-y-auto pt-32 pb-20 px-8 flex flex-col gap-8 custom-scrollbar">
       
       <nav class="flex flex-col space-y-6">
-        <a class="text-4xl md:text-5xl font-serif text-mocha hover:text-gold transition-colors block mobile-link" href="ueber-uns.html">Über uns</a>
-        <a class="text-3xl md:text-4xl font-serif text-mocha hover:text-gold/80 transition-colors block mobile-link pl-6" href="philosophie.html">↳ Philosophie</a>
+        <!-- Über uns Accordion -->
+        <div class="w-full">
+          <button class="w-full text-left flex justify-between items-center text-4xl md:text-5xl font-serif text-mocha hover:text-gold transition-colors group" onclick="this.nextElementSibling.classList.toggle('max-h-0'); this.nextElementSibling.classList.toggle('max-h-[200px]'); this.nextElementSibling.classList.toggle('mt-4'); this.nextElementSibling.classList.toggle('opacity-0'); this.querySelector('svg').classList.toggle('rotate-180');">
+            Über uns
+            <i class="ri-arrow-down-s-line text-gold text-2xl transition-transform duration-300"></i>
+          </button>
+          <div class="max-h-0 opacity-0 overflow-hidden transition-all duration-500 ease-in-out px-2 space-y-4 flex flex-col">
+            <a class="text-xl font-serif text-mocha hover:text-gold transition-colors block pl-6 mt-2" href="ueber-uns.html">Über uns</a>
+            <a class="text-xl font-serif text-mocha hover:text-gold transition-colors block pl-6" href="philosophie.html">Philosophie</a>
+          </div>
+        </div>
         <a class="text-4xl md:text-5xl font-serif text-mocha hover:text-gold transition-colors block mobile-link" href="rezepte.html">Rezepte</a>
         <a class="text-4xl md:text-5xl font-serif text-mocha hover:text-gold transition-colors block mobile-link" href="magazin.html">Magazin</a>
       </nav>
@@ -204,11 +203,11 @@ const navHTML = `
       <div class="space-y-6">
         <h2 class="text-xs uppercase tracking-[0.2em] text-ash/50 font-bold mb-4">Unsere Kategorien</h2>
         
-        <!-- Kaltgepresste Öle -->
+        <!-- 1. Kaltgepresste Öle -->
         <div class="border-b border-earth-light pb-4">
           <button class="w-full text-left flex justify-between items-center text-2xl font-serif text-mocha hover:text-gold transition-colors group" onclick="this.nextElementSibling.classList.toggle('max-h-0'); this.nextElementSibling.classList.toggle('max-h-[500px]'); this.nextElementSibling.classList.toggle('mt-4'); this.nextElementSibling.classList.toggle('opacity-0'); this.querySelector('svg').classList.toggle('rotate-180');">
             Kaltgepresste Öle
-            <svg class="w-6 h-6 text-gold transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+            <i class="ri-arrow-down-s-line text-gold text-2xl transition-transform duration-300"></i>
           </button>
           <div class="max-h-0 opacity-0 overflow-hidden transition-all duration-500 ease-in-out px-2 space-y-4">
             <a class="block text-gold font-bold text-lg mb-2 uppercase tracking-widest text-sm" href="kaltgepresste-oele.html">Übersicht ansehen</a>
@@ -220,66 +219,116 @@ const navHTML = `
           </div>
         </div>
 
-        <!-- Ätherische Öle & Gewürze -->
+        <!-- 2. Pflanzenwasser -->
+        <div class="border-b border-earth-light pb-4">
+          <button class="w-full text-left flex justify-between items-center text-2xl font-serif text-mocha hover:text-gold transition-colors group" onclick="this.nextElementSibling.classList.toggle('max-h-0'); this.nextElementSibling.classList.toggle('max-h-[300px]'); this.nextElementSibling.classList.toggle('mt-4'); this.nextElementSibling.classList.toggle('opacity-0'); this.querySelector('svg').classList.toggle('rotate-180');">
+            Pflanzenwasser
+            <i class="ri-arrow-down-s-line text-gold text-2xl transition-transform duration-300"></i>
+          </button>
+          <div class="max-h-0 opacity-0 overflow-hidden transition-all duration-500 ease-in-out px-2 space-y-4">
+            <a class="block text-gold font-bold text-lg mb-2 uppercase tracking-widest text-sm" href="pflanzenwasser.html">Übersicht ansehen</a>
+            <a class="block text-ash hover:text-gold text-lg font-light" href="rosenwasser.html">Rosenwasser (Gül Suyu)</a>
+            <a class="block text-ash hover:text-gold text-lg font-light" href="rosmarinwasser.html">Rosmarinwasser</a>
+          </div>
+        </div>
+
+        <!-- 3. Ätherische Öle -->
         <div class="border-b border-earth-light pb-4">
           <button class="w-full text-left flex justify-between items-center text-2xl font-serif text-mocha hover:text-gold transition-colors group" onclick="this.nextElementSibling.classList.toggle('max-h-0'); this.nextElementSibling.classList.toggle('max-h-[500px]'); this.nextElementSibling.classList.toggle('mt-4'); this.nextElementSibling.classList.toggle('opacity-0'); this.querySelector('svg').classList.toggle('rotate-180');">
-            Ätherische Öle & Gewürze
-            <svg class="w-6 h-6 text-gold transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+            Ätherische Öle
+            <i class="ri-arrow-down-s-line text-gold text-2xl transition-transform duration-300"></i>
           </button>
           <div class="max-h-0 opacity-0 overflow-hidden transition-all duration-500 ease-in-out px-2 space-y-4">
             <a class="block text-gold font-bold text-lg mb-2 uppercase tracking-widest text-sm" href="aetherische-oele.html">Übersicht ansehen</a>
             <a class="block text-ash hover:text-gold text-lg font-light" href="lavendeloel.html">Lavendelöl</a>
             <a class="block text-ash hover:text-gold text-lg font-light" href="rosenoel.html">Rosenöl</a>
             <a class="block text-ash hover:text-gold text-lg font-light" href="teebaumoel.html">Teebaumöl</a>
-            <a class="block text-gold font-bold text-lg mb-2 mt-4 uppercase tracking-widest text-sm" href="gewuerze.html">Gewürze</a>
+            <a class="block text-ash hover:text-gold text-lg font-light" href="pfefferminzoel.html">Pfefferminzöl</a>
+          </div>
+        </div>
+
+        <!-- 4. Natürliche Gewürze -->
+        <div class="border-b border-earth-light pb-4">
+          <button class="w-full text-left flex justify-between items-center text-2xl font-serif text-mocha hover:text-gold transition-colors group" onclick="this.nextElementSibling.classList.toggle('max-h-0'); this.nextElementSibling.classList.toggle('max-h-[300px]'); this.nextElementSibling.classList.toggle('mt-4'); this.nextElementSibling.classList.toggle('opacity-0'); this.querySelector('svg').classList.toggle('rotate-180');">
+            Natürliche Gewürze
+            <i class="ri-arrow-down-s-line text-gold text-2xl transition-transform duration-300"></i>
+          </button>
+          <div class="max-h-0 opacity-0 overflow-hidden transition-all duration-500 ease-in-out px-2 space-y-4">
+            <a class="block text-gold font-bold text-lg mb-2 uppercase tracking-widest text-sm" href="gewuerze.html">Übersicht ansehen</a>
             <a class="block text-ash hover:text-gold text-lg font-light" href="sumach-kerne.html">Sumach Kerne</a>
             <a class="block text-ash hover:text-gold text-lg font-light" href="sumach-pulver.html">Sumach Pulver</a>
+            <a class="block text-ash hover:text-gold text-lg font-light" href="tuerkischer-oregano.html">Türkischer Oregano</a>
           </div>
         </div>
 
-        <!-- Pasten & Naturkosmetik -->
+        <!-- 5. Traditionelle Pasten -->
         <div class="border-b border-earth-light pb-4">
           <button class="w-full text-left flex justify-between items-center text-2xl font-serif text-mocha hover:text-gold transition-colors group" onclick="this.nextElementSibling.classList.toggle('max-h-0'); this.nextElementSibling.classList.toggle('max-h-[500px]'); this.nextElementSibling.classList.toggle('mt-4'); this.nextElementSibling.classList.toggle('opacity-0'); this.querySelector('svg').classList.toggle('rotate-180');">
-            Pasten &amp; Naturkosmetik
-            <svg class="w-6 h-6 text-gold transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+            Traditionelle Pasten
+            <i class="ri-arrow-down-s-line text-gold text-2xl transition-transform duration-300"></i>
           </button>
           <div class="max-h-0 opacity-0 overflow-hidden transition-all duration-500 ease-in-out px-2 space-y-4">
-            <a class="block text-gold font-bold text-lg mb-2 uppercase tracking-widest text-sm" href="pasten.html">Pasten Übersicht</a>
+            <a class="block text-gold font-bold text-lg mb-2 uppercase tracking-widest text-sm" href="pasten.html">Übersicht ansehen</a>
             <a class="block text-ash hover:text-gold text-lg font-light" href="zypressenzapfen-paste.html">Zypressenzapfen Paste</a>
+            <a class="block text-ash hover:text-gold text-lg font-light" href="tannenzapfen-paste-kinder.html">Tannenzapfen Paste (Kinder)</a>
             <a class="block text-ash hover:text-gold text-lg font-light" href="mariendistel-paste.html">Mariendistel Paste</a>
-            <a class="block text-gold font-bold text-lg hover:text-mocha mt-2" href="rushur-stein.html">Rushur Stein (Ruşur Taşı)</a>
           </div>
         </div>
 
-        <!-- Naturtee & Kuren -->
+        <!-- 6. Naturkosmetik & Peeling -->
         <div class="border-b border-earth-light pb-4">
-          <button class="w-full text-left flex justify-between items-center text-2xl font-serif text-mocha hover:text-gold transition-colors group" onclick="this.nextElementSibling.classList.toggle('max-h-0'); this.nextElementSibling.classList.toggle('max-h-[500px]'); this.nextElementSibling.classList.toggle('mt-4'); this.nextElementSibling.classList.toggle('opacity-0'); this.querySelector('svg').classList.toggle('rotate-180');">
-            Naturtee &amp; Kuren
-            <svg class="w-6 h-6 text-gold transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+          <button class="w-full text-left flex justify-between items-center text-2xl font-serif text-mocha hover:text-gold transition-colors group" onclick="this.nextElementSibling.classList.toggle('max-h-0'); this.nextElementSibling.classList.toggle('max-h-[300px]'); this.nextElementSibling.classList.toggle('mt-4'); this.nextElementSibling.classList.toggle('opacity-0'); this.querySelector('svg').classList.toggle('rotate-180');">
+            Naturkosmetik &amp; Peeling
+            <i class="ri-arrow-down-s-line text-gold text-2xl transition-transform duration-300"></i>
           </button>
           <div class="max-h-0 opacity-0 overflow-hidden transition-all duration-500 ease-in-out px-2 space-y-4">
-            <a class="block text-gold font-bold text-lg mb-2 uppercase tracking-widest text-sm" href="tee.html">Alle Tees ansehen</a>
-            <a class="block text-ash hover:text-gold text-lg font-light" href="spitzwegerich-tee.html">Spitzwegerich Tee</a>
-            <a class="block text-ash hover:text-gold text-lg font-light" href="atom-tee.html">Atom Tee (Winter-Mix)</a>
-            <a class="block text-ash hover:text-gold text-lg font-light" href="wintertee.html">Wintertee</a>
+            <a class="block text-gold font-bold text-lg mb-2 uppercase tracking-widest text-sm" href="rushur-stein.html">Übersicht ansehen</a>
+            <a class="block text-ash hover:text-gold text-lg font-light" href="rushur-stein.html">Rushur Stein (5er Set)</a>
           </div>
         </div>
 
-        <!-- Melassen & Essig/Säfte (Essig hier unter Naturkosmetik/Melassen taşındı) -->
+        <!-- 7. Lebendiger Essig & Säfte -->
         <div class="border-b border-earth-light pb-4">
-          <button class="w-full text-left flex justify-between items-center text-2xl font-serif text-mocha hover:text-gold transition-colors group" onclick="this.nextElementSibling.classList.toggle('max-h-0'); this.nextElementSibling.classList.toggle('max-h-[500px]'); this.nextElementSibling.classList.toggle('mt-4'); this.nextElementSibling.classList.toggle('opacity-0'); this.querySelector('svg').classList.toggle('rotate-180');">
-            Melassen, Essig &amp; Säfte
-            <svg class="w-6 h-6 text-gold transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+          <button class="w-full text-left flex justify-between items-center text-2xl font-serif text-mocha hover:text-gold transition-colors group" onclick="this.nextElementSibling.classList.toggle('max-h-0'); this.nextElementSibling.classList.toggle('max-h-[400px]'); this.nextElementSibling.classList.toggle('mt-4'); this.nextElementSibling.classList.toggle('opacity-0'); this.querySelector('svg').classList.toggle('rotate-180');">
+            Lebendiger Essig &amp; Säfte
+            <i class="ri-arrow-down-s-line text-gold text-2xl transition-transform duration-300"></i>
           </button>
           <div class="max-h-0 opacity-0 overflow-hidden transition-all duration-500 ease-in-out px-2 space-y-4">
-            <a class="block text-gold font-bold text-lg mb-2 uppercase tracking-widest text-sm" href="melassen.html">Melassen</a>
+            <a class="block text-gold font-bold text-lg mb-2 uppercase tracking-widest text-sm" href="essig.html">Übersicht ansehen</a>
+            <a class="block text-ash hover:text-gold text-lg font-light" href="gilaburu-saft.html">Gilaburu Saft</a>
+            <a class="block text-ash hover:text-gold text-lg font-light" href="apfelessig.html">Apfelessig</a>
+            <a class="block text-ash hover:text-gold text-lg font-light" href="traubenessig.html">Traubenessig</a>
+          </div>
+        </div>
+
+        <!-- 8. Melassen (Pekmez) -->
+        <div class="border-b border-earth-light pb-4">
+          <button class="w-full text-left flex justify-between items-center text-2xl font-serif text-mocha hover:text-gold transition-colors group" onclick="this.nextElementSibling.classList.toggle('max-h-0'); this.nextElementSibling.classList.toggle('max-h-[400px]'); this.nextElementSibling.classList.toggle('mt-4'); this.nextElementSibling.classList.toggle('opacity-0'); this.querySelector('svg').classList.toggle('rotate-180');">
+            Melassen (Pekmez)
+            <i class="ri-arrow-down-s-line text-gold text-2xl transition-transform duration-300"></i>
+          </button>
+          <div class="max-h-0 opacity-0 overflow-hidden transition-all duration-500 ease-in-out px-2 space-y-4">
+            <a class="block text-gold font-bold text-lg mb-2 uppercase tracking-widest text-sm" href="melassen.html">Übersicht ansehen</a>
             <a class="block text-ash hover:text-gold text-lg font-light" href="traubenmelasse.html">Traubenmelasse</a>
             <a class="block text-ash hover:text-gold text-lg font-light" href="johannisbrot-melasse.html">Johannisbrot Melasse</a>
-            <a class="block text-gold font-bold text-lg mb-2 mt-4 uppercase tracking-widest text-sm" href="essig.html">Essig & Säfte</a>
-            <a class="block text-gold font-bold text-lg hover:text-mocha" href="gilaburu-saft.html">Gilaburu Saft</a>
-            <a class="block text-ash hover:text-gold text-lg font-light" href="apfelessig.html">Apfelessig</a>
+            <a class="block text-ash hover:text-gold text-lg font-light" href="dattel-melasse.html">Dattel Melasse</a>
           </div>
         </div>
+
+        <!-- 9. Naturtee & Kuren -->
+        <div class="border-b border-earth-light pb-4">
+          <button class="w-full text-left flex justify-between items-center text-2xl font-serif text-mocha hover:text-gold transition-colors group" onclick="this.nextElementSibling.classList.toggle('max-h-0'); this.nextElementSibling.classList.toggle('max-h-[400px]'); this.nextElementSibling.classList.toggle('mt-4'); this.nextElementSibling.classList.toggle('opacity-0'); this.querySelector('svg').classList.toggle('rotate-180');">
+            Naturtee &amp; Kuren
+            <i class="ri-arrow-down-s-line text-gold text-2xl transition-transform duration-300"></i>
+          </button>
+          <div class="max-h-0 opacity-0 overflow-hidden transition-all duration-500 ease-in-out px-2 space-y-4">
+            <a class="block text-gold font-bold text-lg mb-2 uppercase tracking-widest text-sm" href="tee.html">Übersicht ansehen</a>
+            <a class="block text-ash hover:text-gold text-lg font-light" href="spitzwegerich-tee.html">Spitzwegerich Tee</a>
+            <a class="block text-ash hover:text-gold text-lg font-light" href="atom-tee.html">Atom Tee (Winter-Mix)</a>
+            <a class="block text-ash hover:text-gold text-lg font-light" href="schopflavendel-tee.html">Schopflavendel Tee</a>
+          </div>
+        </div>
+      </div>
       </div>
 
       <div class="mt-8 mb-8">
@@ -301,12 +350,12 @@ const navHTML = `
 <div id="search-modal" class="fixed inset-0 bg-mocha/60 backdrop-blur-md z-50 flex items-start justify-center pt-28 px-4 opacity-0 pointer-events-none transition-all duration-300">
   <div class="bg-[#fbf5eb] w-full max-w-2xl rounded-3xl p-6 md:p-8 shadow-2xl border border-earth-light relative flex flex-col max-h-[80vh]">
     <button id="search-close-btn" class="absolute top-6 right-6 text-ash hover:text-gold p-2 rounded-full transition-colors">
-      <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+      <i class="ri-close-line text-2xl"></i>
     </button>
     <h3 class="font-serif text-2xl text-mocha mb-4 flex-shrink-0">Produkte suchen</h3>
     <div class="relative flex-shrink-0">
       <input type="text" id="search-input" placeholder="z.B. Schwarzkümmelöl, Atom Tee, Rushur Stein..." class="w-full bg-white border border-earth-light rounded-full py-4 pl-12 pr-6 text-ash placeholder-ash/40 focus:outline-none focus:border-gold shadow-inner text-base">
-      <svg class="w-5 h-5 text-ash/40 absolute left-4 top-1/2 -translate-y-1/2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+      <i class="ri-search-line text-lg text-ash/40 absolute left-4 top-1/2 -translate-y-1/2"></i>
     </div>
     
     <!-- Search Results Container -->
