@@ -6,11 +6,26 @@ const footerHTML = `
 <div class="space-y-6 transform">
 <img alt="Anadoa Logo" class="h-20 w-auto brightness-0 invert opacity-90 -ml-2" src="assets/anadoa-logo-1000-500.png"/>
 <p class="text-white/70 font-light text-sm leading-relaxed pr-4">
-                    Die pure Kraft anatolischer Natur. Entdecken Sie traditionelle Heilmittel, schonend kaltgepresste Öle und natürliche Pflegeprodukte für Ihr tiefes Wohlbefinden.
+                    Anadoa Naturhaus bringt die unberührte Heilkraft der anatolischen Hochebenen direkt zu Ihnen nach Deutschland. Entdecken Sie unsere erlesene Kollektion aus schonend kaltgepressten Premium-Ölen, traditionellen Kräuterpasten (Macun), naturtrüben Bio-Fruchtmelassen (Pekmez) und handverlesenen anatolischen Kräutertees – naturrein, laborgeprüft und mit Liebe für Ihr ganzheitliches Wohlbefinden abgefüllt.
                 </p>
-<div class="flex space-x-4 pt-2">
-<a class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-gold transition-colors shadow-lg" href="#">
+<div class="flex flex-wrap gap-2 pt-2">
+<a class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-gold transition-colors shadow-lg" href="https://www.instagram.com/anadoa_naturhaus" target="_blank" rel="noopener" aria-label="Instagram">
 <i class="ri-instagram-line text-lg"></i>
+</a>
+<a class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-gold transition-colors shadow-lg" href="https://www.facebook.com/people/Anadoa-Naturhaus/100064635922301/" target="_blank" rel="noopener" aria-label="Facebook">
+<i class="ri-facebook-fill text-lg"></i>
+</a>
+<a class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-gold transition-colors shadow-lg" href="https://de.pinterest.com/anadoa_naturhaus/" target="_blank" rel="noopener" aria-label="Pinterest">
+<i class="ri-pinterest-line text-lg"></i>
+</a>
+<a class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-gold transition-colors shadow-lg" href="https://www.tiktok.com/@anadoa.de" target="_blank" rel="noopener" aria-label="TikTok">
+<i class="ri-tiktok-line text-lg"></i>
+</a>
+<a class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-gold transition-colors shadow-lg" href="https://www.youtube.com/@AnadoaNaturhaus" target="_blank" rel="noopener" aria-label="YouTube">
+<i class="ri-youtube-line text-lg"></i>
+</a>
+<a class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-gold transition-colors shadow-lg" href="https://www.linkedin.com/company/anadoa-naturhaus" target="_blank" rel="noopener" aria-label="LinkedIn">
+<i class="ri-linkedin-line text-lg"></i>
 </a>
 </div>
 </div>
@@ -42,11 +57,12 @@ const footerHTML = `
 <div class="transform">
 <h4 class="font-serif font-bold text-lg mb-6 text-gold border-b border-white/10 pb-2 inline-block">Rechtliches &amp; Service</h4>
 <ul class="space-y-3 text-white/70 text-sm font-medium">
-<li><a class="hover:text-gold hover:translate-x-1 transform transition-all block" href="#">Impressum</a></li>
-<li><a class="hover:text-gold hover:translate-x-1 transform transition-all block" href="#">AGB</a></li>
-<li><a class="hover:text-gold hover:translate-x-1 transform transition-all block" href="#">Datenschutz</a></li>
-<li><a class="hover:text-gold hover:translate-x-1 transform transition-all block" href="#">Widerrufsbelehrung</a></li>
-<li><a class="hover:text-gold hover:translate-x-1 transform transition-all block" href="#">Versand &amp; Zahlung</a></li>
+<li><a class="hover:text-gold hover:translate-x-1 transform transition-all block" href="impressum.html">Impressum</a></li>
+<li><a class="hover:text-gold hover:translate-x-1 transform transition-all block" href="agb.html">AGB</a></li>
+<li><a class="hover:text-gold hover:translate-x-1 transform transition-all block" href="datenschutz.html">Datenschutz</a></li>
+<li><a class="hover:text-gold hover:translate-x-1 transform transition-all block" href="widerrufsbelehrung.html">Widerrufsbelehrung</a></li>
+<li><a class="hover:text-gold hover:translate-x-1 transform transition-all block" href="versand.html">Versand &amp; Zahlung</a></li>
+<li><a class="hover:text-gold hover:translate-x-1 transform transition-all block" href="barrierefreiheit.html">Barrierefreiheit</a></li>
 </ul>
 </div>
 </div>

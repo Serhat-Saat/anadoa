@@ -20,7 +20,12 @@ html {
   color: var(--color-text-main);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: 'Fraunces', serif;
   color: var(--color-mocha);
   word-wrap: break-word;
@@ -42,8 +47,12 @@ body {
 .bg-noise::before {
   content: "";
   position: absolute;
-  top: 0; left: 0; right: 0; bottom: 0;
-  width: 100%; height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
   opacity: 0.05;
   z-index: -1;
   pointer-events: none;
@@ -55,7 +64,10 @@ body {
   background: linear-gradient(135deg, var(--color-earth) 0%, #E8E2D8 100%);
   color: var(--color-ivory);
 }
-.bg-earth-gradient h1, .bg-earth-gradient h2, .bg-earth-gradient h3 {
+
+.bg-earth-gradient h1,
+.bg-earth-gradient h2,
+.bg-earth-gradient h3 {
   color: var(--color-mocha);
 }
 
@@ -65,6 +77,7 @@ body {
     opacity: 0;
     transform: translateY(30px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -76,11 +89,25 @@ body {
   animation: fadeInUp 0.8s ease-out forwards;
 }
 
-.delay-100 { animation-delay: 100ms; }
-.delay-200 { animation-delay: 200ms; }
-.delay-300 { animation-delay: 300ms; }
-.delay-400 { animation-delay: 400ms; }
-.delay-500 { animation-delay: 500ms; }
+.delay-100 {
+  animation-delay: 100ms;
+}
+
+.delay-200 {
+  animation-delay: 200ms;
+}
+
+.delay-300 {
+  animation-delay: 300ms;
+}
+
+.delay-400 {
+  animation-delay: 400ms;
+}
+
+.delay-500 {
+  animation-delay: 500ms;
+}
 
 /* Sticky TOC Sidebar */
 .toc-sidebar {
@@ -92,33 +119,48 @@ body {
 .toc-sidebar::-webkit-scrollbar {
   width: 4px;
 }
+
 .toc-sidebar::-webkit-scrollbar-track {
   background: transparent;
 }
+
 .toc-sidebar::-webkit-scrollbar-thumb {
   background-color: var(--color-mocha);
   border-radius: 4px;
 }
 
 /* Anchor Link Offset for Fixed Headers (if any, or just smooth scrolling padding) */
-section[id], div[id], h2[id], h3[id] {
+section[id],
+div[id],
+h2[id],
+h3[id] {
   scroll-margin-top: 3rem;
 }
 
 /* FAQ Accordion Styles */
-details > summary {
+details>summary {
   list-style: none;
   cursor: pointer;
 }
-details > summary::-webkit-details-marker {
+
+details>summary::-webkit-details-marker {
   display: none;
 }
-details[open] summary ~ * {
+
+details[open] summary~* {
   animation: sweep .5s ease-in-out;
 }
+
 @keyframes sweep {
-  0%    {opacity: 0; transform: translateY(-10px)}
-  100%  {opacity: 1; transform: translateY(0)}
+  0% {
+    opacity: 0;
+    transform: translateY(-10px)
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0)
+  }
 }
 
 /* Typography Enhancements */
@@ -128,6 +170,7 @@ details[open] summary ~ * {
   font-size: 1.125rem;
   color: var(--color-ash);
 }
+
 .content-body h2 {
   margin-top: 3rem;
   margin-bottom: 1.5rem;
@@ -136,42 +179,57 @@ details[open] summary ~ * {
   padding-bottom: 0.5rem;
   color: var(--color-gold-light);
 }
+
 .content-body h3 {
   margin-top: 2rem;
   margin-bottom: 1rem;
   font-size: 1.75rem;
 }
+
 .content-body ul {
   margin-bottom: 1.5rem;
   padding-left: 1.5rem;
   list-style-type: disc;
 }
+
 .content-body li {
   margin-bottom: 0.5rem;
   line-height: 1.7;
 }
 
 /* Golden accents */
-.text-gold { color: var(--color-mocha); }
-.border-gold { border-color: var(--color-mocha); }
-.bg-gold { background-color: var(--color-mocha); }
+.text-gold {
+  color: var(--color-mocha);
+}
+
+.border-gold {
+  border-color: var(--color-mocha);
+}
+
+.bg-gold {
+  background-color: var(--color-mocha);
+}
 
 /* Custom Scrollbars for Dropdown Menus */
 .custom-scrollbar::-webkit-scrollbar {
   width: 5px;
 }
+
 .custom-scrollbar::-webkit-scrollbar-track {
   background: rgba(232, 226, 216, 0.1);
   border-radius: 10px;
 }
+
 .custom-scrollbar::-webkit-scrollbar-thumb {
   background: rgba(95, 60, 23, 0.2);
   border-radius: 10px;
   transition: background 0.3s ease;
 }
+
 .custom-scrollbar::-webkit-scrollbar-thumb:hover {
   background: rgba(95, 60, 23, 0.4);
 }
+
 /* Firefox support */
 .custom-scrollbar {
   scrollbar-width: thin;
@@ -182,101 +240,118 @@ details[open] summary ~ * {
 .no-scrollbar::-webkit-scrollbar {
   display: none;
 }
+
 /* Hide scrollbar for IE, Edge and Firefox */
 .no-scrollbar {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
 }
 
 /* Mobile Layout & Typography Optimization to Prevent Bloat & Overflow */
 @media (max-width: 767px) {
+
   /* Global Heading Scaling */
-  h1, .text-4xl, .text-5xl, .text-6xl, .text-7xl, .text-8xl {
-    font-size: 1.75rem !important; /* ~28px safe H1 */
+  h1,
+  .text-4xl,
+  .text-5xl,
+  .text-6xl,
+  .text-7xl,
+  .text-8xl {
+    font-size: 1.75rem !important;
+    /* ~28px safe H1 */
     line-height: 1.2 !important;
   }
-  
+
   /* Reduce excessive section heights */
   section {
     padding-top: 3rem !important;
     padding-bottom: 3rem !important;
   }
-  
+
   /* Reduce header banner height on inner pages */
   header.relative {
     padding-top: 7rem !important;
     padding-bottom: 3rem !important;
   }
-  
+
   /* Correct the margin of content blocks over the header */
-  .max-w-7xl.-mt-16, .max-w-7xl.-mt-24 {
-    margin-top: 1.5rem !important; /* Positive margin to push it down from header text */
+  .max-w-7xl.-mt-16,
+  .max-w-7xl.-mt-24 {
+    margin-top: 1.5rem !important;
+    /* Positive margin to push it down from header text */
     padding-bottom: 2rem !important;
     gap: 1.5rem !important;
   }
 
   /* Compact Card Padding (Recover horizontal space so text wraps less) */
   .content-body {
-    padding: 1.25rem !important; /* 20px instead of 48px */
+    padding: 1.25rem !important;
+    /* 20px instead of 48px */
     border-radius: 1.5rem !important;
   }
-  
+
   .toc-sidebar {
     padding: 1.25rem !important;
     border-radius: 1.5rem !important;
   }
-  
+
   /* Grid Card Paddings & Gaps */
   .grid-cols-1.gap-8 {
     gap: 1rem !important;
   }
-  
+
   /* Select group block links (product list cards) */
   .grid-cols-1 a.group .p-6,
-  .grid-cols-1 a.group > div {
-    padding: 1rem !important; /* 16px padding on grid cards instead of 24px */
+  .grid-cols-1 a.group>div {
+    padding: 1rem !important;
+    /* 16px padding on grid cards instead of 24px */
   }
-  
+
   /* Typography Reductions for Content Card */
   .content-body h2 {
-    font-size: 1.35rem !important; /* ~21px */
+    font-size: 1.35rem !important;
+    /* ~21px */
     margin-top: 1.75rem !important;
     margin-bottom: 0.75rem !important;
     padding-bottom: 0.25rem !important;
   }
-  
+
   .content-body h3 {
-    font-size: 1.15rem !important; /* ~18px */
+    font-size: 1.15rem !important;
+    /* ~18px */
     margin-top: 1.25rem !important;
     margin-bottom: 0.5rem !important;
   }
 
   .content-body p {
-    font-size: 0.95rem !important; /* ~15px */
+    font-size: 0.95rem !important;
+    /* ~15px */
     line-height: 1.6 !important;
     margin-bottom: 0.85rem !important;
   }
-  
+
   .content-body ul {
     margin-bottom: 1rem !important;
     padding-left: 1.25rem !important;
   }
-  
+
   .content-body li {
     font-size: 0.95rem !important;
     margin-bottom: 0.35rem !important;
     line-height: 1.5 !important;
   }
-  
+
   /* Compact FAQ Accordions */
   details.group {
     padding: 0.85rem !important;
   }
-  
+
   details.group summary h4 {
     font-size: 0.95rem !important;
   }
-  
+
   details.group p {
     font-size: 0.9rem !important;
     margin-top: 0.5rem !important;
@@ -289,13 +364,15 @@ details[open] summary ~ * {
     position: static !important;
     max-height: none !important;
     overflow-y: visible !important;
-    margin-bottom: 1.5rem !important; /* Balanced gap between the categories card and the main card below it */
+    margin-bottom: 1.5rem !important;
+    /* Balanced gap between the categories card and the main card below it */
   }
 }
 
 /* Homepage Hero Title Sizing (Override global mobile scaling) */
 #hero-title {
-  font-size: 3.25rem !important; /* Large and prominent on mobile */
+  font-size: 3.25rem !important;
+  /* Large and prominent on mobile */
   line-height: 1 !important;
 }
 
@@ -308,17 +385,18 @@ details[open] summary ~ * {
 @media (min-width: 768px) {
   #hero-title {
     font-size: 6rem !important;
+  }
+
+  /* Fix rounded corners clipping lag / flicker bug on image scale transition in Chrome & Safari */
+  .overflow-hidden {
+    isolation: isolate !important;
+    backface-visibility: hidden !important;
+    transform: translate3d(0, 0, 0) !important;
+  }
+
+  .rounded-\[2rem\] {
+    -webkit-mask-image: -webkit-radial-gradient(white, black) !important;
+  }
+
+
 }
-
-/* Fix rounded corners clipping lag / flicker bug on image scale transition in Chrome & Safari */
-.overflow-hidden {
-  isolation: isolate !important;
-  backface-visibility: hidden !important;
-  transform: translate3d(0, 0, 0) !important;
-}
-
-.rounded-\[2rem\] {
-  -webkit-mask-image: -webkit-radial-gradient(white, black) !important;
-}
-
-
