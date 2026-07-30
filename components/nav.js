@@ -349,7 +349,7 @@ function initNavigation() {
         "description": "Tropische Fermentation | Enzym-Kraftpaket",
         "h1": "Ananas Essig",
         "url": "ananas-essig.html",
-        "image": "assets/anadoa-logo-1100-1100.png",
+        "image": "assets/ananas-essig-anadoa-naturhaus.png",
         "category": "Lebendige Essige",
         "keywords": "apple cider vinegar, vinegar, elma sirkesi, sirke, alıç sirkesi, alic sirkesi"
       },
@@ -358,7 +358,7 @@ function initNavigation() {
         "description": "Talkim Apfel | Naturtrüb & Lebendig",
         "h1": "Apfelessig",
         "url": "apfelessig.html",
-        "image": "assets/anadoa-logo-1100-1100.png",
+        "image": "assets/apfelessig-anadoa-naturhaus.png",
         "category": "Lebendige Essige",
         "keywords": "apple cider vinegar, vinegar, elma sirkesi, sirke, alıç sirkesi, alic sirkesi"
       },
@@ -376,7 +376,7 @@ function initNavigation() {
         "description": "Das Gold Marokkos: Ungeröstetes, kaltgepresstes Arganöl. Das ultimative Anti-Aging-Öl für Gesicht, Haare und rissige Haut. Nicht komedogen. Ratgeber.",
         "h1": "Arganöl",
         "url": "arganoel.html",
-        "image": "assets/anadoa-logo-1100-1100.png",
+        "image": "assets/arganoel-anadoa-naturhaus.png",
         "category": "Kaltgepresste Öle",
         "keywords": "argan oil, argan, argan yağı, argan yagi"
       },
@@ -412,7 +412,7 @@ function initNavigation() {
         "description": "Das stärkste natürliche Antidepressivum: Echtes Bergamotteöl. Wirkt extrem stimmungsaufhellend, angstlösend und entspannend. Anwendung & Sicherheit.",
         "h1": "Bergamotteöl",
         "url": "bergamotteoel.html",
-        "image": "assets/bergamotteoel.png",
+        "image": "assets/bergamotte-oel-anadoa-naturhaus.png",
         "category": "Ätherische Öle",
         "keywords": "bergamot oil, bergamot, bergamot yağı, bergamot yagi"
       },
@@ -421,7 +421,7 @@ function initNavigation() {
         "description": "Original Kudret Narı (Bittermelone) mit reinem Honig. Das traditionelle Naturheilmittel zur Beruhigung von Magen und Verdauungssystem.",
         "h1": "Bittermelone Paste mit Honig",
         "url": "bittermelone-paste-honig.html",
-        "image": "assets/anadoa-logo-1100-1100.png",
+        "image": "assets/bittermelone-paste-mit-honig-anadoa-naturhaus.png",
         "category": "Traditionelle Pasten",
         "keywords": ""
       },
@@ -430,7 +430,7 @@ function initNavigation() {
         "description": "Bittermelone (Kudret Narı) mazeriert in kaltgepresstem Olivenöl. Natürlicher Balsam für die Magenschleimhaut bei Sodbrennen und Gastritis.",
         "h1": "Bittermelone Paste mit Olivenöl",
         "url": "bittermelone-paste-olivenoel.html",
-        "image": "assets/anadoa-logo-1100-1100.png",
+        "image": "assets/product_dekupe-bittermelone-paste-mit-olivenoel.png",
         "category": "Kaltgepresste Öle",
         "keywords": "olive oil, olive, zeytinyağı, zeytin yagi"
       },
@@ -466,7 +466,7 @@ function initNavigation() {
         "description": "Verdauungsfreundliche Dattelmelasse. Reich an Ballaststoffen, Kalium und Magnesium. Die perfekte vegane Honig-Alternative für Pancakes.",
         "h1": "Dattel Melasse (Hurma Pekmezi)",
         "url": "dattel-melasse.html",
-        "image": "assets/anadoa-logo-1100-1100.png",
+        "image": "assets/dattel-melasse-anadoa-naturhaus.png",
         "category": "Melassen (Pekmez)",
         "keywords": "grape molasses, grape syrup, carob, keçiboynuzu, pekmez, üzüm pekmezi, harnup pekmezi"
       },
@@ -475,7 +475,7 @@ function initNavigation() {
         "description": "Kräutermischung mit Apfelessig & Rosmarin",
         "h1": "Detox Mix Elixier",
         "url": "detox-mix.html",
-        "image": "assets/anadoa-logo-1100-1100.png",
+        "image": "assets/detox-und-form-pulver-anadoa-naturhaus.png",
         "category": "Produkt",
         "keywords": ""
       },
@@ -502,7 +502,7 @@ function initNavigation() {
         "description": "Der stärkste natürliche Schleimlöser: Echtes Eukalyptusöl (Globulus). Befreit die Atemwege, wirkt antiviral und extrem erfrischend. Komplett-Ratgeber.",
         "h1": "Eukalyptusöl",
         "url": "eukalyptusoel.html",
-        "image": "assets/eukalyptusoel.png",
+        "image": "assets/eukalyptusoel-anadoa-naturhaus.png",
         "category": "Ätherische Öle",
         "keywords": "eucalyptus oil, eucalyptus, okaliptüs yağı, okaliptus yagi"
       },
@@ -511,7 +511,7 @@ function initNavigation() {
         "description": "Premium Fenchelsamen (Rezene Çayı). Der sanfte Klassiker für die ganze Familie zur Linderung von Magenkrämpfen, Blähungen und Völlegefühl.",
         "h1": "Fencheltee (Rezene)",
         "url": "fenchel-tee.html",
-        "image": "assets/fenchel_tee.png",
+        "image": "assets/fenchelsamen-tee-anadoa-naturhaus.png",
         "category": "Tee",
         "keywords": ""
       },
@@ -520,7 +520,7 @@ function initNavigation() {
         "description": "Premium Flohsamenschalen Pulver (Karnıyarık Tozu). Die höchste Qualität an pflanzlichen Ballaststoffen für einen gesunden Darm und sanfte Verdauung.",
         "h1": "Flohsamenschalen (Karnıyarık Tozu)",
         "url": "flohsamenschalen.html",
-        "image": "assets/anadoa-logo-1100-1100.png",
+        "image": "assets/flohsamenschalen.png",
         "category": "Produkt",
         "keywords": ""
       },
@@ -538,7 +538,7 @@ function initNavigation() {
         "description": "Entdecken Sie unsere hochwertigen Gewürze: Ungemahlener und gemahlener Sumach sowie wilder türkischer Berg-Oregano für die natürliche Küche.",
         "h1": "Gewürze",
         "url": "gewuerze.html",
-        "image": "assets/anadoa-logo-1100-1100.png",
+        "image": "assets/gewuerze.png",
         "category": "Gewürze",
         "keywords": ""
       },
@@ -547,7 +547,7 @@ function initNavigation() {
         "description": "100% purer, traditionell gepresster Gilaburu Saft aus Anatolien. Das bewährte Naturheilmittel für urologische Gesundheit und die Nieren.",
         "h1": "100% Purer Gilaburu Saft",
         "url": "gilaburu-saft.html",
-        "image": "assets/anadoa-logo-1100-1100.png",
+        "image": "assets/gilaburu-saft-anadoa-naturhaus.png",
         "category": "Produkt",
         "keywords": "gilaburu juice, cramp bark juice, gilaburu suyu, gilaburu"
       },
@@ -556,7 +556,7 @@ function initNavigation() {
         "description": "Das stärkste natürliche Anti-Aging-Öl: Kaltgepresstes Granatapfelkernöl. Punicinsäure kurbelt die Kollagenproduktion an und festigt reife, trockene Haut. Ratgeber.",
         "h1": "Granatapfelkernöl",
         "url": "granatapfelkernoel.html",
-        "image": "assets/granatapfelkernoel.png",
+        "image": "assets/granatapfelkern-oel-anadoa-naturhaus.png",
         "category": "Kaltgepresste Öle",
         "keywords": "pomegranate seed oil, pomegranate, nar çekirdeği yağı, nar cekirdegi"
       },
@@ -565,7 +565,7 @@ function initNavigation() {
         "description": "Original anatolische Zypressenzapfen Paste mit Honig und Propolis. Das traditionelle Naturheilmittel für freie Atemwege, ideal auch für Kinder.",
         "h1": "Granatapfelsirup | Nar Ekşisi",
         "url": "granatapfelsirup.html",
-        "image": "assets/anadoa-logo-1100-1100.png",
+        "image": "assets/grantapfel-sirup-anadoa-naturhaus.png",
         "category": "Natürliche Sirupe",
         "keywords": "pomegranate seed oil, pomegranate, nar çekirdeği yağı, nar cekirdegi"
       },
@@ -592,7 +592,7 @@ function initNavigation() {
         "description": "100% reines, fein gemahlenes BIO Hagebutten Pulver (Kuşburnu). Natürliche, hochdosierte Vitamin-C-Quelle für Immunsystem, Gelenke und Haut.",
         "h1": "Hagebutten BIO Pulver",
         "url": "hagebutten-pulver.html",
-        "image": "assets/anadoa-logo-1100-1100.png",
+        "image": "assets/hagebutten_pulver.png",
         "category": "Produkt",
         "keywords": ""
       },
@@ -610,7 +610,7 @@ function initNavigation() {
         "description": "Das pflanzliche Retinol: Kaltgepresstes Hagebuttenkernöl. Das ultimative, schnell einziehende Anti-Aging Öl gegen Falten, Pigmentflecken und Narben. Ratgeber.",
         "h1": "Hagebuttenkernöl",
         "url": "hagebuttenkernoel.html",
-        "image": "assets/hagebuttenkernoel.png",
+        "image": "assets/hagebuttenkernoel-anadoa-naturhaus.png",
         "category": "Kaltgepresste Öle",
         "keywords": ""
       },
@@ -637,7 +637,7 @@ function initNavigation() {
         "description": "Natürliche Kalziumquelle und Hustenstiller. Johannisbrotmelasse aus dem Mittelmeerraum, 100% rein, ohne Zucker und glutenfrei.",
         "h1": "Johannisbrot Melasse (Keçiboynuzu)",
         "url": "johannisbrot-melasse.html",
-        "image": "assets/anadoa-logo-1100-1100.png",
+        "image": "assets/johannisbrot-melasse-anadoa-naturhaus.png",
         "category": "Melassen (Pekmez)",
         "keywords": "grape molasses, grape syrup, carob, keçiboynuzu, pekmez, üzüm pekmezi, harnup pekmezi"
       },
@@ -646,7 +646,7 @@ function initNavigation() {
         "description": "Das flüssige Gold, das nie ranzig wird: Kaltgepresstes Jojobaöl (Golden Jojoba). Perfekt für fettige Haut, Akne und als Abschmink-Öl. Nicht komedogen.",
         "h1": "Jojobaöl",
         "url": "jojobaoel.html",
-        "image": "assets/jojobaoel.png",
+        "image": "assets/jojoba-oel-anadoa-naturhaus.png",
         "category": "Kaltgepresste Öle",
         "keywords": "jojoba oil, jojoba, jojoba yağı, jojoba yagi"
       },
@@ -709,7 +709,7 @@ function initNavigation() {
         "description": "Reine Kirschstiele zur sanften Entwässerung und Detox. Das traditionelle Naturheilmittel zur Nierenreinigung und Reduzierung von Ödemen.",
         "h1": "Kirschstiel Tee (Kiraz Sapı)",
         "url": "kirschstiel-tee.html",
-        "image": "assets/kirschstiel_tee.png",
+        "image": "assets/kirschenstaengel-tee-anadoa-naturhaus.png",
         "category": "Tee",
         "keywords": ""
       },
@@ -727,7 +727,7 @@ function initNavigation() {
         "description": "Premium Lavendeltee (Lavanta Çayı) aus echten Blüten. Der florale Ruhepol zur Beruhigung von Nerven, bei Stress und leichten Schlafproblemen.",
         "h1": "Lavendeltee (Lavanta Çayı)",
         "url": "lavendel-tee.html",
-        "image": "assets/lavendel_tee.png",
+        "image": "assets/lavendelblueten-tee-anadoa-naturhaus.png",
         "category": "Tee",
         "keywords": "lavender oil, lavender, lavanta yağı, lavanta yagi"
       },
@@ -736,7 +736,7 @@ function initNavigation() {
         "description": "Entdecken Sie die Kraft des echten Lavendelöls. Ein vollstandiger Ratgeber zu Wirkung, Herstellung, Rezepten und der Anwendung von Lavandula angustifolia.",
         "h1": "Lavendelöl",
         "url": "lavendeloel.html",
-        "image": "assets/lavendeloel.png",
+        "image": "assets/lavendeloel-anadoa-naturhaus.png",
         "category": "Ätherische Öle",
         "keywords": "lavender oil, lavender, lavanta yağı, lavanta yagi"
       },
@@ -754,7 +754,7 @@ function initNavigation() {
         "description": "Reiner Löwenzahn Tee aus Anatolien. Das ultimative Detox-Kraut zur Leberreinigung, Unterstützung der Galle und Entschlackung.",
         "h1": "Löwenzahn Tee (Karahindiba)",
         "url": "loewenzahn-tee.html",
-        "image": "assets/loewenzahn_tee.png",
+        "image": "assets/loewenzahn-tee-anadoa-naturhaus.png",
         "category": "Tee",
         "keywords": ""
       },
@@ -763,7 +763,7 @@ function initNavigation() {
         "description": "Das grüne Heil-Gold des Orients: Natives Lorbeerkernöl. Die Seele der Aleppo-Seife. Wirkt massiv antibakteriell bei Akne und extrem durchblutungsfördernd bei Rheuma.",
         "h1": "Lorbeerkernöl",
         "url": "lorbeerkernoel.html",
-        "image": "assets/lorbeerkernoel.png",
+        "image": "assets/lorbeerkernoel-100ml-anadoa-naturhaus.png",
         "category": "Kaltgepresste Öle",
         "keywords": ""
       },
@@ -799,7 +799,7 @@ function initNavigation() {
         "description": "Wunderschöne, blaue Malvenblüten (Ebegümeci). Der sanfte Schleimlöser bei hartnäckigem Reizhusten und Entzündungen der Magenschleimhaut.",
         "h1": "Malvenblüten Tee (Ebegümeci)",
         "url": "malvenblueten-tee.html",
-        "image": "assets/malvenblueten_tee.png",
+        "image": "assets/malvenblueten-tee-anadoa-naturhaus.png",
         "category": "Tee",
         "keywords": ""
       },
@@ -808,7 +808,7 @@ function initNavigation() {
         "description": "Der sanfte Alleskönner: Kaltgepresstes Süßmandelöl. Das perfekte, reizarme Massageöl für Schwangerschaft, Babypflege und sensible Haut. Ratgeber.",
         "h1": "Mandelöl (Süßmandel)",
         "url": "mandeloel.html",
-        "image": "assets/anadoa-logo-1100-1100.png",
+        "image": "assets/mandeloel-anadoa-naturhaus.png",
         "category": "Kaltgepresste Öle",
         "keywords": "almond oil, almond, badem yağı, badem yagi"
       },
@@ -817,7 +817,7 @@ function initNavigation() {
         "description": "Original anatolische Mariendistel Paste. Hochwertige Kräuterpaste mit Silymarin zur natürlichen Unterstützung der Leberfunktion und Entgiftung.",
         "h1": "Mariendistel Paste",
         "url": "mariendistel-paste.html",
-        "image": "assets/anadoa-logo-1100-1100.png",
+        "image": "assets/mariendistel_paste.png",
         "category": "Traditionelle Pasten",
         "keywords": "safflower oil, safflower, aspir yağı, aspir yagi"
       },
@@ -826,7 +826,7 @@ function initNavigation() {
         "description": "Die Beauty-Molasse aus schwarzen Maulbeeren. Extrem reich an Antioxidantien, Eisen und Resveratrol. Perfekt für Smoothie-Bowls.",
         "h1": "Maulbeeren Melasse (Dut Pekmezi)",
         "url": "maulbeeren-melasse.html",
-        "image": "assets/anadoa-logo-1100-1100.png",
+        "image": "assets/maulbeeren-melasse-anadoa-naturhaus.png",
         "category": "Melassen (Pekmez)",
         "keywords": "grape molasses, grape syrup, carob, keçiboynuzu, pekmez, üzüm pekmezi, harnup pekmezi"
       },
@@ -880,7 +880,7 @@ function initNavigation() {
         "description": "Der stärkste Schmerzkiller bei Zahnschmerzen: Echtes Nelkenknospenöl (Eugenia caryophyllata). Wirkt extrem antibakteriell und betäubend. Kompletter Ratgeber.",
         "h1": "Nelkenöl (Knospe)",
         "url": "nelkenoel.html",
-        "image": "assets/nelkenoel.png",
+        "image": "assets/nelkenoel-anadoa-naturhaus.png",
         "category": "Ätherische Öle",
         "keywords": "clove oil, clove, karanfil yağı, karanfil yagi"
       },
@@ -898,7 +898,7 @@ function initNavigation() {
         "description": "Der stärkste Virus-Killer der Aromatherapie: Echtes Niaouliöl. Wirkt extrem schnell bei Herpes, Akne und stärkt das Immunsystem massiv. Kompletter Ratgeber.",
         "h1": "Niaouliöl",
         "url": "niaoulioel.html",
-        "image": "assets/niaoulioel.png",
+        "image": "assets/nioli-oel-anadoa-naturhaus.png",
         "category": "Ätherische Öle",
         "keywords": ""
       },
@@ -907,7 +907,7 @@ function initNavigation() {
         "description": "Das Happy-Öl der Aromatherapie: Kaltgepresstes Orangenöl (Süßorange). Wirkt extrem stimmungsaufhellend, angstlösend und harmonisierend. Komplett-Ratgeber.",
         "h1": "Orangenöl",
         "url": "orangenoel.html",
-        "image": "assets/orangenoel.png",
+        "image": "assets/orangenoel-anadoa-naturhaus.png",
         "category": "Ätherische Öle",
         "keywords": "orange oil, sweet orange, portakal yağı, portakal yagi"
       },
@@ -925,7 +925,7 @@ function initNavigation() {
         "description": "Traditioneller Sauerhonig mit Propolis & Kurkuma",
         "h1": "Oxymel Gold Essig",
         "url": "oxymel-gold-essig.html",
-        "image": "assets/anadoa-logo-1100-1100.png",
+        "image": "assets/oxymel-gold-essig-anadoa-naturhaus.png",
         "category": "Kaltgepresste Öle",
         "keywords": "apple cider vinegar, vinegar, elma sirkesi, sirke, alıç sirkesi, alic sirkesi"
       },
@@ -934,7 +934,7 @@ function initNavigation() {
         "description": "Spezielle Frauenpaste (Kadın Macunu) aus Anatolien. Harmonische Kräutermischung zur sanften Regulation und Stärkung des weiblichen Zyklus.",
         "h1": "Paste für Frauen (Kadın Macunu)",
         "url": "paste-fuer-frauen.html",
-        "image": "assets/anadoa-logo-1100-1100.png",
+        "image": "assets/paste_fuer_frauen.png",
         "category": "Traditionelle Pasten",
         "keywords": ""
       },
@@ -943,7 +943,7 @@ function initNavigation() {
         "description": "Traditionelle Mesir Macunu für Männer. Eine kraftvolle anatolische Kräuterpaste zur natürlichen Steigerung von Energie, Ausdauer und Vitalität.",
         "h1": "Paste für Männer (Mesir Macunu)",
         "url": "paste-fuer-maenner.html",
-        "image": "assets/anadoa-logo-1100-1100.png",
+        "image": "assets/paste_fuer_maenner.png",
         "category": "Traditionelle Pasten",
         "keywords": ""
       },
@@ -970,7 +970,7 @@ function initNavigation() {
         "description": "Der stärkste Frische-Kick der Natur: Echtes Pfefferminzöl. Hilft bei Kopfschmerzen, Müdigkeit und Übelkeit. Ein Ratgeber zur Anwendung.",
         "h1": "Pfefferminzöl",
         "url": "pfefferminzoel.html",
-        "image": "assets/pfefferminzoel.png",
+        "image": "assets/pfefferminzoel-anadoa-naturhaus.png",
         "category": "Ätherische Öle",
         "keywords": "peppermint oil, peppermint, mint, nane yağı, nane yagi"
       },
@@ -1060,7 +1060,7 @@ function initNavigation() {
         "description": "Das Wundermittel für extrem lange Wimpern und dichte Augenbrauen: Kaltgepresstes Rizinusöl (Castor Oil). Porentiefe Gesichtsreinigung (Cleansing). Ratgeber.",
         "h1": "Rizinusöl",
         "url": "rizinusoel.html",
-        "image": "assets/anadoa-logo-1100-1100.png",
+        "image": "assets/rizinusoel-anadoa-naturhaus.png",
         "category": "Kaltgepresste Öle",
         "keywords": "castor oil, castor, hint yağı, hint yagi"
       },
@@ -1078,7 +1078,7 @@ function initNavigation() {
         "description": "Entdecken Sie das reinste ätherische Rosenöl (Rose Otto) aus Anatolien. Ein vollständiger Ratgeber zu Wirkung, Anwendung und Anti-Aging-Rezepten.",
         "h1": "Rosenöl",
         "url": "rosenoel.html",
-        "image": "assets/rosenoel.png",
+        "image": "assets/rosenoel-anadoa-naturhaus.png",
         "category": "Ätherische Öle",
         "keywords": "rose oil, rose essential oil, gül yağı, gul yagi"
       },
@@ -1087,7 +1087,7 @@ function initNavigation() {
         "description": "100% naturreines Rosenwasser (Hydrolat) aus Damaszener Rosen. Ausgleichend, aknebekämpfend und feuchtigkeitsspendend. Ohne Alkohol, in der 100ml Glasflasche.",
         "h1": "Rosenwasser (Gül Suyu)",
         "url": "rosenwasser.html",
-        "image": "assets/anadoa-logo-1100-1100.png",
+        "image": "assets/rosenwasser-anadoa-naturhaus.png",
         "category": "Produkt",
         "keywords": "rose oil, rose essential oil, gül yağı, gul yagi"
       },
@@ -1096,7 +1096,7 @@ function initNavigation() {
         "description": "Der stärkste mentale Wachmacher: Ätherisches Rosmarinöl. Fördert massiv das Haarwachstum, die Durchblutung und die Konzentration. Kompletter Ratgeber.",
         "h1": "Rosmarinöl",
         "url": "rosmarinoel.html",
-        "image": "assets/anadoa-logo-1100-1100.png",
+        "image": "assets/rosmarinoel-anadoa-naturhaus.png",
         "category": "Ätherische Öle",
         "keywords": ""
       },
@@ -1105,7 +1105,7 @@ function initNavigation() {
         "description": "100% naturreines Rosmarinwasser (Hydrolat). Fördert das Haarwachstum, beruhigt die Kopfhaut und klärt unreine Haut. Ohne Alkohol, in der 100ml Glasflasche.",
         "h1": "Rosmarinwasser (Biberiye)",
         "url": "rosmarinwasser.html",
-        "image": "assets/anadoa-logo-1100-1100.png",
+        "image": "assets/rosmarinwasser-anadoa-naturhaus.png",
         "category": "Produkt",
         "keywords": ""
       },
@@ -1114,7 +1114,7 @@ function initNavigation() {
         "description": "Original persischer Rushur Stein (Ruşur Taşı) 5 Stück. Natürliches Mineral-Peeling gegen Pigmentflecken, Sonnenflecken und unreinheiten. 100% rein.",
         "h1": "Original Rushur Stein (Ruşur Taşı)",
         "url": "rusur-stein.html",
-        "image": "assets/rushur_stein.png",
+        "image": "assets/rushur-stein-anadoa-naturhaus.png",
         "category": "Traditionelle Pasten",
         "keywords": ""
       },
@@ -1168,7 +1168,7 @@ function initNavigation() {
         "description": "Seltener Karabaş Otu Tee aus Anatolien. Das Heilkraut des osmanischen Hofes zur starken Nervenberuhigung, Entspannung und zum Zellschutz.",
         "h1": "Schopflavendel Tee (Karabaş Otu)",
         "url": "schopflavendel-tee.html",
-        "image": "assets/schopflavendel_tee.png",
+        "image": "assets/schopflavendel-tee-anadoa-naturhaus.png",
         "category": "Tee",
         "keywords": "lavender oil, lavender, lavanta yağı, lavanta yagi"
       },
@@ -1177,7 +1177,7 @@ function initNavigation() {
         "description": "Original anatolische Zypressenzapfen Paste mit Honig und Propolis. Das traditionelle Naturheilmittel für freie Atemwege, ideal auch für Kinder.",
         "h1": "Maulbeere Sirup Mix für Kinder",
         "url": "schwarze-maulbeere-sirup-fur-kinder.html",
-        "image": "assets/anadoa-logo-1100-1100.png",
+        "image": "assets/schwarze-maulbeere-sirup-mix-fuer-kinder-anadoa-naturhaus.png",
         "category": "Natürliche Sirupe",
         "keywords": ""
       },
@@ -1186,7 +1186,7 @@ function initNavigation() {
         "description": "Original anatolische Zypressenzapfen Paste mit Honig und Propolis. Das traditionelle Naturheilmittel für freie Atemwege, ideal auch für Kinder.",
         "h1": "Schwarzer Maulbeer-Sirup",
         "url": "schwarzer-maulbeersirup.html",
-        "image": "assets/anadoa-logo-1100-1100.png",
+        "image": "assets/schwarze-maulbeere-sirup-anadoa-naturhaus.png",
         "category": "Natürliche Sirupe",
         "keywords": ""
       },
@@ -1195,7 +1195,7 @@ function initNavigation() {
         "description": "Eine tiefgreifende wissenschaftliche und historische Analyse von Schwarzkümmelöl (Nigella sativa), seinem Hauptwirkstoff Thymoquinon und seinen unzähligen gesundheitlichen Vorteilen.",
         "h1": "Schwarzkümmelöl & Thymoquinon: Das Gold der Pharaonen",
         "url": "schwarzkuemmeloel-thymoquinon-wirkung.html",
-        "image": "assets/anadoa-logo-1100-1100.png",
+        "image": "assets/schwarzkuemmeloel-hoher-thymochinongehalt-anadoa-naturhaus.png",
         "category": "Kaltgepresste Öle",
         "keywords": ""
       },
@@ -1204,7 +1204,7 @@ function initNavigation() {
         "description": "Sanfte Pflege für kleine Entdecker: Schwarzkümmelöl kombiniert mit hautmildem Aspiröl und frischem Orangenöl. Die perfekte, pflanzliche Omega-Quelle für Kinder.",
         "h1": "Schwarzkümmelöl für Kinder (Orangengeschmack)",
         "url": "schwarzkummelol-fuer-kinder.html",
-        "image": "assets/schwarzkummel_kinder_orange.png",
+        "image": "assets/schwarzkuemmeloel-fuer-kinder-mit-orangengeschmack-anadoa-naturhaus.png",
         "category": "Kaltgepresste Öle",
         "keywords": "black seed oil, black cumin, nigella sativa, blackseed, çörek otu yağı, çörekotu, corek otu yagi"
       },
@@ -1213,7 +1213,7 @@ function initNavigation() {
         "description": "Fruchtiger Genuss für kleine Entdecker: Hochwertiges Schwarzkümmelöl mit echtem Erdbeerpulver. Voller Omega-Power ohne bitteren Beigeschmack.",
         "h1": "Schwarzkümmelöl für Kinder (Erdbeergeschmack)",
         "url": "schwarzkummelol-kinder-erdbeer.html",
-        "image": "assets/schwarzkummel_kinder_erdbeer.png",
+        "image": "assets/schwarzkuemmeloel-mit-erdbeerengeschmack-hoher-thymochinongehalt-anadoa-naturhaus.png",
         "category": "Kaltgepresste Öle",
         "keywords": "black seed oil, black cumin, nigella sativa, blackseed, çörek otu yağı, çörekotu, corek otu yagi"
       },
@@ -1222,7 +1222,7 @@ function initNavigation() {
         "description": "Die atemöffnende Kraft der Natur: Kaltgepresstes Schwarzkümmelöl verfeinert mit echtem Pfefferminzöl. Ideal für sensible Mägen und klare Atemwege.",
         "h1": "Schwarzkümmelöl mit Minze",
         "url": "schwarzkummelol-mit-minze.html",
-        "image": "assets/schwarzkummel_minze.png",
+        "image": "assets/schwarzkuemmeloel-mit-minze-hoher-thymochinongehalt-anadoa-naturhaus.png",
         "category": "Kaltgepresste Öle",
         "keywords": "black seed oil, black cumin, nigella sativa, blackseed, çörek otu yağı, çörekotu, corek otu yagi"
       },
@@ -1231,7 +1231,7 @@ function initNavigation() {
         "description": "100% naturreines, kaltgepresstes Schwarzkümmelöl aus Nigella Sativa. Premium-Qualität mit extra hohem Thymochinongehalt. Das pure, vegane Gold Anatoliens.",
         "h1": "Schwarzkümmelöl (Nigella Sativa)",
         "url": "schwarzkummelol.html",
-        "image": "assets/schwarzkummel_hero.png",
+        "image": "assets/schwarzkuemmeloel-hoher-thymochinongehalt-anadoa-naturhaus.png",
         "category": "Kaltgepresste Öle",
         "keywords": "black seed oil, black cumin, nigella sativa, blackseed, çörek otu yağı, çörekotu, corek otu yagi"
       },
@@ -1240,7 +1240,7 @@ function initNavigation() {
         "description": "Alexandrische Senna (Sinameki Çayı). Das stärkste, anatolische Kraut zur akuten, kurzfristigen Behandlung von schwerer Verstopfung. Hochwirksam.",
         "h1": "Alexandrische Senna (Sinameki)",
         "url": "senna-blaettertee.html",
-        "image": "assets/senna_blaettertee.png",
+        "image": "assets/alexandrische-senna-blaettertee-anadoa-naturhaus.png",
         "category": "Tee",
         "keywords": ""
       },
@@ -1258,7 +1258,7 @@ function initNavigation() {
         "description": "Handverlesener Spitzwegerich Tee. Natürlicher Hustenstiller und Lungenunterstützung. Premium Qualität aus der Türkei.",
         "h1": "Spitzwegerich Tee (Sinir Otu)",
         "url": "spitzwegerich-tee.html",
-        "image": "assets/spitzwegerich_tee.png",
+        "image": "assets/spitzwegerich-tee-anadoa-naturhaus.png",
         "category": "Tee",
         "keywords": ""
       },
@@ -1267,7 +1267,7 @@ function initNavigation() {
         "description": "Naturreine Süßholzwurzel (Meyan Kökü). Der anatolische Balsam für Magen und Atemwege. 50-mal süßer als Zucker, aber ohne Kalorien.",
         "h1": "Süßholzwurzel Tee (Meyan Kökü)",
         "url": "suessholzwurzel-tee.html",
-        "image": "assets/suessholzwurzel_tee.png",
+        "image": "assets/suessholzwurzel-tee-anadoa-naturhaus.png",
         "category": "Tee",
         "keywords": ""
       },
@@ -1276,7 +1276,7 @@ function initNavigation() {
         "description": "Entdecke den reinen, ursprünglichen Geschmack des Sumachgewürzes mit unseren ungemahlenen Sumachkernen (Rhus coriaria). 100% Natur, intensiv säuerlich und vielseitig anwendbar.",
         "h1": "Sumach Kerne – ungemahlen",
         "url": "sumach-kerne.html",
-        "image": "assets/anadoa-logo-1100-1100.png",
+        "image": "assets/sumach-sumak-kerne-anadoa-naturhaus.png",
         "category": "Produkt",
         "keywords": ""
       },
@@ -1285,7 +1285,7 @@ function initNavigation() {
         "description": "Fein gemahlener, tiefroter Sumach aus schonend getrockneten Beeren. Ein säuerlich-fruchtiges Geschmackserlebnis – 100% rein und garantiert ohne Salzzusatz.",
         "h1": "Sumach Pulver – Gemahlen (Ohne Salz)",
         "url": "sumach-pulver.html",
-        "image": "assets/anadoa-logo-1100-1100.png",
+        "image": "assets/sumach-sumak-kerne-anadoa-naturhaus.png",
         "category": "Produkt",
         "keywords": ""
       },
@@ -1294,7 +1294,7 @@ function initNavigation() {
         "description": "Entdecken Sie unsere anatolischen Gewürzspezialitäten: Sumach Pulver, Sumach Kerne, den flüssigen Sumix Komplex und unsere proteinreiche Tarhana Suppe.",
         "h1": "Sumach & Traditionelle Gewürze",
         "url": "sumak.html",
-        "image": "assets/anadoa-logo-1100-1100.png",
+        "image": "assets/product_dekupe-sumak-gemahlen.png",
         "category": "Produkt",
         "keywords": ""
       },
@@ -1303,7 +1303,7 @@ function initNavigation() {
         "description": "Erfahren Sie, warum die traditionelle Steinvermahlung von geröstetem Sesam der einzige Weg ist, um das seidige, aromatische und hochnährwertige Tahin zu produzieren.",
         "h1": "Traditionelles Tahin: Die Kunst der Steinmühle",
         "url": "tahin-sesammus-gesundheit.html",
-        "image": "assets/anadoa-logo-1100-1100.png",
+        "image": "assets/tahin-anadoa-naturhaus.png",
         "category": "Produkt",
         "keywords": "sesame oil, sesame, susam yağı, susam yagi, tahini, sesame paste, tahin, susam ezmesi"
       },
@@ -1312,7 +1312,7 @@ function initNavigation() {
         "description": "Schonend geröstetes, reines Tahini (Sesammus) aus anatolischer Ernte. Reich an pflanzlichem Kalzium und gesunden Fettsäuren.",
         "h1": "Tahini | Sesammus",
         "url": "tahini.html",
-        "image": "assets/anadoa-logo-1100-1100.png",
+        "image": "assets/tahin-anadoa-naturhaus.png",
         "category": "Produkt",
         "keywords": "tahini, sesame paste, tahin, susam ezmesi"
       },
@@ -1330,7 +1330,7 @@ function initNavigation() {
         "description": "Milde, honigbasierte Zypressenzapfen-Paste speziell für Kinder. Natürliche Stärkung der Atemwege und des kindlichen Immunsystems.",
         "h1": "Tannenzapfen Paste für Kinder",
         "url": "tannenzapfen-paste-kinder.html",
-        "image": "assets/anadoa-logo-1100-1100.png",
+        "image": "assets/zypressenzapfen-paste-fuer-kinder-anadoa-naturhaus.png",
         "category": "Traditionelle Pasten",
         "keywords": "pine cone paste, cypress cone paste, kozalak macunu, çam kozalağı pekmezi, selvi kozalagi"
       },
@@ -1339,7 +1339,7 @@ function initNavigation() {
         "description": "Original anatolische Zypressenzapfen Paste mit Honig und Propolis. Das traditionelle Naturheilmittel für freie Atemwege, ideal auch für Kinder.",
         "h1": "Tannenzapfen Sirup",
         "url": "tannenzapfen-sirup.html",
-        "image": "assets/anadoa-logo-1100-1100.png",
+        "image": "assets/zypressenzapfen-sirup-anadoa-naturhaus.png",
         "category": "Natürliche Sirupe",
         "keywords": "pine cone paste, cypress cone paste, kozalak macunu, çam kozalağı pekmezi, selvi kozalagi"
       },
@@ -1348,7 +1348,7 @@ function initNavigation() {
         "description": "Klassische Tarhana Suppe kaufen – fermentiert, probiotisch und authentisch anatolisch. Jetzt bei Anadoa Naturhaus bestellen. Schnelle Zubereitung, 100% natürlich.",
         "h1": "Klassische",
         "url": "tarhana-suppe.html",
-        "image": "assets/anadoa-logo-1100-1100.png",
+        "image": "assets/product_dekupe-tarhana.png",
         "category": "Produkt",
         "keywords": ""
       },
@@ -1357,7 +1357,7 @@ function initNavigation() {
         "description": "Die Seele der anatolischen Küche: Fermentiert, gesund, aromatisch und voller Tradition. Entdecken Sie unsere Acılı (scharfe) und klassische Tarhana.",
         "h1": "Traditionelle Tarhana Suppe",
         "url": "tarhana.html",
-        "image": "assets/anadoa-logo-1100-1100.png",
+        "image": "assets/product_dekupe-tarhana.png",
         "category": "Produkt",
         "keywords": ""
       },
@@ -1375,7 +1375,7 @@ function initNavigation() {
         "description": "Das stärkste natürliche Antiseptikum: Echtes Teebaumöl. Hilft bei Akne, Pilzinfektionen und Insektenstichen. Komplett-Ratgeber zur Anwendung.",
         "h1": "Teebaumöl",
         "url": "teebaumoel.html",
-        "image": "assets/anadoa-logo-1100-1100.png",
+        "image": "assets/teebaumoel-anadoa-naturhaus.png",
         "category": "Ätherische Öle",
         "keywords": "tea tree oil, teatree, çay ağacı yağı, cay agaci yagi"
       },
@@ -1384,7 +1384,7 @@ function initNavigation() {
         "description": "Das stärkste Öl für Lunge und Immunsystem: Ätherisches Thymianöl (CT Linalool & Thymol). Hilft massiv bei Husten, Bronchitis und Infektionen. Anwendung & Tipps.",
         "h1": "Thymianöl",
         "url": "thymianoel.html",
-        "image": "assets/thymianoel.png",
+        "image": "assets/thymianoel-anadoa-naturhaus.png",
         "category": "Ätherische Öle",
         "keywords": ""
       },
@@ -1393,7 +1393,7 @@ function initNavigation() {
         "description": "Naturtrüb & Traditionell Fermentiert",
         "h1": "Traubenessig",
         "url": "traubenessig.html",
-        "image": "assets/anadoa-logo-1100-1100.png",
+        "image": "assets/traubenessig-anadoa-naturhaus.png",
         "category": "Lebendige Essige",
         "keywords": "apple cider vinegar, vinegar, elma sirkesi, sirke, alıç sirkesi, alic sirkesi"
       },
@@ -1402,7 +1402,7 @@ function initNavigation() {
         "description": "Das Anti-Aging Öl für fettige Haut: Kaltgepresstes Traubenkernöl. Extrem reich an OPC. Ein 'trockenes Öl', das sofort matt einzieht. Perfekt bei Akne.",
         "h1": "Traubenkernöl",
         "url": "traubenkernoel.html",
-        "image": "assets/traubenkernoel.png",
+        "image": "assets/traubenkernoel-anadoa-naturhaus.png",
         "category": "Kaltgepresste Öle",
         "keywords": "grapeseed oil, grape seed, grape, üzüm çekirdeği yağı, uzum cekirdegi"
       },
@@ -1411,7 +1411,7 @@ function initNavigation() {
         "description": "Erfahren Sie, wie aus sonnengereiften anatolischen Trauben durch stundenlanges Einkochen die dickflüssige, mineralstoffreiche Melasse 'Pekmez' entsteht und warum sie so gesund ist.",
         "h1": "Anatolische Traubenmelasse (Pekmez): Natürliche Energie",
         "url": "traubenmelasse-pekmez-eisen-gesundheit.html",
-        "image": "assets/anadoa-logo-1100-1100.png",
+        "image": "assets/product_dekupe-traubenmelasse.png",
         "category": "Melassen (Pekmez)",
         "keywords": "grape molasses, grape syrup, carob, keçiboynuzu, pekmez, üzüm pekmezi, harnup pekmezi, grape molasses, grape syrup, carob, keçiboynuzu, pekmez, üzüm pekmezi, harnup pekmezi"
       },
@@ -1420,7 +1420,7 @@ function initNavigation() {
         "description": "Kaltgepresste Traubenmelasse aus anatolischer Ernte. 100% zuckerfrei, extrem reich an Eisen, Resveratrol und Kalium. Natürliche Süße.",
         "h1": "Traubenmelasse (Üzüm Pekmezi)",
         "url": "traubenmelasse.html",
-        "image": "assets/anadoa-logo-1100-1100.png",
+        "image": "assets/product_dekupe-traubenmelasse.png",
         "category": "Melassen (Pekmez)",
         "keywords": "grape molasses, grape syrup, carob, keçiboynuzu, pekmez, üzüm pekmezi, harnup pekmezi"
       },
@@ -1429,7 +1429,7 @@ function initNavigation() {
         "description": "Aromatische Wildwürze aus den sonnenverwöhnten Bergen der Ägäis. Wilder Bergthymian (Origanum onites) mit intensiv herber Note.",
         "h1": "Türkischer Oregano – Bilyeli Kekik",
         "url": "tuerkischer-oregano.html",
-        "image": "assets/anadoa-logo-1100-1100.png",
+        "image": "assets/tuerkischer-oregano.png",
         "category": "Produkt",
         "keywords": "oregano oil, oregano, kekik yağı, kekik yagi"
       },
@@ -1438,7 +1438,7 @@ function initNavigation() {
         "description": "Das Antibiotikum der Natur: Echtes Udi Hindi Öl (Mazerat). Traditionelles asiatisches Heilmittel bei Halsschmerzen, Mandelentzündung und Bronchitis. Ratgeber.",
         "h1": "Udi Hindi Öl (Kust al Hindi)",
         "url": "udi-hindi-oel.html",
-        "image": "assets/udi-hindi-oel.png",
+        "image": "assets/udi-hindi-oel-100ml-anadoa-naturhaus.png",
         "category": "Kaltgepresste Öle",
         "keywords": ""
       },
@@ -1447,7 +1447,7 @@ function initNavigation() {
         "description": "Das stärkste erdende Öl der Aromatherapie: Echtes Vetiveröl. Wirkt massiv beruhigend bei Schlaflosigkeit, Stress und Überreizung. Kompletter Ratgeber.",
         "h1": "Vetiveröl",
         "url": "vetiveroel.html",
-        "image": "assets/vetiveroel.png",
+        "image": "assets/vetiveroel-anadoa-naturhaus.png",
         "category": "Ätherische Öle",
         "keywords": ""
       },
@@ -1456,7 +1456,7 @@ function initNavigation() {
         "description": "Andız Pekmezi aus wilden Wacholderzapfen des Taurusgebirges. Starkes Antioxidans, Detox-Unterstützer und traditioneller Lungenbalsam.",
         "h1": "Wacholderbeeren Melasse (Andız)",
         "url": "wacholderbeeren-melasse.html",
-        "image": "assets/anadoa-logo-1100-1100.png",
+        "image": "assets/wacholderbeeren-melasse-anadoa-naturhaus.png",
         "category": "Kaltgepresste Öle",
         "keywords": "grape molasses, grape syrup, carob, keçiboynuzu, pekmez, üzüm pekmezi, harnup pekmezi"
       },
@@ -1483,7 +1483,7 @@ function initNavigation() {
         "description": "100 % Natur | Lebendiges Herz-Tonikum",
         "h1": "Weißdorn Essig",
         "url": "weissdorn-essig.html",
-        "image": "assets/anadoa-logo-1100-1100.png",
+        "image": "assets/weissdornessig-anadoa-naturhaus.png",
         "category": "Lebendige Essige",
         "keywords": "apple cider vinegar, vinegar, elma sirkesi, sirke, alıç sirkesi, alic sirkesi, hawthorn vinegar, alıç sirkesi, alic sirkesi"
       },
@@ -1501,7 +1501,7 @@ function initNavigation() {
         "description": "Anadoa Wintertee. Eine wärmende, harmonische Kräutermischung aus Anatolien zur Stärkung der Abwehrkräfte an kalten Tagen.",
         "h1": "Wintertee (Winter Mix)",
         "url": "wintertee.html",
-        "image": "assets/wintertee.png",
+        "image": "assets/winter-tee-anadoa-naturhaus.png",
         "category": "Tee",
         "keywords": ""
       },
@@ -1510,7 +1510,7 @@ function initNavigation() {
         "description": "Die Blume der Blumen: Echtes Ylang-Ylang Öl. Wirkt stark blutdrucksenkend, aphrodisierend und tiefenentspannend. Alles zur Anwendung und Dosierung.",
         "h1": "Ylang-Ylang-Öl",
         "url": "ylang-ylang-oel.html",
-        "image": "assets/ylang-ylang-oel.png",
+        "image": "assets/ylang-ylang-oel-anadoa-naturhaus.png",
         "category": "Ätherische Öle",
         "keywords": ""
       },
@@ -1519,7 +1519,7 @@ function initNavigation() {
         "description": "Zahter (Schwarzer Thymian) aus dem anatolischen Taurusgebirge. Stark antiseptisch, bei Magenproblemen und Entzündungen im Rachen.",
         "h1": "Zaatar Tee (Schwarzer Thymian)",
         "url": "zaatar-tee.html",
-        "image": "assets/zaatar_tee.png",
+        "image": "assets/zaatar-tee-anadoa-naturhaus.png",
         "category": "Tee",
         "keywords": ""
       },
@@ -1528,7 +1528,7 @@ function initNavigation() {
         "description": "Die erdende Kraft des Waldes: Ätherisches Zedernholzöl (Atlaszeder). Wirkt extrem gut bei Haarausfall, Schuppen und als natürlicher Mottenschutz. Ratgeber.",
         "h1": "Zedernholzöl",
         "url": "zedernholzoel.html",
-        "image": "assets/zedernholzoel.png",
+        "image": "assets/zedernoel-anadoa-naturhaus.png",
         "category": "Ätherische Öle",
         "keywords": ""
       },
@@ -1555,7 +1555,7 @@ function initNavigation() {
         "description": "Der ultimative Frische-Kick: Kaltgepresstes Zitronenöl. Wirkt extrem stimmungsaufhellend, konzentrationsfördernd und luftreinigend. Kompletter Ratgeber.",
         "h1": "Zitronenöl",
         "url": "zitronenoel.html",
-        "image": "assets/anadoa-logo-1100-1100.png",
+        "image": "assets/zitronen-oel-anadoa-naturhaus.png",
         "category": "Ätherische Öle",
         "keywords": "lemon oil, lemon, limon yağı, limon yagi"
       },
@@ -1564,7 +1564,7 @@ function initNavigation() {
         "description": "Entdecken Sie die historische Bedeutung und die atmungsunterstützenden Eigenschaften der traditionellen anatolischen Zypressenzapfen Paste.",
         "h1": "Das alte Geheimnis der Berge: Zypressenzapfen Paste",
         "url": "zypressenzapfen-paste-husten-naturheilkunde.html",
-        "image": "assets/anadoa-logo-1100-1100.png",
+        "image": "assets/zypressenzapfen-paste-anadoa-naturhaus.png",
         "category": "Traditionelle Pasten",
         "keywords": "pine cone paste, cypress cone paste, kozalak macunu, çam kozalağı pekmezi, selvi kozalagi"
       },
@@ -1573,7 +1573,7 @@ function initNavigation() {
         "description": "Original anatolische Zypressenzapfen Paste mit Honig und Propolis. Das traditionelle Naturheilmittel für freie Atemwege, ideal auch für Kinder.",
         "h1": "Zypressenzapfen Paste",
         "url": "zypressenzapfen-paste.html",
-        "image": "assets/anadoa-logo-1100-1100.png",
+        "image": "assets/zypressenzapfen-paste-anadoa-naturhaus.png",
         "category": "Traditionelle Pasten",
         "keywords": "pine cone paste, cypress cone paste, kozalak macunu, çam kozalağı pekmezi, selvi kozalagi"
       }
