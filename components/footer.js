@@ -60,8 +60,6 @@ const footerHTML = `
 <li><a class="hover:text-gold hover:translate-x-1 transform transition-all block" href="impressum.html">Impressum</a></li>
 <li><a class="hover:text-gold hover:translate-x-1 transform transition-all block" href="agb.html">AGB</a></li>
 <li><a class="hover:text-gold hover:translate-x-1 transform transition-all block" href="datenschutz.html">Datenschutz</a></li>
-<li><a class="hover:text-gold hover:translate-x-1 transform transition-all block" href="widerrufsbelehrung.html">Widerrufsbelehrung</a></li>
-<li><a class="hover:text-gold hover:translate-x-1 transform transition-all block" href="versand.html">Versand &amp; Zahlung</a></li>
 <li><a class="hover:text-gold hover:translate-x-1 transform transition-all block" href="barrierefreiheit.html">Barrierefreiheit</a></li>
 </ul>
 </div>
