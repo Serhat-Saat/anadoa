@@ -18,7 +18,18 @@ const navHTML = `
 
       <!-- Left Links (Desktop) -->
       <div class="hidden lg:flex items-center justify-end space-x-6 lg:space-x-10 flex-1 pr-4 lg:pr-8">
-        <a class="text-ash hover:text-gold text-sm uppercase tracking-widest font-bold transition-colors" href="ueber-uns.html">Über uns</a>
+        <div class="group h-full flex items-center relative">
+          <button class="flex items-center text-ash hover:text-gold text-sm uppercase tracking-widest font-bold transition-colors focus:outline-none h-[72px]">
+            Über uns
+            <svg class="w-4 h-4 ml-1 transition-transform group-hover:rotate-180 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+            </svg>
+          </button>
+          <div class="absolute left-0 top-full w-48 bg-[#fbf5eb] border border-earth-light shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform origin-top z-50 rounded-2xl p-4 flex flex-col space-y-3">
+            <a class="text-ash hover:text-gold text-sm font-bold transition-colors" href="ueber-uns.html">Über uns</a>
+            <a class="text-ash hover:text-gold text-sm font-bold transition-colors" href="philosophie.html">Philosophie</a>
+          </div>
+        </div>
         <a class="text-ash hover:text-gold text-sm uppercase tracking-widest font-bold transition-colors" href="rezepte.html">Rezepte</a>
       </div>
 
@@ -182,6 +193,7 @@ const navHTML = `
       
       <nav class="flex flex-col space-y-6">
         <a class="text-4xl md:text-5xl font-serif text-mocha hover:text-gold transition-colors block mobile-link" href="ueber-uns.html">Über uns</a>
+        <a class="text-3xl md:text-4xl font-serif text-mocha hover:text-gold/80 transition-colors block mobile-link pl-6" href="philosophie.html">↳ Philosophie</a>
         <a class="text-4xl md:text-5xl font-serif text-mocha hover:text-gold transition-colors block mobile-link" href="rezepte.html">Rezepte</a>
         <a class="text-4xl md:text-5xl font-serif text-mocha hover:text-gold transition-colors block mobile-link" href="magazin.html">Magazin</a>
       </nav>
