@@ -153,7 +153,7 @@ const navHTML = `
                 <!-- Col 5: Promo -->
                 <div class="flex flex-col min-h-0">
                   <div class="rounded-2xl overflow-hidden relative group/promo shadow-lg border border-gold/20" style="min-height:280px">
-                    <img alt="Premium Produkte" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover/promo:scale-110" src="assets/zypressenzapfen_paste.png"/>
+                    <img alt="Premium Produkte" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover/promo:scale-110" src="assets/zypressenzapfen-paste-anadoa-naturhaus.png"/>
                     <div class="absolute inset-0 bg-gradient-to-t from-mocha/90 via-mocha/40 to-transparent flex flex-col items-center justify-end p-6">
                       <span class="text-earth font-serif text-xl text-center drop-shadow-md mb-2">Entdecken Sie die Essenz der Natur</span>
                       <a class="inline-block mt-3 px-5 py-2 bg-gold text-white text-sm font-medium rounded-full shadow-md hover:bg-white hover:text-mocha transition-colors" href="zypressenzapfen-paste.html">Zum Bestseller</a>
@@ -446,7 +446,7 @@ function initNavigation() {
       "description": "Premium Artischockenblätter Tee (Enginar Yaprağı). Ein extrem starkes Bitterkraut aus der Ägäis zur Reinigung der Leber, Förderung der Galle und Cholesterinsenkung.",
       "h1": "Artischockenblätter Tee (Enginar Yaprağı)",
       "url": "artischockenblaetter-tee.html",
-      "image": "assets/artischockenblaetter_tee.png",
+      "image": "assets/artischockenblaetter-tee-anadoa-naturhaus.png",
       "category": "Tee",
       "keywords": ""
     },
@@ -545,7 +545,7 @@ function initNavigation() {
       "description": "Wunderschöne Eibischblüten (Hatmi Çiçeği). Das sanfteste, pflanzliche Heilmittel aus Anatolien bei Reizhusten, Heiserkeit und Magenbeschwerden.",
       "h1": "Eibischblüten Tee (Hatmi Çiçeği)",
       "url": "eibischblueten-tee.html",
-      "image": "assets/eibischblueten_tee.png",
+      "image": "assets/eibischblueten-tee-anadoa-naturhaus.png",
       "category": "Tee",
       "keywords": ""
     },
@@ -581,7 +581,7 @@ function initNavigation() {
       "description": "Premium Flohsamenschalen Pulver (Karnıyarık Tozu). Die höchste Qualität an pflanzlichen Ballaststoffen für einen gesunden Darm und sanfte Verdauung.",
       "h1": "Flohsamenschalen (Karnıyarık Tozu)",
       "url": "flohsamenschalen.html",
-      "image": "assets/flohsamenschalen.png",
+      "image": "assets/flohsamenchalen-anadoa-naturhaus.png",
       "category": "Produkt",
       "keywords": ""
     },
@@ -644,7 +644,7 @@ function initNavigation() {
       "description": "Premium Grüner Tee zur natürlichen Stoffwechselanregung und für antioxidativen Zellschutz. Handverlesene Qualität für den perfekten Fokus.",
       "h1": "Magischer Grüntee",
       "url": "gruener-tee.html",
-      "image": "assets/gruener_tee.png",
+      "image": "assets/gruene-tee-anadoa-naturhaus.png",
       "category": "Tee",
       "keywords": ""
     },
@@ -662,7 +662,7 @@ function initNavigation() {
       "description": "Traditioneller Hagebutten Tee (Kuşburnu). Hergestellt aus ganzen, schonend getrockneten Wildfrüchten. Säuerlich-frischer Geschmack und reich an Vitaminen.",
       "h1": "Hagebutten Tee (Kuşburnu)",
       "url": "hagebutten-tee.html",
-      "image": "assets/hagebutten_tee.png",
+      "image": "assets/hagebutten-tee-anadoa-naturhaus.png",
       "category": "Tee",
       "keywords": ""
     },
@@ -689,7 +689,7 @@ function initNavigation() {
       "description": "Premium Hibiskus Tee (Nar Çiçeği / Hibiscus Sabdariffa). Reich an organischen Säuren und Antioxidantien. Unterstützt das Herz-Kreislauf-System.",
       "h1": "Hibiskus Tee",
       "url": "hibiskus-tee.html",
-      "image": "assets/hibiskus_tee.png",
+      "image": "assets/hibiskus-tee-anadoa-naturhaus.png",
       "category": "Tee",
       "keywords": ""
     },
@@ -833,7 +833,7 @@ function initNavigation() {
       "description": "Sinnlicher Love Tee. Eine meisterhaft komponierte, aphrodisierende Kräutermischung für romantische Abende, Stressabbau und tiefe Entspannung.",
       "h1": "Love Tee (Spezial Mix)",
       "url": "love-tee.html",
-      "image": "assets/love_tee.png",
+      "image": "assets/love-tee-kraeutermix-tee-anadoa-naturhaus.png",
       "category": "Tee",
       "keywords": ""
     },
@@ -851,7 +851,7 @@ function initNavigation() {
       "description": "Maisbart Tee (Mısır Püskülü) aus Anatolien. Das sanfteste, natürliche Entwässerungsmittel zur Durchspülung von Niere, Blase und Harnwegen.",
       "h1": "Maisbart Tee (Mısır Püskülü)",
       "url": "maisbart-tee.html",
-      "image": "assets/maisbart_tee.png",
+      "image": "assets/maisbart-tee-anadoa-naturhaus.png",
       "category": "Tee",
       "keywords": ""
     },
@@ -878,7 +878,7 @@ function initNavigation() {
       "description": "Original anatolische Mariendistel Paste. Hochwertige Kräuterpaste mit Silymarin zur natürlichen Unterstützung der Leberfunktion und Entgiftung.",
       "h1": "Mariendistel Paste",
       "url": "mariendistel-paste.html",
-      "image": "assets/mariendistel_paste.png",
+      "image": "assets/mariendistel-paste-anadoa-naturhaus.png",
       "category": "Traditionelle Pasten",
       "keywords": "safflower oil, safflower, aspir yağı, aspir yagi"
     },
@@ -1184,7 +1184,7 @@ function initNavigation() {
       "description": "Traditioneller Salbei Tee (Adaçayı) aus den Bergen Anatoliens. Das stärkste Kraut gegen Halsschmerzen, Entzündungen und starkes Schwitzen.",
       "h1": "Salbei Tee (Adaçayı)",
       "url": "salbei-tee.html",
-      "image": "assets/salbei_tee.png",
+      "image": "assets/salbei-tee-anadoa-naturhaus.png",
       "category": "Tee",
       "keywords": ""
     },
@@ -1211,7 +1211,7 @@ function initNavigation() {
       "description": "Premium Schafgarbentee (Civan Perçemi) aus Anatolien. Das ultimative, traditionelle Heilkraut zur Hormonbalance und Linderung von Menstruationsbeschwerden.",
       "h1": "Schafgarbentee (Civan Perçemi)",
       "url": "schafgarben-tee.html",
-      "image": "assets/schafgarben_tee.png",
+      "image": "assets/schafgarben-tee-anadoa-naturhaus.png",
       "category": "Tee",
       "keywords": ""
     },

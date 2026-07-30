@@ -249,19 +249,59 @@ details[open] summary~* {
   /* Firefox */
 }
 
-/* Mobile Layout & Typography Optimization to Prevent Bloat & Overflow */
+/* =============================================
+   INNER-PAGE MOBILE TYPOGRAPHY
+   Applies to all pages except index.html
+   (those pages have id="inner-page" on <body>)
+   ============================================= */
 @media (max-width: 767px) {
 
-  /* Global Heading Scaling */
-  h1,
-  .text-4xl,
-  .text-5xl,
-  .text-6xl,
-  .text-7xl,
-  .text-8xl {
+  /* Hero H1 */
+  #inner-page h1 {
     font-size: 1.75rem !important;
-    /* ~28px safe H1 */
+    /* 28px – comfortable for long titles */
     line-height: 1.2 !important;
+  }
+
+  /* Section headings (text-4xl / text-5xl used in content blocks) */
+  #inner-page .text-4xl,
+  #inner-page .text-5xl,
+  #inner-page .text-6xl,
+  #inner-page .text-7xl,
+  #inner-page .text-8xl {
+    font-size: 1.75rem !important;
+    line-height: 1.2 !important;
+  }
+
+  /* Sub-section headings (text-3xl) */
+  #inner-page .text-3xl {
+    font-size: 1.35rem !important;
+    /* 21px */
+    line-height: 1.25 !important;
+  }
+
+  /* Hero subtitle and lead text */
+  #inner-page .text-xl,
+  #inner-page .text-2xl {
+    font-size: 0.95rem !important;
+    line-height: 1.6 !important;
+  }
+
+  /* Body text inside content boxes (e.g. schwarzkummelol.html uses text-lg directly) */
+  #inner-page .text-lg {
+    font-size: 0.9rem !important;
+    /* ~14.4px – matches kinder page reference */
+    line-height: 1.65 !important;
+  }
+
+  /* Reduce oversized box padding on mobile (p-10 = 2.5rem, p-12 = 3rem are too large) */
+  #inner-page .p-10,
+  #inner-page .p-12 {
+    padding: 1.25rem !important;
+  }
+
+  #inner-page .lg\:p-12 {
+    padding: 1.25rem !important;
   }
 
   /* Reduce excessive section heights */
@@ -271,7 +311,7 @@ details[open] summary~* {
   }
 
   /* Reduce header banner height on inner pages */
-  header.relative {
+  #inner-page header.relative {
     padding-top: 7rem !important;
     padding-bottom: 3rem !important;
   }

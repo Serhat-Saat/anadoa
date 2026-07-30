@@ -58,12 +58,31 @@
     </header>
 
     <!-- Main Content -->
-    <main
-        class="max-w-7xl mx-auto px-6 py-16 bg-white backdrop-blur-md rounded-3xl shadow-xl border border-white/60 mt-12 mb-24">
-        <div class="max-w-4xl mx-auto mb-20 prose prose-lg prose-ash">
+    <!-- Main Layout Container -->
+    <div class="max-w-7xl mx-auto px-6 py-16 flex flex-col lg:flex-row gap-8 lg:gap-12 mt-12 mb-24">
+        
+        <!-- Sidebar Navigation -->
+        <aside class="w-full lg:w-3/12 block lg:block mb-8 lg:mb-0 relative lg:sticky top-0 lg:top-32 self-start h-fit z-20">
+            <div class="toc-sidebar bg-white/80 backdrop-blur-md p-8 rounded-3xl shadow-lg border border-white/60 reveal delay-200 relative overflow-hidden">
+                <div class="absolute inset-0 bg-noise opacity-20"></div>
+                <div class="relative z-10">
+                    <h3 class="text-2xl font-serif font-bold mb-6 text-sage border-b border-earth-light pb-4">
+                        Inhaltsverzeichnis</h3>
+                    <nav class="flex flex-col space-y-4 max-h-[60vh] overflow-y-auto custom-scrollbar pr-2 pb-4">
+                        <a href="#ratgeber" class="text-ash-light hover:text-gold transition-colors duration-200 font-medium">Was sind Ätherische Öle?</a>
+                        <a href="#produkte" class="text-ash-light hover:text-gold transition-colors duration-200 font-medium">Unsere Öle</a>
+                        <a href="#faq" class="text-ash-light hover:text-gold transition-colors duration-200 font-medium">FAQ</a>
+                    </nav>
+                </div>
+            </div>
+        </aside>
 
-            <h2 class="text-4xl font-serif text-mocha mb-6">Der ultimative Ratgeber: Was sind Ätherische Öle wirklich?
-            </h2>
+        <!-- Main Content Area -->
+        <main class="w-full lg:w-9/12 content-body bg-white backdrop-blur-md p-8 md:p-12 rounded-3xl shadow-xl border border-white/60 reveal delay-100 relative overflow-hidden">
+            <div class="max-w-4xl mx-auto mb-20 prose prose-lg prose-ash">
+
+                <h2 id="ratgeber" class="text-4xl font-serif text-mocha mb-6 scroll-mt-24">Der ultimative Ratgeber: Was sind Ätherische Öle wirklich?
+                </h2>
             <p class="lead text-2xl font-serif italic text-sage mb-8 border-l-4 border-gold pl-6 py-2">
                 Ätherische Öle sind das Immunsystem, die Sprache und die Seele der Pflanze. Sie sind keine Fette,
                 sondern hochkomplexe, flüchtige Meisterwerke der biochemischen Natur.
@@ -213,7 +232,7 @@
                 Entdecken Sie nun unsere vollständige Kollektion reinster, therapeutischer Essenzen.
             </p>
         </div>
-        <h2 class="text-4xl font-serif text-center text-mocha mb-12">Unsere Aetherischen Oele</h2>
+        <h2 id="produkte" class="text-4xl font-serif text-center text-mocha mb-12 scroll-mt-24">Unsere Aetherischen Oele</h2>
 
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 mb-16">
             <!-- PRODUCT: Lavendelöl -->
@@ -321,7 +340,7 @@
             <!-- PRODUCT: Weihrauchöl -->
             <a href="weihrauchoel.html" class="group block relative">
                 <div class="w-full aspect-[4/5] overflow-hidden">
-                    <img src="assets/weihrauchoel.png"
+                    <img src="assets/anadoa-logo-1100-1100.png"
                         class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-[1.5s] ease-out"
                         alt="Anadoa Weihrauchöl Boswellia carterii">
                     <div class="absolute inset-0 bg-mocha/0 group-hover:bg-mocha/10 transition-colors duration-700">
@@ -372,7 +391,7 @@
             <!-- PRODUCT: Sandelholzöl -->
             <a href="sandelholzoel.html" class="group block relative">
                 <div class="w-full aspect-[4/5] overflow-hidden">
-                    <img src="assets/sandelholzoel.png"
+                    <img src="assets/sandelholzoel-anadoa-naturhaus.png"
                         class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-[1.5s] ease-out"
                         alt="Anadoa Sandelholzöl Santalum album">
                     <div class="absolute inset-0 bg-mocha/0 group-hover:bg-mocha/10 transition-colors duration-700">
@@ -406,7 +425,7 @@
             <!-- PRODUCT: Zitronenöl -->
             <a href="zitronenoel.html" class="group block relative">
                 <div class="w-full aspect-[4/5] overflow-hidden">
-                    <img src="assets/zitronen-oel-anadoa-naturhaus.png"
+                    <img src="assets/zitronenoel-anadoa-naturhaus.png"
                         class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-[1.5s] ease-out"
                         alt="Anadoa Zitronenöl Citrus limon">
                     <div class="absolute inset-0 bg-mocha/0 group-hover:bg-mocha/10 transition-colors duration-700">
@@ -457,7 +476,7 @@
             <!-- PRODUCT: Patchouliöl -->
             <a href="patchoulioel.html" class="group block relative">
                 <div class="w-full aspect-[4/5] overflow-hidden">
-                    <img src="assets/patchoulioel.png"
+                    <img src="assets/anadoa-logo-1100-1100.png"
                         class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-[1.5s] ease-out"
                         alt="Anadoa Patchouliöl Pogostemon cablin">
                     <div class="absolute inset-0 bg-mocha/0 group-hover:bg-mocha/10 transition-colors duration-700">
@@ -474,7 +493,7 @@
             <!-- PRODUCT: Cajeputöl -->
             <a href="cajeputoel.html" class="group block relative">
                 <div class="w-full aspect-[4/5] overflow-hidden">
-                    <img src="assets/cajeputoel.png"
+                    <img src="assets/anadoa-logo-1100-1100.png"
                         class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-[1.5s] ease-out"
                         alt="Anadoa Cajeputöl Melaleuca leucadendra">
                     <div class="absolute inset-0 bg-mocha/0 group-hover:bg-mocha/10 transition-colors duration-700">
@@ -491,7 +510,7 @@
             <!-- PRODUCT: Geranienöl -->
             <a href="geranienoel.html" class="group block relative">
                 <div class="w-full aspect-[4/5] overflow-hidden">
-                    <img src="assets/geranienoel.png"
+                    <img src="assets/anadoa-logo-1100-1100.png"
                         class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-[1.5s] ease-out"
                         alt="Anadoa Geranienöl Pelargonium graveolens">
                     <div class="absolute inset-0 bg-mocha/0 group-hover:bg-mocha/10 transition-colors duration-700">
@@ -508,7 +527,7 @@
             <!-- PRODUCT: Grapefruitöl -->
             <a href="grapefruitoel.html" class="group block relative">
                 <div class="w-full aspect-[4/5] overflow-hidden">
-                    <img src="assets/grapefruitoel.png"
+                    <img src="assets/anadoa-logo-1100-1100.png"
                         class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-[1.5s] ease-out"
                         alt="Anadoa Grapefruitöl Citrus paradisi">
                     <div class="absolute inset-0 bg-mocha/0 group-hover:bg-mocha/10 transition-colors duration-700">
@@ -525,7 +544,7 @@
             <!-- PRODUCT: Kamillenöl (Blau) -->
             <a href="kamillenoel.html" class="group block relative">
                 <div class="w-full aspect-[4/5] overflow-hidden">
-                    <img src="assets/kamillenoel.png"
+                    <img src="assets/anadoa-logo-1100-1100.png"
                         class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-[1.5s] ease-out"
                         alt="Anadoa Kamillenöl (Blau) Matricaria chamomilla">
                     <div class="absolute inset-0 bg-mocha/0 group-hover:bg-mocha/10 transition-colors duration-700">
@@ -542,7 +561,7 @@
             <!-- PRODUCT: Muskatellersalbeiöl -->
             <a href="muskatellersalbeioel.html" class="group block relative">
                 <div class="w-full aspect-[4/5] overflow-hidden">
-                    <img src="assets/muskatellersalbeioel.png"
+                    <img src="assets/anadoa-logo-1100-1100.png"
                         class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-[1.5s] ease-out"
                         alt="Anadoa Muskatellersalbeiöl Salvia sclarea">
                     <div class="absolute inset-0 bg-mocha/0 group-hover:bg-mocha/10 transition-colors duration-700">
@@ -559,7 +578,7 @@
             <!-- PRODUCT: Rosenholzöl -->
             <a href="rosenholzoel.html" class="group block relative">
                 <div class="w-full aspect-[4/5] overflow-hidden">
-                    <img src="assets/rosenholzoel.png"
+                    <img src="assets/anadoa-logo-1100-1100.png"
                         class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-[1.5s] ease-out"
                         alt="Anadoa Rosenholzöl Aniba rosaeodora">
                     <div class="absolute inset-0 bg-mocha/0 group-hover:bg-mocha/10 transition-colors duration-700">
@@ -593,7 +612,7 @@
             <!-- PRODUCT: Zitronengrasöl -->
             <a href="zitronengrasoel.html" class="group block relative">
                 <div class="w-full aspect-[4/5] overflow-hidden">
-                    <img src="assets/zitronengrasoel.png"
+                    <img src="assets/anadoa-logo-1100-1100.png"
                         class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-[1.5s] ease-out"
                         alt="Anadoa Zitronengrasöl Cymbopogon flexuosus">
                     <div class="absolute inset-0 bg-mocha/0 group-hover:bg-mocha/10 transition-colors duration-700">
@@ -610,7 +629,7 @@
             <!-- PRODUCT: Zirbenöl -->
             <a href="zirbenoel.html" class="group block relative">
                 <div class="w-full aspect-[4/5] overflow-hidden">
-                    <img src="assets/zirbenoel.png"
+                    <img src="assets/anadoa-logo-1100-1100.png"
                         class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-[1.5s] ease-out"
                         alt="Anadoa Zirbenöl Pinus cembra">
                     <div class="absolute inset-0 bg-mocha/0 group-hover:bg-mocha/10 transition-colors duration-700">
@@ -627,7 +646,7 @@
             <!-- PRODUCT: Oreganoöl -->
             <a href="oreganool.html" class="group block relative">
                 <div class="w-full aspect-[4/5] overflow-hidden">
-                    <img src="assets/oreganool.png"
+                    <img src="assets/anadoa-logo-1100-1100.png"
                         class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-[1.5s] ease-out"
                         alt="Anadoa Oreganoöl Origanum vulgare">
                     <div class="absolute inset-0 bg-mocha/0 group-hover:bg-mocha/10 transition-colors duration-700">
@@ -644,7 +663,7 @@
             <!-- PRODUCT: Myrrheöl -->
             <a href="myrrheoel.html" class="group block relative">
                 <div class="w-full aspect-[4/5] overflow-hidden">
-                    <img src="assets/myrrheoel.png"
+                    <img src="assets/anadoa-logo-1100-1100.png"
                         class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-[1.5s] ease-out"
                         alt="Anadoa Myrrheöl Commiphora myrrha">
                     <div class="absolute inset-0 bg-mocha/0 group-hover:bg-mocha/10 transition-colors duration-700">
@@ -661,7 +680,7 @@
             <!-- PRODUCT: Neroliöl -->
             <a href="nerolioel.html" class="group block relative">
                 <div class="w-full aspect-[4/5] overflow-hidden">
-                    <img src="assets/nerolioel.png"
+                    <img src="assets/anadoa-logo-1100-1100.png"
                         class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-[1.5s] ease-out"
                         alt="Anadoa Neroliöl Citrus aurantium">
                     <div class="absolute inset-0 bg-mocha/0 group-hover:bg-mocha/10 transition-colors duration-700">
@@ -695,7 +714,7 @@
             <!-- PRODUCT: Kiefernnadelöl -->
             <a href="kiefernnadeloel.html" class="group block relative">
                 <div class="w-full aspect-[4/5] overflow-hidden">
-                    <img src="assets/kiefernnadeloel.png"
+                    <img src="assets/anadoa-logo-1100-1100.png"
                         class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-[1.5s] ease-out"
                         alt="Anadoa Kiefernnadelöl Pinus sylvestris">
                     <div class="absolute inset-0 bg-mocha/0 group-hover:bg-mocha/10 transition-colors duration-700">
@@ -727,7 +746,7 @@
             </a>
         </div>
         <div class="max-w-4xl mx-auto mt-24">
-            <h2 class="text-3xl font-serif text-mocha mb-8">Häufig gestellte Fragen (FAQ) zur Aromatherapie</h2>
+            <h2 id="faq" class="text-3xl font-serif text-mocha mb-8 scroll-mt-24">Häufig gestellte Fragen (FAQ) zur Aromatherapie</h2>
             <div class="space-y-4">
 
                 <details
@@ -861,6 +880,7 @@
             </div>
         </div>
     </main>
+    </div>
 
     <!-- Footer placeholder -->
     <div id="footer-placeholder"></div>
