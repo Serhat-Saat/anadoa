@@ -195,6 +195,12 @@
     </header>
 
     <div class="max-w-7xl mx-auto px-6 -mt-16 md:-mt-24 pb-16 flex flex-col lg:flex-row gap-12 relative z-20">
+        <!-- Mobile Top Image - Visible only when stacked (mobile/tablet) -->
+        <figure class="w-full lg:hidden block mb-2 rounded-2xl overflow-hidden shadow-2xl border border-gold/20 bg-white relative z-10">
+            <span class="absolute top-4 left-4 bg-mocha text-white font-bold text-xs py-1 px-3 rounded-full shadow-md z-20">Bestseller | 30ml</span>
+            <img alt="Lorbeerkernöl 30ml - Anadoa Naturhaus" class="w-full h-full object-cover" src="assets/lorbeerkernoel-30ml-anadoa-naturhaus.png" />
+        </figure>
+
         <aside class="w-full lg:w-3/12 block mb-8 lg:mb-0 lg:sticky lg:top-28 self-start z-20">
             <div class="toc-sidebar bg-white/80 backdrop-blur-md p-8 rounded-3xl shadow-lg border border-white/60 relative overflow-hidden">
                 <div class="absolute inset-0 bg-noise opacity-20"></div>
@@ -218,8 +224,8 @@
             <div class="relative z-10">
                 <div class="max-w-4xl mx-auto mb-10 prose prose-lg prose-ash">
                     
-                    <!-- Top Image - 30ml Variant -->
-                    <figure class="w-full md:w-5/12 float-right md:ml-8 mb-8 md:mb-4 mt-2 rounded-2xl overflow-hidden shadow-2xl border border-gold/20 bg-white relative z-10">
+                    <!-- Top Image - 30ml Variant (Hidden on mobile, visible on Desktop) -->
+                    <figure class="hidden lg:block w-full md:w-5/12 float-right md:ml-8 mb-8 md:mb-4 mt-2 rounded-2xl overflow-hidden shadow-2xl border border-gold/20 bg-white relative z-10">
                         <span class="absolute top-4 left-4 bg-mocha text-white font-bold text-xs py-1 px-3 rounded-full shadow-md z-20">Bestseller | 30ml</span>
                         <img alt="Lorbeerkernöl 30ml - Anadoa Naturhaus" class="w-full h-full object-cover hover:scale-105 transition-transform duration-700" src="assets/lorbeerkernoel-30ml-anadoa-naturhaus.png" />
                     </figure>
@@ -359,7 +365,10 @@
             </div>
         </main>
     </div>
-
+    <div id="latest-blogs-placeholder"></div>
+    <script src="components/latest-blogs.js"></script>
+    <div id="latest-recipes-placeholder"></div>
+    <script src="components/latest-recipes.js"></script>
     <div id="footer-placeholder"></div>
     <script src="components/footer.js"></script>
     <script src="main.js"></script>
