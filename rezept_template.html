@@ -51,12 +51,15 @@
 
     <link rel="icon" href="assets/anadoa-favicon.png" type="image/png">
     <link rel="apple-touch-icon" href="assets/anadoa-favicon.png">
+<link href="styles.css?v=1.0.2" rel="stylesheet" />
+<link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet" />
 </head>
 
 <body class="bg-earth text-ash">
 
     <!-- Global Navigation Placeholder -->
-    {{NAV_HTML}}
+    <div id="nav-placeholder"></div>
+    <script src="components/nav.js"></script>
 
     <!-- Hero Header -->
     <header class="pt-32 pb-16 px-6 bg-earth text-center relative overflow-hidden">
@@ -139,7 +142,8 @@
     </main>
 
     <!-- Global Footer Placeholder -->
-    {{FOOTER_HTML}}
+    <div id="footer-placeholder"></div>
+    <script src="components/footer.js"></script>
 </body>
 
 </html>
