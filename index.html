@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 
 <html lang="de" style="scroll-behavior: smooth;">
 
@@ -354,7 +354,193 @@
  </div>
  </section>
 
-  <!-- 5. Schwarzkümmelöl Feature Section -->
+    <!-- Reviews.io Carousel Section -->
+  <section class="bg-[#fbf5eb] py-20 px-6 relative z-10">
+      <div class="max-w-7xl mx-auto">
+          
+          <!-- Elegant Heading -->
+          <div class="text-center mb-16 relative">
+              <h2 class="text-gold text-sm font-bold tracking-[0.2em] mb-4 uppercase">KUNDENSTIMMEN</h2>
+              <h3 class="text-4xl md:text-5xl font-serif font-bold text-mocha mb-6">Was unsere Kunden sagen</h3>
+              <p class="text-ash-light max-w-2xl mx-auto text-lg leading-relaxed">Echte Erfahrungen von Menschen, die der Kraft der anatolischen Naturheilkunde vertrauen.</p>
+          </div>
+
+          <!-- Custom Styling for the Widget -->
+          <style>
+              /* Injecting Premium Hover Effects for Reviews.io Carousel Items */
+              #reviewsio-carousel-widget {
+                  margin-top: 2rem;
+              }
+              #reviewsio-carousel-widget .CarouselWidget-item {
+                  transition: all 0.6s cubic-bezier(0.16, 1, 0.3, 1) !important;
+                  border: 1px solid rgba(193,151,104, 0.05) !important;
+                  background: linear-gradient(145deg, #ffffff, #fdfbf7) !important;
+              }
+              #reviewsio-carousel-widget .CarouselWidget-item:hover {
+                  transform: translateY(-10px) !important;
+                  box-shadow: 0 30px 60px -15px rgba(193,151,104, 0.2) !important;
+                  border-color: rgba(193,151,104, 0.3) !important;
+              }
+              #reviewsio-carousel-widget .CarouselWidget-text-heading {
+                  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif !important;
+              }
+          </style>
+
+          <script src="https://widget.reviews.io/carousel-inline-iframeless/dist.js?_t=2026073111"></script>
+          <link rel="stylesheet" href="https://assets.reviews.io/css/widgets/carousel-widget.css?_t=2026073111">
+          <link rel="stylesheet" href="https://assets.reviews.io/iconfont/reviewsio-icons/style.css?_t=2026073111">
+          <div id="reviewsio-carousel-widget"></div>
+          <script>
+          new carouselInlineWidget('reviewsio-carousel-widget',{
+                /*Your REVIEWS.io account ID:*/
+                store: 'anadoanaturhaus.com',
+                sku: '',
+                lang: 'de',
+                carousel_type: 'topHeader',
+                styles_carousel: 'CarouselWidget--topHeader--withcards',
+
+                /*Widget settings:*/
+                options:{
+                  general:{
+                    review_type: 'company, product',
+                    min_reviews: '1',
+                    max_reviews: '20',
+                    address_format: 'CITY, COUNTRY',
+                    enable_auto_scroll: 4000,
+                    enable_pause_button: true,
+                    enable_sorting: false,
+                  },
+                  header:{
+                    enable_overall_stars: false,
+                    rating_decimal_places: 2,
+                  },
+                  reviews: {
+                    enable_customer_name: true,
+                    enable_customer_location: false,
+                    enable_verified_badge: true,
+                    enable_subscriber_badge: false,
+                    enable_recommends_badge: true,
+                    enable_photos: true,
+                    enable_videos: true,
+                    enable_review_date: true,
+                    disable_same_customer: true,
+                    min_review_percent: 4,
+                    third_party_source: true,
+                    hide_empty_reviews: true,
+                    enable_product_name: true,
+                    tags: "",
+                    branch: "",
+                    enable_branch_name: false,
+                  },
+                  popups: {
+                    enable_review_popups:  true,
+                    enable_helpful_buttons: false,
+                    enable_helpful_count: false,
+                    enable_share_buttons: false,
+                  },
+              },
+              translations: {
+                verified_customer:  "Verifizierter Käufer",
+              },
+              styles:{
+                '--base-font-size': '16px',
+                '--base-maxwidth':'100%',
+                '--common-star-color':'#c19768', /* Anadoa Gold */
+                '--common-star-disabled-color':'rgba(193,151,104,0.2)',
+                '--medium-star-size':'24px',
+                '--small-star-size':'20px',
+                '--x-small-star-size':'16px',
+                '--x-small-star-display':'inline-flex',
+                '--header-order':'1',
+                '--header-width':'160px',
+                '--header-bg-start-color':'transparent',
+                '--header-bg-end-color':'transparent',
+                '--header-gradient-direction':'135deg',
+                '--header-padding':'0.5em',
+                '--header-border-width':'0px',
+                '--header-border-color':'rgba(0,0,0,0.1)',
+                '--header-border-radius':'0px',
+                '--header-shadow-size':'0px',
+                '--header-shadow-color':'rgba(0, 0, 0, 0.1)',
+                '--header-star-color':'inherit',
+                '--header-disabled-star-color':'inherit',
+                '--header-heading-text-color':'#2C2623',
+                '--header-heading-font-size':'inherit',
+                '--header-heading-font-weight':'inherit',
+                '--header-heading-line-height':'inherit',
+                '--header-heading-text-transform':'inherit',
+                '--header-subheading-text-color':'#2C2623',
+                '--header-subheading-font-size':'inherit',
+                '--header-subheading-font-weight':'inherit',
+                '--header-subheading-line-height':'inherit',
+                '--header-subheading-text-transform':'inherit',
+                '--item-maximum-columns':'3', /* Wider, more premium cards */
+                '--item-background-start-color':'#ffffff',
+                '--item-background-end-color':'#ffffff',
+                '--item-gradient-direction':'135deg',
+                '--item-padding':'2.5em', /* Luxurious padding */
+                '--item-border-width':'0px',
+                '--item-border-color':'rgba(0,0,0,0.1)',
+                '--item-border-radius':'32px', /* Extra rounded corners */
+                '--item-shadow-size':'20px',
+                '--item-shadow-color':'rgba(0,0,0,0.03)',
+                '--heading-text-color':'#2C2623',
+                '--heading-text-font-weight':'600',
+                '--heading-text-font-family':'inherit',
+                '--heading-text-line-height':'1.4',
+                '--heading-text-letter-spacing':'0',
+                '--heading-text-transform':'none',
+                '--body-text-color':'#5f3c17',
+                '--body-text-font-weight':'400',
+                '--body-text-font-family':'inherit',
+                '--body-text-line-height':'1.6', /* Better readability */
+                '--body-text-letter-spacing':'0',
+                '--body-text-transform':'none',
+                '--scroll-button-icon-color':'#ffffff', 
+                '--scroll-button-icon-size':'24px',
+                '--scroll-button-bg-color':'#006C3E', /* Solid Green */
+                '--scroll-button-border-width':'0px',
+                '--scroll-button-border-color':'rgba(0,0,0,0.1)',
+                '--scroll-button-border-radius':'60px',
+                '--scroll-button-shadow-size':'10px',
+                '--scroll-button-shadow-color':'rgba(0,108,62,0.3)',
+                '--scroll-button-horizontal-position':'10px',
+                '--scroll-button-vertical-position':'0px',
+                '--badge-icon-color':'#006C3E', /* Anadoa Green */
+                '--badge-icon-font-size':'15px',
+                '--badge-text-color':'#006C3E',
+                '--badge-text-font-size':'inherit',
+                '--badge-text-letter-spacing':'inherit',
+                '--badge-text-transform':'inherit',
+                '--author-font-size':'inherit',
+                '--author-font-weight':'700',
+                '--author-text-transform':'inherit',
+                '--photo-video-thumbnail-size':'60px',
+                '--photo-video-thumbnail-border-radius':'16px',
+                '--popup-backdrop-color':'rgba(0,0,0,0.75)',
+                '--popup-color':'#ffffff',
+                '--popup-star-color':'inherit',
+                '--popup-disabled-star-color':'inherit',
+                '--popup-heading-text-color':'inherit',
+                '--popup-body-text-color':'inherit',
+                '--popup-badge-icon-color':'inherit',
+                '--popup-badge-icon-font-size':'19px',
+                '--popup-badge-text-color':'inherit',
+                '--popup-badge-text-font-size':'14px',
+                '--popup-border-width':'0px',
+                '--popup-border-color':'rgba(0,0,0,0.1)',
+                '--popup-border-radius':'32px',
+                '--popup-shadow-size':'0px',
+                '--popup-shadow-color':'rgba(0,0,0,0.1)',
+                '--popup-icon-color':'#2C2623',
+                '--tooltip-bg-color':'#2C2623',
+                '--tooltip-text-color':'#ffffff',
+              },
+          });
+          </script>
+      </div>
+  </section>
+<!-- 5. Schwarzkümmelöl Feature Section -->
   <section class="bg-white pt-40 pb-24 px-6 relative overflow-hidden" id="schwarzkuemmel-features">
       <!-- Top SVG Wave (Transition from #fbf5eb) -->
       <div class="absolute top-0 left-0 w-full overflow-hidden leading-none z-0">
@@ -896,3 +1082,4 @@
 </body>
 
 </html>
+
