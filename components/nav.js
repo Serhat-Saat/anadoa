@@ -1,4 +1,4 @@
-﻿const navHTML = `
+const navHTML = `
 <!-- Global Navigation -->
 <nav class="fixed w-full z-50 top-6 transition-all duration-300" id="global-nav">
   <div class="max-w-[95%] md:max-w-6xl mx-auto relative z-50">
@@ -115,9 +115,11 @@
                     <li><a class="text-ash-light hover:text-gold block" href="bittermelone-paste-honig.html">Bittermelone Paste</a></li>
                     <li><a class="text-ash-light hover:text-gold block" href="tahini.html">Tahini (Sesammus)</a></li>
                   </ul>
-                  <h3 class="font-serif font-bold text-base text-mocha mb-3 border-b border-earth-light pb-2 mt-5"><a class="hover:text-gold" href="rushur-stein.html">Naturkosmetik & Peeling</a></h3>
+                  <h3 class="font-serif font-bold text-base text-mocha mb-3 border-b border-earth-light pb-2 mt-5"><a class="hover:text-gold" href="naturseifen.html">Naturkosmetik & Seifen</a></h3>
                   <ul class="space-y-2 text-sm mb-5">
-                    <li><a class="text-gold font-bold hover:text-mocha block" href="rushur-stein.html">Rushur Stein (5er Set)</a></li>
+                    <li><a class="text-ash-light hover:text-gold block" href="naturseifen.html">Handgemachte Naturseifen</a></li>
+                    <li><a class="text-ash-light hover:text-gold block" href="luffa-seifen.html">Luffa Peeling Seifen</a></li>
+                    <li><a class="text-gold font-bold hover:text-mocha block mt-2" href="rushur-stein.html">Rushur Stein (5er Set)</a></li>
                   </ul>
                   
                   <!-- Lebendiger Essig & Säfte buraya, Naturkosmetik altına alındı -->
@@ -277,12 +279,14 @@
 
         <!-- 6. Naturkosmetik & Peeling -->
         <div class="border-b border-earth-light pb-4">
-          <button class="w-full text-left flex justify-between items-center text-2xl font-serif text-mocha hover:text-gold transition-colors group" onclick="this.nextElementSibling.classList.toggle('max-h-0'); this.nextElementSibling.classList.toggle('max-h-[300px]'); this.nextElementSibling.classList.toggle('mt-4'); this.nextElementSibling.classList.toggle('opacity-0'); this.querySelector('svg').classList.toggle('rotate-180');">
-            Naturkosmetik &amp; Peeling
+          <button class="w-full text-left flex justify-between items-center text-2xl font-serif text-mocha hover:text-gold transition-colors group" onclick="this.nextElementSibling.classList.toggle('max-h-0'); this.nextElementSibling.classList.toggle('max-h-[400px]'); this.nextElementSibling.classList.toggle('mt-4'); this.nextElementSibling.classList.toggle('opacity-0'); this.querySelector('svg').classList.toggle('rotate-180');">
+            Naturkosmetik &amp; Seifen
             <i class="ri-arrow-down-s-line text-gold text-2xl transition-transform duration-300"></i>
           </button>
           <div class="max-h-0 opacity-0 overflow-hidden transition-all duration-500 ease-in-out px-2 space-y-4">
-            <a class="block text-gold font-bold text-lg mb-2 uppercase tracking-widest text-sm" href="rushur-stein.html">Übersicht ansehen</a>
+            <a class="block text-gold font-bold text-lg mb-2 uppercase tracking-widest text-sm" href="naturseifen.html">Übersicht ansehen</a>
+            <a class="block text-ash hover:text-gold text-lg font-light" href="naturseifen.html">Naturseifen</a>
+            <a class="block text-ash hover:text-gold text-lg font-light" href="luffa-seifen.html">Luffa Seifen</a>
             <a class="block text-ash hover:text-gold text-lg font-light" href="rushur-stein.html">Rushur Stein (5er Set)</a>
           </div>
         </div>
