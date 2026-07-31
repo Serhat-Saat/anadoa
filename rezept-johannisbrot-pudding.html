@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 
 <html lang="de" style="scroll-behavior: smooth;">
 
@@ -36,7 +36,7 @@
             theme: {
                 extend: {
                     colors: {
-                        earth: '#FDFBF7',
+                        earth: '#fbf5eb',
                         'earth-light': '#E8E2D8',
                         'earth-surface': '#FFFFFF',
                         gold: '#c19768',
@@ -146,7 +146,7 @@
       }]
     }
     </script>
-    <link href="styles.css?v=1.0.2" rel="stylesheet" />
+    <link href="styles.css?v=1.0.3" rel="stylesheet" />
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet" />
 </head>
 
@@ -287,6 +287,12 @@
         </div>
     </main>
     <!-- Global Footer Placeholder -->
+        <!-- Magazin & Rezepte Widgets -->
+    <div id="latest-recipes-placeholder"></div>
+    <script src="components/latest-recipes.js"></script>
+    <div id="latest-blogs-placeholder"></div>
+    <script src="components/latest-blogs.js"></script>
+
     <div id="footer-placeholder"></div>
     <script src="components/footer.js"></script>
     <script src="main.js"></script>
@@ -318,3 +324,5 @@
 </body>
 
 </html>
+
+

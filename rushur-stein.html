@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="de" style="scroll-behavior: smooth;">
 
 <head>
@@ -36,7 +36,7 @@
             theme: {
                 extend: {
                     colors: {
-                        earth: '#FDFBF7',
+                        earth: '#fbf5eb',
                         'earth-light': '#E8E2D8',
                         'earth-surface': '#FFFFFF',
                         gold: '#c19768',
@@ -48,7 +48,7 @@
             }
         }
     </script>
-    <link href="styles.css?v=1.0.2" rel="stylesheet" />
+    <link href="styles.css?v=1.0.3" rel="stylesheet" />
 
     <!-- JSON-LD Article Schema -->
     <script type="application/ld+json">
@@ -196,6 +196,10 @@
     </header>
 
     <div class="max-w-7xl mx-auto px-6 -mt-16 md:-mt-24 pb-16 flex flex-col lg:flex-row gap-12 relative z-20">
+                <!-- Mobile Top Image - Visible only when stacked (mobile/tablet) -->
+        <figure class="w-full lg:hidden block mb-6 rounded-2xl overflow-hidden shadow-2xl border border-gold/20 bg-white relative z-30">
+            <img alt="Original Rushur Stein Ruşur Taşı 5 Stück Produktbild" class="w-full h-full object-cover" src="assets/rushur-stein-anadoa-naturhaus.png" />
+        </figure>
         <aside
             class="w-full lg:w-3/12 block lg:block mb-8 lg:mb-0 relative lg:sticky top-0 lg:top-32 self-start h-fit z-20">
             <div
@@ -227,7 +231,7 @@
                 <h2 class="text-3xl font-bold font-serif text-mocha pb-2 border-b border-earth-light/50 mb-6 mt-6"
                     id="geheimnis">Das Geheimnis orientalischer Schönheitspflege</h2>
                 <figure
-                    class="w-full md:w-5/12 md:float-right md:ml-8 mb-8 md:mb-4 mt-2 rounded-2xl overflow-hidden shadow-2xl border border-gold/20 bg-white relative z-30">
+                    class="hidden lg:block w-full md:w-5/12 md:float-right md:ml-8 mb-8 md:mb-4 mt-2 rounded-2xl overflow-hidden shadow-2xl border border-gold/20 bg-white relative z-30">
                     <img alt="Original Rushur Stein Ruşur Taşı 5 Stück Produktbild"
                         class="w-full h-auto object-cover hover:scale-105 transition-transform duration-700"
                         src="assets/rushur-stein-anadoa-naturhaus.png" />
@@ -417,6 +421,12 @@
         </main>
     </div>
 
+        <!-- Magazin & Rezepte Widgets -->
+    <div id="latest-recipes-placeholder"></div>
+    <script src="components/latest-recipes.js"></script>
+    <div id="latest-blogs-placeholder"></div>
+    <script src="components/latest-blogs.js"></script>
+
     <div id="footer-placeholder"></div>
     <script src="components/footer.js"></script>
     <script src="main.js"></script>
@@ -449,3 +459,7 @@
 </body>
 
 </html>
+
+
+
+

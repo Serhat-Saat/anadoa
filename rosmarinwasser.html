@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="de" style="scroll-behavior: smooth;">
 <head>
     <link rel="canonical" href="https://anadoa.com/rosmarinwasser.html" />
@@ -19,7 +19,7 @@
             theme: {
                 extend: {
                     colors: {
-                        earth: '#FDFBF7',
+                        earth: '#fbf5eb',
                         'earth-light': '#E8E2D8',
                         'earth-surface': '#FFFFFF',
                         gold: '#c19768',
@@ -31,7 +31,7 @@
             }
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=1.0.2">
+    <link rel="stylesheet" href="styles.css?v=1.0.3">
     
     <!-- JSON-LD Product Schema -->
     <script type="application/ld+json">
@@ -101,7 +101,7 @@
             </div>
             
             <div class="w-full lg:w-1/2 space-y-12">
-                <div class="bg-[#fbf5eb]/95 backdrop-blur-md p-10 rounded-3xl shadow-lg border border-white/60 hover:-translate-y-2 transition-transform duration-500">
+                <div class="bg-earth/95 backdrop-blur-md p-10 rounded-3xl shadow-lg border border-white/60 hover:-translate-y-2 transition-transform duration-500">
                     <p class="text-lg text-ash leading-relaxed">In der traditionellen Naturheilkunde wird Rosmarin (Biberiye) seit Jahrhunderten zur Anregung der Blutzirkulation verwendet. Unser Rosmarinwasser wird durch sorgfältige Dampfdestillation frischer Rosmarinblätter gewonnen. Es enthält die wasserlöslichen pflanzlichen Extrakte und Mikromengen des ätherischen Rosmarinöls.</p>
                 </div>
                 <div class="bg-white/95 backdrop-blur-md p-10 rounded-3xl shadow-lg border border-white/60 hover:-translate-y-2 transition-transform duration-500 border-l-4 border-l-sage">
@@ -123,7 +123,7 @@
                     <p class="text-ash relative z-10 text-sm">Stimuliert die Haarfollikel durch verbesserte Mikrozirkulation und kann bei regelmäßigem Gebrauch das Wachstum anregen.</p>
                 </div>
                 <!-- Box 2 -->
-                <div class="bg-[#fbf5eb]/90 backdrop-blur-md p-10 rounded-3xl shadow-md hover:shadow-xl transition-all duration-300 transform relative overflow-hidden group border border-white/60">
+                <div class="bg-earth/90 backdrop-blur-md p-10 rounded-3xl shadow-md hover:shadow-xl transition-all duration-300 transform relative overflow-hidden group border border-white/60">
                     <span class="text-6xl font-serif text-earth-light absolute -top-2 -right-4 group-hover:text-gold/20 transition-colors duration-500">02</span>
                     <h4 class="text-xl font-bold text-mocha mb-3 relative z-10">Kopfhautpflege</h4>
                     <p class="text-ash relative z-10 text-sm">Wirkt juckreizstillend, reguliert die Talgproduktion der Kopfhaut und kann bei Schuppen Linderung verschaffen.</p>
@@ -162,9 +162,17 @@
 
     </div>
 
+        <!-- Magazin & Rezepte Widgets -->
+    <div id="latest-recipes-placeholder"></div>
+    <script src="components/latest-recipes.js"></script>
+    <div id="latest-blogs-placeholder"></div>
+    <script src="components/latest-blogs.js"></script>
+
     <div id="footer-placeholder"></div>
 <script src="components/footer.js"></script>
 
     <script src="main.js"></script>
 </body>
 </html>
+
+

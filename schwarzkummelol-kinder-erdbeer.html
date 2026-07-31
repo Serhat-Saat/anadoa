@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="de" style="scroll-behavior: smooth;">
 
 <head>
@@ -20,8 +20,8 @@
     <meta property="twitter:image"
         content="https://anadoa.com/assets/schwarzkuemmeloel-mit-erdbeerengeschmack-hoher-thymochinongehalt-anadoa-naturhaus.png">
     <script src="https://cdn.tailwindcss.com"></script>
-    <script>tailwind.config = { theme: { extend: { colors: { earth: '#FDFBF7', 'earth-light': '#E8E2D8', 'earth-surface': '#FFFFFF', gold: '#c19768', sage: '#A3B19B', mocha: '#5f3c17', ash: '#2C2623' } } } }</script>
-    <link href="styles.css?v=1.0.2" rel="stylesheet" />
+    <script>tailwind.config = { theme: { extend: { colors: { earth: '#fbf5eb', 'earth-light': '#E8E2D8', 'earth-surface': '#FFFFFF', gold: '#c19768', sage: '#A3B19B', mocha: '#5f3c17', ash: '#2C2623' } } } }</script>
+    <link href="styles.css?v=1.0.3" rel="stylesheet" />
     <script
         type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Schwarzkümmelöl für Kinder (Erdbeergeschmack): Der leckere Omega-Boost","description":"Erfahren Sie, wie wir das klassische Schwarzkümmelöl durch natürliches Erdbeeraroma für Kinder attraktiv machen, ohne auf den wertvollen Thymochinon-Gehalt zu verzichten.","author":{"@type":"Organization","name":"Anadoa Naturhaus"},"publisher":{"@type":"Organization","name":"Anadoa","logo":{"@type":"ImageObject","url":"https://anadoa.com/logo.png"}},"mainEntityOfPage":{"@type":"WebPage","@id":"https://anadoa.com/schwarzkummelol-kinder-erdbeer.html"},"image":"https://anadoa.com/assets/schwarzkuemmeloel-mit-erdbeerengeschmack-hoher-thymochinongehalt-anadoa-naturhaus.png"}</script>
     <script
@@ -74,6 +74,10 @@
         </div>
     </header>
     <div class="max-w-7xl mx-auto px-6 -mt-16 md:-mt-24 pb-16 flex flex-col lg:flex-row gap-12 relative z-20">
+                <!-- Mobile Top Image - Visible only when stacked (mobile/tablet) -->
+        <figure class="w-full lg:hidden block mb-6 rounded-2xl overflow-hidden shadow-2xl border border-gold/20 bg-white relative z-30">
+            <img alt="Schwarzkuemmeloel fuer Kinder Erdbeergeschmack Anadoa Naturhaus" class="w-full h-full object-cover" src="assets/schwarzkuemmeloel-mit-erdbeerengeschmack-hoher-thymochinongehalt-anadoa-naturhaus.png" />
+        </figure>
         <aside class="w-full lg:w-3/12 block mb-8 lg:mb-0 lg:sticky lg:top-28 self-start z-20">
             <div
                 class="toc-sidebar bg-white/80 backdrop-blur-md p-8 rounded-3xl shadow-lg border border-white/60 relative overflow-hidden">
@@ -100,7 +104,7 @@
             <div class="relative z-10">
                 <div class="max-w-4xl mx-auto mb-10 prose prose-lg prose-ash">
                     <figure
-                        class="w-full md:w-5/12 md:float-right md:ml-8 mb-8 md:mb-4 mt-2 rounded-2xl overflow-hidden shadow-2xl border border-gold/20 bg-white relative z-30">
+                        class="hidden lg:block w-full md:w-5/12 md:float-right md:ml-8 mb-8 md:mb-4 mt-2 rounded-2xl overflow-hidden shadow-2xl border border-gold/20 bg-white relative z-30">
                         <img alt="Schwarzkuemmeloel fuer Kinder Erdbeergeschmack Anadoa Naturhaus"
                             class="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
                             src="assets/schwarzkuemmeloel-mit-erdbeerengeschmack-hoher-thymochinongehalt-anadoa-naturhaus.png" />
@@ -222,6 +226,12 @@
             </div>
         </main>
     </div>
+        <!-- Magazin & Rezepte Widgets -->
+    <div id="latest-recipes-placeholder"></div>
+    <script src="components/latest-recipes.js"></script>
+    <div id="latest-blogs-placeholder"></div>
+    <script src="components/latest-blogs.js"></script>
+
     <div id="footer-placeholder"></div>
     <script src="components/footer.js"></script>
     <script src="main.js"></script>
@@ -232,3 +242,7 @@
 </body>
 
 </html>
+
+
+
+

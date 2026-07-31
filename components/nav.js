@@ -1,8 +1,8 @@
-const navHTML = `
+﻿const navHTML = `
 <!-- Global Navigation -->
 <nav class="fixed w-full z-50 top-6 transition-all duration-300" id="global-nav">
   <div class="max-w-[95%] md:max-w-6xl mx-auto relative z-50">
-    <div class="bg-[#fbf5eb] border border-earth-light shadow-xl rounded-full px-6 flex justify-between items-center h-[72px] transition-all duration-300 relative" id="nav-container">
+    <div class="bg-earth border border-earth-light shadow-xl rounded-full px-6 flex justify-between items-center h-[72px] transition-all duration-300 relative" id="nav-container">
       
       <!-- Mobile Menu Button (Left) -->
       <div class="lg:hidden flex items-center flex-1">
@@ -19,7 +19,7 @@ const navHTML = `
             Über uns
             <i class="ri-arrow-down-s-line ml-1 transition-transform group-hover:rotate-180 text-gold font-bold"></i>
           </button>
-          <div class="absolute left-0 top-full w-48 bg-[#fbf5eb] border border-earth-light shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform origin-top z-50 rounded-2xl p-4 flex flex-col space-y-3">
+          <div class="absolute left-0 top-full w-48 bg-earth border border-earth-light shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform origin-top z-50 rounded-2xl p-4 flex flex-col space-y-3">
             <a class="text-ash hover:text-gold text-sm font-bold transition-colors" href="ueber-uns.html">Über uns</a>
             <a class="text-ash hover:text-gold text-sm font-bold transition-colors" href="philosophie.html">Philosophie</a>
           </div>
@@ -44,7 +44,7 @@ const navHTML = `
           </button>
           
           <!-- The Dropdown (Tam ortalandı: -translate-x-1/2 eklendi) -->
-          <div class="absolute left-1/2 -translate-x-1/2 top-[72px] w-[95vw] max-w-[1250px] bg-[#fbf5eb] border border-earth-light shadow-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform origin-top z-50 rounded-3xl mt-4">
+          <div class="absolute left-1/2 -translate-x-1/2 top-[72px] w-[95vw] max-w-[1250px] bg-earth border border-earth-light shadow-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform origin-top z-50 rounded-3xl mt-4">
             <div class="p-8">
               <div class="grid grid-cols-5 gap-6 items-start">
                 
@@ -178,7 +178,7 @@ const navHTML = `
   </div>
 
   <!-- Mobile Drawer Menu -->
-  <div class="fixed inset-0 bg-[#fbf5eb] z-40 transition-all duration-500 opacity-0 pointer-events-none lg:hidden flex flex-col" id="mobile-menu">
+  <div class="fixed inset-0 bg-earth z-40 transition-all duration-500 opacity-0 pointer-events-none lg:hidden flex flex-col" id="mobile-menu">
     <div class="flex-1 overflow-y-auto pt-32 pb-20 px-8 flex flex-col gap-8 custom-scrollbar">
       
       <nav class="flex flex-col space-y-6">
@@ -348,7 +348,7 @@ const navHTML = `
 
 <!-- SEARCH MODAL -->
 <div id="search-modal" class="fixed inset-0 bg-mocha/60 backdrop-blur-md z-50 flex items-start justify-center pt-28 px-4 opacity-0 pointer-events-none transition-all duration-300">
-  <div class="bg-[#fbf5eb] w-full max-w-2xl rounded-3xl p-6 md:p-8 shadow-2xl border border-earth-light relative flex flex-col max-h-[80vh]">
+  <div class="bg-earth w-full max-w-2xl rounded-3xl p-6 md:p-8 shadow-2xl border border-earth-light relative flex flex-col max-h-[80vh]">
     <button id="search-close-btn" class="absolute top-6 right-6 text-ash hover:text-gold p-2 rounded-full transition-colors">
       <i class="ri-close-line text-2xl"></i>
     </button>

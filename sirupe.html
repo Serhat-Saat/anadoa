@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="de" style="scroll-behavior: smooth;">
 
 <head>
@@ -35,7 +35,7 @@
             theme: {
                 extend: {
                     colors: {
-                        earth: '#FDFBF7',
+                        earth: '#fbf5eb',
                         'earth-light': '#E8E2D8',
                         'earth-surface': '#FFFFFF',
                         gold: '#c19768',
@@ -47,7 +47,7 @@
             }
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=1.0.2">
+    <link rel="stylesheet" href="styles.css?v=1.0.3">
 
     <!-- JSON-LD Article Schema -->
     <script type="application/ld+json">
@@ -301,7 +301,7 @@
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 
                     <a id="kozalak-surubu" class="scroll-mt-24" href="tannenzapfen-sirup.html"
-                        class="group block bg-[#fbf5eb] rounded-3xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border-none">
+                        class="group block bg-earth rounded-3xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border-none">
                         <div class="aspect-w-4 aspect-h-3 bg-earth-light overflow-hidden relative">
                             <img src="assets/zypressenzapfen-sirup-anadoa-naturhaus.png"
                                 class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
@@ -328,7 +328,7 @@
                     </a>
 
                     <a id="granatapfelsirup" class="scroll-mt-24" href="granatapfelsirup.html"
-                        class="group block bg-[#fbf5eb] rounded-3xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border-none">
+                        class="group block bg-earth rounded-3xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border-none">
                         <div class="aspect-w-4 aspect-h-3 bg-earth-light overflow-hidden relative">
                             <img src="assets/grantapfel-sirup-anadoa-naturhaus.png"
                                 class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
@@ -356,7 +356,7 @@
                     </a>
 
                     <a id="karadut-surubu" class="scroll-mt-24" href="schwarzer-maulbeersirup.html"
-                        class="group block bg-[#fbf5eb] rounded-3xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border-none">
+                        class="group block bg-earth rounded-3xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border-none">
                         <div class="aspect-w-4 aspect-h-3 bg-earth-light overflow-hidden relative">
                             <img src="assets/schwarze-maulbeere-sirup-anadoa-naturhaus.png"
                                 class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
@@ -384,7 +384,7 @@
                     </a>
 
                     <a href="schwarze-maulbeere-sirup-fur-kinder.html"
-                        class="group block bg-[#fbf5eb] rounded-3xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border-none">
+                        class="group block bg-earth rounded-3xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border-none">
                         <div class="aspect-w-4 aspect-h-3 bg-earth-light overflow-hidden relative">
                             <img src="assets/schwarze-maulbeere-sirup-mix-fuer-kinder-anadoa-naturhaus.png"
                                 class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
@@ -412,7 +412,7 @@
                     </a>
 
                     <a id="kinder-sirup-mix" class="scroll-mt-24" href="kinder-sirup-mix-mit-honig-propolis.html"
-                        class="group block bg-[#fbf5eb] rounded-3xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border-none">
+                        class="group block bg-earth rounded-3xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border-none">
                         <div class="aspect-w-4 aspect-h-3 bg-earth-light overflow-hidden relative">
                             <img src="assets/kinder_sirup_mix.png"
                                 class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
@@ -549,6 +549,12 @@
         </main>
     </div>
 
+        <!-- Magazin & Rezepte Widgets -->
+    <div id="latest-recipes-placeholder"></div>
+    <script src="components/latest-recipes.js"></script>
+    <div id="latest-blogs-placeholder"></div>
+    <script src="components/latest-blogs.js"></script>
+
     <div id="footer-placeholder"></div>
     <script src="components/footer.js"></script>
     <script src="main.js"></script>
@@ -581,3 +587,5 @@
 </body>
 
 </html>
+
+

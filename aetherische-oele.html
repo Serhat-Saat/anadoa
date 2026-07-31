@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="de" style="scroll-behavior: smooth;">
 
 <head>
@@ -20,7 +20,7 @@
             theme: {
                 extend: {
                     colors: {
-                        earth: '#FDFBF7',
+                        earth: '#fbf5eb',
                         'earth-light': '#E8E2D8',
                         'earth-surface': '#FFFFFF',
                         gold: '#c19768',
@@ -32,7 +32,7 @@
             }
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=1.0.2">
+    <link rel="stylesheet" href="styles.css?v=1.0.3">
 
     <link rel="icon" href="assets/anadoa-favicon.png" type="image/png">
     <link rel="apple-touch-icon" href="assets/anadoa-favicon.png">
@@ -884,8 +884,16 @@
     </div>
 
     <!-- Footer placeholder -->
+        <!-- Magazin & Rezepte Widgets -->
+    <div id="latest-recipes-placeholder"></div>
+    <script src="components/latest-recipes.js"></script>
+    <div id="latest-blogs-placeholder"></div>
+    <script src="components/latest-blogs.js"></script>
+
     <div id="footer-placeholder"></div>
     <script src="components/footer.js"></script>
 </body>
 
 </html>
+
+

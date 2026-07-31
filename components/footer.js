@@ -1,9 +1,9 @@
 const footerHTML = `
-<footer class="bg-mocha text-white pt-24 pb-12 relative overflow-hidden" id="mega-footer">
-<!-- Top SVG Wave (Transition from bg-earth-light) -->
-<div class="absolute top-[-1px] left-0 w-full overflow-hidden leading-none z-0">
-    <svg class="relative block w-full h-[30px] md:h-[60px]" preserveaspectratio="none" viewbox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg">
-        <path d="M0,0 C400,150 800,-50 1200,100 V0 H0 Z" fill="#E8E2D8"></path>
+<footer class="bg-mocha text-white pt-24 pb-12 relative z-20" id="mega-footer">
+<!-- Top SVG Wave (Bubbling up from bg-mocha to overlap any background) -->
+<div class="absolute bottom-full left-0 w-full overflow-hidden leading-none z-0 translate-y-[1px]">
+    <svg class="relative block w-full h-[30px] md:h-[60px] -scale-y-100 text-mocha" preserveaspectratio="none" viewbox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,80 C400,0 800,120 1200,40 V0 H0 Z" fill="currentColor"></path>
     </svg>
 </div>
 <div class="max-w-7xl mx-auto px-6 relative z-10">
