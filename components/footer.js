@@ -1,5 +1,11 @@
 const footerHTML = `
 <footer class="bg-mocha text-white pt-24 pb-12 relative overflow-hidden" id="mega-footer">
+<!-- Top SVG Wave (Transition from bg-earth-light) -->
+<div class="absolute top-[-1px] left-0 w-full overflow-hidden leading-none z-0">
+    <svg class="relative block w-full h-[30px] md:h-[60px]" preserveaspectratio="none" viewbox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,0 C400,150 800,-50 1200,100 V0 H0 Z" fill="#E8E2D8"></path>
+    </svg>
+</div>
 <div class="max-w-7xl mx-auto px-6 relative z-10">
 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
 <!-- Col 1: Brand & About -->
