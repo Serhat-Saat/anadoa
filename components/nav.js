@@ -28,7 +28,7 @@ const navHTML = `
       </div>
 
       <!-- Logo (Center) -->
-      <a class="flex-shrink-0 flex justify-center items-center group relative z-50 w-48 lg:w-[260px]" href="index.html">
+      <a class="flex-shrink-0 flex justify-center items-center group relative z-50 w-48 lg:w-[260px]" href="/">
         <img alt="Anadoa Naturhaus Logo" class="h-16 md:h-24 w-auto object-contain transition-transform duration-500 group-hover:scale-110 drop-shadow-xl scale-125 md:scale-125" src="assets/anadoa-logo-1000-500.png"/>
       </a>
 

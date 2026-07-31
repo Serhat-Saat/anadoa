@@ -47,10 +47,10 @@ const footerHTML = `
 <h4 class="font-serif font-bold text-lg mb-6 text-gold border-b border-white/10 pb-2 inline-block">Unternehmen</h4>
 <ul class="space-y-3 text-white/70 text-sm font-medium">
 <li><a class="hover:text-gold hover:translate-x-1 transform transition-all block" href="philosophie.html">Unsere Philosophie</a></li>
-<li><a class="hover:text-gold hover:translate-x-1 transform transition-all block" href="index.html#qualitaet">Qualitätsversprechen</a></li>
+<li><a class="hover:text-gold hover:translate-x-1 transform transition-all block" href="/#qualitaet">Qualitätsversprechen</a></li>
 <li><a class="hover:text-gold hover:translate-x-1 transform transition-all block" href="magazin.html">Magazin (Wissen)</a></li>
 <li><a class="hover:text-gold hover:translate-x-1 transform transition-all block" href="rezepte.html">Rezepte &amp; Kochen</a></li>
-<li><a class="hover:text-gold hover:translate-x-1 transform transition-all block" href="index.html#faq">Häufige Fragen (FAQ)</a></li>
+<li><a class="hover:text-gold hover:translate-x-1 transform transition-all block" href="/#faq">Häufige Fragen (FAQ)</a></li>
 </ul>
 </div>
 <!-- Col 4: Rechtliches & Kontakt -->
