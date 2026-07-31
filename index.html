@@ -355,7 +355,26 @@
  </section>
 
     <!-- Reviews.io Carousel Section -->
-  <section class="bg-[#fbf5eb] py-20 px-6 relative z-10">
+  <section class="bg-white pt-32 pb-12 px-6 relative z-10 overflow-hidden">
+
+      <!-- Top SVG Wave (Transition from #fbf5eb) -->
+      <div class="absolute top-0 left-0 w-full overflow-hidden leading-none z-0">
+          <svg class="relative block w-full h-[60px] md:h-[120px] transform -scale-x-100" data-name="Layer 1"
+          preserveaspectratio="none" viewbox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg">
+              <path
+              d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+              fill="#fbf5eb"></path>
+          </svg>
+      </div>
+
+      <div class="max-w-7xl mx-auto space-y-24 relative z-10">
+          
+          <!-- Block 1: Normal Schwarzkümmelöl (Image Left, Text Right) -->
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-24 items-center">
+              <div class="relative group">
+                  <div class="absolute -inset-4 bg-gold/20 rounded-[3rem] blur-xl opacity-0 group-hover:opacity-100 transition duration-700"></div>
+                  <img src="assets/schwarzkuemmeloel-main-page.png" alt="Premium Schwarzkümmelöl Kaltgepresst mit hohem Thymoquinon-Gehalt" class="relative w-full h-auto rounded-[2.5rem] shadow-2xl object-cover" />
+              </div>
       <div class="max-w-7xl mx-auto">
           
           <!-- Elegant Heading -->
@@ -541,25 +560,7 @@
       </div>
   </section>
 <!-- 5. Schwarzkümmelöl Feature Section -->
-  <section class="bg-white pt-40 pb-24 px-6 relative overflow-hidden" id="schwarzkuemmel-features">
-      <!-- Top SVG Wave (Transition from #fbf5eb) -->
-      <div class="absolute top-0 left-0 w-full overflow-hidden leading-none z-0">
-          <svg class="relative block w-full h-[60px] md:h-[120px] transform -scale-x-100" data-name="Layer 1"
-          preserveaspectratio="none" viewbox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg">
-              <path
-              d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
-              fill="#fbf5eb"></path>
-          </svg>
-      </div>
-
-      <div class="max-w-7xl mx-auto space-y-24 relative z-10">
-          
-          <!-- Block 1: Normal Schwarzkümmelöl (Image Left, Text Right) -->
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-24 items-center">
-              <div class="relative group">
-                  <div class="absolute -inset-4 bg-gold/20 rounded-[3rem] blur-xl opacity-0 group-hover:opacity-100 transition duration-700"></div>
-                  <img src="assets/schwarzkuemmeloel-main-page.png" alt="Premium Schwarzkümmelöl Kaltgepresst mit hohem Thymoquinon-Gehalt" class="relative w-full h-auto rounded-[2.5rem] shadow-2xl object-cover" />
-              </div>
+  <section class="bg-white pt-12 pb-24 px-6 relative overflow-hidden" id="schwarzkuemmel-features">
               <div class="space-y-6">
                   <h2 class="text-3xl md:text-5xl font-serif font-bold text-mocha leading-tight">
                       Original Anatolisches Schwarzkümmelöl
@@ -1082,4 +1083,5 @@
 </body>
 
 </html>
+
 
