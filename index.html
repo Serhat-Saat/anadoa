@@ -49,6 +49,35 @@
         }
     </script>
     <link href="styles.css?v=1.0.3" rel="stylesheet" />
+    <!-- JSON-LD WebSite Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Anadoa Naturhaus",
+      "url": "https://anadoa.com/",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://anadoa.com/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+
+    <!-- JSON-LD Organization Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Anadoa Naturhaus",
+      "url": "https://anadoa.com/",
+      "logo": "https://anadoa.com/logo.png",
+      "sameAs": [
+        "https://www.instagram.com/anadoanaturhaus/"
+      ]
+    }
+    </script>
+
     <!-- JSON-LD Article Schema -->
     <script type="application/ld+json">
 {
@@ -72,7 +101,7 @@
  "@type": "WebPage",
  "@id": "https://anadoa.com/"
  },
- "image": "https://anadoanaturhaus.com/assets/zypressenzapfen-paste-anadoa-naturhaus.png"
+ "image": "https://anadoa.com/assets/zypressenzapfen-paste-anadoa-naturhaus.png"
 }
 </script>
     <!-- JSON-LD FAQPage Schema -->

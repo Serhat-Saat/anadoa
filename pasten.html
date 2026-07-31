@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="de" style="scroll-behavior: smooth;">
 
 <head>
@@ -20,14 +20,14 @@
     <meta property="og:title" content="Traditionelle Anatolische Pasten & Macun | Anadoa Naturhaus">
     <meta property="og:description"
         content="Entdecken Sie unsere hochwertigen Kräuterpasten: Zypressenzapfen, Mariendistel, Bittermelone und vitalisierende Mischungen.">
-    <meta property="og:image" content="assets/anadoa-logo-1100-1100.png">
+    <meta property="og:image" content="https://anadoa.com/assets/anadoa-logo-1100-1100.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:title" content="Traditionelle Anatolische Pasten & Macun | Anadoa Naturhaus">
     <meta property="twitter:description"
         content="Entdecken Sie unsere hochwertigen Kräuterpasten: Zypressenzapfen, Mariendistel, Bittermelone und vitalisierende Mischungen.">
-    <meta property="twitter:image" content="assets/anadoa-logo-1100-1100.png">
+    <meta property="twitter:image" content="https://anadoa.com/assets/anadoa-logo-1100-1100.png">
 
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -48,6 +48,18 @@
         }
     </script>
     <link rel="stylesheet" href="styles.css?v=1.0.3">
+
+    <!-- JSON-LD BreadcrumbList Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://anadoa.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Pasten & Macun", "item": "https://anadoa.com/pasten.html"}
+      ]
+    }
+    </script>
 
     <!-- JSON-LD Article Schema -->
     <script type="application/ld+json">
@@ -70,7 +82,7 @@
     },
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://anadoa.com/macunlar-pasten.html"
+        "@id": "https://anadoa.com/pasten.html"
     },
     "image": "https://anadoa.com/assets/zypressenzapfen-paste-anadoa-naturhaus.png"
 }
