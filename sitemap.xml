@@ -457,8 +457,20 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://anadoa.com/kuerbiskernoel.html</loc>
+    <lastmod>2026-08-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://anadoa.com/mandeloel.html</loc>
     <lastmod>2026-07-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://anadoa.com/sesamoel.html</loc>
+    <lastmod>2026-08-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>

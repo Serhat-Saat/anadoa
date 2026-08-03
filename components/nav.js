@@ -59,8 +59,8 @@ const navHTML = `
                     <li><a class="text-ash-light hover:text-gold block" href="leinoel.html">Leinöl</a></li>
                     <li><a class="text-ash-light hover:text-gold block" href="kuerbiskernoel.html">Kürbiskernöl</a></li>
                     <li><a class="text-ash-light hover:text-gold block" href="granatapfelkernoel.html">Granatapfelkernöl</a></li>
-                    <li><a class="text-ash-light hover:text-gold block" href="walnussoel.html">Walnussöl</a></li>
-                    <li><a class="text-ash-light hover:text-gold block" href="mandelol.html">Mandelöl</a></li>
+                    <li><a class="text-ash-light hover:text-gold block" href="lorbeerkernoel.html">Lorbeerkernöl</a></li>
+                    <li><a class="text-ash-light hover:text-gold block" href="mandeloel.html">Mandelöl</a></li>
                     <li><a class="text-ash-light hover:text-gold block" href="jojobaoel.html">Jojobaöl</a></li>
                     <li><a class="text-ash-light hover:text-gold block" href="aprikosenkernoel.html">Aprikosenkernöl</a></li>
                     <li><a class="text-ash-light hover:text-gold block" href="traubenkernoel.html">Traubenkernöl</a></li>
@@ -216,7 +216,7 @@ const navHTML = `
             <a class="block text-ash hover:text-gold text-lg font-light" href="schwarzkummelol.html">Premium Schwarzkümmelöl</a>
             <a class="block text-ash hover:text-gold text-lg font-light" href="leinoel.html">Leinöl</a>
             <a class="block text-ash hover:text-gold text-lg font-light" href="kuerbiskernoel.html">Kürbiskernöl</a>
-            <a class="block text-ash hover:text-gold text-lg font-light" href="walnussoel.html">Walnussöl</a>
+            <a class="block text-ash hover:text-gold text-lg font-light" href="lorbeerkernoel.html">Lorbeerkernöl</a>
             <a class="block text-ash hover:text-gold text-lg font-light" href="arganoel.html">Arganöl</a>
           </div>
         </div>
