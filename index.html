@@ -143,22 +143,21 @@
             background: rgba(193, 151, 104, 0.8);
         }
     </style>
-    <link href="assets/anadoa-favicon.png" rel="icon" type="image/png" />
-    <link href="assets/anadoa-favicon.png" rel="apple-touch-icon" />
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet" />
-
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Anadoa Naturhaus | Traditionelle Naturheilkunde &amp; Heilmittel" />
     <meta property="og:description" content="Entdecken Sie die reinste Form der anatolischen Naturheilkunde. Premium Kaltpressungen, Zypressenzapfen Paste und Gilaburu Saft für Ihre ganzheitliche Gesundheit." />
     <meta property="og:image" content="https://anadoa.com/assets/hero-background.png" />
     <meta property="og:url" content="https://anadoa.com/" />
-
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Anadoa Naturhaus | Traditionelle Naturheilkunde &amp; Heilmittel" />
     <meta name="twitter:description" content="Entdecken Sie die reinste Form der anatolischen Naturheilkunde. Premium Kaltpressungen, Zypressenzapfen Paste und Gilaburu Saft für Ihre ganzheitliche Gesundheit." />
     <meta name="twitter:image" content="https://anadoa.com/assets/hero-background.png" />
+
+    <link href="assets/anadoa-favicon.png" rel="icon" type="image/png" />
+    <link href="assets/anadoa-favicon.png" rel="apple-touch-icon" />
 </head>
 <body class="bg-noise text-ash">
     <div id="nav-placeholder"></div>
@@ -213,22 +212,28 @@
     <!-- 3. "Die Anadoa Welt" - Colored Block with Overlap -->
     <section class="bg-earth pb-32 pt-16">
         <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-12 lg:hidden">
+                <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold font-serif text-mocha leading-tight">
+                    <span class="inline-block">Das Naturerbe,</span> <span class="inline-block">wie es ist.</span>
+                </h2>
+            </div>
             <!-- The Green Block -->
             <div
-                class="bg-[#006C3E] rounded-[3rem] relative p-12 md:p-24 flex flex-col lg:flex-row items-center gap-16 mt-12">
+                class="bg-[#006C3E] rounded-[3rem] p-12 lg:p-24 flex flex-col lg:flex-row items-center gap-16 max-w-3xl lg:max-w-7xl mx-auto shadow-xl">
                 <!-- Collage / Illustration on the Left -->
-                <div class="w-full lg:w-1/2 relative">
+                <div class="w-full lg:w-1/2 relative flex justify-center">
                     <div
-                        class="w-full max-w-[550px] mx-auto z-10 relative drop-shadow-2xl hover:scale-105 transition-transform duration-500 rounded-full aspect-square">
+                        class="w-64 h-64 md:w-80 md:h-80 lg:w-[480px] lg:h-[480px] xl:w-[520px] xl:h-[520px] relative drop-shadow-2xl hover:scale-105 transition-transform duration-500 rounded-full aspect-square">
                         <img alt="Die Welt von Anadoa - Natürliche Heilmittel"
                             class="w-full h-full rounded-full object-cover animate-spin"
                             src="assets/realistic_anadoa_world.png" style="animation-duration: 60s;" />
                     </div>
                 </div>
                 <!-- Text on the Right -->
-                <div class="w-full lg:w-1/2 text-white relative z-20">
-                    <h2 class="text-5xl md:text-6xl font-bold font-serif mb-8 leading-tight text-white/80">Das
-                        Naturerbe, wie es ist.</h2>
+                <div class="w-full lg:w-1/2 text-white relative z-20 flex flex-col items-center lg:items-start text-center lg:text-left">
+                    <h2 class="hidden lg:block text-5xl md:text-6xl font-bold font-serif mb-8 leading-tight text-white/80">
+                        <span class="inline-block">Das Naturerbe,</span> <span class="inline-block">wie es ist.</span>
+                    </h2>
                     <a class="inline-block bg-white text-[#006C3E] font-bold py-4 px-10 rounded-full hover:bg-ash hover:text-white transition-colors duration-300 text-lg shadow-lg"
                         href="philosophie.html">
                         Unsere Philosophie entdecken
