@@ -72,7 +72,7 @@ const navHTML = `
                   </ul>
                   <h3 class="font-serif font-bold text-base text-mocha mb-3 border-b border-earth-light pb-2 mt-5"><a class="hover:text-gold" href="pflanzenwasser.html">Pflanzenwasser</a></h3>
                   <ul class="space-y-2 text-sm mb-5">
-                    <li><a class="text-ash-light hover:text-gold block" href="rosenwasser.html">Rosenwasser (Gül Suyu)</a></li>
+                    <li><a class="text-ash-light hover:text-gold block" href="rosenwasser.html">Rosenwasser</a></li>
                     <li><a class="text-ash-light hover:text-gold block" href="rosmarinwasser.html">Rosmarinwasser</a></li>
                   </ul>
                 </div>
@@ -111,7 +111,7 @@ const navHTML = `
                     <li><a class="text-ash-light hover:text-gold block" href="tannenzapfen-paste-kinder.html">Tannenzapfen Paste (Kinder)</a></li>
                     <li><a class="text-ash-light hover:text-gold block" href="mariendistel-paste.html">Mariendistel Paste</a></li>
                     <li><a class="text-ash-light hover:text-gold block" href="paste-fuer-maenner.html">Paste für Männer (Mesir)</a></li>
-                    <li><a class="text-ash-light hover:text-gold block" href="paste-fuer-frauen.html">Paste für Frauen (Kadın)</a></li>
+                    <li><a class="text-ash-light hover:text-gold block" href="paste-fuer-frauen.html">Paste für Frauen</a></li>
                     <li><a class="text-ash-light hover:text-gold block" href="bittermelone-paste-honig.html">Bittermelone Paste</a></li>
                     <li><a class="text-ash-light hover:text-gold block" href="tahini.html">Tahini (Sesammus)</a></li>
                   </ul>
