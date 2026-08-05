@@ -1,4 +1,4 @@
-﻿const navHTML = `
+const navHTML = `
 <!-- Global Navigation -->
 <nav class="fixed w-full z-50 top-6 transition-all duration-300" id="global-nav">
   <div class="max-w-[95%] md:max-w-6xl mx-auto relative z-50">
@@ -1675,24 +1675,24 @@ function initNavigation() {
       "image": "assets/zypressenzapfen-paste-anadoa-naturhaus.png",
       "category": "Traditionelle Pasten",
       "keywords": "pine cone paste, cypress cone paste, kozalak macunu, çam kozalağı pekmezi, selvi kozalagi"
-            },
-        {
-            "title": "Sumix - Sumak Komplex",
-            "url": "sumix.html",
-            "image": "assets/sumix-main-image.png",
-            "category": "Spezielle Produkte",
-            "content": "Sumix vereint Sumach, Ingwer, Kurkuma, Schwarzkümmelöl zu einem kraftvollen natürlichen Pflanzenmix. Sumak Komplex Natürlicher Pflanzenmix. Täglich 2 Teelöffel einnehmen. Kraft Mix für Regeneration.",
-            "h1": "Sumix",
-            "h2s": [
-                "SUMIX: Moderne Interpretation traditioneller Pflanzenkraft",
-                "Warum SUMIX? Die Vorteile der ausgewogenen Formel",
-                "Kraftvolle Inhaltsstoffe: Was steckt in Sumix?",
-                "Nährwerttabelle",
-                "Anwendung & optimale Lagerung",
-                "Häufig gestellte Fragen (FAQ) zu Sumix"
-            ]
-        }
-    ];
+    },
+    {
+      "title": "Sumix - Sumak Komplex",
+      "url": "sumix.html",
+      "image": "assets/sumix-main-image.png",
+      "category": "Spezielle Produkte",
+      "content": "Sumix vereint Sumach, Ingwer, Kurkuma, Schwarzkümmelöl zu einem kraftvollen natürlichen Pflanzenmix. Sumak Komplex Natürlicher Pflanzenmix. Täglich 2 Teelöffel einnehmen. Kraft Mix für Regeneration.",
+      "h1": "Sumix",
+      "h2s": [
+        "SUMIX: Moderne Interpretation traditioneller Pflanzenkraft",
+        "Warum SUMIX? Die Vorteile der ausgewogenen Formel",
+        "Kraftvolle Inhaltsstoffe: Was steckt in Sumix?",
+        "Nährwerttabelle",
+        "Anwendung & optimale Lagerung",
+        "Häufig gestellte Fragen (FAQ) zu Sumix"
+      ]
+    }
+  ];
   // SEARCH_INDEX_END
 
   function normalizeString(str) {
