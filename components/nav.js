@@ -220,13 +220,16 @@ const navHTML = `
         
         <!-- 1. Kaltgepresste Öle -->
         <div class="border-b border-earth-light pb-4">
-          <button class="w-full text-left flex justify-between items-center mobile-nav-category-link font-serif text-mocha hover:text-gold transition-colors group" onclick="this.nextElementSibling.classList.toggle('max-h-0'); this.nextElementSibling.classList.toggle('max-h-[500px]'); this.nextElementSibling.classList.toggle('mt-4'); this.nextElementSibling.classList.toggle('opacity-0'); this.querySelector('i').classList.toggle('rotate-180');">
+          <button class="w-full text-left flex justify-between items-center mobile-nav-category-link font-serif text-mocha hover:text-gold transition-colors group" onclick="this.nextElementSibling.classList.toggle('max-h-0'); this.nextElementSibling.classList.toggle('max-h-[700px]'); this.nextElementSibling.classList.toggle('mt-4'); this.nextElementSibling.classList.toggle('opacity-0'); this.querySelector('i').classList.toggle('rotate-180');">
             Kaltgepresste Öle
             <i class="ri-arrow-down-s-line text-gold text-2xl transition-transform duration-300"></i>
           </button>
           <div class="max-h-0 opacity-0 overflow-hidden transition-all duration-500 ease-in-out px-2 space-y-4">
             <a class="block text-gold font-bold text-lg mb-2 uppercase tracking-widest text-sm" href="kaltgepresste-oele.html">Übersicht ansehen</a>
             <a class="block text-ash hover:text-gold text-lg font-light" href="schwarzkummelol.html">Premium Schwarzkümmelöl</a>
+            <a class="block text-ash-light hover:text-gold text-base font-light ml-4" href="schwarzkummelol-fuer-kinder.html">↳ Für Kinder (Orange)</a>
+            <a class="block text-ash-light hover:text-gold text-base font-light ml-4" href="schwarzkummelol-kinder-erdbeer.html">↳ Für Kinder (Erdbeer)</a>
+            <a class="block text-ash-light hover:text-gold text-base font-light ml-4" href="schwarzkummelol-mit-minze.html">↳ Mit Minze</a>
             <a class="block text-ash hover:text-gold text-lg font-light" href="leinoel.html">Leinöl</a>
             <a class="block text-ash hover:text-gold text-lg font-light" href="kuerbiskernoel.html">Kürbiskernöl</a>
             <a class="block text-ash hover:text-gold text-lg font-light" href="lorbeerkernoel.html">Lorbeerkernöl</a>
