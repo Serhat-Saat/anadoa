@@ -1,4 +1,4 @@
-const navHTML = `
+﻿const navHTML = `
 <!-- Global Navigation -->
 <nav class="fixed w-full z-50 top-6 transition-all duration-300" id="global-nav">
   <div class="max-w-[95%] md:max-w-6xl mx-auto relative z-50">
@@ -7,8 +7,8 @@ const navHTML = `
       <!-- Mobile Menu Button (Left) -->
       <div class="lg:hidden flex items-center flex-1">
         <button aria-label="Toggle Menu" class="text-ash hover:text-gold focus:outline-none p-2 transition-colors relative w-10 h-10 flex items-center justify-center" id="mobile-menu-btn">
-          <i id="menu-icon" class="ri-menu-line text-2xl absolute transition-all duration-300"></i>
-          <i id="close-icon" class="ri-close-line text-2xl absolute transition-all duration-300 opacity-0 scale-50"></i>
+          <i id="menu-icon" class="ri-menu-line nav-icon-2xl absolute transition-all duration-300"></i>
+          <i id="close-icon" class="ri-close-line nav-icon-2xl absolute transition-all duration-300 opacity-0 scale-50"></i>
         </button>
       </div>
 
@@ -118,6 +118,7 @@ const navHTML = `
                   <h3 class="font-serif font-bold text-base text-mocha mb-3 border-b border-earth-light pb-2 mt-5"><a class="hover:text-gold" href="naturseifen.html">Naturkosmetik & Seifen</a></h3>
                   <ul class="space-y-2 text-sm mb-5">
                     <li><a class="text-ash-light hover:text-gold block" href="naturseifen.html">Handgemachte Naturseifen</a></li>
+                    <li><a class="text-ash-light hover:text-gold block" href="the-nioli.html">The Nioli Pflegeset</a></li>
                     <li><a class="text-ash-light hover:text-gold block" href="luffa-seifen.html">Luffa Peeling Seifen</a></li>
                     <li><a class="text-gold font-bold hover:text-mocha block mt-2" href="rushur-stein.html">Rushur Stein (5er Set)</a></li>
                   </ul>
@@ -134,7 +135,7 @@ const navHTML = `
 
                 <!-- Col 4: Melassen & Tees -->
                 <div>
-                  <h3 class="font-serif font-bold text-base text-mocha mb-3 border-b border-earth-light pb-2"><a class="hover:text-gold" href="melassen.html">Melassen (Pekmez)</a></h3>
+                  <h3 class="font-serif font-bold text-base text-mocha mb-3 border-b border-earth-light pb-2"><a class="hover:text-gold" href="melassen.html">Melassen</a></h3>
                   <ul class="space-y-2 text-sm mb-5">
                     <li><a class="text-ash-light hover:text-gold block" href="traubenmelasse.html">Traubenmelasse</a></li>
                     <li><a class="text-ash-light hover:text-gold block" href="johannisbrot-melasse.html">Johannisbrot Melasse</a></li>
@@ -149,6 +150,10 @@ const navHTML = `
                     <li><a class="text-ash-light hover:text-gold block" href="atom-tee.html">Atom Tee (Winter-Mix)</a></li>
                     <li><a class="text-ash-light hover:text-gold block" href="schopflavendel-tee.html">Schopflavendel Tee</a></li>
                     <li><a class="text-sage hover:text-gold block mt-2 text-xs uppercase tracking-wider font-bold" href="tee.html">Alle 15 Tees ansehen →</a></li>
+                  </ul>
+                  <h3 class="font-serif font-bold text-base text-mocha mb-3 border-b border-earth-light pb-2 mt-5"><span class="text-mocha cursor-default">Spezielle Produkte</span></h3>
+                  <ul class="space-y-2 text-sm mb-5">
+                    <li><a class="text-gold font-bold hover:text-mocha block" href="sumix.html">Sumix (Sumak Komplex)</a></li>
                   </ul>
                 </div>
 
@@ -172,7 +177,7 @@ const navHTML = `
       <!-- Search Icon (Right) -->
 <div class="flex items-center justify-end flex-1 lg:flex-none">
         <button aria-label="Suche öffnen" id="search-open-btn" class="text-ash hover:text-gold focus:outline-none p-2 transition-colors">
-          <i class="ri-search-line text-2xl"></i>
+          <i class="ri-search-line nav-icon-2xl"></i>
         </button>
       </div>
 
@@ -181,12 +186,12 @@ const navHTML = `
 
   <!-- Mobile Drawer Menu -->
   <div class="fixed inset-0 bg-earth z-40 transition-all duration-500 opacity-0 pointer-events-none lg:hidden flex flex-col" id="mobile-menu">
-    <div class="flex-1 overflow-y-auto pt-32 pb-20 px-8 flex flex-col gap-8 custom-scrollbar">
+    <div class="flex-1 overflow-y-auto pt-32 pb-12 px-8 flex flex-col gap-8 custom-scrollbar">
       
       <nav class="flex flex-col space-y-6">
         <!-- Über uns Accordion -->
         <div class="w-full">
-          <button class="w-full text-left flex justify-between items-center text-4xl md:text-5xl font-serif text-mocha hover:text-gold transition-colors group" onclick="this.nextElementSibling.classList.toggle('max-h-0'); this.nextElementSibling.classList.toggle('max-h-[200px]'); this.nextElementSibling.classList.toggle('mt-4'); this.nextElementSibling.classList.toggle('opacity-0'); this.querySelector('svg').classList.toggle('rotate-180');">
+          <button class="w-full text-left flex justify-between items-center mobile-nav-hero-link font-serif text-mocha hover:text-gold transition-colors group" onclick="this.nextElementSibling.classList.toggle('max-h-0'); this.nextElementSibling.classList.toggle('max-h-[200px]'); this.nextElementSibling.classList.toggle('mt-4'); this.nextElementSibling.classList.toggle('opacity-0'); this.querySelector('i').classList.toggle('rotate-180');">
             Über uns
             <i class="ri-arrow-down-s-line text-gold text-2xl transition-transform duration-300"></i>
           </button>
@@ -195,8 +200,8 @@ const navHTML = `
             <a class="text-xl font-serif text-mocha hover:text-gold transition-colors block pl-6" href="philosophie.html">Philosophie</a>
           </div>
         </div>
-        <a class="text-4xl md:text-5xl font-serif text-mocha hover:text-gold transition-colors block mobile-link" href="rezepte.html">Rezepte</a>
-        <a class="text-4xl md:text-5xl font-serif text-mocha hover:text-gold transition-colors block mobile-link" href="magazin.html">Magazin</a>
+        <a class="mobile-nav-hero-link font-serif text-mocha hover:text-gold transition-colors block mobile-link" href="rezepte.html">Rezepte</a>
+        <a class="mobile-nav-hero-link font-serif text-mocha hover:text-gold transition-colors block mobile-link" href="magazin.html">Magazin</a>
       </nav>
 
       <hr class="border-earth-light my-2"/>
@@ -207,7 +212,7 @@ const navHTML = `
         
         <!-- 1. Kaltgepresste Öle -->
         <div class="border-b border-earth-light pb-4">
-          <button class="w-full text-left flex justify-between items-center text-2xl font-serif text-mocha hover:text-gold transition-colors group" onclick="this.nextElementSibling.classList.toggle('max-h-0'); this.nextElementSibling.classList.toggle('max-h-[500px]'); this.nextElementSibling.classList.toggle('mt-4'); this.nextElementSibling.classList.toggle('opacity-0'); this.querySelector('svg').classList.toggle('rotate-180');">
+          <button class="w-full text-left flex justify-between items-center mobile-nav-category-link font-serif text-mocha hover:text-gold transition-colors group" onclick="this.nextElementSibling.classList.toggle('max-h-0'); this.nextElementSibling.classList.toggle('max-h-[500px]'); this.nextElementSibling.classList.toggle('mt-4'); this.nextElementSibling.classList.toggle('opacity-0'); this.querySelector('i').classList.toggle('rotate-180');">
             Kaltgepresste Öle
             <i class="ri-arrow-down-s-line text-gold text-2xl transition-transform duration-300"></i>
           </button>
@@ -221,22 +226,9 @@ const navHTML = `
           </div>
         </div>
 
-        <!-- 2. Pflanzenwasser -->
+        <!-- 2. Ätherische Öle -->
         <div class="border-b border-earth-light pb-4">
-          <button class="w-full text-left flex justify-between items-center text-2xl font-serif text-mocha hover:text-gold transition-colors group" onclick="this.nextElementSibling.classList.toggle('max-h-0'); this.nextElementSibling.classList.toggle('max-h-[300px]'); this.nextElementSibling.classList.toggle('mt-4'); this.nextElementSibling.classList.toggle('opacity-0'); this.querySelector('svg').classList.toggle('rotate-180');">
-            Pflanzenwasser
-            <i class="ri-arrow-down-s-line text-gold text-2xl transition-transform duration-300"></i>
-          </button>
-          <div class="max-h-0 opacity-0 overflow-hidden transition-all duration-500 ease-in-out px-2 space-y-4">
-            <a class="block text-gold font-bold text-lg mb-2 uppercase tracking-widest text-sm" href="pflanzenwasser.html">Übersicht ansehen</a>
-            <a class="block text-ash hover:text-gold text-lg font-light" href="rosenwasser.html">Rosenwasser (Gül Suyu)</a>
-            <a class="block text-ash hover:text-gold text-lg font-light" href="rosmarinwasser.html">Rosmarinwasser</a>
-          </div>
-        </div>
-
-        <!-- 3. Ätherische Öle -->
-        <div class="border-b border-earth-light pb-4">
-          <button class="w-full text-left flex justify-between items-center text-2xl font-serif text-mocha hover:text-gold transition-colors group" onclick="this.nextElementSibling.classList.toggle('max-h-0'); this.nextElementSibling.classList.toggle('max-h-[500px]'); this.nextElementSibling.classList.toggle('mt-4'); this.nextElementSibling.classList.toggle('opacity-0'); this.querySelector('svg').classList.toggle('rotate-180');">
+          <button class="w-full text-left flex justify-between items-center mobile-nav-category-link font-serif text-mocha hover:text-gold transition-colors group" onclick="this.nextElementSibling.classList.toggle('max-h-0'); this.nextElementSibling.classList.toggle('max-h-[500px]'); this.nextElementSibling.classList.toggle('mt-4'); this.nextElementSibling.classList.toggle('opacity-0'); this.querySelector('i').classList.toggle('rotate-180');">
             Ätherische Öle
             <i class="ri-arrow-down-s-line text-gold text-2xl transition-transform duration-300"></i>
           </button>
@@ -249,9 +241,73 @@ const navHTML = `
           </div>
         </div>
 
-        <!-- 4. Natürliche Gewürze -->
+        <!-- 3. Melassen -->
         <div class="border-b border-earth-light pb-4">
-          <button class="w-full text-left flex justify-between items-center text-2xl font-serif text-mocha hover:text-gold transition-colors group" onclick="this.nextElementSibling.classList.toggle('max-h-0'); this.nextElementSibling.classList.toggle('max-h-[300px]'); this.nextElementSibling.classList.toggle('mt-4'); this.nextElementSibling.classList.toggle('opacity-0'); this.querySelector('svg').classList.toggle('rotate-180');">
+          <button class="w-full text-left flex justify-between items-center mobile-nav-category-link font-serif text-mocha hover:text-gold transition-colors group" onclick="this.nextElementSibling.classList.toggle('max-h-0'); this.nextElementSibling.classList.toggle('max-h-[600px]'); this.nextElementSibling.classList.toggle('mt-4'); this.nextElementSibling.classList.toggle('opacity-0'); this.querySelector('i').classList.toggle('rotate-180');">
+            Melassen
+            <i class="ri-arrow-down-s-line text-gold text-2xl transition-transform duration-300"></i>
+          </button>
+          <div class="max-h-0 opacity-0 overflow-hidden transition-all duration-500 ease-in-out px-2 space-y-4">
+            <a class="block text-gold font-bold text-lg mb-2 uppercase tracking-widest text-sm" href="melassen.html">Übersicht ansehen</a>
+            <a class="block text-ash hover:text-gold text-lg font-light" href="traubenmelasse.html">Traubenmelasse</a>
+            <a class="block text-ash hover:text-gold text-lg font-light" href="johannisbrot-melasse.html">Johannisbrot Melasse</a>
+            <a class="block text-ash hover:text-gold text-lg font-light" href="wacholderbeeren-melasse.html">Wacholderbeeren Melasse</a>
+            <a class="block text-ash hover:text-gold text-lg font-light" href="maulbeeren-melasse.html">Maulbeeren Melasse</a>
+            <a class="block text-ash hover:text-gold text-lg font-light" href="dattel-melasse.html">Dattel Melasse</a>
+          </div>
+        </div>
+
+        <!-- 4. Traditionelle Pasten -->
+        <div class="border-b border-earth-light pb-4">
+          <button class="w-full text-left flex justify-between items-center mobile-nav-category-link font-serif text-mocha hover:text-gold transition-colors group" onclick="this.nextElementSibling.classList.toggle('max-h-0'); this.nextElementSibling.classList.toggle('max-h-[1000px]'); this.nextElementSibling.classList.toggle('mt-4'); this.nextElementSibling.classList.toggle('opacity-0'); this.querySelector('i').classList.toggle('rotate-180');">
+            Traditionelle Pasten
+            <i class="ri-arrow-down-s-line text-gold text-2xl transition-transform duration-300"></i>
+          </button>
+          <div class="max-h-0 opacity-0 overflow-hidden transition-all duration-500 ease-in-out px-2 space-y-4">
+            <a class="block text-gold font-bold text-lg mb-2 uppercase tracking-widest text-sm" href="pasten.html">Übersicht ansehen</a>
+            <a class="block text-ash hover:text-gold text-lg font-light" href="zypressenzapfen-paste.html">Zypressenzapfen Paste</a>
+            <a class="block text-ash hover:text-gold text-lg font-light" href="tannenzapfen-paste-kinder.html">Tannenzapfen Paste (Kinder)</a>
+            <a class="block text-ash hover:text-gold text-lg font-light" href="mariendistel-paste.html">Mariendistel Paste</a>
+            <a class="block text-ash hover:text-gold text-lg font-light" href="paste-fuer-maenner.html">Paste für Männer (Mesir)</a>
+            <a class="block text-ash hover:text-gold text-lg font-light" href="paste-fuer-frauen.html">Paste für Frauen</a>
+            <a class="block text-ash hover:text-gold text-lg font-light" href="bittermelone-paste-honig.html">Bittermelone Paste mit Honig</a>
+            <a class="block text-ash hover:text-gold text-lg font-light" href="bittermelone-paste-olivenoel.html">Bittermelone Paste mit Olivenöl</a>
+            <a class="block text-ash hover:text-gold text-lg font-light" href="tahini.html">Tahini (Sesammus)</a>
+          </div>
+        </div>
+
+        <!-- 4.5 Spezielle Produkte -->
+        <div class="border-b border-earth-light pb-4">
+          <button class="w-full text-left flex justify-between items-center mobile-nav-category-link font-serif text-mocha hover:text-gold transition-colors group" onclick="this.nextElementSibling.classList.toggle('max-h-0'); this.nextElementSibling.classList.toggle('max-h-[300px]'); this.nextElementSibling.classList.toggle('mt-4'); this.nextElementSibling.classList.toggle('opacity-0'); this.querySelector('i').classList.toggle('rotate-180');">
+            Spezielle Produkte
+            <i class="ri-arrow-down-s-line text-gold text-2xl transition-transform duration-300"></i>
+          </button>
+          <div class="max-h-0 opacity-0 overflow-hidden transition-all duration-500 ease-in-out px-2 space-y-4">
+            <a class="block text-gold font-bold text-lg mb-2 uppercase tracking-widest text-sm" href="#">Spezielle Produkte</a>
+            <a class="block text-ash hover:text-gold text-lg font-light" href="sumix.html">Sumix (Sumak Komplex)</a>
+          </div>
+        </div>
+
+        <!-- 5. Lebendiger Essig & Säfte -->
+        <div class="border-b border-earth-light pb-4">
+          <button class="w-full text-left flex justify-between items-center mobile-nav-category-link font-serif text-mocha hover:text-gold transition-colors group" onclick="this.nextElementSibling.classList.toggle('max-h-0'); this.nextElementSibling.classList.toggle('max-h-[700px]'); this.nextElementSibling.classList.toggle('mt-4'); this.nextElementSibling.classList.toggle('opacity-0'); this.querySelector('i').classList.toggle('rotate-180');">
+            Lebendiger Essig &amp; Säfte
+            <i class="ri-arrow-down-s-line text-gold text-2xl transition-transform duration-300"></i>
+          </button>
+          <div class="max-h-0 opacity-0 overflow-hidden transition-all duration-500 ease-in-out px-2 space-y-4">
+            <a class="block text-gold font-bold text-lg mb-2 uppercase tracking-widest text-sm" href="essig.html">Übersicht ansehen</a>
+            <a class="block text-ash hover:text-gold text-lg font-light" href="gilaburu-saft.html">Gilaburu Saft</a>
+            <a class="block text-ash hover:text-gold text-lg font-light" href="apfelessig.html">Apfelessig</a>
+            <a class="block text-ash hover:text-gold text-lg font-light" href="traubenessig.html">Traubenessig</a>
+            <a class="block text-ash hover:text-gold text-lg font-light" href="weissdorn-essig.html">Weißdorn Essig</a>
+            <a class="block text-ash hover:text-gold text-lg font-light" href="ananas-essig.html">Ananas Essig</a>
+            <a class="block text-ash hover:text-gold text-lg font-light" href="oxymel-gold-essig.html">Oxymel Gold Essig</a>
+          </div>
+        </div>
+
+        <!-- 6. Natürliche Gewürze -->
+        <div class="border-b border-earth-light pb-4">
+          <button class="w-full text-left flex justify-between items-center mobile-nav-category-link font-serif text-mocha hover:text-gold transition-colors group" onclick="this.nextElementSibling.classList.toggle('max-h-0'); this.nextElementSibling.classList.toggle('max-h-[500px]'); this.nextElementSibling.classList.toggle('mt-4'); this.nextElementSibling.classList.toggle('opacity-0'); this.querySelector('i').classList.toggle('rotate-180');">
             Natürliche Gewürze
             <i class="ri-arrow-down-s-line text-gold text-2xl transition-transform duration-300"></i>
           </button>
@@ -263,65 +319,9 @@ const navHTML = `
           </div>
         </div>
 
-        <!-- 5. Traditionelle Pasten -->
+        <!-- 7. Naturtee & Kuren -->
         <div class="border-b border-earth-light pb-4">
-          <button class="w-full text-left flex justify-between items-center text-2xl font-serif text-mocha hover:text-gold transition-colors group" onclick="this.nextElementSibling.classList.toggle('max-h-0'); this.nextElementSibling.classList.toggle('max-h-[500px]'); this.nextElementSibling.classList.toggle('mt-4'); this.nextElementSibling.classList.toggle('opacity-0'); this.querySelector('svg').classList.toggle('rotate-180');">
-            Traditionelle Pasten
-            <i class="ri-arrow-down-s-line text-gold text-2xl transition-transform duration-300"></i>
-          </button>
-          <div class="max-h-0 opacity-0 overflow-hidden transition-all duration-500 ease-in-out px-2 space-y-4">
-            <a class="block text-gold font-bold text-lg mb-2 uppercase tracking-widest text-sm" href="pasten.html">Übersicht ansehen</a>
-            <a class="block text-ash hover:text-gold text-lg font-light" href="zypressenzapfen-paste.html">Zypressenzapfen Paste</a>
-            <a class="block text-ash hover:text-gold text-lg font-light" href="tannenzapfen-paste-kinder.html">Tannenzapfen Paste (Kinder)</a>
-            <a class="block text-ash hover:text-gold text-lg font-light" href="mariendistel-paste.html">Mariendistel Paste</a>
-          </div>
-        </div>
-
-        <!-- 6. Naturkosmetik & Peeling -->
-        <div class="border-b border-earth-light pb-4">
-          <button class="w-full text-left flex justify-between items-center text-2xl font-serif text-mocha hover:text-gold transition-colors group" onclick="this.nextElementSibling.classList.toggle('max-h-0'); this.nextElementSibling.classList.toggle('max-h-[400px]'); this.nextElementSibling.classList.toggle('mt-4'); this.nextElementSibling.classList.toggle('opacity-0'); this.querySelector('svg').classList.toggle('rotate-180');">
-            Naturkosmetik &amp; Seifen
-            <i class="ri-arrow-down-s-line text-gold text-2xl transition-transform duration-300"></i>
-          </button>
-          <div class="max-h-0 opacity-0 overflow-hidden transition-all duration-500 ease-in-out px-2 space-y-4">
-            <a class="block text-gold font-bold text-lg mb-2 uppercase tracking-widest text-sm" href="naturseifen.html">Übersicht ansehen</a>
-            <a class="block text-ash hover:text-gold text-lg font-light" href="naturseifen.html">Naturseifen</a>
-            <a class="block text-ash hover:text-gold text-lg font-light" href="luffa-seifen.html">Luffa Seifen</a>
-            <a class="block text-ash hover:text-gold text-lg font-light" href="rushur-stein.html">Rushur Stein (5er Set)</a>
-          </div>
-        </div>
-
-        <!-- 7. Lebendiger Essig & Säfte -->
-        <div class="border-b border-earth-light pb-4">
-          <button class="w-full text-left flex justify-between items-center text-2xl font-serif text-mocha hover:text-gold transition-colors group" onclick="this.nextElementSibling.classList.toggle('max-h-0'); this.nextElementSibling.classList.toggle('max-h-[400px]'); this.nextElementSibling.classList.toggle('mt-4'); this.nextElementSibling.classList.toggle('opacity-0'); this.querySelector('svg').classList.toggle('rotate-180');">
-            Lebendiger Essig &amp; Säfte
-            <i class="ri-arrow-down-s-line text-gold text-2xl transition-transform duration-300"></i>
-          </button>
-          <div class="max-h-0 opacity-0 overflow-hidden transition-all duration-500 ease-in-out px-2 space-y-4">
-            <a class="block text-gold font-bold text-lg mb-2 uppercase tracking-widest text-sm" href="essig.html">Übersicht ansehen</a>
-            <a class="block text-ash hover:text-gold text-lg font-light" href="gilaburu-saft.html">Gilaburu Saft</a>
-            <a class="block text-ash hover:text-gold text-lg font-light" href="apfelessig.html">Apfelessig</a>
-            <a class="block text-ash hover:text-gold text-lg font-light" href="traubenessig.html">Traubenessig</a>
-          </div>
-        </div>
-
-        <!-- 8. Melassen (Pekmez) -->
-        <div class="border-b border-earth-light pb-4">
-          <button class="w-full text-left flex justify-between items-center text-2xl font-serif text-mocha hover:text-gold transition-colors group" onclick="this.nextElementSibling.classList.toggle('max-h-0'); this.nextElementSibling.classList.toggle('max-h-[400px]'); this.nextElementSibling.classList.toggle('mt-4'); this.nextElementSibling.classList.toggle('opacity-0'); this.querySelector('svg').classList.toggle('rotate-180');">
-            Melassen (Pekmez)
-            <i class="ri-arrow-down-s-line text-gold text-2xl transition-transform duration-300"></i>
-          </button>
-          <div class="max-h-0 opacity-0 overflow-hidden transition-all duration-500 ease-in-out px-2 space-y-4">
-            <a class="block text-gold font-bold text-lg mb-2 uppercase tracking-widest text-sm" href="melassen.html">Übersicht ansehen</a>
-            <a class="block text-ash hover:text-gold text-lg font-light" href="traubenmelasse.html">Traubenmelasse</a>
-            <a class="block text-ash hover:text-gold text-lg font-light" href="johannisbrot-melasse.html">Johannisbrot Melasse</a>
-            <a class="block text-ash hover:text-gold text-lg font-light" href="dattel-melasse.html">Dattel Melasse</a>
-          </div>
-        </div>
-
-        <!-- 9. Naturtee & Kuren -->
-        <div class="border-b border-earth-light pb-4">
-          <button class="w-full text-left flex justify-between items-center text-2xl font-serif text-mocha hover:text-gold transition-colors group" onclick="this.nextElementSibling.classList.toggle('max-h-0'); this.nextElementSibling.classList.toggle('max-h-[400px]'); this.nextElementSibling.classList.toggle('mt-4'); this.nextElementSibling.classList.toggle('opacity-0'); this.querySelector('svg').classList.toggle('rotate-180');">
+          <button class="w-full text-left flex justify-between items-center mobile-nav-category-link font-serif text-mocha hover:text-gold transition-colors group" onclick="this.nextElementSibling.classList.toggle('max-h-0'); this.nextElementSibling.classList.toggle('max-h-[400px]'); this.nextElementSibling.classList.toggle('mt-4'); this.nextElementSibling.classList.toggle('opacity-0'); this.querySelector('i').classList.toggle('rotate-180');">
             Naturtee &amp; Kuren
             <i class="ri-arrow-down-s-line text-gold text-2xl transition-transform duration-300"></i>
           </button>
@@ -332,18 +332,43 @@ const navHTML = `
             <a class="block text-ash hover:text-gold text-lg font-light" href="schopflavendel-tee.html">Schopflavendel Tee</a>
           </div>
         </div>
-      </div>
-      </div>
 
-      <div class="mt-4 mb-4">
-        <div class="bg-earth-light/30 rounded-2xl p-5 border border-earth-light text-center relative overflow-hidden group">
-          <div class="absolute inset-0 bg-gold/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-          <p class="text-ash/60 text-xs mb-2 relative z-10 uppercase tracking-widest">Kundenservice</p>
-          <p class="text-mocha font-serif text-base mb-4 relative z-10">Haben Sie Fragen zu unseren Naturkuren?</p>
-          <a class="inline-block bg-gold text-white font-bold py-2.5 px-6 rounded-full shadow-lg text-xs relative z-10 hover:bg-mocha transition-colors duration-300" href="tel:+490000000">
-            Kundenservice anrufen
-          </a>
+        <!-- 8. Pflanzenwasser -->
+        <div class="border-b border-earth-light pb-4">
+          <button class="w-full text-left flex justify-between items-center mobile-nav-category-link font-serif text-mocha hover:text-gold transition-colors group" onclick="this.nextElementSibling.classList.toggle('max-h-0'); this.nextElementSibling.classList.toggle('max-h-[300px]'); this.nextElementSibling.classList.toggle('mt-4'); this.nextElementSibling.classList.toggle('opacity-0'); this.querySelector('i').classList.toggle('rotate-180');">
+            Pflanzenwasser
+            <i class="ri-arrow-down-s-line text-gold text-2xl transition-transform duration-300"></i>
+          </button>
+          <div class="max-h-0 opacity-0 overflow-hidden transition-all duration-500 ease-in-out px-2 space-y-4">
+            <a class="block text-gold font-bold text-lg mb-2 uppercase tracking-widest text-sm" href="pflanzenwasser.html">Übersicht ansehen</a>
+            <a class="block text-ash hover:text-gold text-lg font-light" href="rosenwasser.html">Rosenwasser (Gül Suyu)</a>
+            <a class="block text-ash hover:text-gold text-lg font-light" href="rosmarinwasser.html">Rosmarinwasser</a>
+          </div>
         </div>
+
+        <!-- 9. Naturkosmetik & Seifen -->
+        <div class="border-b border-earth-light pb-4">
+          <button class="w-full text-left flex justify-between items-center mobile-nav-category-link font-serif text-mocha hover:text-gold transition-colors group" onclick="this.nextElementSibling.classList.toggle('max-h-0'); this.nextElementSibling.classList.toggle('max-h-[400px]'); this.nextElementSibling.classList.toggle('mt-4'); this.nextElementSibling.classList.toggle('opacity-0'); this.querySelector('i').classList.toggle('rotate-180');">
+            Naturkosmetik &amp; Seifen
+            <i class="ri-arrow-down-s-line text-gold text-2xl transition-transform duration-300"></i>
+          </button>
+          <div class="max-h-0 opacity-0 overflow-hidden transition-all duration-500 ease-in-out px-2 space-y-4">
+            <a class="block text-gold font-bold text-lg mb-2 uppercase tracking-widest text-sm" href="naturseifen.html">Übersicht ansehen</a>
+            <a class="block text-ash hover:text-gold text-lg font-light" href="naturseifen.html">Naturseifen</a>
+            <a class="block text-ash hover:text-gold text-lg font-light" href="the-nioli.html">The Nioli Pflegeset</a>
+            <a class="block text-ash hover:text-gold text-lg font-light" href="luffa-seifen.html">Luffa Seifen</a>
+            <a class="block text-ash hover:text-gold text-lg font-light" href="rushur-stein.html">Rushur Stein (5er Set)</a>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Compact bottom-aligned Kundenservice section (mt-auto pushes it to the bottom of scroll area) -->
+      <div class="mt-auto pt-8 border-t border-earth-light/60 text-center">
+        <p class="text-ash/50 text-[10px] uppercase tracking-[0.2em] mb-1 font-bold">Kundenservice</p>
+        <p class="text-mocha font-serif text-sm mb-3">Haben Sie Fragen zu unseren Naturkuren?</p>
+        <a class="inline-flex items-center gap-2 bg-[#006C3E] text-white font-bold py-2.5 px-6 rounded-full shadow-md text-xs hover:bg-ash transition-colors duration-300" href="tel:+490000000">
+          <i class="ri-phone-line"></i> Kundenservice anrufen
+        </a>
       </div>
 
     </div>
@@ -354,12 +379,12 @@ const navHTML = `
 <div id="search-modal" class="fixed inset-0 bg-mocha/60 backdrop-blur-md z-50 flex items-start justify-center pt-28 px-4 opacity-0 pointer-events-none transition-all duration-300">
   <div class="bg-earth w-full max-w-2xl rounded-3xl p-6 md:p-8 shadow-2xl border border-earth-light relative flex flex-col max-h-[80vh]">
     <button id="search-close-btn" class="absolute top-6 right-6 text-ash hover:text-gold p-2 rounded-full transition-colors">
-      <i class="ri-close-line text-2xl"></i>
+      <i class="ri-close-line nav-icon-2xl"></i>
     </button>
     <h3 class="font-serif text-2xl text-mocha mb-4 flex-shrink-0">Produkte suchen</h3>
     <div class="relative flex-shrink-0">
       <input type="text" id="search-input" placeholder="z.B. Schwarzkümmelöl, Atom Tee, Rushur Stein..." class="w-full bg-white border border-earth-light rounded-full py-4 pl-12 pr-6 text-ash placeholder-ash/40 focus:outline-none focus:border-gold shadow-inner text-base">
-      <i class="ri-search-line text-lg text-ash/40 absolute left-4 top-1/2 -translate-y-1/2"></i>
+      <i class="ri-search-line nav-icon-lg text-ash/40 absolute left-4 top-1/2 -translate-y-1/2"></i>
     </div>
     
     <!-- Search Results Container -->
@@ -400,6 +425,15 @@ function initNavigation() {
   if (!mobileBtn || !mobileMenu) return;
   // SEARCH_INDEX_START
   const searchIndex = [
+    {
+      "title": "The Nioli – L’Essence Secrète – Intim Pflegeset",
+      "description": "Die sanfte Intimpflege für moderne Selbstfürsorge – mit Nioli & Jojoba. Dieses 2-in-1 Pflegeset vereint das kraftvolle Nioli-Öl mit einer reinigenden Intimseife.",
+      "h1": "The Nioli",
+      "url": "the-nioli.html",
+      "image": "assets/the-nioli-intimpflegeset.png",
+      "category": "Naturkosmetik & Seifen",
+      "keywords": "nioli, intim, pflegeset, seife, öl, niaouli"
+    },
     {
       "title": "Aetherische Oele - 100% Naturreine Essenzen",
       "description": "Entdecken Sie unsere Kollektion an 100% naturreinen aetherischen Oelen. Von beruhigendem Lavendel bis zu kraeftigem Oregano - die konzentrierte Kraft der Natur.",
@@ -504,7 +538,7 @@ function initNavigation() {
       "description": "Der Weltmeister bei Neurodermitis: Kaltgepresstes Borretschöl. Liefert über 20% Gamma-Linolensäure (GLA) gegen Juckreiz, Akne und extreme Hautentzündungen.",
       "h1": "Borretschöl",
       "url": "borretschoel.html",
-      "image": "assets/borretschoel.png",
+      "image": "assets/anadoa-logo-1100-1100.png",
       "category": "Kaltgepresste Öle",
       "keywords": "borage oil, borage starflower, hodan yağı, hodan yagi"
     },
@@ -513,7 +547,7 @@ function initNavigation() {
       "description": "Der natürliche Silikon-Ersatz für die Haare: Kaltgepresstes Brokkolisamenöl. Stoppt Frizz, sorgt für extremen Glanz ohne zu beschweren und glättet reife Haut.",
       "h1": "Brokkolisamenöl",
       "url": "brokkolisamenoel.html",
-      "image": "assets/brokkolisamenoel.png",
+      "image": "assets/anadoa-logo-1100-1100.png",
       "category": "Kaltgepresste Öle",
       "keywords": ""
     },
@@ -522,7 +556,7 @@ function initNavigation() {
       "description": "Der milde Teebaum: Echtes Cajeputöl. Der Spezialist der Aromatherapie gegen Ohrenschmerzen, Erkältungen bei Kindern und Muskelverspannungen. Ratgeber.",
       "h1": "Cajeputöl",
       "url": "cajeputoel.html",
-      "image": "assets/cajeputoel.png",
+      "image": "assets/anadoa-logo-1100-1100.png",
       "category": "Ätherische Öle",
       "keywords": ""
     },
@@ -532,7 +566,7 @@ function initNavigation() {
       "h1": "Dattel Melasse (Hurma Pekmezi)",
       "url": "dattel-melasse.html",
       "image": "assets/dattel-melasse-anadoa-naturhaus.png",
-      "category": "Melassen (Pekmez)",
+      "category": "Melassen",
       "keywords": "grape molasses, grape syrup, carob, keçiboynuzu, pekmez, üzüm pekmezi, harnup pekmezi"
     },
     {
@@ -541,7 +575,7 @@ function initNavigation() {
       "h1": "Detox Mix Elixier",
       "url": "detox-mix.html",
       "image": "assets/detox-und-form-pulver-anadoa-naturhaus.png",
-      "category": "Produkt",
+      "category": "Lebendige Essige",
       "keywords": ""
     },
     {
@@ -586,7 +620,7 @@ function initNavigation() {
       "h1": "Flohsamenschalen (Karnıyarık Tozu)",
       "url": "flohsamenschalen.html",
       "image": "assets/flohsamenchalen-anadoa-naturhaus.png",
-      "category": "Produkt",
+      "category": "Tee",
       "keywords": ""
     },
     {
@@ -594,7 +628,7 @@ function initNavigation() {
       "description": "Der Balancer für Haut und Hormone: Echtes Rosengeranienöl (Bourbon). Wirkt extrem ausgleichend, hautstraffend und schützt natürlich vor Zecken. Ratgeber.",
       "h1": "Geranienöl",
       "url": "geranienoel.html",
-      "image": "assets/geranienoel.png",
+      "image": "assets/anadoa-logo-1100-1100.png",
       "category": "Ätherische Öle",
       "keywords": ""
     },
@@ -613,7 +647,7 @@ function initNavigation() {
       "h1": "100% Purer Gilaburu Saft",
       "url": "gilaburu-saft.html",
       "image": "assets/gilaburu-saft-anadoa-naturhaus.png",
-      "category": "Produkt",
+      "category": "Lebendige Essige",
       "keywords": "gilaburu juice, cramp bark juice, gilaburu suyu, gilaburu"
     },
     {
@@ -639,7 +673,7 @@ function initNavigation() {
       "description": "Flüssige Motivation und Gewebestraffung: Echtes Grapefruitöl. Kurbelt die Lymphe an, vertreibt Heißhunger und sorgt für extrem gute Laune. Ratgeber.",
       "h1": "Grapefruitöl",
       "url": "grapefruitoel.html",
-      "image": "assets/grapefruitoel.png",
+      "image": "assets/anadoa-logo-1100-1100.png",
       "category": "Ätherische Öle",
       "keywords": ""
     },
@@ -658,7 +692,7 @@ function initNavigation() {
       "h1": "Hagebutten BIO Pulver",
       "url": "hagebutten-pulver.html",
       "image": "assets/hagebutten_pulver.png",
-      "category": "Produkt",
+      "category": "Tee",
       "keywords": ""
     },
     {
@@ -684,7 +718,7 @@ function initNavigation() {
       "description": "Das grüne Wunder bei Neurodermitis und Akne: Kaltgepresstes Hanfsamenöl. Ein nicht-komedogenes 'trockenes Öl' mit perfektem Omega-3-Verhältnis. Ratgeber.",
       "h1": "Hanföl",
       "url": "hanfoel.html",
-      "image": "assets/hanfoel.png",
+      "image": "assets/anadoa-logo-1100-1100.png",
       "category": "Kaltgepresste Öle",
       "keywords": "hemp oil, hemp seed oil, hemp, kenevir yağı, kenevir tohumu"
     },
@@ -703,7 +737,7 @@ function initNavigation() {
       "h1": "Johannisbrot Melasse (Keçiboynuzu)",
       "url": "johannisbrot-melasse.html",
       "image": "assets/johannisbrot-melasse-anadoa-naturhaus.png",
-      "category": "Melassen (Pekmez)",
+      "category": "Melassen",
       "keywords": "grape molasses, grape syrup, carob, keçiboynuzu, pekmez, üzüm pekmezi, harnup pekmezi"
     },
     {
@@ -720,7 +754,7 @@ function initNavigation() {
       "description": "Das luxuriöseste Anti-Aging-Öl der Welt: Kaltgepresstes Kaktusfeigenkernöl. Extrem reich an Vitamin E, glättet Augenringe, Falten und zieht sofort ein.",
       "h1": "Kaktusfeigenkernöl",
       "url": "kaktusfeigenkernoel.html",
-      "image": "assets/kaktusfeigenkernoel.png",
+      "image": "assets/anadoa-logo-1100-1100.png",
       "category": "Kaltgepresste Öle",
       "keywords": ""
     },
@@ -747,7 +781,7 @@ function initNavigation() {
       "description": "Der sanfte Heiler: Ätherisches Kamillenöl. Wirkt extrem stark gegen Hautentzündungen (Blaue Kamille) und Panik/Stress (Römische Kamille). Für Babys geeignet.",
       "h1": "Kamillenöl",
       "url": "kamillenoel.html",
-      "image": "assets/kamillenoel.png",
+      "image": "assets/anadoa-logo-1100-1100.png",
       "category": "Ätherische Öle",
       "keywords": ""
     },
@@ -756,7 +790,7 @@ function initNavigation() {
       "description": "Die Lunge des Waldes: Echtes Kiefernnadelöl. Wirkt stark schleimlösend, cortisonähnlich bei Rheuma und gibt Kraft bei extremem Burnout. Kompletter Ratgeber.",
       "h1": "Kiefernnadelöl",
       "url": "kiefernnadeloel.html",
-      "image": "assets/kiefernnadeloel.png",
+      "image": "assets/anadoa-logo-1100-1100.png",
       "category": "Ätherische Öle",
       "keywords": ""
     },
@@ -846,7 +880,7 @@ function initNavigation() {
       "description": "Der seidige Luxus für die Haut: Natives Macadamianussöl. Ersetzt abgebautes Hautfett bei reifer Haut (ab 30) und zieht extrem schnell und samtig ein. Ratgeber.",
       "h1": "Macadamianussöl",
       "url": "macadamianussoel.html",
-      "image": "assets/macadamianussoel.png",
+      "image": "assets/anadoa-logo-1100-1100.png",
       "category": "Kaltgepresste Öle",
       "keywords": "macadamia oil, macadamia nut, makadamya yağı, makademya"
     },
@@ -892,7 +926,7 @@ function initNavigation() {
       "h1": "Maulbeeren Melasse (Dut Pekmezi)",
       "url": "maulbeeren-melasse.html",
       "image": "assets/maulbeeren-melasse-anadoa-naturhaus.png",
-      "category": "Melassen (Pekmez)",
+      "category": "Melassen",
       "keywords": "grape molasses, grape syrup, carob, keçiboynuzu, pekmez, üzüm pekmezi, harnup pekmezi"
     },
     {
@@ -909,7 +943,7 @@ function initNavigation() {
       "description": "Das wichtigste Frauen-Öl der Aromatherapie: Echtes Muskatellersalbeiöl. Wirkt extrem krampflösend bei Menstruation, lindert Hitzewallungen und tiefen Stress.",
       "h1": "Muskatellersalbeiöl",
       "url": "muskatellersalbeioel.html",
-      "image": "assets/muskatellersalbeioel.png",
+      "image": "assets/anadoa-logo-1100-1100.png",
       "category": "Ätherische Öle",
       "keywords": ""
     },
@@ -918,7 +952,7 @@ function initNavigation() {
       "description": "Der Spezialist für Wundheilung und Zahnfleisch: Echtes Myrrheöl. Wirkt stark adstringierend, entzündungshemmend und zellregenerierend. Kompletter Ratgeber.",
       "h1": "Myrrheöl",
       "url": "myrrheoel.html",
-      "image": "assets/myrrheoel.png",
+      "image": "assets/anadoa-logo-1100-1100.png",
       "category": "Ätherische Öle",
       "keywords": ""
     },
@@ -927,7 +961,7 @@ function initNavigation() {
       "description": "Die medizinische Rettung bei Neurodermitis: Kaltgepresstes Nachtkerzenöl. Extrem reich an Gamma-Linolensäure (GLA). Stoppt starken Juckreiz und Schuppung sofort.",
       "h1": "Nachtkerzenöl",
       "url": "nachtkerzenoel.html",
-      "image": "assets/nachtkerzenoel.png",
+      "image": "assets/anadoa-logo-1100-1100.png",
       "category": "Kaltgepresste Öle",
       "keywords": "evening primrose oil, primrose, çuha çiçeği yağı, cuha cicegi"
     },
@@ -936,7 +970,7 @@ function initNavigation() {
       "description": "Der stärkste natürliche Pflanzenschutz & Parasiten-Killer: Kaltgepresstes Neemöl. Vernichtet Blattläuse, Flöhe, Kopfläuse und Fußpilz extrem zuverlässig.",
       "h1": "Neemöl (Niemöl)",
       "url": "neemoel.html",
-      "image": "assets/neemoel.png",
+      "image": "assets/anadoa-logo-1100-1100.png",
       "category": "Kaltgepresste Öle",
       "keywords": ""
     },
@@ -954,7 +988,7 @@ function initNavigation() {
       "description": "Der seelische Notfalltropfen: Echtes Neroliöl. Hilft extrem stark bei Schock, Panik, Liebeskummer und wirkt zellerneuernd (Anti-Aging). Kompletter Ratgeber.",
       "h1": "Neroliöl",
       "url": "nerolioel.html",
-      "image": "assets/nerolioel.png",
+      "image": "assets/anadoa-logo-1100-1100.png",
       "category": "Ätherische Öle",
       "keywords": ""
     },
@@ -981,7 +1015,7 @@ function initNavigation() {
       "description": "Das stärkste natürliche Antibiotikum: Ätherisches Oreganoöl. Extrem hoher Carvacrol-Gehalt gegen Bakterien und Pilze. Wichtige Sicherheits- und Anwendungstipps.",
       "h1": "Oreganoöl",
       "url": "oreganool.html",
-      "image": "assets/oreganool.png",
+      "image": "assets/anadoa-logo-1100-1100.png",
       "category": "Ätherische Öle",
       "keywords": "oregano oil, oregano, kekik yağı, kekik yagi"
     },
@@ -1026,7 +1060,7 @@ function initNavigation() {
       "description": "Der süße, erdende Duft der Tiefe: Ätherisches Patchouliöl. Wirkt extrem zellregenerierend bei reifer Haut und stark erdend bei Angst und Stress. Kompletter Ratgeber.",
       "h1": "Patchouliöl",
       "url": "patchoulioel.html",
-      "image": "assets/patchoulioel.png",
+      "image": "assets/anadoa-logo-1100-1100.png",
       "category": "Ätherische Öle",
       "keywords": ""
     },
@@ -1045,7 +1079,7 @@ function initNavigation() {
       "h1": "",
       "url": "pflanzenwasser.html",
       "image": "assets/anadoa-logo-1100-1100.png",
-      "category": "Produkt",
+      "category": "Pflanzenwasser",
       "keywords": ""
     },
     {
@@ -1134,7 +1168,7 @@ function initNavigation() {
       "description": "Der flüssige Luxus für die Haut: Echtes Rosenholzöl. Wirkt extrem zellerneuernd (Anti-Aging), angstlösend und ist perfekt für empfindliche Haut. Ratgeber.",
       "h1": "Rosenholzöl",
       "url": "rosenholzoel.html",
-      "image": "assets/rosenholzoel.png",
+      "image": "assets/anadoa-logo-1100-1100.png",
       "category": "Ätherische Öle",
       "keywords": "rose oil, rose essential oil, gül yağı, gul yagi"
     },
@@ -1153,7 +1187,7 @@ function initNavigation() {
       "h1": "Rosenwasser (Gül Suyu)",
       "url": "rosenwasser.html",
       "image": "assets/rosenwasser-anadoa-naturhaus.png",
-      "category": "Produkt",
+      "category": "Pflanzenwasser",
       "keywords": "rose oil, rose essential oil, gül yağı, gul yagi"
     },
     {
@@ -1171,7 +1205,7 @@ function initNavigation() {
       "h1": "Rosmarinwasser (Biberiye)",
       "url": "rosmarinwasser.html",
       "image": "assets/rosmarinwasser-anadoa-naturhaus.png",
-      "category": "Produkt",
+      "category": "Pflanzenwasser",
       "keywords": ""
     },
     {
@@ -1197,7 +1231,7 @@ function initNavigation() {
       "description": "Der rote Anti-Aging-Booster: Kaltgepresstes Sanddornfruchtfleischöl. Repariert UV-Schäden, spendet Feuchtigkeit und verleiht einen sofortigen 'Glow'. Ratgeber.",
       "h1": "Sanddornfruchtöl",
       "url": "sanddornfruchtoel.html",
-      "image": "assets/sanddornfruchtoel.png",
+      "image": "assets/anadoa-logo-1100-1100.png",
       "category": "Kaltgepresste Öle",
       "keywords": "sea buckthorn fruit oil, seabuckthorn, yabani iğde yağı, yabani igde"
     },
@@ -1206,7 +1240,7 @@ function initNavigation() {
       "description": "Der heilige Duft Indiens: Echtes Sandelholzöl. Wirkt extrem erdend, stark beruhigend bei Panik und luxuriös zellregenerierend. Kompletter Ratgeber.",
       "h1": "Sandelholzöl",
       "url": "sandelholzoel.html",
-      "image": "assets/sandelholzoel.png",
+      "image": "assets/anadoa-logo-1100-1100.png",
       "category": "Ätherische Öle",
       "keywords": ""
     },
@@ -1225,7 +1259,7 @@ function initNavigation() {
       "h1": "Scharfe Tarhana Suppe (Acılı)",
       "url": "scharfe-tarhana-suppe.html",
       "image": "assets/anadoa-logo-1100-1100.png",
-      "category": "Produkt",
+      "category": "Gewürze",
       "keywords": ""
     },
     {
@@ -1342,7 +1376,7 @@ function initNavigation() {
       "h1": "Sumach Kerne – ungemahlen",
       "url": "sumach-kerne.html",
       "image": "assets/sumach-sumak-kerne-anadoa-naturhaus.png",
-      "category": "Produkt",
+      "category": "Gewürze",
       "keywords": ""
     },
     {
@@ -1351,7 +1385,7 @@ function initNavigation() {
       "h1": "Sumach Pulver – Gemahlen (Ohne Salz)",
       "url": "sumach-pulver.html",
       "image": "assets/sumach-sumak-kerne-anadoa-naturhaus.png",
-      "category": "Produkt",
+      "category": "Gewürze",
       "keywords": ""
     },
     {
@@ -1360,7 +1394,7 @@ function initNavigation() {
       "h1": "Sumach & Traditionelle Gewürze",
       "url": "sumak.html",
       "image": "assets/product_dekupe-sumak-gemahlen.png",
-      "category": "Produkt",
+      "category": "Gewürze",
       "keywords": ""
     },
     {
@@ -1369,7 +1403,7 @@ function initNavigation() {
       "h1": "Traditionelles Tahin: Die Kunst der Steinmühle",
       "url": "tahin-sesammus-gesundheit.html",
       "image": "assets/tahin-anadoa-naturhaus.png",
-      "category": "Produkt",
+      "category": "Traditionelle Pasten",
       "keywords": "sesame oil, sesame, susam yağı, susam yagi, tahini, sesame paste, tahin, susam ezmesi"
     },
     {
@@ -1378,7 +1412,7 @@ function initNavigation() {
       "h1": "Tahini | Sesammus",
       "url": "tahini.html",
       "image": "assets/tahin-anadoa-naturhaus.png",
-      "category": "Produkt",
+      "category": "Traditionelle Pasten",
       "keywords": "tahini, sesame paste, tahin, susam ezmesi"
     },
     {
@@ -1386,7 +1420,7 @@ function initNavigation() {
       "description": "Das grüne Narben-Wunder: Natives Tamanuöl. Heilt schwere Akne-Narben, Verbrennungen und Ekzeme durch einzigartige, extrem entzündungshemmende Pflanzenharze.",
       "h1": "Tamanuöl",
       "url": "tamanuoel.html",
-      "image": "assets/tamanuoel.png",
+      "image": "assets/anadoa-logo-1100-1100.png",
       "category": "Kaltgepresste Öle",
       "keywords": ""
     },
@@ -1414,7 +1448,7 @@ function initNavigation() {
       "h1": "Klassische",
       "url": "tarhana-suppe.html",
       "image": "assets/product_dekupe-tarhana.png",
-      "category": "Produkt",
+      "category": "Gewürze",
       "keywords": ""
     },
     {
@@ -1423,7 +1457,7 @@ function initNavigation() {
       "h1": "Traditionelle Tarhana Suppe",
       "url": "tarhana.html",
       "image": "assets/product_dekupe-tarhana.png",
-      "category": "Produkt",
+      "category": "Gewürze",
       "keywords": ""
     },
     {
@@ -1477,7 +1511,7 @@ function initNavigation() {
       "h1": "Anatolische Traubenmelasse (Pekmez): Natürliche Energie",
       "url": "traubenmelasse-pekmez-eisen-gesundheit.html",
       "image": "assets/product_dekupe-traubenmelasse.png",
-      "category": "Melassen (Pekmez)",
+      "category": "Melassen",
       "keywords": "grape molasses, grape syrup, carob, keçiboynuzu, pekmez, üzüm pekmezi, harnup pekmezi, grape molasses, grape syrup, carob, keçiboynuzu, pekmez, üzüm pekmezi, harnup pekmezi"
     },
     {
@@ -1486,7 +1520,7 @@ function initNavigation() {
       "h1": "Traubenmelasse (Üzüm Pekmezi)",
       "url": "traubenmelasse.html",
       "image": "assets/product_dekupe-traubenmelasse.png",
-      "category": "Melassen (Pekmez)",
+      "category": "Melassen",
       "keywords": "grape molasses, grape syrup, carob, keçiboynuzu, pekmez, üzüm pekmezi, harnup pekmezi"
     },
     {
@@ -1495,7 +1529,7 @@ function initNavigation() {
       "h1": "Türkischer Oregano – Bilyeli Kekik",
       "url": "tuerkischer-oregano.html",
       "image": "assets/tuerkischer-oregano.png",
-      "category": "Produkt",
+      "category": "Gewürze",
       "keywords": "oregano oil, oregano, kekik yağı, kekik yagi"
     },
     {
@@ -1522,7 +1556,7 @@ function initNavigation() {
       "h1": "Wacholderbeeren Melasse (Andız)",
       "url": "wacholderbeeren-melasse.html",
       "image": "assets/wacholderbeeren-melasse-anadoa-naturhaus.png",
-      "category": "Kaltgepresste Öle",
+      "category": "Melassen",
       "keywords": "grape molasses, grape syrup, carob, keçiboynuzu, pekmez, üzüm pekmezi, harnup pekmezi"
     },
     {
@@ -1530,7 +1564,7 @@ function initNavigation() {
       "description": "Natives, kaltgepresstes Walnussöl voller Omega-3 Fettsäuren. Das edle Gourmet-Öl für Salate und natürliche Hautpflege. Premium Qualität aus der ersten Pressung.",
       "h1": "Walnussöl",
       "url": "walnussoel.html",
-      "image": "assets/walnussoel.png",
+      "image": "assets/anadoa-logo-1100-1100.png",
       "category": "Kaltgepresste Öle",
       "keywords": "walnut oil, walnut, ceviz yağı, ceviz yagi"
     },
@@ -1539,7 +1573,7 @@ function initNavigation() {
       "description": "Das flüssige Gold der Antike: Echtes Weihrauchöl (Boswellia carterii). Wirkt extrem zellerneuernd, entzündungshemmend und erdend. Ratgeber & Anwendung.",
       "h1": "Weihrauchöl",
       "url": "weihrauchoel.html",
-      "image": "assets/weihrauchoel.png",
+      "image": "assets/anadoa-logo-1100-1100.png",
       "category": "Ätherische Öle",
       "keywords": "frankincense oil, frankincense, günlük yağı, akgünlük, gunluk yagi"
     },
@@ -1557,7 +1591,7 @@ function initNavigation() {
       "description": "Das südamerikanische Anti-Aging Wunder: Kaltgepresstes Wildrosenöl. Das Premium-Öl gegen Pigmentflecken, Schwangerschaftsstreifen und tiefe Narben.",
       "h1": "Wildrosenöl (Rosa mosqueta)",
       "url": "wildrosenoel.html",
-      "image": "assets/wildrosenoel.png",
+      "image": "assets/anadoa-logo-1100-1100.png",
       "category": "Kaltgepresste Öle",
       "keywords": "rosehip seed oil, rosehip, wild rose, kuşburnu yağı, kusburnu cekirdegi yagi, rose oil, rose essential oil, gül yağı, gul yagi"
     },
@@ -1602,7 +1636,7 @@ function initNavigation() {
       "description": "Die Königin der Alpen: Echtes Zirbenöl (Pinus cembra). Bewiesen für besseren Schlaf, niedrigere Herzfrequenz und freie Atemwege. Kompletter Ratgeber.",
       "h1": "Zirbenöl",
       "url": "zirbenoel.html",
-      "image": "assets/zirbenoel.png",
+      "image": "assets/anadoa-logo-1100-1100.png",
       "category": "Ätherische Öle",
       "keywords": "stone pine oil, swiss pine, çam yağı, cem yagi, arve"
     },
@@ -1611,7 +1645,7 @@ function initNavigation() {
       "description": "Der spritzige Energie-Booster: Ätherisches Zitronengrasöl (Lemongrass). Wirkt stark gegen Mücken, strafft das Bindegewebe und vertreibt Müdigkeit. Alles zur Anwendung.",
       "h1": "Zitronengrasöl (Lemongrass)",
       "url": "zitronengrasoel.html",
-      "image": "assets/zitronengrasoel.png",
+      "image": "assets/anadoa-logo-1100-1100.png",
       "category": "Ätherische Öle",
       "keywords": "lemon oil, lemon, limon yağı, limon yagi"
     },
@@ -1620,7 +1654,7 @@ function initNavigation() {
       "description": "Der ultimative Frische-Kick: Kaltgepresstes Zitronenöl. Wirkt extrem stimmungsaufhellend, konzentrationsfördernd und luftreinigend. Kompletter Ratgeber.",
       "h1": "Zitronenöl",
       "url": "zitronenoel.html",
-      "image": "assets/zitronen-oel-anadoa-naturhaus.png",
+      "image": "assets/zitronenoel-anadoa-naturhaus.png",
       "category": "Ätherische Öle",
       "keywords": "lemon oil, lemon, limon yağı, limon yagi"
     },
@@ -1641,8 +1675,24 @@ function initNavigation() {
       "image": "assets/zypressenzapfen-paste-anadoa-naturhaus.png",
       "category": "Traditionelle Pasten",
       "keywords": "pine cone paste, cypress cone paste, kozalak macunu, çam kozalağı pekmezi, selvi kozalagi"
-    }
-  ];
+            },
+        {
+            "title": "Sumix - Sumak Komplex",
+            "url": "sumix.html",
+            "image": "assets/sumix-main-image.png",
+            "category": "Spezielle Produkte",
+            "content": "Sumix vereint Sumach, Ingwer, Kurkuma, Schwarzkümmelöl zu einem kraftvollen natürlichen Pflanzenmix. Sumak Komplex Natürlicher Pflanzenmix. Täglich 2 Teelöffel einnehmen. Kraft Mix für Regeneration.",
+            "h1": "Sumix",
+            "h2s": [
+                "SUMIX: Moderne Interpretation traditioneller Pflanzenkraft",
+                "Warum SUMIX? Die Vorteile der ausgewogenen Formel",
+                "Kraftvolle Inhaltsstoffe: Was steckt in Sumix?",
+                "Nährwerttabelle",
+                "Anwendung & optimale Lagerung",
+                "Häufig gestellte Fragen (FAQ) zu Sumix"
+            ]
+        }
+    ];
   // SEARCH_INDEX_END
 
   function normalizeString(str) {

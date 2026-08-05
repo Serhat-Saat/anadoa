@@ -441,3 +441,28 @@ details[open] summary~* {
 
 
 }
+/* Custom Mobile Navigation Menu Typography (Overrides Tailwind CDN missing classes) */
+.mobile-nav-hero-link {
+  font-size: 2.25rem !important;
+  line-height: 2.5rem !important;
+}
+@media (min-width: 768px) {
+  .mobile-nav-hero-link {
+    font-size: 3rem !important;
+    line-height: 1 !important;
+  }
+}
+.mobile-nav-category-link {
+  font-size: 1.5rem !important;
+  line-height: 2rem !important;
+}
+
+/* Navigation Icons (Overrides Tailwind CDN missing classes) */
+.nav-icon-2xl {
+  font-size: 1.5rem !important;
+  line-height: 2rem !important;
+}
+.nav-icon-lg {
+  font-size: 1.125rem !important;
+  line-height: 1.75rem !important;
+}
