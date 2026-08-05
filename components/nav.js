@@ -70,6 +70,14 @@ const navHTML = `
                     <li><a class="text-ash-light hover:text-gold block" href="arganoel.html">Arganöl</a></li>
                     <li><a class="text-sage hover:text-gold block mt-2 text-xs uppercase tracking-wider font-bold" href="kaltgepresste-oele.html">Alle 29 Öle ansehen →</a></li>
                   </ul>
+                                    <h3 class="font-serif font-bold text-base text-mocha mb-3 border-b border-earth-light pb-2 mt-5"><a class="hover:text-gold" href="traegeroele.html">Trägeröle (Basisöle)</a></h3>
+                  <ul class="space-y-2 text-sm mb-5">
+                    <li><a class="text-ash-light hover:text-gold block" href="mandeloel.html">Mandelöl</a></li>
+                    <li><a class="text-ash-light hover:text-gold block" href="jojobaoel.html">Jojobaöl</a></li>
+                    <li><a class="text-ash-light hover:text-gold block" href="arganoel.html">Arganöl</a></li>
+                    <li><a class="text-ash-light hover:text-gold block" href="traubenkernoel.html">Traubenkernöl</a></li>
+                    <li><a class="text-sage hover:text-gold block mt-2 text-xs uppercase tracking-wider font-bold" href="traegeroele.html">Alle Trägeröle ansehen →</a></li>
+                  </ul>
                   <h3 class="font-serif font-bold text-base text-mocha mb-3 border-b border-earth-light pb-2 mt-5"><a class="hover:text-gold" href="pflanzenwasser.html">Pflanzenwasser</a></h3>
                   <ul class="space-y-2 text-sm mb-5">
                     <li><a class="text-ash-light hover:text-gold block" href="rosenwasser.html">Rosenwasser</a></li>
@@ -238,6 +246,21 @@ const navHTML = `
             <a class="block text-ash hover:text-gold text-lg font-light" href="rosenoel.html">Rosenöl</a>
             <a class="block text-ash hover:text-gold text-lg font-light" href="teebaumoel.html">Teebaumöl</a>
             <a class="block text-ash hover:text-gold text-lg font-light" href="pfefferminzoel.html">Pfefferminzöl</a>
+          </div>
+        </div>
+
+        <!-- 2.5 Trägeröle -->
+        <div class="border-b border-earth-light pb-4">
+          <button class="w-full text-left flex justify-between items-center mobile-nav-category-link font-serif text-mocha hover:text-gold transition-colors group" onclick="this.nextElementSibling.classList.toggle('max-h-0'); this.nextElementSibling.classList.toggle('max-h-[300px]'); this.nextElementSibling.classList.toggle('mt-4'); this.nextElementSibling.classList.toggle('opacity-0'); this.querySelector('i').classList.toggle('rotate-180');">
+            Trägeröle (Basisöle)
+            <i class="ri-arrow-down-s-line text-gold text-2xl transition-transform duration-300"></i>
+          </button>
+          <div class="max-h-0 opacity-0 overflow-hidden transition-all duration-500 ease-in-out px-2 space-y-4">
+            <a class="block text-gold font-bold text-lg mb-2 uppercase tracking-widest text-sm" href="traegeroele.html">Übersicht ansehen</a>
+            <a class="block text-ash hover:text-gold text-lg font-light" href="mandeloel.html">Mandelöl</a>
+            <a class="block text-ash hover:text-gold text-lg font-light" href="jojobaoel.html">Jojobaöl</a>
+            <a class="block text-ash hover:text-gold text-lg font-light" href="arganoel.html">Arganöl</a>
+            <a class="block text-ash hover:text-gold text-lg font-light" href="traubenkernoel.html">Traubenkernöl</a>
           </div>
         </div>
 
