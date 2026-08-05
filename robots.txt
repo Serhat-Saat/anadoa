@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://anadoa.com/sitemap.xml
+LLMs-txt: https://anadoa.com/llms.txt
