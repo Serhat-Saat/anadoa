@@ -1238,7 +1238,7 @@ function initNavigation() {
       "title": "Original Rushur Stein (Ruşur Taşı) 5 Stück",
       "description": "Original persischer Rushur Stein (Ruşur Taşı) 5 Stück. Natürliches Mineral-Peeling gegen Pigmentflecken, Sonnenflecken und unreinheiten. 100% rein.",
       "h1": "Original Rushur Stein (Ruşur Taşı)",
-      "url": "rusur-stein.html",
+      "url": "rushur-stein.html",
       "image": "assets/rushur-stein-anadoa-naturhaus.png",
       "category": "Traditionelle Pasten",
       "keywords": ""
