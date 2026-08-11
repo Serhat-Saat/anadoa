@@ -1743,6 +1743,303 @@ function initNavigation() {
         ],
         "keywords": "sumix, sumak, komplex"
     }
+,
+    {
+        "title": "Unsere Kategorien",
+        "description": "Entdecken Sie unsere gesamte Produktvielfalt aus Anatolien: Kaltgepresste Öle, ätherische Essenzen, traditionelle Kräuterpasten (Macun), Bio-Melassen (Pekmez), Tees, Essige, Naturseifen und vieles mehr.",
+        "h1": "Unsere Kategorien",
+        "url": "alle-kategorien.html",
+        "image": "assets/anadoa-logo-1100-1100.png",
+        "keywords": "unsere kategorien"
+    },
+    {
+        "title": "Barrierefreiheit",
+        "description": "Erklärung zur Barrierefreiheit und Erfüllung des Barriereheitsstärkungsgesetzes (BFSG) für die Website von Anadoa Naturhaus.",
+        "h1": "Barrierefreiheit",
+        "url": "barrierefreiheit.html",
+        "image": "assets/anadoa-logo-1100-1100.png",
+        "keywords": "barrierefreiheit"
+    },
+    {
+        "title": "Gelbe Tonerde & Zitrone",
+        "description": "Die Perle der Natur: Vitalisierende Seife mit gelber Tonerde und frischer Zitrone. Mildert Pigmentflecken, reinigt tief und strafft die Poren.",
+        "h1": "Gelbe Tonerde & Zitrone",
+        "url": "gelbe-tonerde-zitrone-seife.html",
+        "image": "assets/gelbe-tonerde-zitrone-seife.png",
+        "keywords": "gelbe tonerde & zitrone"
+    },
+    {
+        "title": "Granatapfel Seife",
+        "description": "Natürliche Pflege für Haut und Haar. Die Granatapfel Seife bietet eine sanfte Reinigung, Anti-Aging-Effekte und spürbare Feuchtigkeit durch wertvolles Kernöl.",
+        "h1": "Granatapfel Seife",
+        "url": "granatapfel-seife.html",
+        "image": "assets/granatapfelseife.png",
+        "keywords": "granatapfel seife"
+    },
+    {
+        "title": "Grüne Tonerde & Teebaum Seife",
+        "description": "Grüne Tonerde Teebaum Naturseife zur Entgiftung und Reinigung. Bekämpft Hautprobleme wie Akne und Mitesser und verengt die Poren für ein klares Hautbild.",
+        "h1": "Grüne Tonerde & Teebaum Seife",
+        "url": "gruene-tonerde-teebaum-seife.html",
+        "image": "assets/gruene-tonerde-teebaum-naturseife.png",
+        "keywords": "grüne tonerde & teebaum seife"
+    },
+    {
+        "title": "Kaffee Seife",
+        "description": "Tauchen Sie ein in die erfrischende Welt der Kaffee Seife. Ein natürliches Peeling mit Antioxidantien, das die Haut strafft, reinigt und revitalisiert.",
+        "h1": "Kaffee Seife",
+        "url": "kaffee-seife.html",
+        "image": "assets/kaffeseife.png",
+        "keywords": "kaffee seife"
+    },
+    {
+        "title": "Kamelmilch Seife",
+        "description": "Handgemachte Kamelmilch Seife für eine Tiefenreinigung. Reich an Vitaminen und Proteinen. Unterstützt bei Akne, Mitessern und Haarausfall.",
+        "h1": "Kamelmilch Seife",
+        "url": "kamelmilch-seife.html",
+        "image": "assets/kamellmilchseife.png",
+        "keywords": "kamelmilch seife"
+    },
+    {
+        "title": "Kamillen Seife",
+        "description": "Die beruhigende Kamillenseife lindert Hautreizungen, pflegt sanft und bietet natürlichen Schutz bei Akne und fettiger Haut.",
+        "h1": "Kamillen Seife",
+        "url": "kamillen-seife.html",
+        "image": "assets/kamilleseife.png",
+        "keywords": "kamillen seife"
+    },
+    {
+        "title": "Knoblauch Seife",
+        "description": "Handgemachte Knoblauch Seife für Haar und Haut. Reinigt tief, versorgt intensiv mit Feuchtigkeit und fördert ein gesundes Haarwachstum.",
+        "h1": "Knoblauch Seife",
+        "url": "knoblauch-seife.html",
+        "image": "assets/knoblauchseife.png",
+        "keywords": "knoblauch seife"
+    },
+    {
+        "title": "Kürbiskernöl",
+        "description": "Echtes, kaltgepresstes Kürbiskernöl in seiner reinsten Form. Reich an Zink, Selen, Phytosterolen und Vitamin E. Schützt Blase & Prostata, schmeckt intensiv nussig.",
+        "h1": "Kürbiskernöl",
+        "url": "kuerbiskernoel.html",
+        "image": "assets/anadoa-logo-1100-1100.png",
+        "keywords": "kürbiskernöl"
+    },
+    {
+        "title": "Aloe Vera Luffa Seife",
+        "description": "Handgemachte Naturseife mit beruhigender Aloe Vera und integriertem Luffaschwamm. Bietet intensive Feuchtigkeit, lindert Akne und reduziert Cellulite spürbar.",
+        "h1": "Aloe Vera Luffa Seife",
+        "url": "luffa-aloe-vera-seife.html",
+        "image": "assets/luffa-aloe-vera-seife.png",
+        "keywords": "aloe vera luffa seife"
+    },
+    {
+        "title": "Arganseife mit Luffa",
+        "description": "Natürliche, handgemachte Arganseife mit Luffaschwamm. Reduziert Sonnenflecken, spendet intensive Feuchtigkeit und pflegt trockene Haut und strapaziertes Haar.",
+        "h1": "Arganseife mit Luffa",
+        "url": "luffa-argan-seife.html",
+        "image": "assets/luffa-argan-seife.png",
+        "keywords": "arganseife mit luffa"
+    },
+    {
+        "title": "Eselsmilch-Honig-Seife",
+        "description": "Handgemachte pH-neutrale Eselsmilch-Honig-Seife mit Natur-Luffaschwamm. Ideal für trockene, empfindliche Haut. Sanfte Reinigung, Anti-Aging und tiefes Feuchtigkeits-Peeling.",
+        "h1": "Eselsmilch-Honig-Seife",
+        "url": "luffa-eselsmilch-honig-seife.html",
+        "image": "assets/luffa-eselsmilchseife-mit-honig.png",
+        "keywords": "eselsmilch-honig-seife"
+    },
+    {
+        "title": "Eselsmilchseife mit Luffa",
+        "description": "Reine, handgemachte Eselsmilchseife mit integriertem Luffaschwamm. Die anatolische Naturpflege für reife, strapazierte Haut. Fördert Elastizität und glättet Fältchen.",
+        "h1": "Eselsmilchseife mit Luffa",
+        "url": "luffa-eselsmilch-seife.html",
+        "image": "assets/luffa-eselsmilch-seife.png",
+        "keywords": "eselsmilchseife mit luffa"
+    },
+    {
+        "title": "Lavendelseife mit Luffa",
+        "description": "Entspannende, pH-neutrale Lavendelseife mit Luffaschwamm. Lindert Hautempfindlichkeiten, reinigt verstopfte Poren und reduziert Stress durch reine Lavendelextrakte.",
+        "h1": "Lavendelseife mit Luffa",
+        "url": "luffa-lavendel-seife.html",
+        "image": "assets/luffa-lavendel-seife.png",
+        "keywords": "lavendelseife mit luffa"
+    },
+    {
+        "title": "Lorbeer Seife mit Luffa",
+        "description": "Handgemachte Lorbeer Seife mit integriertem Luffaschwamm. Unterstützt die Zellerneuerung, reduziert Falten und wirkt porenverfeinernd. 100% natürliche Pflege.",
+        "h1": "Lorbeer Seife mit Luffa",
+        "url": "luffa-lorbeer-seife.html",
+        "image": "assets/luffa-lorbeerkern-seife.png",
+        "keywords": "lorbeer seife mit luffa"
+    },
+    {
+        "title": "Orchideenseife mit Luffa",
+        "description": "Handgemachte, pH-neutrale Orchideenseife mit Luffaschwamm. Bietet sanfte Reinigung, intensive Feuchtigkeitspflege und ein leichtes Peeling. Reduziert Hautrisse.",
+        "h1": "Orchideenseife mit Luffa",
+        "url": "luffa-orchideen-seife.html",
+        "image": "assets/luffa-orchideen-seife.png",
+        "keywords": "orchideenseife mit luffa"
+    },
+    {
+        "title": "Ozean Seife mit Luffa",
+        "description": "Handgemachte pH-neutrale Ozean Seife mit Luffaschwamm. Entfernt Toxine, spendet tiefe Feuchtigkeit und wirkt gegen Mitesser und Akne. 100% natürliche Inhaltsstoffe.",
+        "h1": "Ozean Seife mit Luffa",
+        "url": "luffa-ozean-seife.html",
+        "image": "assets/luffa-ozean-seife.png",
+        "keywords": "ozean seife mit luffa"
+    },
+    {
+        "title": "Rosenseife mit Luffaschwamm",
+        "description": "Handgemachte pH-neutrale Rosenseife mit natürlichem Luffaschwamm. Reinigt sanft, peelt die Haut und spendet intensiv Feuchtigkeit. Mit echtem Rosenöl aus Isparta.",
+        "h1": "Rosenseife mit Luffaschwamm",
+        "url": "luffa-rosenseife.html",
+        "image": "assets/luffa-rosenseife.png",
+        "keywords": "rosenseife mit luffaschwamm"
+    },
+    {
+        "title": "Handgemachte Luffa Seifen",
+        "description": "Entdecken Sie handgemachte pH-neutrale Seifen mit integriertem Natur-Luffaschwamm. Das perfekte 2-in-1 Pflegeerlebnis aus Reinigung und sanftem Peeling gegen Cellulite und unreine Haut.",
+        "h1": "Handgemachte Luffa Seifen",
+        "url": "luffa-seifen.html",
+        "image": "assets/luffa-rosenseife.png",
+        "keywords": "handgemachte luffa seifen"
+    },
+    {
+        "title": "Zitronen Seife mit Luffa",
+        "description": "Handgemachte, pH-neutrale Zitronenseife mit Luffaschwamm. Beugt Akne vor, hellt Pigmentflecken auf und reguliert den Ölhaushalt. Ideal für fettige Haut.",
+        "h1": "Zitronen Seife mit Luffa",
+        "url": "luffa-zitronen-seife.html",
+        "image": "assets/luffa-zitronen-seife.png",
+        "keywords": "zitronen seife mit luffa"
+    },
+    {
+        "title": "Wissen aus Anatolien",
+        "description": "Tauchen Sie ein in die jahrhundertealte Naturheilkunde Anatoliens. Erfahren Sie alles über Kaltpressung, ätherische Öle, Tahin und traditionelle Pasten.",
+        "h1": "Wissen aus Anatolien",
+        "url": "magazin.html",
+        "image": "assets/hero-background.png",
+        "keywords": "wissen aus anatolien"
+    },
+    {
+        "title": "Mango Seife",
+        "description": "Die Mango Seife, auch Hautverjüngungsseife genannt, ist reich an Vitamin C, spendet trockener Haut Feuchtigkeit und wirkt aufbauend gegen Falten.",
+        "h1": "Mango Seife",
+        "url": "mango-seife.html",
+        "image": "assets/mangoseife.png",
+        "keywords": "mango seife"
+    },
+    {
+        "title": "Unsere Philosophie",
+        "description": "Die Philosophie von Anadoa Naturhaus: Wo jahrhundertealtes anatolisches Naturwissen auf unberührte Natur, reine Handwerkskunst und kompromisslose Natürlichkeit trifft.",
+        "h1": "Unsere Philosophie",
+        "url": "philosophie.html",
+        "image": "assets/anadoa-logo-1100-1100.png",
+        "keywords": "unsere philosophie"
+    },
+    {
+        "title": "Platanen Seife",
+        "description": "Handgemachte Platanen Seife (Sycamore). Tiefenreinigend, entzündungshemmend und ideal bei extremer Trockenheit, Juckreiz und Ekzemen. Natürliche Pflege.",
+        "h1": "Platanen Seife",
+        "url": "platanen-seife.html",
+        "image": "assets/platanen-seife.png",
+        "keywords": "platanen seife"
+    },
+    {
+        "title": "Reishi & Ectoin Repair-Seife",
+        "description": "Handgemachte Reishi & Ectoin Repair-Seife. Intensive Zellpflege und Regeneration mit Anti-Aging-Effekt. Schützt vor oxidativem Stress und verfeinert das Hautbild.",
+        "h1": "Reishi & Ectoin Repair-Seife",
+        "url": "reishi-seife.html",
+        "image": "assets/reishi-seife.png",
+        "keywords": "reishi & ectoin repair-seife"
+    },
+    {
+        "title": "Rezepte aus der Natur",
+        "description": "Entdecken Sie leckere, gesunde und traditionelle anatolische Rezepte sowie heilsame Kuren mit den reinen, naturbelassenen Produkten von Anadoa Naturhaus.",
+        "h1": "Rezepte aus der Natur",
+        "url": "rezepte.html",
+        "image": "assets/anadoa-logo-1000-500.png",
+        "keywords": "rezepte aus der natur"
+    },
+    {
+        "title": "{{RECIPE_TITLE}}",
+        "description": "{{RECIPE_DESCRIPTION}}",
+        "h1": "{{RECIPE_TITLE}}",
+        "url": "rezept_template.html",
+        "image": "assets/anadoa-logo-1100-1100.png",
+        "keywords": "{{recipe_title}}"
+    },
+    {
+        "title": "Rosmarin & Schwarze Tonerde",
+        "description": "Handgemachte Rosmarin Seife mit schwarzer (violetter) Tonerde. Belebende Pflege, reguliert die Talgproduktion und schützt vor Umweltstress. 100% vegan.",
+        "h1": "Rosmarin & Schwarze Tonerde",
+        "url": "rosmarin-seife.html",
+        "image": "assets/rosmarin-seife.png",
+        "keywords": "rosmarin & schwarze tonerde"
+    },
+    {
+        "title": "Sesamöl",
+        "description": "Kaltgepresstes Sesamöl aus erlesenen Sesamsamen. Reich an Sesamin, Omega-6-9 und Vitamin E. Ideal für die asiatische Küche, ayurvedisches Ölziehen (Gandusha) und Hautpflege.",
+        "h1": "Sesamöl",
+        "url": "sesamoel.html",
+        "image": "assets/anadoa-logo-1100-1100.png",
+        "keywords": "sesamöl"
+    },
+    {
+        "title": "Zypressenzapfen Paste",
+        "description": "Echte Zypressenzapfen Paste (Kozalak Macunu) aus Anatolien: Das bewaehrte Hausmittel mit aetherischen Oelen, Minze und Honig. Balsamisch und befreiend.",
+        "h1": "Zypressenzapfen Paste",
+        "url": "tannenzapfen-paste.html",
+        "image": "assets/zypressenzapfen-paste-anadoa-naturhaus.png",
+        "keywords": "zypressenzapfen paste"
+    },
+    {
+        "title": "Kaltgepresste Premium Öle",
+        "description": "",
+        "h1": "Kaltgepresste Premium Öle",
+        "url": "traegeroele.html",
+        "image": "assets/arganoel-anadoa-naturhaus.png",
+        "keywords": "kaltgepresste premium öle"
+    },
+    {
+        "title": "Udi Hindi Öl Für Kinder (Mit Orange)",
+        "description": "Speziell für Kinder: Echtes Udi Hindi Öl (Kust al Hindi) mit leckerem Orangenöl. Mildert den herben Geschmack, ideal bei Husten & Halsschmerzen. 100% Naturrein.",
+        "h1": "Udi Hindi Öl Für Kinder (Mit Orange)",
+        "url": "udi-hindi-oel-fuer-kinder.html",
+        "image": "assets/udi-hindi-oel-mit-orangengeschmack-100ml-anadoa-naturhaus.png",
+        "keywords": "udi hindi öl für kinder (mit orange)"
+    },
+    {
+        "title": "Udi Hindi Öl Mit erfrischender Minze",
+        "description": "Die erfrischende Kraft: Echtes Udi Hindi Öl (Kust al Hindi) verfeinert mit natürlichem Minzöl. Ideal zur Befreiung der Atemwege und bei festsitzendem Husten.",
+        "h1": "Udi Hindi Öl Mit erfrischender Minze",
+        "url": "udi-hindi-oel-mit-minze.html",
+        "image": "assets/udi-hindi-oel-mit-minze-100ml-anadoa-naturhaus.png",
+        "keywords": "udi hindi öl mit erfrischender minze"
+    },
+    {
+        "title": "Über uns",
+        "description": "Entdecken Sie die reinste Form der anatolischen Naturheilkunde. Premium Kaltpressungen, Zypressenzapfen Paste und Gilaburu Saft für Ihre ganzheitliche Gesundheit.",
+        "h1": "Über uns",
+        "url": "ueber-uns.html",
+        "image": "assets/anadoa-naturhaus-shop.png",
+        "keywords": "über uns"
+    },
+    {
+        "title": "Wabenhonig Seife",
+        "description": "Entdecken Sie die revitalisierende Kraft unserer Wabenhonig Seife für strahlende Haut und gesundes Haar. Feuchtigkeitsspendend, straffend und schonendes Peeling.",
+        "h1": "Wabenhonig Seife",
+        "url": "wabenhonig-seife.html",
+        "image": "assets/wabenhonig-seife.png",
+        "keywords": "wabenhonig seife"
+    },
+    {
+        "title": "Ziegenmilchseife",
+        "description": "Handgemachte pH-neutrale Ziegenmilchseife. Milde Reinigung und intensive Pflege für Gesicht, Haut und Haar. Ideal bei empfindlicher und unreiner Haut.",
+        "h1": "Ziegenmilchseife",
+        "url": "ziegenmilch-seife.html",
+        "image": "assets/ziegenmilchseife.png",
+        "keywords": "ziegenmilchseife"
+    }
 ];
   // SEARCH_INDEX_END
 
