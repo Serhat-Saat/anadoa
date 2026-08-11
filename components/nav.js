@@ -2040,6 +2040,47 @@ function initNavigation() {
         "image": "assets/ziegenmilchseife.png",
         "keywords": "ziegenmilchseife"
     }
+,
+    {
+        "title": "Original Cevizli Sucuk (Walnuss-Pestil) | Anadoa Rezepte",
+        "description": "Die anatolische Energiebombe: Selbstgemachter Cevizli Sucuk (Şıra-Pestil / Churchkhela) aus handverlesenen Walnusshälften und eingekochter Anadoa Trauben- & Maulbeerenmelasse.",
+        "h1": "Original Cevizli Sucuk (Walnuss-Pestil) | Anadoa Rezepte",
+        "url": "rezept-cevizli-sucuk-pekmez.html",
+        "image": "assets/rezept_cevizli_sucuk.png",
+        "keywords": "original cevizli sucuk (walnuss-pestil) | anadoa rezepte"
+    },
+    {
+        "title": "Cremiger Pekmez-Milchpudding (Muhallebi) | Anadoa Rezepte",
+        "description": "Seidiger Milchpudding nach anatolischer Tradition: Unser cremiger Muhallebi wird ganz ohne Kristallzucker mit mineralstoffreicher Anadoa Maulbeer- und Traubenmelasse gesüßt.",
+        "h1": "Cremiger Pekmez-Milchpudding (Muhallebi) | Anadoa Rezepte",
+        "url": "rezept-pekmez-muhallebi-pudding.html",
+        "image": "assets/rezept_pekmez_muhallebi.png",
+        "keywords": "cremiger pekmez-milchpudding (muhallebi) | anadoa rezepte"
+    },
+    {
+        "title": "Traditionelle Pekmez-Pelte (Hasude) | Anadoa Rezepte",
+        "description": "Die 10-Minuten-Götterspeise aus Anatolien: Samtig-glänzende Pekmez-Pelte (Hasude) aus naturreiner Anadoa Traubenmelasse, Stärke und gerösteten Walnüssen. Vegan, glutenfrei und rein pflanzlich.",
+        "h1": "Traditionelle Pekmez-Pelte (Hasude) | Anadoa Rezepte",
+        "url": "rezept-pekmez-pelte-hasude.html",
+        "image": "assets/rezept_pekmez_pelte.png",
+        "keywords": "traditionelle pekmez-pelte (hasude) | anadoa rezepte"
+    },
+    {
+        "title": "Knusprige Pekmez-Sesam-Kekse | Anadoa Rezepte",
+        "description": "Unwiderstehlich mürbe und knusprig: Traditionelle anatolische Sesam-Kekse, die vor dem Backen in Anadoa Traubenmelasse getaucht und in goldbraunem Röstsesam gewälzt werden. Perfekt zum Tee!",
+        "h1": "Knusprige Pekmez-Sesam-Kekse | Anadoa Rezepte",
+        "url": "rezept-susamli-pekmez-kurabiye.html",
+        "image": "assets/rezept_susamli_kurabiye.png",
+        "keywords": "knusprige pekmez-sesam-kekse | anadoa rezepte"
+    },
+    {
+        "title": "Saftiger Tahin-Pekmez-Kuchen | Anadoa Rezepte",
+        "description": "Herrlich saftig, aromatisch nussig und ganz ohne raffinierten Zucker: Unser traditioneller Tahin-Pekmez-Kuchen mit original Anadoa Traubenmelasse, feinem Sesammus und knackigen Walnüssen.",
+        "h1": "Saftiger Tahin-Pekmez-Kuchen | Anadoa Rezepte",
+        "url": "rezept-tahin-pekmez-kuchen.html",
+        "image": "assets/rezept_tahin_kuchen.png",
+        "keywords": "saftiger tahin-pekmez-kuchen | anadoa rezepte"
+    }
 ];
   // SEARCH_INDEX_END
 

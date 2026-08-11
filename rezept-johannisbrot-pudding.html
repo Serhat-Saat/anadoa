@@ -280,33 +280,111 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </div>
             <!-- Right Column: Zubereitung -->
             <div class="w-full lg:w-2/3">
-                <h2 class="text-3xl font-serif font-bold text-mocha mb-8">Zubereitung</h2>
-                <div class="space-y-8 text-lg leading-relaxed text-ash">
-                    <p><strong>Schritt 1: Stärke klümpchenfrei anrühren.</strong> Geben Sie die Maisstärke und das
-                        Kakaopulver in einen kleinen Kochtopf. Gießen Sie etwa 5-6 Esslöffel der kalten Milch hinzu (der
-                        Topf ist noch nicht auf dem Herd!). Verrühren Sie alles mit einem Schneebesen so lange, bis eine
-                        völlig glatte, flüssige Paste ohne ein einziges Klümpchen entsteht.</p>
-                    <p><strong>Schritt 2: Milch erhitzen.</strong> Gießen Sie nun unter ständigem Rühren die restliche
-                        kalte Milch sowie den Vanilleextrakt in den Topf. Stellen Sie den Topf auf den Herd und schalten
-                        Sie ihn auf mittlere Hitze ein.</p>
-                    <p><strong>Schritt 3: Der Kochvorgang (Das Rühren).</strong> Ab jetzt dürfen Sie den Topf nicht mehr
-                        aus den Augen lassen. Rühren Sie kontinuierlich mit dem Schneebesen, besonders am Topfboden, da
-                        Stärke schnell ansetzt. Nach ca. 5 bis 7 Minuten werden Sie merken, wie die Flüssigkeit
-                        schlagartig eindickt und zu einem Pudding wird.</p>
-                    <p><strong>Schritt 4: Aufkochen.</strong> Sobald der Pudding blubbert (kocht), reduzieren Sie die
-                        Hitze auf ein Minimum und rühren Sie für genau 1 Minute kräftig weiter. Dieser Schritt ist
-                        wichtig, damit der Pudding später nicht nach roher Stärke schmeckt. Nehmen Sie den Topf
-                        anschließend komplett von der heißen Herdplatte.</p>
-                    <p><strong>Schritt 5: Die Melasse (Das Nährstoff-Geheimnis).</strong> Lassen Sie den heißen Pudding
-                        im Topf für 2-3 Minuten leicht abkühlen (rühren Sie dabei gelegentlich um). Gießen Sie nun erst
-                        die <strong>Anadoa Johannisbrot Melasse</strong> hinein und rühren Sie sie unter. <em>Warum erst
-                            jetzt?</em> Wenn Sie die kaltgepresste Melasse stark aufkochen, gehen wertvolle Vitamine und
-                        Mineralstoffe verloren. Durch die Zugabe am Ende bleibt die Melasse roh und kraftvoll!</p>
-                    <p><strong>Schritt 6: Abkühlen und Servieren.</strong> Gießen Sie den noch heißen Pudding zügig in 4
-                        kleine Dessertgläser oder Schälchen. Um zu verhindern, dass sich eine dicke Haut auf dem Pudding
-                        bildet, können Sie ein Stück Frischhaltefolie direkt auf die heiße Puddingoberfläche legen.
-                        Lassen Sie die Gläser im Kühlschrank für mindestens 2 Stunden vollständig erkalten. Bestreuen
-                        Sie sie vor dem Servieren großzügig mit gehackten Haselnüssen oder Pistazien.</p>
+                <h2 class="text-3xl font-serif font-bold text-mocha mb-6">Zubereitung & Schritte</h2>
+                
+                <!-- Quick-Jump Step Anchors -->
+                <div class="mb-8 p-4 bg-earth/50 rounded-2xl border border-earth-light">
+                    <span class="text-xs uppercase tracking-wider text-sage font-bold block mb-2.5 flex items-center gap-1"><i class="ri-list-check-2 text-gold"></i> Schnelle Schritt-Navigation:</span>
+                    <div class="flex flex-wrap gap-2">
+                        <a href="#step-1" class="px-3.5 py-2 bg-earth hover:bg-gold hover:text-white rounded-xl text-xs md:text-sm font-bold text-mocha transition-all duration-300 shadow-sm border border-earth-light hover:border-gold hover:shadow-md flex items-center gap-1.5"><i class="ri-hashtag text-gold hover:text-white text-xs"></i><span>1. Stärke anrühren</span></a>
+                        <a href="#step-2" class="px-3.5 py-2 bg-earth hover:bg-gold hover:text-white rounded-xl text-xs md:text-sm font-bold text-mocha transition-all duration-300 shadow-sm border border-earth-light hover:border-gold hover:shadow-md flex items-center gap-1.5"><i class="ri-hashtag text-gold hover:text-white text-xs"></i><span>2. Milch erhitzen</span></a>
+                        <a href="#step-3" class="px-3.5 py-2 bg-earth hover:bg-gold hover:text-white rounded-xl text-xs md:text-sm font-bold text-mocha transition-all duration-300 shadow-sm border border-earth-light hover:border-gold hover:shadow-md flex items-center gap-1.5"><i class="ri-hashtag text-gold hover:text-white text-xs"></i><span>3. Rühren & Andicken</span></a>
+                        <a href="#step-4" class="px-3.5 py-2 bg-earth hover:bg-gold hover:text-white rounded-xl text-xs md:text-sm font-bold text-mocha transition-all duration-300 shadow-sm border border-earth-light hover:border-gold hover:shadow-md flex items-center gap-1.5"><i class="ri-hashtag text-gold hover:text-white text-xs"></i><span>4. Aufkochen</span></a>
+                        <a href="#step-5" class="px-3.5 py-2 bg-earth hover:bg-gold hover:text-white rounded-xl text-xs md:text-sm font-bold text-mocha transition-all duration-300 shadow-sm border border-earth-light hover:border-gold hover:shadow-md flex items-center gap-1.5"><i class="ri-hashtag text-gold hover:text-white text-xs"></i><span>5. Melasse unterrühren</span></a>
+                        <a href="#step-6" class="px-3.5 py-2 bg-earth hover:bg-gold hover:text-white rounded-xl text-xs md:text-sm font-bold text-mocha transition-all duration-300 shadow-sm border border-earth-light hover:border-gold hover:shadow-md flex items-center gap-1.5"><i class="ri-hashtag text-gold hover:text-white text-xs"></i><span>6. Kühlen & Servieren</span></a>
+                    </div>
+                </div>
+
+                <div class="space-y-6 text-lg leading-relaxed text-ash">
+                    <div id="step-1" class="scroll-mt-32 p-6 md:p-8 bg-white/70 backdrop-blur-sm rounded-2xl border border-earth-light shadow-sm hover:shadow-md transition-all duration-300 relative group">
+                        <div class="flex items-start gap-4">
+                            <div class="flex-shrink-0 w-10 h-10 rounded-full bg-gold text-white font-bold flex items-center justify-center shadow-md font-serif text-lg">1</div>
+                            <div class="flex-grow">
+                                <h3 class="text-xl font-serif font-bold text-mocha mb-3 group-hover:text-gold transition-colors flex items-center justify-between">
+                                    <a href="#step-1" class="hover:underline flex items-center gap-2">
+                                        Schritt 1: Stärke klümpchenfrei anrühren
+                                        <i class="ri-link text-sm opacity-0 group-hover:opacity-100 text-gold transition-opacity" title="Link zu diesem Schritt kopieren"></i>
+                                    </a>
+                                </h3>
+                                <p class="text-ash leading-relaxed text-base md:text-lg m-0">Geben Sie die Maisstärke und das Kakaopulver in einen kleinen Kochtopf. Gießen Sie etwa 5-6 Esslöffel der kalten Milch hinzu (der Topf ist noch nicht auf dem Herd!). Verrühren Sie alles mit einem Schneebesen so lange, bis eine völlig glatte, flüssige Paste ohne ein einziges Klümpchen entsteht.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="step-2" class="scroll-mt-32 p-6 md:p-8 bg-white/70 backdrop-blur-sm rounded-2xl border border-earth-light shadow-sm hover:shadow-md transition-all duration-300 relative group">
+                        <div class="flex items-start gap-4">
+                            <div class="flex-shrink-0 w-10 h-10 rounded-full bg-gold text-white font-bold flex items-center justify-center shadow-md font-serif text-lg">2</div>
+                            <div class="flex-grow">
+                                <h3 class="text-xl font-serif font-bold text-mocha mb-3 group-hover:text-gold transition-colors flex items-center justify-between">
+                                    <a href="#step-2" class="hover:underline flex items-center gap-2">
+                                        Schritt 2: Milch erhitzen
+                                        <i class="ri-link text-sm opacity-0 group-hover:opacity-100 text-gold transition-opacity" title="Link zu diesem Schritt kopieren"></i>
+                                    </a>
+                                </h3>
+                                <p class="text-ash leading-relaxed text-base md:text-lg m-0">Gießen Sie nun unter ständigem Rühren die restliche kalte Milch sowie den Vanilleextrakt in den Topf. Stellen Sie den Topf auf den Herd und schalten Sie ihn auf mittlere Hitze ein.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="step-3" class="scroll-mt-32 p-6 md:p-8 bg-white/70 backdrop-blur-sm rounded-2xl border border-earth-light shadow-sm hover:shadow-md transition-all duration-300 relative group">
+                        <div class="flex items-start gap-4">
+                            <div class="flex-shrink-0 w-10 h-10 rounded-full bg-gold text-white font-bold flex items-center justify-center shadow-md font-serif text-lg">3</div>
+                            <div class="flex-grow">
+                                <h3 class="text-xl font-serif font-bold text-mocha mb-3 group-hover:text-gold transition-colors flex items-center justify-between">
+                                    <a href="#step-3" class="hover:underline flex items-center gap-2">
+                                        Schritt 3: Der Kochvorgang (Das Rühren)
+                                        <i class="ri-link text-sm opacity-0 group-hover:opacity-100 text-gold transition-opacity" title="Link zu diesem Schritt kopieren"></i>
+                                    </a>
+                                </h3>
+                                <p class="text-ash leading-relaxed text-base md:text-lg m-0">Ab jetzt dürfen Sie den Topf nicht mehr aus den Augen lassen. Rühren Sie kontinuierlich mit dem Schneebesen, besonders am Topfboden, da Stärke schnell ansetzt. Nach ca. 5 bis 7 Minuten werden Sie merken, wie die Flüssigkeit schlagartig eindickt und zu einem Pudding wird.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="step-4" class="scroll-mt-32 p-6 md:p-8 bg-white/70 backdrop-blur-sm rounded-2xl border border-earth-light shadow-sm hover:shadow-md transition-all duration-300 relative group">
+                        <div class="flex items-start gap-4">
+                            <div class="flex-shrink-0 w-10 h-10 rounded-full bg-gold text-white font-bold flex items-center justify-center shadow-md font-serif text-lg">4</div>
+                            <div class="flex-grow">
+                                <h3 class="text-xl font-serif font-bold text-mocha mb-3 group-hover:text-gold transition-colors flex items-center justify-between">
+                                    <a href="#step-4" class="hover:underline flex items-center gap-2">
+                                        Schritt 4: Aufkochen
+                                        <i class="ri-link text-sm opacity-0 group-hover:opacity-100 text-gold transition-opacity" title="Link zu diesem Schritt kopieren"></i>
+                                    </a>
+                                </h3>
+                                <p class="text-ash leading-relaxed text-base md:text-lg m-0">Sobald der Pudding blubbert (kocht), reduzieren Sie die Hitze auf ein Minimum und rühren Sie für genau 1 Minute kräftig weiter. Dieser Schritt ist wichtig, damit der Pudding später nicht nach roher Stärke schmeckt. Nehmen Sie den Topf anschließend komplett von der heißen Herdplatte.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="step-5" class="scroll-mt-32 p-6 md:p-8 bg-white/70 backdrop-blur-sm rounded-2xl border border-earth-light shadow-sm hover:shadow-md transition-all duration-300 relative group">
+                        <div class="flex items-start gap-4">
+                            <div class="flex-shrink-0 w-10 h-10 rounded-full bg-gold text-white font-bold flex items-center justify-center shadow-md font-serif text-lg">5</div>
+                            <div class="flex-grow">
+                                <h3 class="text-xl font-serif font-bold text-mocha mb-3 group-hover:text-gold transition-colors flex items-center justify-between">
+                                    <a href="#step-5" class="hover:underline flex items-center gap-2">
+                                        Schritt 5: Die Melasse (Das Nährstoff-Geheimnis)
+                                        <i class="ri-link text-sm opacity-0 group-hover:opacity-100 text-gold transition-opacity" title="Link zu diesem Schritt kopieren"></i>
+                                    </a>
+                                </h3>
+                                <p class="text-ash leading-relaxed text-base md:text-lg m-0">Lassen Sie den heißen Pudding im Topf für 2-3 Minuten leicht abkühlen (rühren Sie dabei gelegentlich um). Gießen Sie nun erst die <strong>Anadoa Johannisbrot Melasse</strong> hinein und rühren Sie sie unter. <em>Warum erst jetzt?</em> Wenn Sie die kaltgepresste Melasse stark aufkochen, gehen wertvolle Vitamine und Mineralstoffe verloren. Durch die Zugabe am Ende bleibt die Melasse roh und kraftvoll!</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="step-6" class="scroll-mt-32 p-6 md:p-8 bg-white/70 backdrop-blur-sm rounded-2xl border border-earth-light shadow-sm hover:shadow-md transition-all duration-300 relative group">
+                        <div class="flex items-start gap-4">
+                            <div class="flex-shrink-0 w-10 h-10 rounded-full bg-gold text-white font-bold flex items-center justify-center shadow-md font-serif text-lg">6</div>
+                            <div class="flex-grow">
+                                <h3 class="text-xl font-serif font-bold text-mocha mb-3 group-hover:text-gold transition-colors flex items-center justify-between">
+                                    <a href="#step-6" class="hover:underline flex items-center gap-2">
+                                        Schritt 6: Abkühlen und Servieren
+                                        <i class="ri-link text-sm opacity-0 group-hover:opacity-100 text-gold transition-opacity" title="Link zu diesem Schritt kopieren"></i>
+                                    </a>
+                                </h3>
+                                <p class="text-ash leading-relaxed text-base md:text-lg m-0">Gießen Sie den noch heißen Pudding zügig in 4 kleine Dessertgläser oder Schälchen. Um zu verhindern, dass sich eine dicke Haut auf dem Pudding bildet, können Sie ein Stück Frischhaltefolie direkt auf die heiße Puddingoberfläche legen. Lassen Sie die Gläser im Kühlschrank für mindestens 2 Stunden vollständig erkalten. Bestreuen Sie sie vor dem Servieren großzügig mit gehackten Haselnüssen oder Pistazien.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <!-- Verwendete Produkte -->
                 <div class="mt-16 pt-16 border-t border-earth-light">
@@ -318,7 +396,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             <div class="h-32 flex items-center justify-center mb-4">
                                 <img alt="Johannisbrot Melasse"
                                     class="max-h-full object-contain group-hover:scale-110 transition-transform duration-500"
-                                    src="assets/anadoa-logo-1000-500.png" />
+                                    src="assets/johannisbrot-melasse-anadoa-naturhaus.png" />
                             </div>
                             <h4 class="font-bold text-ash text-center group-hover:text-gold transition-colors">
                                 Johannisbrot Melasse</h4>

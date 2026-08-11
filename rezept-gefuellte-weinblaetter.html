@@ -314,46 +314,127 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </div>
             <!-- Right Column: Zubereitung -->
             <div class="w-full lg:w-2/3">
-                <h2 class="text-3xl font-serif font-bold text-mocha mb-8">Zubereitung</h2>
-                <div class="space-y-8 text-lg leading-relaxed text-ash">
-                    <p><strong>Schritt 1: Weinblätter entsalzen.</strong> Nehmen Sie die Weinblätter aus der Verpackung
-                        und trennen Sie sie vorsichtig voneinander. Legen Sie sie in eine große Schüssel und übergießen
-                        Sie sie mit heißem (nicht kochendem) Wasser. Lassen Sie sie 15 Minuten ziehen. Gießen Sie das
-                        Wasser ab und spülen Sie die Blätter danach noch zweimal mit kaltem Wasser durch. Schneiden Sie
-                        harte Stielansätze mit einer Schere ab.</p>
-                    <p><strong>Schritt 2: Reis waschen.</strong> Geben Sie den Reis in ein feines Sieb und waschen Sie
-                        ihn unter fließendem kalten Wasser so lange, bis das Wasser völlig klar bleibt (das spült
-                        überschüssige Stärke ab und verhindert, dass die Füllung matschig wird). Gut abtropfen lassen.
-                    </p>
-                    <p><strong>Schritt 3: Die Füllung kochen.</strong> Hacken Sie die Zwiebeln extrem fein (nicht
-                        pürieren!). Erhitzen Sie die <em>Hälfte</em> des <strong>Anadoa Olivenöls</strong> in einem
-                        breiten Topf. Dünsten Sie die Zwiebeln bei mittlerer Hitze für 5-7 Minuten glasig und weich.
-                        Geben Sie den Reis hinzu und rösten Sie ihn für 3-4 Minuten mit an, bis die Körner glasig
-                        werden. Rühren Sie nun Zimt, Piment, schwarzen Pfeffer, das <strong>Anadoa Sumach
-                            Pulver</strong> und Salz unter.</p>
-                    <p><strong>Schritt 4: Füllung vollenden.</strong> Geben Sie die sehr fein gehackte Petersilie und
-                        Minze sowie den <strong>Anadoa Granatapfelsirup</strong> zum Reis. Gießen Sie ca. 1/2 Glas
-                        heißes Wasser an, rühren Sie einmal um, legen Sie den Deckel auf und lassen Sie den Reis auf
-                        kleinster Stufe köcheln, bis das Wasser aufgesogen ist (der Reis ist nun halbgar). Nehmen Sie
-                        den Topf vom Herd und lassen Sie die Füllung komplett auskühlen!</p>
-                    <p><strong>Schritt 5: Das perfekte Rollen (Sarma).</strong> Breiten Sie ein Weinblatt auf einem
-                        Brett aus, sodass die Blattadern nach <em>oben</em> zeigen und die Stielseite zu Ihnen zeigt.
-                        Geben Sie ca. 1 bis 1,5 Teelöffel Füllung längs an den unteren Rand. Klappen Sie zuerst das
-                        untere Ende über die Füllung. Schlagen Sie dann die rechte und linke Seite zur Mitte hin ein.
-                        Rollen Sie das Blatt nun von unten nach oben straff, aber nicht zu fest, auf (der Reis quillt
-                        beim Kochen noch auf!). Wiederholen Sie dies, bis alles aufgebraucht ist.</p>
-                    <p><strong>Schritt 6: Schichten und Kochen.</strong> Legen Sie den Boden eines weiten Topfes mit ein
-                        paar zerrissenen oder unförmigen Weinblättern aus (das schützt vor dem Anbrennen). Schichten Sie
-                        die gerollten Sarmas dicht an dicht im Kreis hinein. Legen Sie die Zitronenscheiben obenauf.
-                        Gießen Sie das restliche <strong>Anadoa Olivenöl</strong> und etwa 1,5 bis 2 Gläser heißes
-                        Wasser (oder leichte Brühe) darüber. Legen Sie einen hitzebeständigen Teller kopfüber auf die
-                        Sarmas, damit sie sich beim Kochen nicht entrollen.</p>
-                    <p><strong>Schritt 7: Die Geduld.</strong> Bringen Sie den Topf bei mittlerer Hitze zum Kochen.
-                        Sobald das Wasser sprudelt, drehen Sie die Hitze auf die allerkleinste Stufe herunter. Lassen
-                        Sie die Sarmas bei geschlossenem Deckel für ca. 45 bis 50 Minuten sanft ziehen, bis das Wasser
-                        fast vollständig aufgesogen und die Blätter butterweich sind. <em>Wichtig:</em> Nehmen Sie den
-                        Topf vom Herd und lassen Sie die Sarmas im geschlossenen Topf bei Raumtemperatur abkühlen! Erst
-                        kalt entfalten sie ihr volles Aroma.</p>
+                <h2 class="text-3xl font-serif font-bold text-mocha mb-6">Zubereitung & Schritte</h2>
+                
+                <!-- Quick-Jump Step Anchors -->
+                <div class="mb-8 p-4 bg-earth/50 rounded-2xl border border-earth-light">
+                    <span class="text-xs uppercase tracking-wider text-sage font-bold block mb-2.5 flex items-center gap-1"><i class="ri-list-check-2 text-gold"></i> Schnelle Schritt-Navigation:</span>
+                    <div class="flex flex-wrap gap-2">
+                        <a href="#step-1" class="px-3.5 py-2 bg-earth hover:bg-gold hover:text-white rounded-xl text-xs md:text-sm font-bold text-mocha transition-all duration-300 shadow-sm border border-earth-light hover:border-gold hover:shadow-md flex items-center gap-1.5"><i class="ri-hashtag text-gold hover:text-white text-xs"></i><span>1. Blätter entsalzen</span></a>
+                        <a href="#step-2" class="px-3.5 py-2 bg-earth hover:bg-gold hover:text-white rounded-xl text-xs md:text-sm font-bold text-mocha transition-all duration-300 shadow-sm border border-earth-light hover:border-gold hover:shadow-md flex items-center gap-1.5"><i class="ri-hashtag text-gold hover:text-white text-xs"></i><span>2. Reis waschen</span></a>
+                        <a href="#step-3" class="px-3.5 py-2 bg-earth hover:bg-gold hover:text-white rounded-xl text-xs md:text-sm font-bold text-mocha transition-all duration-300 shadow-sm border border-earth-light hover:border-gold hover:shadow-md flex items-center gap-1.5"><i class="ri-hashtag text-gold hover:text-white text-xs"></i><span>3. Füllung kochen</span></a>
+                        <a href="#step-4" class="px-3.5 py-2 bg-earth hover:bg-gold hover:text-white rounded-xl text-xs md:text-sm font-bold text-mocha transition-all duration-300 shadow-sm border border-earth-light hover:border-gold hover:shadow-md flex items-center gap-1.5"><i class="ri-hashtag text-gold hover:text-white text-xs"></i><span>4. Füllung vollenden</span></a>
+                        <a href="#step-5" class="px-3.5 py-2 bg-earth hover:bg-gold hover:text-white rounded-xl text-xs md:text-sm font-bold text-mocha transition-all duration-300 shadow-sm border border-earth-light hover:border-gold hover:shadow-md flex items-center gap-1.5"><i class="ri-hashtag text-gold hover:text-white text-xs"></i><span>5. Rollen (Sarma)</span></a>
+                        <a href="#step-6" class="px-3.5 py-2 bg-earth hover:bg-gold hover:text-white rounded-xl text-xs md:text-sm font-bold text-mocha transition-all duration-300 shadow-sm border border-earth-light hover:border-gold hover:shadow-md flex items-center gap-1.5"><i class="ri-hashtag text-gold hover:text-white text-xs"></i><span>6. Schichten & Kochen</span></a>
+                        <a href="#step-7" class="px-3.5 py-2 bg-earth hover:bg-gold hover:text-white rounded-xl text-xs md:text-sm font-bold text-mocha transition-all duration-300 shadow-sm border border-earth-light hover:border-gold hover:shadow-md flex items-center gap-1.5"><i class="ri-hashtag text-gold hover:text-white text-xs"></i><span>7. Ruhen & Kühlen</span></a>
+                    </div>
+                </div>
+
+                <div class="space-y-6 text-lg leading-relaxed text-ash">
+                    <div id="step-1" class="scroll-mt-32 p-6 md:p-8 bg-white/70 backdrop-blur-sm rounded-2xl border border-earth-light shadow-sm hover:shadow-md transition-all duration-300 relative group">
+                        <div class="flex items-start gap-4">
+                            <div class="flex-shrink-0 w-10 h-10 rounded-full bg-gold text-white font-bold flex items-center justify-center shadow-md font-serif text-lg">1</div>
+                            <div class="flex-grow">
+                                <h3 class="text-xl font-serif font-bold text-mocha mb-3 group-hover:text-gold transition-colors flex items-center justify-between">
+                                    <a href="#step-1" class="hover:underline flex items-center gap-2">
+                                        Schritt 1: Weinblätter entsalzen
+                                        <i class="ri-link text-sm opacity-0 group-hover:opacity-100 text-gold transition-opacity" title="Link zu diesem Schritt kopieren"></i>
+                                    </a>
+                                </h3>
+                                <p class="text-ash leading-relaxed text-base md:text-lg m-0">Nehmen Sie die Weinblätter aus der Verpackung und trennen Sie sie vorsichtig voneinander. Legen Sie sie in eine große Schüssel und übergießen Sie sie mit heißem (nicht kochendem) Wasser. Lassen Sie sie 15 Minuten ziehen. Gießen Sie das Wasser ab und spülen Sie die Blätter danach noch zweimal mit kaltem Wasser durch. Schneiden Sie harte Stielansätze mit einer Schere ab.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="step-2" class="scroll-mt-32 p-6 md:p-8 bg-white/70 backdrop-blur-sm rounded-2xl border border-earth-light shadow-sm hover:shadow-md transition-all duration-300 relative group">
+                        <div class="flex items-start gap-4">
+                            <div class="flex-shrink-0 w-10 h-10 rounded-full bg-gold text-white font-bold flex items-center justify-center shadow-md font-serif text-lg">2</div>
+                            <div class="flex-grow">
+                                <h3 class="text-xl font-serif font-bold text-mocha mb-3 group-hover:text-gold transition-colors flex items-center justify-between">
+                                    <a href="#step-2" class="hover:underline flex items-center gap-2">
+                                        Schritt 2: Reis waschen
+                                        <i class="ri-link text-sm opacity-0 group-hover:opacity-100 text-gold transition-opacity" title="Link zu diesem Schritt kopieren"></i>
+                                    </a>
+                                </h3>
+                                <p class="text-ash leading-relaxed text-base md:text-lg m-0">Geben Sie den Reis in ein feines Sieb und waschen Sie ihn unter fließendem kalten Wasser so lange, bis das Wasser völlig klar bleibt (das spült überschüssige Stärke ab und verhindert, dass die Füllung matschig wird). Gut abtropfen lassen.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="step-3" class="scroll-mt-32 p-6 md:p-8 bg-white/70 backdrop-blur-sm rounded-2xl border border-earth-light shadow-sm hover:shadow-md transition-all duration-300 relative group">
+                        <div class="flex items-start gap-4">
+                            <div class="flex-shrink-0 w-10 h-10 rounded-full bg-gold text-white font-bold flex items-center justify-center shadow-md font-serif text-lg">3</div>
+                            <div class="flex-grow">
+                                <h3 class="text-xl font-serif font-bold text-mocha mb-3 group-hover:text-gold transition-colors flex items-center justify-between">
+                                    <a href="#step-3" class="hover:underline flex items-center gap-2">
+                                        Schritt 3: Die Füllung kochen
+                                        <i class="ri-link text-sm opacity-0 group-hover:opacity-100 text-gold transition-opacity" title="Link zu diesem Schritt kopieren"></i>
+                                    </a>
+                                </h3>
+                                <p class="text-ash leading-relaxed text-base md:text-lg m-0">Hacken Sie die Zwiebeln extrem fein (nicht pürieren!). Erhitzen Sie die <em>Hälfte</em> des <strong>Anadoa Olivenöls</strong> in einem breiten Topf. Dünsten Sie die Zwiebeln bei mittlerer Hitze für 5-7 Minuten glasig und weich. Geben Sie den Reis hinzu und rösten Sie ihn für 3-4 Minuten mit an, bis die Körner glasig werden. Rühren Sie nun Zimt, Piment, schwarzen Pfeffer, das <strong>Anadoa Sumach Pulver</strong> und Salz unter.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="step-4" class="scroll-mt-32 p-6 md:p-8 bg-white/70 backdrop-blur-sm rounded-2xl border border-earth-light shadow-sm hover:shadow-md transition-all duration-300 relative group">
+                        <div class="flex items-start gap-4">
+                            <div class="flex-shrink-0 w-10 h-10 rounded-full bg-gold text-white font-bold flex items-center justify-center shadow-md font-serif text-lg">4</div>
+                            <div class="flex-grow">
+                                <h3 class="text-xl font-serif font-bold text-mocha mb-3 group-hover:text-gold transition-colors flex items-center justify-between">
+                                    <a href="#step-4" class="hover:underline flex items-center gap-2">
+                                        Schritt 4: Füllung vollenden
+                                        <i class="ri-link text-sm opacity-0 group-hover:opacity-100 text-gold transition-opacity" title="Link zu diesem Schritt kopieren"></i>
+                                    </a>
+                                </h3>
+                                <p class="text-ash leading-relaxed text-base md:text-lg m-0">Geben Sie die sehr fein gehackte Petersilie und Minze sowie den <strong>Anadoa Granatapfelsirup</strong> zum Reis. Gießen Sie ca. 1/2 Glas heißes Wasser an, rühren Sie einmal um, legen Sie den Deckel auf und lassen Sie den Reis auf kleinster Stufe köcheln, bis das Wasser aufgesogen ist (der Reis ist nun halbgar). Nehmen Sie den Topf vom Herd und lassen Sie die Füllung komplett auskühlen!</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="step-5" class="scroll-mt-32 p-6 md:p-8 bg-white/70 backdrop-blur-sm rounded-2xl border border-earth-light shadow-sm hover:shadow-md transition-all duration-300 relative group">
+                        <div class="flex items-start gap-4">
+                            <div class="flex-shrink-0 w-10 h-10 rounded-full bg-gold text-white font-bold flex items-center justify-center shadow-md font-serif text-lg">5</div>
+                            <div class="flex-grow">
+                                <h3 class="text-xl font-serif font-bold text-mocha mb-3 group-hover:text-gold transition-colors flex items-center justify-between">
+                                    <a href="#step-5" class="hover:underline flex items-center gap-2">
+                                        Schritt 5: Das perfekte Rollen (Sarma)
+                                        <i class="ri-link text-sm opacity-0 group-hover:opacity-100 text-gold transition-opacity" title="Link zu diesem Schritt kopieren"></i>
+                                    </a>
+                                </h3>
+                                <p class="text-ash leading-relaxed text-base md:text-lg m-0">Breiten Sie ein Weinblatt auf einem Brett aus, sodass die Blattadern nach <em>oben</em> zeigen und die Stielseite zu Ihnen zeigt. Geben Sie ca. 1 bis 1,5 Teelöffel Füllung längs an den unteren Rand. Klappen Sie zuerst das untere Ende über die Füllung. Schlagen Sie dann die rechte und linke Seite zur Mitte hin ein. Rollen Sie das Blatt nun von unten nach oben straff, aber nicht zu fest, auf (der Reis quillt beim Kochen noch auf!). Wiederholen Sie dies, bis alles aufgebraucht ist.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="step-6" class="scroll-mt-32 p-6 md:p-8 bg-white/70 backdrop-blur-sm rounded-2xl border border-earth-light shadow-sm hover:shadow-md transition-all duration-300 relative group">
+                        <div class="flex items-start gap-4">
+                            <div class="flex-shrink-0 w-10 h-10 rounded-full bg-gold text-white font-bold flex items-center justify-center shadow-md font-serif text-lg">6</div>
+                            <div class="flex-grow">
+                                <h3 class="text-xl font-serif font-bold text-mocha mb-3 group-hover:text-gold transition-colors flex items-center justify-between">
+                                    <a href="#step-6" class="hover:underline flex items-center gap-2">
+                                        Schritt 6: Schichten und Kochen
+                                        <i class="ri-link text-sm opacity-0 group-hover:opacity-100 text-gold transition-opacity" title="Link zu diesem Schritt kopieren"></i>
+                                    </a>
+                                </h3>
+                                <p class="text-ash leading-relaxed text-base md:text-lg m-0">Legen Sie den Boden eines weiten Topfes mit ein paar zerrissenen oder unförmigen Weinblättern aus (das schützt vor dem Anbrennen). Schichten Sie die gerollten Sarmas dicht an dicht im Kreis hinein. Legen Sie die Zitronenscheiben obenauf. Gießen Sie das restliche <strong>Anadoa Olivenöl</strong> und etwa 1,5 bis 2 Gläser heißes Wasser (oder leichte Brühe) darüber. Legen Sie einen hitzebeständigen Teller kopfüber auf die Sarmas, damit sie sich beim Kochen nicht entrollen.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="step-7" class="scroll-mt-32 p-6 md:p-8 bg-white/70 backdrop-blur-sm rounded-2xl border border-earth-light shadow-sm hover:shadow-md transition-all duration-300 relative group">
+                        <div class="flex items-start gap-4">
+                            <div class="flex-shrink-0 w-10 h-10 rounded-full bg-gold text-white font-bold flex items-center justify-center shadow-md font-serif text-lg">7</div>
+                            <div class="flex-grow">
+                                <h3 class="text-xl font-serif font-bold text-mocha mb-3 group-hover:text-gold transition-colors flex items-center justify-between">
+                                    <a href="#step-7" class="hover:underline flex items-center gap-2">
+                                        Schritt 7: Die Geduld (Ruhen & Kühlen)
+                                        <i class="ri-link text-sm opacity-0 group-hover:opacity-100 text-gold transition-opacity" title="Link zu diesem Schritt kopieren"></i>
+                                    </a>
+                                </h3>
+                                <p class="text-ash leading-relaxed text-base md:text-lg m-0">Bringen Sie den Topf bei mittlerer Hitze zum Kochen. Sobald das Wasser sprudelt, drehen Sie die Hitze auf die allerkleinste Stufe herunter. Lassen Sie die Sarmas bei geschlossenem Deckel für ca. 45 bis 50 Minuten sanft ziehen, bis das Wasser fast vollständig aufgesogen und die Blätter butterweich sind. <em>Wichtig:</em> Nehmen Sie den Topf vom Herd und lassen Sie die Sarmas im geschlossenen Topf bei Raumtemperatur abkühlen! Erst kalt entfalten sie ihr volles Aroma.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <!-- Verwendete Produkte -->
                 <div class="mt-16 pt-16 border-t border-earth-light">
