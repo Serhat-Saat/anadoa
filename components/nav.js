@@ -737,7 +737,7 @@ function initNavigation() {
         "keywords": "grüner, tee, magischer, grüntee, çay, tea"
     },
     {
-        "title": "Bio Hagebutten Pulver kaufen",
+        "title": "Naturrein Hagebutten Pulver kaufen",
         "description": "100% reines, fein gemahlenes BIO Hagebutten Pulver (Kuşburnu). Natürliche, hochdosierte Vitamin-C-Quelle für Immunsystem, Gelenke und Haut.",
         "h1": "Hagebutten BIO Pulver",
         "url": "hagebutten-pulver.html",
@@ -864,7 +864,7 @@ function initNavigation() {
     },
     {
         "title": "Kokosöl Kaltgepresst 100% Nativ (Virgin Coconut Oil)",
-        "description": "Der duftende Alleskönner: Natives Bio-Kokosöl. Stark antibakteriell (als Deo), tiefenwirksam für trockene Haare und natürlicher Zeckenschutz für Hunde. Ratgeber.",
+        "description": "Der duftende Alleskönner: Natives Natur-Kokosöl. Stark antibakteriell (als Deo), tiefenwirksam für trockene Haare und natürlicher Zeckenschutz für Hunde. Ratgeber.",
         "h1": "Kokosöl (Nativ / Virgin)",
         "url": "kokosoel.html",
         "image": "assets/anadoa-logo-1100-1100.png",
@@ -1746,7 +1746,7 @@ function initNavigation() {
 ,
     {
         "title": "Unsere Kategorien",
-        "description": "Entdecken Sie unsere gesamte Produktvielfalt aus Anatolien: Kaltgepresste Öle, ätherische Essenzen, traditionelle Kräuterpasten (Macun), Bio-Melassen (Pekmez), Tees, Essige, Naturseifen und vieles mehr.",
+        "description": "Entdecken Sie unsere gesamte Produktvielfalt aus Anatolien: Kaltgepresste Öle, ätherische Essenzen, traditionelle Kräuterpasten (Macun), Natur-Melassen (Pekmez), Tees, Essige, Naturseifen und vieles mehr.",
         "h1": "Unsere Kategorien",
         "url": "alle-kategorien.html",
         "image": "assets/anadoa-logo-1100-1100.png",
@@ -2080,6 +2080,51 @@ function initNavigation() {
         "url": "rezept-tahin-pekmez-kuchen.html",
         "image": "assets/rezept_tahin_kuchen.png",
         "keywords": "saftiger tahin-pekmez-kuchen | anadoa rezepte"
+    },
+    {
+        "title": "Naturtrüber Apfelessig mit der Mutter: Das probiotische Elixier | Anadoa Magazin",
+        "description": "Erfahren Sie alles über naturtrüben Apfelessig mit Essigmutter: Warum unpasteurisierter Essig ein probiotisches Kraftpaket für Darm, Blutzucker & Stoffwechsel ist.",
+        "h1": "Naturtrüber Apfelessig mit der Mutter: Das probiotische Elixier",
+        "category": "Magazin",
+        "url": "apfelessig-mit-mutter-wirkung-gesundheit.html",
+        "image": "assets/magazin_apfelessig.png",
+        "keywords": "apfelessig mit der mutter essigmutter darmgesundheit blutzucker stoffwechsel bio apfelessig unpasteurisiert anadoa magazin"
+    },
+    {
+        "title": "Johannisbrot-Melasse (Keçiboynuzu Özü): Das antike Superfood | Anadoa Magazin",
+        "description": "Erfahren Sie alles über Johannisbrot-Melasse: Reich an Kalzium, Eisen & Antioxidantien. Warum kaltgepresster Carob-Extrakt die Atemwege und Vitalität stärkt.",
+        "h1": "Johannisbrot-Melasse (Keçiboynuzu Özü): Das antike Superfood für Atemwege & Mineralstoff-Power",
+        "category": "Magazin",
+        "url": "johannisbrot-melasse-wirkung-vorteile.html",
+        "image": "assets/magazin_johannisbrot.png",
+        "keywords": "johannisbrot melasse keciboynuzu ozu carob sirup eisen kalzium atemwege immunsystem anadoa magazin"
+    },
+    {
+        "title": "Granatapfel & Punicinsäure: Zellschutz, Herz & jugendliche Haut | Anadoa Magazin",
+        "description": "Erfahren Sie alles über die biochemische Kraft des Granatapfels: Punicinsäure (Omega-5), Ellagsäure und die Wirkung von 100% reinem Granatapfelsirup.",
+        "h1": "Granatapfel & Punicinsäure: Zellschutz, Herz & jugendliche Haut",
+        "category": "Magazin",
+        "url": "granatapfel-wirkung-punicinsaeure-haut.html",
+        "image": "assets/magazin_granatapfel.png",
+        "keywords": "granatapfel punicinsaeure omega 5 nar eksisi granatapfelsirup ellagsaeure anti aging zellschutz anadoa magazin"
+    },
+    {
+        "title": "Reines Arganöl: Das flüssige Gold für samtige Haut & glänzendes Haar | Anadoa Magazin",
+        "description": "Erfahren Sie alles über reines kaltgepresstes Arganöl: Vitamin E, Squalen und essentielle Fettsäuren für strahlende Haut, gesundes Haar und Anti-Aging.",
+        "h1": "Reines Arganöl: Das flüssige Gold für samtige Haut & glänzendes Haar",
+        "category": "Magazin",
+        "url": "arganoel-wirkung-haut-haare-anti-aging.html",
+        "image": "assets/magazin_arganoel.png",
+        "keywords": "arganoel bio arganoel hautpflege haarpflege anti aging vitamin e squalen kaltpressung anadoa magazin"
+    },
+    {
+        "title": "Sumach Pulver (Sumak): Das zitronig-fruchtige Wundergewürz | Anadoa Magazin",
+        "description": "Erfahren Sie alles über Sumach (Sumak): Das rubinrote anatolische Gewürz mit dem höchsten ORAC-Wert, entzündungshemmenden Tanninen und fruchtigem Aroma.",
+        "h1": "Sumach Pulver (Sumak): Das zitronig-fruchtige Wundergewürz",
+        "category": "Magazin",
+        "url": "sumach-gewuerz-gesundheit-antioxidantien.html",
+        "image": "assets/magazin_sumach.png",
+        "keywords": "sumach sumak wildwuchs sumach orac wert antioxidantien gewuerze zellschutz blutdruck salzersatz anadoa magazin"
     }
 ];
   // SEARCH_INDEX_END
