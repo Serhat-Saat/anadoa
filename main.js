@@ -1,12 +1,12 @@
 document.addEventListener('DOMContentLoaded', () => {
     const backToTop = document.getElementById('backToTop');
     const stickyBar = document.getElementById('sticky-buy-bar');
-    
+
     if (backToTop || stickyBar) {
         const handleScroll = () => {
             const scrollY = window.scrollY || window.pageYOffset || document.documentElement.scrollTop;
             const isScrolled = scrollY > 350;
-            
+
             if (backToTop) {
                 if (isScrolled) {
                     backToTop.classList.remove('opacity-0', 'pointer-events-none');
@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     backToTop.classList.remove('opacity-100', 'pointer-events-auto');
                 }
             }
-            
+
             if (stickyBar) {
                 if (isScrolled) {
                     stickyBar.classList.add('is-visible');
@@ -29,11 +29,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
             }
         };
-        
+
         window.addEventListener('scroll', handleScroll, { passive: true });
         handleScroll(); // Initial check
     }
-    
+
     if (backToTop) {
         backToTop.addEventListener('click', () => {
             window.scrollTo({ top: 0, behavior: 'smooth' });
