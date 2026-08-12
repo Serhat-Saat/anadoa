@@ -133,12 +133,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://anadoa.com/detox-mix.html</loc>
-    <lastmod>2026-08-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://anadoa.com/eibischblueten-tee.html</loc>
     <lastmod>2026-08-11</lastmod>
     <changefreq>weekly</changefreq>
@@ -356,6 +350,12 @@
   </url>
   <url>
     <loc>https://anadoa.com/kokosoel.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://anadoa.com/kraeutermischung-essig.html</loc>
     <lastmod>2026-08-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>

@@ -138,6 +138,7 @@ const navHTML = `
                     <li><a class="text-ash-light hover:text-gold block" href="apfelessig.html">Apfelessig</a></li>
                     <li><a class="text-ash-light hover:text-gold block" href="traubenessig.html">Traubenessig</a></li>
                     <li><a class="text-ash-light hover:text-gold block" href="weissdorn-essig.html">Weißdorn Essig</a></li>
+                    <li><a class="text-ash-light hover:text-gold block" href="kraeutermischung-essig.html">Kräutermischung Essig</a></li>
                   </ul>
                 </div>
 
@@ -620,13 +621,13 @@ function initNavigation() {
         "keywords": "grape molasses, grape syrup, carob, keçiboynuzu, pekmez, üzüm pekmezi, harnup pekmezi"
     },
     {
-        "title": "Detox Mix Elixier",
-        "description": "Kräutermischung mit Apfelessig & Rosmarin",
-        "h1": "Detox Mix Elixier",
-        "url": "detox-mix.html",
-        "image": "assets/detox-und-form-pulver-anadoa-naturhaus.png",
+        "title": "Kräutermischung Essig",
+        "description": "Traditioneller Kräuteressig auf Apfelessig-Basis mit Rosmarin, Kirschstielen und erlesenen Heilkräutern.",
+        "h1": "Kräutermischung Essig",
+        "url": "kraeutermischung-essig.html",
+        "image": "assets/kraeutermix-essig-detox-essig-anadoa-naturhaus.png",
         "category": "Lebendige Essige",
-        "keywords": "detox, mix, elixier"
+        "keywords": "kräutermischung essig, kraeutermischung essig, kräuter essig, kraeuter essig, apfelessig kräuter, rosmarin essig, detox essig"
     },
     {
         "title": "Eibischblüten Tee kaufen",
