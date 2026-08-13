@@ -355,7 +355,7 @@
         <!-- THE INTERACTIVE RECIPE CARD -->
         <div id="rezept-karte" class="scroll-mt-28 bg-white backdrop-blur-md rounded-[2.5rem] shadow-2xl border-2 border-gold/30 p-6 md:p-12 mb-16 relative">
             
-            <!-- Card Header Badge & Actions -->
+            <!-- Card Header Badge & Actions (Responsive & Balanced Grid) -->
             <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-earth-light pb-6 mb-8">
                 <div>
                     <span class="text-xs font-bold uppercase tracking-wider text-gold block mb-1">Rezeptkarte</span>
@@ -368,17 +368,19 @@
                     </div>
                 </div>
 
-                <div class="flex items-center gap-3">
-                    <!-- Kochmodus Fixed Button (Kein Layout-Springen) -->
-                    <button id="wakeLockBtn" onclick="toggleCookMode()" class="h-11 px-4 bg-earth/60 hover:bg-earth text-mocha rounded-xl font-bold text-xs border border-earth-light flex items-center gap-2 transition-all" title="Verhindert das Ausschalten des Bildschirms beim Kochen">
-                        <span class="w-2.5 h-2.5 rounded-full bg-slate-300 transition-colors" id="wakeLockDot"></span>
+                <!-- 2 Equal, Balanced Buttons on Mobile and Desktop -->
+                <div class="grid grid-cols-2 gap-2.5 sm:flex sm:items-center sm:gap-3 w-full sm:w-auto mt-2 sm:mt-0">
+                    <!-- Kochmodus Button -->
+                    <button id="wakeLockBtn" onclick="toggleCookMode()" class="h-11 px-3 sm:px-4 bg-earth/60 hover:bg-earth text-mocha rounded-xl font-bold text-xs border border-earth-light flex items-center justify-center gap-2 transition-all w-full sm:w-auto" title="Verhindert das Ausschalten des Bildschirms beim Kochen">
+                        <span class="w-2.5 h-2.5 rounded-full bg-slate-300 transition-colors flex-shrink-0" id="wakeLockDot"></span>
                         <i class="ri-smartphone-line text-gold"></i>
                         <span>Kochmodus</span>
                     </button>
 
-                    <button onclick="window.print()" class="h-11 px-4 bg-earth/60 hover:bg-gold hover:text-white text-mocha rounded-xl border border-earth-light text-xs font-bold transition-all flex items-center gap-1.5" title="Rezept drucken">
+                    <!-- Drucken Button (Always visible label everywhere) -->
+                    <button onclick="window.print()" class="h-11 px-3 sm:px-4 bg-earth/60 hover:bg-gold hover:text-white text-mocha rounded-xl border border-earth-light text-xs font-bold transition-all flex items-center justify-center gap-1.5 w-full sm:w-auto" title="Rezept drucken">
                         <i class="ri-printer-line text-gold"></i>
-                        <span class="hidden sm:inline">Drucken</span>
+                        <span>Drucken</span>
                     </button>
                 </div>
             </div>
@@ -403,17 +405,29 @@
                 </div>
             </div>
 
-            <!-- Portion Scaler Controls -->
-            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 p-4 bg-earth/50 rounded-2xl border border-earth-light mb-8">
-                <div class="flex items-center gap-2">
-                    <i class="ri-user-smile-line text-gold text-xl"></i>
-                    <span class="text-sm font-bold text-mocha">Portionen:</span>
-                    <span class="text-xs text-ash-light">(Mengen passen sich automatisch an)</span>
+            <!-- Portion Scaler Controls (Symmetrical Full Width Grid) -->
+            <div class="p-4 bg-earth/50 rounded-2xl border border-earth-light mb-8 space-y-3">
+                <div class="flex items-center justify-between flex-wrap gap-1">
+                    <div class="flex items-center gap-2">
+                        <i class="ri-user-smile-line text-gold text-lg"></i>
+                        <span class="text-sm font-bold text-mocha">Portionen anpassen:</span>
+                    </div>
+                    <span class="text-xs text-ash-light italic">(Mengen rechnen automatisch mit)</span>
                 </div>
-                <div class="flex items-center gap-2">
-                    <button class="scale-btn active px-4 py-1.5 rounded-xl border border-earth-light text-xs font-bold transition-all bg-white" data-scale="1" onclick="setPortionScale(1)">1x (Original)</button>
-                    <button class="scale-btn px-4 py-1.5 bg-white hover:bg-earth text-mocha rounded-xl border border-earth-light text-xs font-bold transition-all" data-scale="2" onclick="setPortionScale(2)">2x (Doppelt)</button>
-                    <button class="scale-btn px-4 py-1.5 bg-white hover:bg-earth text-mocha rounded-xl border border-earth-light text-xs font-bold transition-all" data-scale="3" onclick="setPortionScale(3)">3x (Party)</button>
+                
+                <div class="grid grid-cols-3 gap-2 w-full">
+                    <button class="scale-btn active py-2.5 px-2 rounded-xl border border-earth-light text-xs font-bold transition-all bg-white text-center shadow-xs" data-scale="1" onclick="setPortionScale(1)">
+                        <span class="block text-sm">1x</span>
+                        <span class="text-[10px] font-normal opacity-80 block">(Original)</span>
+                    </button>
+                    <button class="scale-btn py-2.5 px-2 bg-white hover:bg-earth text-mocha rounded-xl border border-earth-light text-xs font-bold transition-all text-center shadow-xs" data-scale="2" onclick="setPortionScale(2)">
+                        <span class="block text-sm">2x</span>
+                        <span class="text-[10px] font-normal opacity-80 block">(Doppelt)</span>
+                    </button>
+                    <button class="scale-btn py-2.5 px-2 bg-white hover:bg-earth text-mocha rounded-xl border border-earth-light text-xs font-bold transition-all text-center shadow-xs" data-scale="3" onclick="setPortionScale(3)">
+                        <span class="block text-sm">3x</span>
+                        <span class="text-[10px] font-normal opacity-80 block">(Party)</span>
+                    </button>
                 </div>
             </div>
 
