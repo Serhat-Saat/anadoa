@@ -168,8 +168,9 @@ const navHTML = `
                     <li><a class="text-ash-light hover:text-gold block" href="schopflavendel-tee.html">Schopflavendel Tee</a></li>
                     <li><a class="text-sage hover:text-gold block mt-2 text-xs uppercase tracking-wider font-bold" href="tee.html">Alle 15 Tees ansehen →</a></li>
                   </ul>
-                  <h3 class="font-serif font-bold text-base text-mocha mb-3 border-b border-earth-light pb-2 mt-5"><span class="text-mocha cursor-default">Spezielle Produkte</span></h3>
+                  <h3 class="font-serif font-bold text-base text-mocha mb-3 border-b border-earth-light pb-2 mt-5"><span class="text-mocha cursor-default">Spezielle Kollektionen</span></h3>
                   <ul class="space-y-2 text-sm mb-5">
+                    <li><a class="text-[#006C3E] font-bold hover:text-gold block flex items-center gap-1.5" href="kinder-kollektion.html"><i class="ri-heart-3-line text-rose-500"></i> Für unsere kleinen Helden</a></li>
                     <li><a class="text-gold font-bold hover:text-mocha block" href="sumix.html">Sumix (Sumak Komplex)</a></li>
                   </ul>
                 </div>
@@ -330,11 +331,11 @@ const navHTML = `
         <!-- 4.5 Spezielle Produkte -->
         <div class="border-b border-earth-light pb-4">
           <button class="w-full text-left flex justify-between items-center mobile-nav-category-link font-serif text-mocha hover:text-gold transition-colors group" onclick="this.nextElementSibling.classList.toggle('max-h-0'); this.nextElementSibling.classList.toggle('max-h-[300px]'); this.nextElementSibling.classList.toggle('mt-4'); this.nextElementSibling.classList.toggle('opacity-0'); this.querySelector('i').classList.toggle('rotate-180');">
-            Spezielle Produkte
+            Spezielle Kollektionen
             <i class="ri-arrow-down-s-line text-gold text-2xl transition-transform duration-300"></i>
           </button>
           <div class="max-h-0 opacity-0 overflow-hidden transition-all duration-500 ease-in-out px-2 space-y-4">
-            <a class="block text-gold font-bold text-lg mb-2 uppercase tracking-widest text-sm" href="#">Spezielle Produkte</a>
+            <a class="block text-[#006C3E] font-bold text-lg" href="kinder-kollektion.html"><i class="ri-heart-3-line text-rose-500 mr-1"></i> Für unsere kleinen Helden</a>
             <a class="block text-ash hover:text-gold text-lg font-light" href="sumix.html">Sumix (Sumak Komplex)</a>
           </div>
         </div>
