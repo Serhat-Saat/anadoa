@@ -260,8 +260,9 @@
                 <a href="#rezept-karte" class="px-5 py-2.5 bg-gold hover:bg-mocha text-white rounded-full font-bold text-xs sm:text-sm shadow-md hover:shadow-lg transition-all duration-300 flex items-center gap-2">
                     <i class="ri-arrow-down-line font-bold"></i> Direkt zum Rezept springen
                 </a>
-                <button onclick="window.print()" class="px-5 py-2.5 bg-white hover:bg-gold hover:text-white text-mocha border border-earth-light rounded-full font-bold text-xs sm:text-sm shadow-xs transition-all duration-300 flex items-center gap-2">
-                    <i class="ri-printer-line text-gold"></i> Rezept drucken
+                <button onclick="window.print()" class="px-5 py-2.5 bg-white hover:bg-gold hover:text-white text-mocha border border-earth-light rounded-full font-bold text-xs sm:text-sm shadow-xs transition-all duration-300 flex items-center gap-2 group">
+                    <i class="ri-printer-line text-gold group-hover:text-white transition-colors"></i>
+                    <span>Rezept drucken</span>
                 </button>
             </div>
 
@@ -378,8 +379,8 @@
                     </button>
 
                     <!-- Drucken Button (Always visible label everywhere) -->
-                    <button onclick="window.print()" class="h-11 px-3 sm:px-4 bg-earth/60 hover:bg-gold hover:text-white text-mocha rounded-xl border border-earth-light text-xs font-bold transition-all flex items-center justify-center gap-1.5 w-full sm:w-auto" title="Rezept drucken">
-                        <i class="ri-printer-line text-gold"></i>
+                    <button onclick="window.print()" class="h-11 px-3 sm:px-4 bg-earth/60 hover:bg-gold hover:text-white text-mocha rounded-xl border border-earth-light text-xs font-bold transition-all flex items-center justify-center gap-1.5 w-full sm:w-auto group" title="Rezept drucken">
+                        <i class="ri-printer-line text-gold group-hover:text-white transition-colors"></i>
                         <span>Drucken</span>
                     </button>
                 </div>
