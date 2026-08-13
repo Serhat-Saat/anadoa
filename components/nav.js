@@ -109,6 +109,11 @@ const navHTML = `
                     <li><a class="text-ash-light hover:text-gold block" href="sumach-pulver.html">Sumach Pulver</a></li>
                     <li><a class="text-ash-light hover:text-gold block" href="tuerkischer-oregano.html">Türkischer Oregano</a></li>
                   </ul>
+                  <h3 class="font-serif font-bold text-base text-mocha mb-3 border-b border-earth-light pb-2 mt-5"><span class="text-mocha cursor-default">Spezielle Kollektionen</span></h3>
+                  <ul class="space-y-2 text-sm mb-5">
+                    <li><a class="text-[#006C3E] font-bold hover:text-gold block" href="kinder-kollektion.html">Für unsere kleinen Helden</a></li>
+                    <li><a class="text-gold font-bold hover:text-mocha block" href="sumix.html">Sumix (Sumak Komplex)</a></li>
+                  </ul>
                 </div>
 
                 <!-- Col 3: Pasten, Naturkosmetik & Essig/Säfte (Essig buraya taşındı) -->
@@ -167,11 +172,6 @@ const navHTML = `
                     <li><a class="text-ash-light hover:text-gold block" href="atom-tee.html">Atom Tee (Winter-Mix)</a></li>
                     <li><a class="text-ash-light hover:text-gold block" href="schopflavendel-tee.html">Schopflavendel Tee</a></li>
                     <li><a class="text-sage hover:text-gold block mt-2 text-xs uppercase tracking-wider font-bold" href="tee.html">Alle 15 Tees ansehen →</a></li>
-                  </ul>
-                  <h3 class="font-serif font-bold text-base text-mocha mb-3 border-b border-earth-light pb-2 mt-5"><span class="text-mocha cursor-default">Spezielle Kollektionen</span></h3>
-                  <ul class="space-y-2 text-sm mb-5">
-                    <li><a class="text-[#006C3E] font-bold hover:text-gold block flex items-center gap-1.5" href="kinder-kollektion.html"><i class="ri-heart-3-line text-rose-500"></i> Für unsere kleinen Helden</a></li>
-                    <li><a class="text-gold font-bold hover:text-mocha block" href="sumix.html">Sumix (Sumak Komplex)</a></li>
                   </ul>
                 </div>
 
@@ -335,7 +335,7 @@ const navHTML = `
             <i class="ri-arrow-down-s-line text-gold text-2xl transition-transform duration-300"></i>
           </button>
           <div class="max-h-0 opacity-0 overflow-hidden transition-all duration-500 ease-in-out px-2 space-y-4">
-            <a class="block text-[#006C3E] font-bold text-lg" href="kinder-kollektion.html"><i class="ri-heart-3-line text-rose-500 mr-1"></i> Für unsere kleinen Helden</a>
+            <a class="block text-[#006C3E] font-bold text-lg" href="kinder-kollektion.html">Für unsere kleinen Helden</a>
             <a class="block text-ash hover:text-gold text-lg font-light" href="sumix.html">Sumix (Sumak Komplex)</a>
           </div>
         </div>
