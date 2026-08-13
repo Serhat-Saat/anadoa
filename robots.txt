@@ -1,5 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://anadoa.com/sitemap.xml
-LLMs-txt: https://anadoa.com/llms.txt
+Sitemap: https://www.anadoa.com/sitemap.xml
+LLMs-txt: https://www.anadoa.com/llms.txt
