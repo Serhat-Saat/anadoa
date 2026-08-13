@@ -60,9 +60,9 @@
         }
 
         .scale-btn.active {
-            background-color: #c19768;
-            color: #ffffff;
-            border-color: #c19768;
+            background-color: #c19768 !important;
+            color: #ffffff !important;
+            border-color: #c19768 !important;
         }
     </style>
 
@@ -126,7 +126,7 @@
         "120 g Walnusskerne (geröstet & grob gehackt)",
         "3 EL Anadoa Granatapfelsirup (100% Nar Ekşisi)",
         "2 TL Anadoa Sumach Pulver (Wildsammlung)",
-        "4 EL Anadoa Kaltgepresstes Olivenöl Extra",
+        "4 EL Natives Olivenöl Extra",
         "0.5 Stück Zitrone (frisch ausgepresst)",
         "0.5 TL Meersalz & frisch gemahlener schwarzer Pfeffer",
         "80 g Schafskäse / Feta zum Zerbröseln (optional)"
@@ -357,9 +357,6 @@
                 <h3 class="text-2xl font-serif font-bold text-mocha mt-10 mb-4">
                     Die 3 goldenen Geheimnisse des perfekten „Löffelsalats“
                 </h3>
-                <p>
-                    In der anatolischen Gastronomie wird Gavurdağı auch als <em>Kaşık Salatası</em> („Löffelsalat“) bezeichnet. Damit er auf der Zunge förmlich explodiert, sollten Sie diese drei Profi-Kniffe beachten:
-                </p>
                 <ol class="space-y-3 pl-2">
                     <li class="flex items-start gap-3">
                         <span class="w-6 h-6 rounded-full bg-gold text-white font-bold flex items-center justify-center flex-shrink-0 text-xs mt-1">1</span>
@@ -393,16 +390,17 @@
                     </div>
                 </div>
 
-                <div class="flex flex-wrap items-center gap-3">
-                    <!-- Kochmodus Toggle Button (Screen Wake Lock) -->
-                    <button id="wakeLockBtn" onclick="toggleCookMode()" class="px-4 py-2 bg-earth/60 hover:bg-earth text-mocha rounded-xl font-bold text-xs border border-earth-light flex items-center gap-2 transition-all">
-                        <span class="w-2.5 h-2.5 rounded-full bg-slate-300" id="wakeLockDot"></span>
+                <div class="flex items-center gap-3">
+                    <!-- Kochmodus Fixed Button (Kein Layout-Springen) -->
+                    <button id="wakeLockBtn" onclick="toggleCookMode()" class="h-11 px-4 bg-earth/60 hover:bg-earth text-mocha rounded-xl font-bold text-xs border border-earth-light flex items-center gap-2 transition-all" title="Verhindert das Ausschalten des Bildschirms beim Kochen">
+                        <span class="w-2.5 h-2.5 rounded-full bg-slate-300 transition-colors" id="wakeLockDot"></span>
                         <i class="ri-smartphone-line text-gold"></i>
-                        <span>Kochmodus: <strong id="wakeLockText">Aus</strong></span>
+                        <span>Kochmodus</span>
                     </button>
 
-                    <button onclick="window.print()" class="p-2.5 bg-earth/60 hover:bg-gold hover:text-white text-mocha rounded-xl border border-earth-light text-sm transition-all" title="Rezept drucken">
-                        <i class="ri-printer-line"></i>
+                    <button onclick="window.print()" class="h-11 px-4 bg-earth/60 hover:bg-gold hover:text-white text-mocha rounded-xl border border-earth-light text-xs font-bold transition-all flex items-center gap-1.5" title="Rezept drucken">
+                        <i class="ri-printer-line text-gold"></i>
+                        <span class="hidden sm:inline">Drucken</span>
                     </button>
                 </div>
             </div>
@@ -431,13 +429,13 @@
             <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 p-4 bg-earth/50 rounded-2xl border border-earth-light mb-8">
                 <div class="flex items-center gap-2">
                     <i class="ri-user-smile-line text-gold text-xl"></i>
-                    <span class="text-sm font-bold text-mocha">Portionen anpassen:</span>
-                    <span class="text-xs text-ash-light">(Rezeptmengen rechnen automatisch mit)</span>
+                    <span class="text-sm font-bold text-mocha">Portionen:</span>
+                    <span class="text-xs text-ash-light">(Mengen passen sich automatisch an)</span>
                 </div>
                 <div class="flex items-center gap-2">
-                    <button class="scale-btn active px-3.5 py-1.5 rounded-xl border border-earth-light text-xs font-bold transition-all" data-scale="1" onclick="setPortionScale(1)">1x (Original)</button>
-                    <button class="scale-btn px-3.5 py-1.5 bg-white hover:bg-earth text-mocha rounded-xl border border-earth-light text-xs font-bold transition-all" data-scale="2" onclick="setPortionScale(2)">2x (Doppelt)</button>
-                    <button class="scale-btn px-3.5 py-1.5 bg-white hover:bg-earth text-mocha rounded-xl border border-earth-light text-xs font-bold transition-all" data-scale="3" onclick="setPortionScale(3)">3x (Party)</button>
+                    <button class="scale-btn active px-4 py-1.5 rounded-xl border border-earth-light text-xs font-bold transition-all bg-white" data-scale="1" onclick="setPortionScale(1)">1x (Original)</button>
+                    <button class="scale-btn px-4 py-1.5 bg-white hover:bg-earth text-mocha rounded-xl border border-earth-light text-xs font-bold transition-all" data-scale="2" onclick="setPortionScale(2)">2x (Doppelt)</button>
+                    <button class="scale-btn px-4 py-1.5 bg-white hover:bg-earth text-mocha rounded-xl border border-earth-light text-xs font-bold transition-all" data-scale="3" onclick="setPortionScale(3)">3x (Party)</button>
                 </div>
             </div>
 
@@ -488,7 +486,7 @@
                     </li>
                     <li class="flex items-center gap-3 p-2.5 rounded-2xl hover:bg-earth/40 transition-all cursor-pointer group" onclick="this.classList.toggle('opacity-40'); this.classList.toggle('line-through')">
                         <input type="checkbox" class="w-4 h-4 rounded text-gold focus:ring-gold pointer-events-none accent-[#c19768] flex-shrink-0" />
-                        <span class="text-ash"><strong class="text-mocha"><span class="ing-qty" data-base="4">4</span> EL</strong> <a href="kaltgepresste-oele.html" class="text-gold font-bold hover:underline">Anadoa Kaltgepresstes Olivenöl Extra</a></span>
+                        <span class="text-ash"><strong class="text-mocha"><span class="ing-qty" data-base="4">4</span> EL</strong> Natives Olivenöl Extra</span>
                     </li>
                     <li class="flex items-center gap-3 p-2.5 rounded-2xl hover:bg-earth/40 transition-all cursor-pointer group" onclick="this.classList.toggle('opacity-40'); this.classList.toggle('line-through')">
                         <input type="checkbox" class="w-4 h-4 rounded text-gold focus:ring-gold pointer-events-none accent-[#c19768] flex-shrink-0" />
@@ -733,7 +731,6 @@
                 const baseQty = parseFloat(el.getAttribute('data-base'));
                 if (!isNaN(baseQty)) {
                     const newQty = (baseQty * scale);
-                    // Format nicely (e.g. 1.5 instead of 1.5000)
                     el.textContent = (newQty % 1 === 0) ? newQty : newQty.toFixed(1).replace('.0', '');
                 }
             });
@@ -743,30 +740,30 @@
         let wakeLock = null;
         async function toggleCookMode() {
             const dot = document.getElementById('wakeLockDot');
-            const text = document.getElementById('wakeLockText');
+            const btn = document.getElementById('wakeLockBtn');
             
             if ('wakeLock' in navigator) {
                 if (wakeLock === null) {
                     try {
                         wakeLock = await navigator.wakeLock.request('screen');
-                        dot.className = 'w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse';
-                        text.textContent = 'An (Display bleibt hell)';
+                        dot.className = 'w-2.5 h-2.5 rounded-full bg-emerald-500 shadow-sm animate-pulse';
+                        btn.classList.add('border-emerald-400', 'bg-emerald-50/50');
                         wakeLock.addEventListener('release', () => {
                             wakeLock = null;
                             dot.className = 'w-2.5 h-2.5 rounded-full bg-slate-300';
-                            text.textContent = 'Aus';
+                            btn.classList.remove('border-emerald-400', 'bg-emerald-50/50');
                         });
                     } catch (err) {
-                        alert('Kochmodus konnte nicht aktiviert werden: ' + err.message);
+                        alert('Kochmodus konnte nicht aktiviert werden.');
                     }
                 } else {
                     wakeLock.release();
                     wakeLock = null;
                     dot.className = 'w-2.5 h-2.5 rounded-full bg-slate-300';
-                    text.textContent = 'Aus';
+                    btn.classList.remove('border-emerald-400', 'bg-emerald-50/50');
                 }
             } else {
-                alert('Der Kochmodus wird von Ihrem Browser leider nicht unterstützt. Ihr Bildschirm schaltet sich wie gewohnt nach dem System-Timeout ab.');
+                alert('Der Kochmodus wird von Ihrem Browser leider nicht unterstützt.');
             }
         }
     </script>

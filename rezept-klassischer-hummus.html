@@ -60,9 +60,9 @@
         }
 
         .scale-btn.active {
-            background-color: #c19768;
-            color: #ffffff;
-            border-color: #c19768;
+            background-color: #c19768 !important;
+            color: #ffffff !important;
+            border-color: #c19768 !important;
         }
     </style>
 
@@ -124,7 +124,7 @@
         "3 Stück Eiswürfel (für die perfekte Emulsion)",
         "1 TL gemahlener Kreuzkümmel (Cumin)",
         "1 TL Anadoa Sumach Pulver (zum Bestreuen)",
-        "3 EL Anadoa Kaltgepresstes Olivenöl",
+        "3 EL Natives Olivenöl Extra",
         "0.5 TL Meersalz"
 ],
         "recipeInstructions": [
@@ -330,12 +330,40 @@
                 </p>
                 <div class="my-8 p-6 bg-amber-50/70 rounded-3xl border border-amber-200/60 shadow-xs">
                     <h3 class="text-xl font-serif font-bold text-mocha mb-3 flex items-center gap-2">
-                        <i class="ri-magic-line text-gold"></i> Der Eiswürfel-Trick: Das Geheimnis der Seidigkeit
+                        <i class="ri-magic-line text-gold"></i> Warum dieser Hummus so gesund & nahrhaft ist
                     </h3>
-                    <p class="text-sm md:text-base text-ash leading-relaxed">
-                        Wenn Tahin und Kichererbsen im Mixer püriert werden, entsteht durch die Reibung Hitze. Gibt man während des Mixens 2–3 Eiswürfel hinzu, kühlt die Masse schlagartig ab. Das Sesammus emulgiert mit der Kichererbsen-Stärke und dem Zitronensaft zu einer strahlend hellen, unfassbar cremigen und federleichten Mousse!
-                    </p>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-xs font-medium text-mocha mt-4">
+                        <div class="bg-white p-3.5 rounded-xl border border-amber-200/40">
+                            <strong class="block text-gold text-sm mb-1"><i class="ri-shield-star-line"></i> Pflanzliches Protein</strong>
+                            Kichererbsen und Sesammus ergänzen sich zu einem vollständigen Aminosäurenprofil.
+                        </div>
+                        <div class="bg-white p-3.5 rounded-xl border border-amber-200/40">
+                            <strong class="block text-gold text-sm mb-1"><i class="ri-contrast-drop-2-line"></i> Wertvolle Sesamlignane</strong>
+                            Tahin liefert gesunde ungesättigte Fettsäuren, Calcium, Zink und schützende Antioxidantien.
+                        </div>
+                        <div class="bg-white p-3.5 rounded-xl border border-amber-200/40">
+                            <strong class="block text-gold text-sm mb-1"><i class="ri-leaf-line"></i> Bekömmlich & Leicht</strong>
+                            Kreuzkümmel (Cumin) und Zitronensaft fördern die Verdauung und verhindern Völlegefühl.
+                        </div>
+                    </div>
                 </div>
+                <h3 class="text-2xl font-serif font-bold text-mocha mt-10 mb-4">
+                    Die 3 Geheimnisse der orientalischen Hummus-Meister
+                </h3>
+                <ol class="space-y-3 pl-2">
+                    <li class="flex items-start gap-3">
+                        <span class="w-6 h-6 rounded-full bg-gold text-white font-bold flex items-center justify-center flex-shrink-0 text-xs mt-1">1</span>
+                        <div><strong>Erst Tahin & Zitrone aufschlagen:</strong> Pürieren Sie Tahin und Zitronensaft vorab solo 1 Minute im Mixer – so entsteht eine weiße, fluffige Basismousse.</div>
+                    </li>
+                    <li class="flex items-start gap-3">
+                        <span class="w-6 h-6 rounded-full bg-gold text-white font-bold flex items-center justify-center flex-shrink-0 text-xs mt-1">2</span>
+                        <div><strong>Der Eiswürfel-Trick:</strong> Geben Sie während des Mixens 2–3 Eiswürfel hinzu. Das Kühlen lässt die Fette perfekt emulgieren und macht den Hummus federleicht.</div>
+                    </li>
+                    <li class="flex items-start gap-3">
+                        <span class="w-6 h-6 rounded-full bg-gold text-white font-bold flex items-center justify-center flex-shrink-0 text-xs mt-1">3</span>
+                        <div><strong>Sumach & Olivenöl als Krone:</strong> Streichen Sie den Hummus mit dem Löffelrücken wellenförmig aus, füllen Sie die Mulde mit Olivenöl und bestreuen Sie ihn reichlich mit fruchtigem Sumach.</div>
+                    </li>
+                </ol>
             </div>
         
 
@@ -355,16 +383,17 @@
                     </div>
                 </div>
 
-                <div class="flex flex-wrap items-center gap-3">
-                    <!-- Kochmodus Toggle Button (Screen Wake Lock) -->
-                    <button id="wakeLockBtn" onclick="toggleCookMode()" class="px-4 py-2 bg-earth/60 hover:bg-earth text-mocha rounded-xl font-bold text-xs border border-earth-light flex items-center gap-2 transition-all">
-                        <span class="w-2.5 h-2.5 rounded-full bg-slate-300" id="wakeLockDot"></span>
+                <div class="flex items-center gap-3">
+                    <!-- Kochmodus Fixed Button (Kein Layout-Springen) -->
+                    <button id="wakeLockBtn" onclick="toggleCookMode()" class="h-11 px-4 bg-earth/60 hover:bg-earth text-mocha rounded-xl font-bold text-xs border border-earth-light flex items-center gap-2 transition-all" title="Verhindert das Ausschalten des Bildschirms beim Kochen">
+                        <span class="w-2.5 h-2.5 rounded-full bg-slate-300 transition-colors" id="wakeLockDot"></span>
                         <i class="ri-smartphone-line text-gold"></i>
-                        <span>Kochmodus: <strong id="wakeLockText">Aus</strong></span>
+                        <span>Kochmodus</span>
                     </button>
 
-                    <button onclick="window.print()" class="p-2.5 bg-earth/60 hover:bg-gold hover:text-white text-mocha rounded-xl border border-earth-light text-sm transition-all" title="Rezept drucken">
-                        <i class="ri-printer-line"></i>
+                    <button onclick="window.print()" class="h-11 px-4 bg-earth/60 hover:bg-gold hover:text-white text-mocha rounded-xl border border-earth-light text-xs font-bold transition-all flex items-center gap-1.5" title="Rezept drucken">
+                        <i class="ri-printer-line text-gold"></i>
+                        <span class="hidden sm:inline">Drucken</span>
                     </button>
                 </div>
             </div>
@@ -393,13 +422,13 @@
             <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 p-4 bg-earth/50 rounded-2xl border border-earth-light mb-8">
                 <div class="flex items-center gap-2">
                     <i class="ri-user-smile-line text-gold text-xl"></i>
-                    <span class="text-sm font-bold text-mocha">Portionen anpassen:</span>
-                    <span class="text-xs text-ash-light">(Rezeptmengen rechnen automatisch mit)</span>
+                    <span class="text-sm font-bold text-mocha">Portionen:</span>
+                    <span class="text-xs text-ash-light">(Mengen passen sich automatisch an)</span>
                 </div>
                 <div class="flex items-center gap-2">
-                    <button class="scale-btn active px-3.5 py-1.5 rounded-xl border border-earth-light text-xs font-bold transition-all" data-scale="1" onclick="setPortionScale(1)">1x (Original)</button>
-                    <button class="scale-btn px-3.5 py-1.5 bg-white hover:bg-earth text-mocha rounded-xl border border-earth-light text-xs font-bold transition-all" data-scale="2" onclick="setPortionScale(2)">2x (Doppelt)</button>
-                    <button class="scale-btn px-3.5 py-1.5 bg-white hover:bg-earth text-mocha rounded-xl border border-earth-light text-xs font-bold transition-all" data-scale="3" onclick="setPortionScale(3)">3x (Party)</button>
+                    <button class="scale-btn active px-4 py-1.5 rounded-xl border border-earth-light text-xs font-bold transition-all bg-white" data-scale="1" onclick="setPortionScale(1)">1x (Original)</button>
+                    <button class="scale-btn px-4 py-1.5 bg-white hover:bg-earth text-mocha rounded-xl border border-earth-light text-xs font-bold transition-all" data-scale="2" onclick="setPortionScale(2)">2x (Doppelt)</button>
+                    <button class="scale-btn px-4 py-1.5 bg-white hover:bg-earth text-mocha rounded-xl border border-earth-light text-xs font-bold transition-all" data-scale="3" onclick="setPortionScale(3)">3x (Party)</button>
                 </div>
             </div>
 
@@ -442,7 +471,7 @@
                     </li>
                     <li class="flex items-center gap-3 p-2.5 rounded-2xl hover:bg-earth/40 transition-all cursor-pointer group" onclick="this.classList.toggle('opacity-40'); this.classList.toggle('line-through')">
                         <input type="checkbox" class="w-4 h-4 rounded text-gold focus:ring-gold pointer-events-none accent-[#c19768] flex-shrink-0" />
-                        <span class="text-ash"><strong class="text-mocha"><span class="ing-qty" data-base="3">3</span> EL</strong> <a href="kaltgepresste-oele.html" class="text-gold font-bold hover:underline">Anadoa Kaltgepresstes Olivenöl</a></span>
+                        <span class="text-ash"><strong class="text-mocha"><span class="ing-qty" data-base="3">3</span> EL</strong> Natives Olivenöl Extra</span>
                     </li>
                     <li class="flex items-center gap-3 p-2.5 rounded-2xl hover:bg-earth/40 transition-all cursor-pointer group" onclick="this.classList.toggle('opacity-40'); this.classList.toggle('line-through')">
                         <input type="checkbox" class="w-4 h-4 rounded text-gold focus:ring-gold pointer-events-none accent-[#c19768] flex-shrink-0" />
@@ -679,7 +708,6 @@
                 const baseQty = parseFloat(el.getAttribute('data-base'));
                 if (!isNaN(baseQty)) {
                     const newQty = (baseQty * scale);
-                    // Format nicely (e.g. 1.5 instead of 1.5000)
                     el.textContent = (newQty % 1 === 0) ? newQty : newQty.toFixed(1).replace('.0', '');
                 }
             });
@@ -689,30 +717,30 @@
         let wakeLock = null;
         async function toggleCookMode() {
             const dot = document.getElementById('wakeLockDot');
-            const text = document.getElementById('wakeLockText');
+            const btn = document.getElementById('wakeLockBtn');
             
             if ('wakeLock' in navigator) {
                 if (wakeLock === null) {
                     try {
                         wakeLock = await navigator.wakeLock.request('screen');
-                        dot.className = 'w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse';
-                        text.textContent = 'An (Display bleibt hell)';
+                        dot.className = 'w-2.5 h-2.5 rounded-full bg-emerald-500 shadow-sm animate-pulse';
+                        btn.classList.add('border-emerald-400', 'bg-emerald-50/50');
                         wakeLock.addEventListener('release', () => {
                             wakeLock = null;
                             dot.className = 'w-2.5 h-2.5 rounded-full bg-slate-300';
-                            text.textContent = 'Aus';
+                            btn.classList.remove('border-emerald-400', 'bg-emerald-50/50');
                         });
                     } catch (err) {
-                        alert('Kochmodus konnte nicht aktiviert werden: ' + err.message);
+                        alert('Kochmodus konnte nicht aktiviert werden.');
                     }
                 } else {
                     wakeLock.release();
                     wakeLock = null;
                     dot.className = 'w-2.5 h-2.5 rounded-full bg-slate-300';
-                    text.textContent = 'Aus';
+                    btn.classList.remove('border-emerald-400', 'bg-emerald-50/50');
                 }
             } else {
-                alert('Der Kochmodus wird von Ihrem Browser leider nicht unterstützt. Ihr Bildschirm schaltet sich wie gewohnt nach dem System-Timeout ab.');
+                alert('Der Kochmodus wird von Ihrem Browser leider nicht unterstützt.');
             }
         }
     </script>
