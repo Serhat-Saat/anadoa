@@ -1547,13 +1547,13 @@ function initNavigation() {
       "isProduct": false
     },
     {
-      "title": "Frischer Granatapfel-Walnuss-Salat Rezepte",
-      "description": "Ein Fest der Sinne! Knackig, fruchtig, nussig und dank der Kombination aus Anadoa Granatapfelsirup und Sumach herrlich süß-säuerlich.",
-      "h1": "Frischer Granatapfel-Walnuss-Salat",
+      "title": "Türkischer Salat mit Granatapfel (Gavurdağı Salatası) | Rezept",
+      "description": "Original türkischer Salat mit Granatapfel, Walnüssen & Sumach (Gavurdağı Salatası). Knackig, fruchtig, in 15 Min. zubereitet.",
+      "h1": "Türkischer Salat mit Granatapfel & Walnüssen (Gavurdağı Salatası)",
       "url": "rezept-granatapfel-walnuss-salat.html",
       "image": "assets/rezept_salat.png",
       "category": "Rezepte & Kulinarik",
-      "keywords": "rezept, anatolische küche, traditionelles rezept, granatapfel walnuss salat",
+      "keywords": "türkischer salat mit granatapfel, gavurdagi salatasi, gavurdağı salatası, löffelsalat, loeffelsalat, granatapfel walnuss salat, nar eksisi, sumach, rezept",
       "isProduct": false
     },
     {
