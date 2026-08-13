@@ -58,6 +58,12 @@
         .custom-scrollbar::-webkit-scrollbar-thumb:hover {
             background: rgba(193, 151, 104, 0.8);
         }
+
+        .scale-btn.active {
+            background-color: #c19768;
+            color: #ffffff;
+            border-color: #c19768;
+        }
     </style>
 
     <!-- JSON-LD BreadcrumbList Schema -->
@@ -68,7 +74,7 @@
       "itemListElement": [
         {"@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://www.anadoa.com/"},
         {"@type": "ListItem", "position": 2, "name": "Rezepte", "item": "https://www.anadoa.com/rezepte.html"},
-        {"@type": "ListItem", "position": 3, "name": "Traditionelle Anatolische Tarhana Suppe", "item": "https://www.anadoa.com/rezept-anatolische-tarhana-suppe.html"}
+        {"@type": "ListItem", "position": 3, "name": "Traditionelle Türkische Tarhana Suppe", "item": "https://www.anadoa.com/rezept-anatolische-tarhana-suppe.html"}
       ]
     }
     </script>
@@ -78,7 +84,7 @@
     {
         "@context": "https://schema.org/",
         "@type": "Recipe",
-        "name": "Traditionelle Anatolische Tarhana Suppe",
+        "name": "Traditionelle Türkische Tarhana Suppe",
         "image": [
             "https://www.anadoa.com/assets/rezept_tarhana.png"
         ],
@@ -107,42 +113,42 @@
         "suitableForDiet": "https://schema.org/VegetarianDiet",
         "nutrition": {
             "@type": "NutritionInformation",
-            "calories": "~160 kcal",
+            "calories": "160 kcal",
             "servingSize": "1 Portion"
         },
         "recipeIngredient": [
-        "4 gehäufte EL Anadoa Tarhana Pulver",
+        "4 gehäufte EL Anadoa Tarhana Pulver (fermentiert & sonnengetrocknet)",
         "1 Liter kaltes Wasser oder milde Gemüsebrühe",
-        "1 EL Butter oder Anadoa Olivenöl",
-        "1 EL Tomatenmark (oder Paprikamark)",
-        "1 Knoblauchzehe (fein gerieben)",
+        "1 EL Butter oder Anadoa Kaltgepresstes Olivenöl",
+        "1 EL Tomatenmark oder Paprikamark (Salça)",
+        "1 Zehe Knoblauch (fein gerieben)",
         "1 TL getrocknete Minze (Kuru Nane)",
-        "1/2 TL Paprikaflocken (Pul Biber)",
-        "Meersalz nach Geschmack"
+        "0.5 TL Paprikaflocken (Pul Biber)",
+        "0.5 TL Meersalz nach Geschmack"
 ],
         "recipeInstructions": [
         {
                 "@type": "HowToStep",
-                "name": "Tarhana einweichen",
-                "text": "Geben Sie 4 EL Anadoa Tarhana in eine Schale mit 1 Tasse lauwarmem Wasser. Verrühren Sie das Pulver gründlich mit einem Schneebesen und lassen Sie es ca. 10 Minuten quellen. Das verhindert Klumpenbildung.",
+                "name": "Tarhana vorklumpenfrei anrühren",
+                "text": "4 EL Anadoa Tarhana in eine Schale geben und mit 1 Tasse lauwarmem Wasser glattrühren. 5–10 Minuten quellen lassen – das verhindert Klümpchenbildung im Topf.",
                 "url": "https://www.anadoa.com/rezept-anatolische-tarhana-suppe.html#step-1"
         },
         {
                 "@type": "HowToStep",
-                "name": "Aromen anrösten",
-                "text": "Erhitzen Sie die Butter oder das Olivenöl in einem mittelgroßen Topf bei mittlerer Hitze. Geben Sie Tomatenmark, Knoblauch und getrocknete Minze hinzu und rösten Sie alles ca. 1-2 Minuten an, bis die Minze intensiv duftet.",
+                "name": "Aromabasis anrösten",
+                "text": "Butter oder Olivenöl in einem Topf erhitzen. Tomatenmark, geriebenen Knoblauch und getrocknete Minze ca. 1–2 Minuten anrösten, bis ein intensiver Duft aufsteigt.",
                 "url": "https://www.anadoa.com/rezept-anatolische-tarhana-suppe.html#step-2"
         },
         {
                 "@type": "HowToStep",
                 "name": "Aufgießen & Köcheln",
-                "text": "Gießen Sie das restliche kalte Wasser langsam unter ständigem Rühren mit dem Schneebesen in den Topf. Fügen Sie die gequollene Tarhana-Mischung hinzu.",
+                "text": "Das restliche kalte Wasser langsam unter ständigem Rühren mit dem Schneebesen in den Topf gießen. Die gequollene Tarhana-Mischung dazugeben.",
                 "url": "https://www.anadoa.com/rezept-anatolische-tarhana-suppe.html#step-3"
         },
         {
                 "@type": "HowToStep",
-                "name": "Cremig rühren & Vollenden",
-                "text": "Bringen Sie die Suppe bei mittlerer Hitze unter regelmäßigem Rühren zum Kochen. Sobald sie andickt, Hitze reduzieren und 5-8 Minuten sanft köcheln lassen. Mit Salz und Pul Biber abschmecken und heiß mit geröstetem Fladenbrot oder Feta servieren!",
+                "name": "Cremig rühren & Servieren",
+                "text": "Bei mittlerer Hitze stetig rühren, bis die Suppe aufkocht und samtig andickt. 5 Minuten bei milder Hitze köcheln lassen, mit Meersalz und Pul Biber abschmecken und heiß servieren!",
                 "url": "https://www.anadoa.com/rezept-anatolische-tarhana-suppe.html#step-4"
         }
 ],
@@ -164,26 +170,26 @@
       "mainEntity": [
       {
             "@type": "Question",
-            "name": "Warum ist Tarhana so gesund für den Darm?",
-            "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Tarhana ist eine der ältesten probiotischen Suppen der Welt. Durch die mehrtägige Fermentation von Getreide, Joghurt und frischem Gemüse entstehen wertvolle Milchsäurebakterien und hoch bioverfügbare B-Vitamine."
-            }
-      },
-      {
-            "@type": "Question",
             "name": "Wie verhindert man Klümpchen in der Tarhana-Suppe?",
             "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Der wichtigste Schritt ist das vorherige Anrühren des Tarhana-Pulvers mit etwas kaltem/lauwarmem Wasser, bevor es in den Topf gegeben wird, sowie ständiges Rühren während des Aufkochens."
+                  "text": "Geben Sie das Tarhana-Pulver niemals direkt in kochendes Wasser! Verrühren Sie es vorher mit einer Tasse kaltem oder lauwarmem Wasser und rühren Sie beim Aufkochen kontinuierlich mit dem Schneebesen."
             }
       },
       {
             "@type": "Question",
-            "name": "Kann man Tarhana auch vegan zubereiten?",
+            "name": "Was passt als Beilage zur Tarhana-Suppe?",
             "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Klassische Tarhana enthält Joghurt. Für eine vegane Variante gibt es in Anatolien pflanzliche Fermentationsmethoden auf Basis von Kichererbsenhefe."
+                  "text": "Klassisch serviert man dazu frisch getoastetes Fladenbrot, zerbröselten Feta oder knusprige Croutons."
+            }
+      },
+      {
+            "@type": "Question",
+            "name": "Ist Tarhana gut für Kinder?",
+            "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Ja, Tarhana ist eines der beliebtesten Aufbaunahrungsmittel für Kinder in Anatolien, da es leicht verdaulich ist und viele natürliche Vitamine enthält."
             }
       }
 ]
@@ -221,7 +227,7 @@
     <script src="components/nav.js"></script>
 
     <!-- Hero Header -->
-    <header class="pt-32 pb-16 px-6 bg-earth text-center relative overflow-hidden">
+    <header class="pt-32 pb-12 px-6 bg-earth text-center relative overflow-hidden">
         <div class="max-w-4xl mx-auto relative z-10">
             <nav aria-label="Breadcrumb" class="mb-6">
                 <ol class="flex flex-wrap items-center justify-center gap-y-2 gap-x-2 text-sm text-sage/80 font-medium">
@@ -230,26 +236,36 @@
                     <li><span class="mx-2 text-mocha">/</span></li>
                     <li><a href="rezepte.html" class="hover:text-gold transition-colors">Rezepte</a></li>
                     <li><span class="mx-2 text-mocha">/</span></li>
-                    <li class="text-gold" aria-current="page">Traditionelle Anatolische Tarhana Suppe</li>
+                    <li class="text-gold" aria-current="page">Traditionelle Türkische Tarhana Suppe</li>
                 </ol>
             </nav>
             
             <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-gold/10 border border-gold/20 text-xs font-bold uppercase tracking-wider text-mocha mb-4">
-                <i class="ri-restaurant-line text-gold"></i> Anatolische Spezialität • Vegetarisch & Probiotisch
+                <i class="ri-restaurant-line text-gold"></i> Jahrhundertealte Tradition • Vegetarisch & Probiotisch
             </div>
             
-            <h1 class="text-4xl md:text-6xl font-serif font-bold text-mocha mb-4 leading-tight">
-                Traditionelle Anatolische Tarhana Suppe
+            <h1 class="text-3xl sm:text-4xl md:text-6xl font-serif font-bold text-mocha mb-4 leading-tight">
+                Traditionelle Türkische Tarhana Suppe
             </h1>
 
-            <p class="text-lg md:text-xl text-ash-light max-w-2xl mx-auto mb-8 font-light leading-relaxed">
-                Wärmende, probiotische Wintersuppe der Nomaden
+            <p class="text-base sm:text-lg md:text-xl text-sage font-medium max-w-2xl mx-auto mb-6">
+                Tarhana Çorbası – Die wärmende, probiotische Kraftsuppe der Nomaden
             </p>
             
+            <!-- Floating Jump / Quick Action Buttons -->
+            <div class="flex flex-wrap items-center justify-center gap-3 mb-8">
+                <a href="#rezept-karte" class="px-5 py-2.5 bg-gold hover:bg-mocha text-white rounded-full font-bold text-xs sm:text-sm shadow-md hover:shadow-lg transition-all duration-300 flex items-center gap-2">
+                    <i class="ri-arrow-down-line font-bold"></i> Direkt zum Rezept springen
+                </a>
+                <button onclick="window.print()" class="px-5 py-2.5 bg-white hover:bg-gold hover:text-white text-mocha border border-earth-light rounded-full font-bold text-xs sm:text-sm shadow-xs transition-all duration-300 flex items-center gap-2">
+                    <i class="ri-printer-line text-gold"></i> Rezept drucken
+                </button>
+            </div>
+
             <!-- Quick Recipe Highlights / Meta Bar -->
-            <div class="flex flex-wrap items-center justify-center gap-4 md:gap-8 text-sm font-medium text-ash border-y border-earth-light py-5 mb-10 bg-white/40 rounded-2xl">
+            <div class="flex flex-wrap items-center justify-center gap-4 md:gap-8 text-sm font-medium text-ash border-y border-earth-light py-5 mb-10 bg-white/50 rounded-2xl">
                 <!-- Stars & Ratings (Google Recipe Rich Snippet UI) -->
-                <div class="flex items-center gap-2 bg-amber-50 px-3 py-1.5 rounded-xl border border-amber-200/60 shadow-xs">
+                <div class="flex items-center gap-2 bg-amber-50 px-3.5 py-1.5 rounded-xl border border-amber-200/60 shadow-xs">
                     <div class="flex text-amber-400 text-base">
                         <i class="ri-star-fill"></i>
                         <i class="ri-star-fill"></i>
@@ -273,7 +289,7 @@
 
                 <div class="flex items-center gap-2">
                     <i class="ri-fire-line text-lg text-gold"></i>
-                    <span>Kalorien: <strong>~160 kcal</strong></span>
+                    <span>Kalorien: <strong>160 kcal</strong></span>
                 </div>
 
                 <div class="flex items-center gap-2">
@@ -283,169 +299,287 @@
             </div>
 
             <!-- Recipe Hero Image -->
-            <div class="relative w-full h-[360px] md:h-[520px] rounded-[2.5rem] overflow-hidden shadow-2xl bg-earth-light border border-white/60 group">
-                <img alt="Rezept: Traditionelle Anatolische Tarhana Suppe"
+            <div class="relative w-full h-[360px] md:h-[540px] rounded-[2.5rem] overflow-hidden shadow-2xl bg-earth-light border border-white/60 group">
+                <img alt="Rezept: Traditionelle Türkische Tarhana Suppe"
                     class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                     src="assets/rezept_tarhana.png" />
                 <div class="absolute bottom-6 left-6 right-6 flex items-center justify-between pointer-events-none">
-                    <span class="px-4 py-2 bg-white/90 backdrop-blur-md text-mocha rounded-xl font-bold text-xs shadow-md">
-                        <i class="ri-leaf-line text-sage mr-1"></i> 100% Natürlich
+                    <span class="px-4 py-2 bg-white/95 backdrop-blur-md text-mocha rounded-xl font-bold text-xs shadow-md">
+                        <i class="ri-leaf-line text-sage mr-1"></i> 100% Naturreine Zutaten
                     </span>
-                    <button onclick="window.print()" class="pointer-events-auto px-4 py-2 bg-white/90 hover:bg-gold hover:text-white backdrop-blur-md text-mocha rounded-xl font-bold text-xs shadow-md transition-all flex items-center gap-1.5">
-                        <i class="ri-printer-line"></i> Rezept drucken
-                    </button>
+                    <span class="px-4 py-2 bg-white/95 backdrop-blur-md text-mocha rounded-xl font-bold text-xs shadow-md">
+                        <i class="ri-time-line text-gold mr-1"></i> 20 Min. Zubereitung
+                    </span>
                 </div>
             </div>
         </div>
     </header>
 
-    <!-- Main Content Grid -->
-    <main class="max-w-7xl mx-auto px-6 py-12 bg-white backdrop-blur-md rounded-3xl shadow-xl border border-white/60 mb-20">
-        <div class="flex flex-col lg:flex-row gap-12 lg:gap-16">
+    <!-- Main Editorial & Recipe Body -->
+    <main class="max-w-4xl mx-auto px-6 py-8">
+        
+        <!-- Long-form Food Journalism & Story Section -->
+        
+            <div class="prose prose-lg max-w-none text-ash leading-relaxed space-y-6 mb-12">
+                <p class="text-xl md:text-2xl font-serif text-mocha leading-relaxed italic border-l-4 border-gold pl-6 py-2 bg-earth/30 rounded-r-2xl">
+                    „Tarhana gilt als die älteste Instant-Suppe der Menschheitsgeschichte – eine uralte Symbiose aus Fermentation, Joghurt, Gemüse und sonnengetrocknetem Getreide.“
+                </p>
+                <p>
+                    Schon die Nomadenstämme Zentralasiens und des anatolischen Hochlands wussten um die lebensrettende Kraft der Fermentation: Um frischen Joghurt, reife Sommertomaten, Paprika und aromatische Kräuter für den eisigen Winter haltbar zu machen, verkneteten sie die Zutaten mit Weizenmehl, ließen die Masse tagelang milchsauer fermentieren und trockneten sie in der anatolischen Höhensonne. Das Ergebnis ist <a href="tarhana-suppe.html" class="text-gold font-bold hover:underline">Tarhana</a> – ein natürliches Nährstoffkonzentrat voller Milchsäurebakterien, bioverfügbarer B-Vitamine und wärmender Würze.
+                </p>
+                <div class="my-8 p-6 bg-amber-50/70 rounded-3xl border border-amber-200/60 shadow-xs">
+                    <h3 class="text-xl font-serif font-bold text-mocha mb-3 flex items-center gap-2">
+                        <i class="ri-heart-pulse-line text-gold"></i> Warum Tarhana die ultimative Heilspeise für den Darm ist
+                    </h3>
+                    <p class="text-sm md:text-base text-ash leading-relaxed mb-4">
+                        In Anatolien wird Tarhana bei Erkältungen, Magen-Darm-Verstimmungen oder als stärkendes Frühstück gereicht. Durch die natürliche Gärung werden Phytinsäuren im Getreide abgebaut und Mineralstoffe wie Eisen, Zink und Calcium für den menschlichen Körper optimal verwertbar gemacht.
+                    </p>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-xs font-medium text-mocha mt-4">
+                        <div class="bg-white p-3.5 rounded-xl border border-amber-200/40">
+                            <strong class="block text-gold text-sm mb-1"><i class="ri-shield-check-line"></i> Probiotische Fermentkraft</strong>
+                            Sanfte Milchsäurebakterien unterstützen das Mikrobiom und harmonisieren die Darmflora.
+                        </div>
+                        <div class="bg-white p-3.5 rounded-xl border border-amber-200/40">
+                            <strong class="block text-gold text-sm mb-1"><i class="ri-temp-hot-line"></i> Innere Wärme & Stärke</strong>
+                            Getrocknete Minze (Kuru Nane) und Knoblauch regen die Durchblutung an und befreien die Atemwege.
+                        </div>
+                        <div class="bg-white p-3.5 rounded-xl border border-amber-200/40">
+                            <strong class="block text-gold text-sm mb-1"><i class="ri-time-line"></i> In 15 Min. servierbereit</strong>
+                            Perfektes Clean-Eating Fastfood ohne Konservierungsstoffe oder künstliche Geschmacksverstärker.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+
+        <!-- THE INTERACTIVE RECIPE CARD -->
+        <div id="rezept-karte" class="scroll-mt-28 bg-white backdrop-blur-md rounded-[2.5rem] shadow-2xl border-2 border-gold/30 p-6 md:p-12 mb-16 relative">
             
-            <!-- Left Column: Zutaten & Produkte -->
-            <div class="w-full lg:w-1/3">
-                <div class="bg-earth/40 rounded-[2rem] p-6 md:p-8 shadow-xs border border-earth-light sticky top-28 z-10">
-                    <div class="flex items-center justify-between mb-6 border-b border-earth-light pb-4">
-                        <h2 class="text-2xl font-serif font-bold text-mocha m-0 flex items-center gap-2">
-                            <i class="ri-shopping-basket-line text-gold"></i> Zutaten
-                        </h2>
-                        <span class="text-xs font-bold text-sage bg-white px-2.5 py-1 rounded-full border border-earth-light">Für 4 Personen</span>
+            <!-- Card Header Badge & Actions -->
+            <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-earth-light pb-6 mb-8">
+                <div>
+                    <span class="text-xs font-bold uppercase tracking-wider text-gold block mb-1">Rezeptkarte</span>
+                    <h2 class="text-2xl md:text-4xl font-serif font-bold text-mocha m-0">Traditionelle Türkische Tarhana Suppe</h2>
+                    <div class="flex items-center gap-2 mt-2 text-amber-500 text-sm font-bold">
+                        <div class="flex text-amber-400">
+                            <i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i>
+                        </div>
+                        <span>5.0 (52 Bewertungen)</span>
+                    </div>
+                </div>
+
+                <div class="flex flex-wrap items-center gap-3">
+                    <!-- Kochmodus Toggle Button (Screen Wake Lock) -->
+                    <button id="wakeLockBtn" onclick="toggleCookMode()" class="px-4 py-2 bg-earth/60 hover:bg-earth text-mocha rounded-xl font-bold text-xs border border-earth-light flex items-center gap-2 transition-all">
+                        <span class="w-2.5 h-2.5 rounded-full bg-slate-300" id="wakeLockDot"></span>
+                        <i class="ri-smartphone-line text-gold"></i>
+                        <span>Kochmodus: <strong id="wakeLockText">Aus</strong></span>
+                    </button>
+
+                    <button onclick="window.print()" class="p-2.5 bg-earth/60 hover:bg-gold hover:text-white text-mocha rounded-xl border border-earth-light text-sm transition-all" title="Rezept drucken">
+                        <i class="ri-printer-line"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Recipe Info Grid in Card -->
+            <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 p-4 bg-earth/30 rounded-2xl border border-earth-light mb-8 text-center text-xs sm:text-sm">
+                <div>
+                    <span class="text-ash-light block text-xs">Vorbereitung</span>
+                    <strong class="text-mocha font-bold">5 Min.</strong>
+                </div>
+                <div>
+                    <span class="text-ash-light block text-xs">Kochzeit</span>
+                    <strong class="text-mocha font-bold">15 Min.</strong>
+                </div>
+                <div>
+                    <span class="text-ash-light block text-xs">Gesamtzeit</span>
+                    <strong class="text-mocha font-bold text-gold">20 Min.</strong>
+                </div>
+                <div>
+                    <span class="text-ash-light block text-xs">Kalorien</span>
+                    <strong class="text-mocha font-bold">160 kcal</strong>
+                </div>
+            </div>
+
+            <!-- Portion Scaler Controls -->
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 p-4 bg-earth/50 rounded-2xl border border-earth-light mb-8">
+                <div class="flex items-center gap-2">
+                    <i class="ri-user-smile-line text-gold text-xl"></i>
+                    <span class="text-sm font-bold text-mocha">Portionen anpassen:</span>
+                    <span class="text-xs text-ash-light">(Rezeptmengen rechnen automatisch mit)</span>
+                </div>
+                <div class="flex items-center gap-2">
+                    <button class="scale-btn active px-3.5 py-1.5 rounded-xl border border-earth-light text-xs font-bold transition-all" data-scale="1" onclick="setPortionScale(1)">1x (Original)</button>
+                    <button class="scale-btn px-3.5 py-1.5 bg-white hover:bg-earth text-mocha rounded-xl border border-earth-light text-xs font-bold transition-all" data-scale="2" onclick="setPortionScale(2)">2x (Doppelt)</button>
+                    <button class="scale-btn px-3.5 py-1.5 bg-white hover:bg-earth text-mocha rounded-xl border border-earth-light text-xs font-bold transition-all" data-scale="3" onclick="setPortionScale(3)">3x (Party)</button>
+                </div>
+            </div>
+
+            <!-- Ingredients Checklist -->
+            <div class="mb-12">
+                <div class="flex items-center justify-between mb-4">
+                    <h3 class="text-2xl font-serif font-bold text-mocha flex items-center gap-2">
+                        <i class="ri-shopping-basket-line text-gold"></i> Zutaten
+                    </h3>
+                    <span class="text-xs text-ash-light italic">Zum Abhaken anklicken</span>
+                </div>
+                <ul class="space-y-3 text-ash text-sm md:text-base" id="ingredientsList">
+                    <li class="flex items-center gap-3 p-2.5 rounded-2xl hover:bg-earth/40 transition-all cursor-pointer group" onclick="this.classList.toggle('opacity-40'); this.classList.toggle('line-through')">
+                        <input type="checkbox" class="w-4 h-4 rounded text-gold focus:ring-gold pointer-events-none accent-[#c19768] flex-shrink-0" />
+                        <span class="text-ash"><strong class="text-mocha"><span class="ing-qty" data-base="4">4</span> gehäufte EL</strong> <a href="tarhana-suppe.html" class="text-gold font-bold hover:underline">Anadoa Tarhana Pulver (fermentiert & sonnengetrocknet)</a></span>
+                    </li>
+                    <li class="flex items-center gap-3 p-2.5 rounded-2xl hover:bg-earth/40 transition-all cursor-pointer group" onclick="this.classList.toggle('opacity-40'); this.classList.toggle('line-through')">
+                        <input type="checkbox" class="w-4 h-4 rounded text-gold focus:ring-gold pointer-events-none accent-[#c19768] flex-shrink-0" />
+                        <span class="text-ash"><strong class="text-mocha"><span class="ing-qty" data-base="1">1</span> Liter</strong> kaltes Wasser oder milde Gemüsebrühe</span>
+                    </li>
+                    <li class="flex items-center gap-3 p-2.5 rounded-2xl hover:bg-earth/40 transition-all cursor-pointer group" onclick="this.classList.toggle('opacity-40'); this.classList.toggle('line-through')">
+                        <input type="checkbox" class="w-4 h-4 rounded text-gold focus:ring-gold pointer-events-none accent-[#c19768] flex-shrink-0" />
+                        <span class="text-ash"><strong class="text-mocha"><span class="ing-qty" data-base="1">1</span> EL</strong> <a href="kaltgepresste-oele.html" class="text-gold font-bold hover:underline">Butter oder Anadoa Kaltgepresstes Olivenöl</a></span>
+                    </li>
+                    <li class="flex items-center gap-3 p-2.5 rounded-2xl hover:bg-earth/40 transition-all cursor-pointer group" onclick="this.classList.toggle('opacity-40'); this.classList.toggle('line-through')">
+                        <input type="checkbox" class="w-4 h-4 rounded text-gold focus:ring-gold pointer-events-none accent-[#c19768] flex-shrink-0" />
+                        <span class="text-ash"><strong class="text-mocha"><span class="ing-qty" data-base="1">1</span> EL</strong> Tomatenmark oder Paprikamark (Salça)</span>
+                    </li>
+                    <li class="flex items-center gap-3 p-2.5 rounded-2xl hover:bg-earth/40 transition-all cursor-pointer group" onclick="this.classList.toggle('opacity-40'); this.classList.toggle('line-through')">
+                        <input type="checkbox" class="w-4 h-4 rounded text-gold focus:ring-gold pointer-events-none accent-[#c19768] flex-shrink-0" />
+                        <span class="text-ash"><strong class="text-mocha"><span class="ing-qty" data-base="1">1</span> Zehe</strong> Knoblauch (fein gerieben)</span>
+                    </li>
+                    <li class="flex items-center gap-3 p-2.5 rounded-2xl hover:bg-earth/40 transition-all cursor-pointer group" onclick="this.classList.toggle('opacity-40'); this.classList.toggle('line-through')">
+                        <input type="checkbox" class="w-4 h-4 rounded text-gold focus:ring-gold pointer-events-none accent-[#c19768] flex-shrink-0" />
+                        <span class="text-ash"><strong class="text-mocha"><span class="ing-qty" data-base="1">1</span> TL</strong> getrocknete Minze (Kuru Nane)</span>
+                    </li>
+                    <li class="flex items-center gap-3 p-2.5 rounded-2xl hover:bg-earth/40 transition-all cursor-pointer group" onclick="this.classList.toggle('opacity-40'); this.classList.toggle('line-through')">
+                        <input type="checkbox" class="w-4 h-4 rounded text-gold focus:ring-gold pointer-events-none accent-[#c19768] flex-shrink-0" />
+                        <span class="text-ash"><strong class="text-mocha"><span class="ing-qty" data-base="0.5">0.5</span> TL</strong> Paprikaflocken (Pul Biber)</span>
+                    </li>
+                    <li class="flex items-center gap-3 p-2.5 rounded-2xl hover:bg-earth/40 transition-all cursor-pointer group" onclick="this.classList.toggle('opacity-40'); this.classList.toggle('line-through')">
+                        <input type="checkbox" class="w-4 h-4 rounded text-gold focus:ring-gold pointer-events-none accent-[#c19768] flex-shrink-0" />
+                        <span class="text-ash"><strong class="text-mocha"><span class="ing-qty" data-base="0.5">0.5</span> TL</strong> Meersalz nach Geschmack</span>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Step by Step Instructions -->
+            <div class="mb-12">
+                <h3 class="text-2xl font-serif font-bold text-mocha mb-6 flex items-center gap-2">
+                    <i class="ri-knife-line text-gold"></i> Schritt-für-Schritt Zubereitung
+                </h3>
+                <div class="space-y-6 text-base leading-relaxed text-ash">
+                    <div id="step-1" class="scroll-mt-32 p-6 md:p-8 bg-earth/20 rounded-3xl border border-earth-light shadow-xs hover:shadow-md transition-all duration-300 relative group">
+                        <div class="flex items-start gap-4">
+                            <div class="flex-shrink-0 w-10 h-10 rounded-full bg-gold text-white font-bold flex items-center justify-center shadow-md font-serif text-lg">1</div>
+                            <div class="flex-grow">
+                                <h4 class="text-xl font-serif font-bold text-mocha mb-2 group-hover:text-gold transition-colors">
+                                    Schritt 1: Tarhana vorklumpenfrei anrühren
+                                </h4>
+                                <p class="text-ash leading-relaxed m-0 text-sm md:text-base">
+                                    4 EL Anadoa Tarhana in eine Schale geben und mit 1 Tasse lauwarmem Wasser glattrühren. 5–10 Minuten quellen lassen – das verhindert Klümpchenbildung im Topf.
+                                </p>
+                            </div>
+                        </div>
                     </div>
 
-                    <p class="text-xs text-ash-light mb-4 italic">Klicken Sie auf die Zutaten zum Abhaken:</p>
+                    <div id="step-2" class="scroll-mt-32 p-6 md:p-8 bg-earth/20 rounded-3xl border border-earth-light shadow-xs hover:shadow-md transition-all duration-300 relative group">
+                        <div class="flex items-start gap-4">
+                            <div class="flex-shrink-0 w-10 h-10 rounded-full bg-gold text-white font-bold flex items-center justify-center shadow-md font-serif text-lg">2</div>
+                            <div class="flex-grow">
+                                <h4 class="text-xl font-serif font-bold text-mocha mb-2 group-hover:text-gold transition-colors">
+                                    Schritt 2: Aromabasis anrösten
+                                </h4>
+                                <p class="text-ash leading-relaxed m-0 text-sm md:text-base">
+                                    Butter oder Olivenöl in einem Topf erhitzen. Tomatenmark, geriebenen Knoblauch und getrocknete Minze ca. 1–2 Minuten anrösten, bis ein intensiver Duft aufsteigt.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
 
-                    <ul class="space-y-3.5 text-ash text-sm md:text-base">
-                        <li class="flex items-center gap-3 p-2 rounded-xl hover:bg-white/80 transition-colors cursor-pointer" onclick="this.classList.toggle('opacity-40'); this.classList.toggle('line-through')">
-                            <input type="checkbox" class="w-4 h-4 rounded text-gold focus:ring-gold pointer-events-none accent-[#c19768]" />
-                            <span>4 gehäufte EL <a href='tarhana-suppe.html' class='text-gold font-bold hover:underline'>Anadoa Tarhana Pulver</a></span>
-                        </li>
-                        <li class="flex items-center gap-3 p-2 rounded-xl hover:bg-white/80 transition-colors cursor-pointer" onclick="this.classList.toggle('opacity-40'); this.classList.toggle('line-through')">
-                            <input type="checkbox" class="w-4 h-4 rounded text-gold focus:ring-gold pointer-events-none accent-[#c19768]" />
-                            <span>1 Liter kaltes Wasser oder milde Gemüsebrühe</span>
-                        </li>
-                        <li class="flex items-center gap-3 p-2 rounded-xl hover:bg-white/80 transition-colors cursor-pointer" onclick="this.classList.toggle('opacity-40'); this.classList.toggle('line-through')">
-                            <input type="checkbox" class="w-4 h-4 rounded text-gold focus:ring-gold pointer-events-none accent-[#c19768]" />
-                            <span>1 EL Butter oder <a href='kaltgepresste-oele.html' class='text-gold font-bold hover:underline'>Anadoa Olivenöl</a></span>
-                        </li>
-                        <li class="flex items-center gap-3 p-2 rounded-xl hover:bg-white/80 transition-colors cursor-pointer" onclick="this.classList.toggle('opacity-40'); this.classList.toggle('line-through')">
-                            <input type="checkbox" class="w-4 h-4 rounded text-gold focus:ring-gold pointer-events-none accent-[#c19768]" />
-                            <span>1 EL Tomatenmark (oder Paprikamark)</span>
-                        </li>
-                        <li class="flex items-center gap-3 p-2 rounded-xl hover:bg-white/80 transition-colors cursor-pointer" onclick="this.classList.toggle('opacity-40'); this.classList.toggle('line-through')">
-                            <input type="checkbox" class="w-4 h-4 rounded text-gold focus:ring-gold pointer-events-none accent-[#c19768]" />
-                            <span>1 Knoblauchzehe (fein gerieben)</span>
-                        </li>
-                        <li class="flex items-center gap-3 p-2 rounded-xl hover:bg-white/80 transition-colors cursor-pointer" onclick="this.classList.toggle('opacity-40'); this.classList.toggle('line-through')">
-                            <input type="checkbox" class="w-4 h-4 rounded text-gold focus:ring-gold pointer-events-none accent-[#c19768]" />
-                            <span>1 TL getrocknete Minze (Kuru Nane)</span>
-                        </li>
-                        <li class="flex items-center gap-3 p-2 rounded-xl hover:bg-white/80 transition-colors cursor-pointer" onclick="this.classList.toggle('opacity-40'); this.classList.toggle('line-through')">
-                            <input type="checkbox" class="w-4 h-4 rounded text-gold focus:ring-gold pointer-events-none accent-[#c19768]" />
-                            <span>1/2 TL Paprikaflocken (Pul Biber)</span>
-                        </li>
-                        <li class="flex items-center gap-3 p-2 rounded-xl hover:bg-white/80 transition-colors cursor-pointer" onclick="this.classList.toggle('opacity-40'); this.classList.toggle('line-through')">
-                            <input type="checkbox" class="w-4 h-4 rounded text-gold focus:ring-gold pointer-events-none accent-[#c19768]" />
-                            <span>Meersalz nach Geschmack</span>
-                        </li>
-                    </ul>
+                    <div id="step-3" class="scroll-mt-32 p-6 md:p-8 bg-earth/20 rounded-3xl border border-earth-light shadow-xs hover:shadow-md transition-all duration-300 relative group">
+                        <div class="flex items-start gap-4">
+                            <div class="flex-shrink-0 w-10 h-10 rounded-full bg-gold text-white font-bold flex items-center justify-center shadow-md font-serif text-lg">3</div>
+                            <div class="flex-grow">
+                                <h4 class="text-xl font-serif font-bold text-mocha mb-2 group-hover:text-gold transition-colors">
+                                    Schritt 3: Aufgießen & Köcheln
+                                </h4>
+                                <p class="text-ash leading-relaxed m-0 text-sm md:text-base">
+                                    Das restliche kalte Wasser langsam unter ständigem Rühren mit dem Schneebesen in den Topf gießen. Die gequollene Tarhana-Mischung dazugeben.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
 
-                    <!-- Pro-Tipp Box -->
-                    <div class="mt-6 p-4 bg-amber-50/80 rounded-2xl border border-amber-200/60 text-xs text-mocha">
-                        <strong class="flex items-center gap-1.5 font-bold mb-1 text-amber-800"><i class="ri-lightbulb-line text-sm text-gold"></i> Chefkoch-Tipp:</strong>
-                        Verwenden Sie originale Anadoa Naturprodukte ohne Zusätze für das unverfälschte anatolische Geschmackserlebnis!
+                    <div id="step-4" class="scroll-mt-32 p-6 md:p-8 bg-earth/20 rounded-3xl border border-earth-light shadow-xs hover:shadow-md transition-all duration-300 relative group">
+                        <div class="flex items-start gap-4">
+                            <div class="flex-shrink-0 w-10 h-10 rounded-full bg-gold text-white font-bold flex items-center justify-center shadow-md font-serif text-lg">4</div>
+                            <div class="flex-grow">
+                                <h4 class="text-xl font-serif font-bold text-mocha mb-2 group-hover:text-gold transition-colors">
+                                    Schritt 4: Cremig rühren & Servieren
+                                </h4>
+                                <p class="text-ash leading-relaxed m-0 text-sm md:text-base">
+                                    Bei mittlerer Hitze stetig rühren, bis die Suppe aufkocht und samtig andickt. 5 Minuten bei milder Hitze köcheln lassen, mit Meersalz und Pul Biber abschmecken und heiß servieren!
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <!-- Right Column: Zubereitung & Produktempfehlungen -->
-            <div class="w-full lg:w-2/3">
-                <h2 class="text-3xl font-serif font-bold text-mocha mb-6 flex items-center gap-2">
-                    <i class="ri-knife-line text-gold"></i> Schritt-für-Schritt Zubereitung
-                </h2>
-                
-                <!-- Quick-Jump Step Anchors -->
-                <div class="mb-8 p-4 bg-earth/50 rounded-2xl border border-earth-light">
-                    <span class="text-xs uppercase tracking-wider text-sage font-bold block mb-2.5 flex items-center gap-1"><i class="ri-list-check-2 text-gold"></i> Schnelle Schritt-Navigation:</span>
-                    <div class="flex flex-wrap gap-2">
-                        <a href="#step-1" class="px-3 py-1.5 bg-white hover:bg-gold hover:text-white rounded-xl text-xs font-bold text-mocha transition-all duration-300 shadow-xs border border-earth-light flex items-center gap-1"><span>1. Tarhana einweichen</span></a>
-                        <a href="#step-2" class="px-3 py-1.5 bg-white hover:bg-gold hover:text-white rounded-xl text-xs font-bold text-mocha transition-all duration-300 shadow-xs border border-earth-light flex items-center gap-1"><span>2. Aromen anrösten</span></a>
-                        <a href="#step-3" class="px-3 py-1.5 bg-white hover:bg-gold hover:text-white rounded-xl text-xs font-bold text-mocha transition-all duration-300 shadow-xs border border-earth-light flex items-center gap-1"><span>3. Aufgießen & Köcheln</span></a>
-                        <a href="#step-4" class="px-3 py-1.5 bg-white hover:bg-gold hover:text-white rounded-xl text-xs font-bold text-mocha transition-all duration-300 shadow-xs border border-earth-light flex items-center gap-1"><span>4. Cremig rühren & Vollenden</span></a>
+            <!-- Detailed Nutrition Facts Box -->
+            <div class="p-6 bg-earth/40 rounded-3xl border border-earth-light mb-8">
+                <h4 class="text-base font-serif font-bold text-mocha mb-3 flex items-center gap-2">
+                    <i class="ri-pie-chart-line text-gold"></i> Detaillierte Nährwerte pro Portion (ca.)
+                </h4>
+                <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-3 text-center">
+                    <div class="bg-white p-3 rounded-xl border border-earth-light shadow-xs">
+                        <span class="text-[11px] text-ash-light block">Kalorien</span>
+                        <strong class="text-mocha font-bold text-sm">160 kcal</strong>
+                    </div>
+                    <div class="bg-white p-3 rounded-xl border border-earth-light shadow-xs">
+                        <span class="text-[11px] text-ash-light block">Eiweiß</span>
+                        <strong class="text-mocha font-bold text-sm">5.2 g</strong>
+                    </div>
+                    <div class="bg-white p-3 rounded-xl border border-earth-light shadow-xs">
+                        <span class="text-[11px] text-ash-light block">Fett</span>
+                        <strong class="text-mocha font-bold text-sm">4.1 g</strong>
+                    </div>
+                    <div class="bg-white p-3 rounded-xl border border-earth-light shadow-xs">
+                        <span class="text-[11px] text-ash-light block">Kohlenhydrate</span>
+                        <strong class="text-mocha font-bold text-sm">24.5 g</strong>
+                    </div>
+                    <div class="bg-white p-3 rounded-xl border border-earth-light shadow-xs">
+                        <span class="text-[11px] text-ash-light block">Ballaststoffe</span>
+                        <strong class="text-mocha font-bold text-sm">3.1 g</strong>
+                    </div>
+                    <div class="bg-white p-3 rounded-xl border border-earth-light shadow-xs">
+                        <span class="text-[11px] text-ash-light block">Davon Zucker</span>
+                        <strong class="text-mocha font-bold text-sm">2.8 g</strong>
                     </div>
                 </div>
+            </div>
 
-                <!-- Steps List -->
-                <div class="space-y-6 text-base md:text-lg leading-relaxed text-ash">
-                    <div id="step-1" class="scroll-mt-32 p-6 md:p-8 bg-earth/20 rounded-2xl border border-earth-light shadow-xs hover:shadow-md transition-all duration-300 relative group">
-                        <div class="flex items-start gap-4">
-                            <div class="flex-shrink-0 w-10 h-10 rounded-full bg-gold text-white font-bold flex items-center justify-center shadow-md font-serif text-lg">1</div>
-                            <div class="flex-grow">
-                                <h3 class="text-xl font-serif font-bold text-mocha mb-2 group-hover:text-gold transition-colors">
-                                    Schritt 1: Tarhana einweichen
-                                </h3>
-                                <p class="text-ash leading-relaxed m-0 text-sm md:text-base">
-                                    Geben Sie 4 EL Anadoa Tarhana in eine Schale mit 1 Tasse lauwarmem Wasser. Verrühren Sie das Pulver gründlich mit einem Schneebesen und lassen Sie es ca. 10 Minuten quellen. Das verhindert Klumpenbildung.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div id="step-2" class="scroll-mt-32 p-6 md:p-8 bg-earth/20 rounded-2xl border border-earth-light shadow-xs hover:shadow-md transition-all duration-300 relative group">
-                        <div class="flex items-start gap-4">
-                            <div class="flex-shrink-0 w-10 h-10 rounded-full bg-gold text-white font-bold flex items-center justify-center shadow-md font-serif text-lg">2</div>
-                            <div class="flex-grow">
-                                <h3 class="text-xl font-serif font-bold text-mocha mb-2 group-hover:text-gold transition-colors">
-                                    Schritt 2: Aromen anrösten
-                                </h3>
-                                <p class="text-ash leading-relaxed m-0 text-sm md:text-base">
-                                    Erhitzen Sie die Butter oder das Olivenöl in einem mittelgroßen Topf bei mittlerer Hitze. Geben Sie Tomatenmark, Knoblauch und getrocknete Minze hinzu und rösten Sie alles ca. 1-2 Minuten an, bis die Minze intensiv duftet.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div id="step-3" class="scroll-mt-32 p-6 md:p-8 bg-earth/20 rounded-2xl border border-earth-light shadow-xs hover:shadow-md transition-all duration-300 relative group">
-                        <div class="flex items-start gap-4">
-                            <div class="flex-shrink-0 w-10 h-10 rounded-full bg-gold text-white font-bold flex items-center justify-center shadow-md font-serif text-lg">3</div>
-                            <div class="flex-grow">
-                                <h3 class="text-xl font-serif font-bold text-mocha mb-2 group-hover:text-gold transition-colors">
-                                    Schritt 3: Aufgießen & Köcheln
-                                </h3>
-                                <p class="text-ash leading-relaxed m-0 text-sm md:text-base">
-                                    Gießen Sie das restliche kalte Wasser langsam unter ständigem Rühren mit dem Schneebesen in den Topf. Fügen Sie die gequollene Tarhana-Mischung hinzu.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div id="step-4" class="scroll-mt-32 p-6 md:p-8 bg-earth/20 rounded-2xl border border-earth-light shadow-xs hover:shadow-md transition-all duration-300 relative group">
-                        <div class="flex items-start gap-4">
-                            <div class="flex-shrink-0 w-10 h-10 rounded-full bg-gold text-white font-bold flex items-center justify-center shadow-md font-serif text-lg">4</div>
-                            <div class="flex-grow">
-                                <h3 class="text-xl font-serif font-bold text-mocha mb-2 group-hover:text-gold transition-colors">
-                                    Schritt 4: Cremig rühren & Vollenden
-                                </h3>
-                                <p class="text-ash leading-relaxed m-0 text-sm md:text-base">
-                                    Bringen Sie die Suppe bei mittlerer Hitze unter regelmäßigem Rühren zum Kochen. Sobald sie andickt, Hitze reduzieren und 5-8 Minuten sanft köcheln lassen. Mit Salz und Pul Biber abschmecken und heiß mit geröstetem Fladenbrot oder Feta servieren!
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+            <!-- Pro Chef Tip Callout -->
+            <div class="p-5 bg-amber-50/90 rounded-2xl border border-amber-200/80 text-xs sm:text-sm text-mocha flex items-start gap-3">
+                <i class="ri-lightbulb-flash-line text-2xl text-gold flex-shrink-0 mt-0.5"></i>
+                <div>
+                    <strong class="font-bold text-amber-900 block mb-1">Chefkoch-Geheimtipp von Anadoa Naturhaus:</strong>
+                    Verwenden Sie für dieses Rezept ausschließlich 100% naturreine Produkte ohne künstliche Aromen, raffinierte Zucker oder Konservierungsstoffe. Die authentische anatolische Küche lebt von der Reinheit ihrer Ursprungszutaten!
                 </div>
+            </div>
 
-                <!-- Verwendete Original Anadoa Produkte (Mit Direktkauf & Buttons) -->
-                <div class="mt-16 pt-12 border-t border-earth-light">
-                    <div class="flex items-center justify-between mb-8">
-                        <div>
-                            <span class="text-xs font-bold tracking-[0.2em] text-sage uppercase block mb-1">Authentischer Geschmack</span>
-                            <h3 class="text-2xl font-serif font-bold text-mocha m-0">Verwendete Anadoa Naturprodukte</h3>
-                        </div>
-                        <i class="ri-shield-check-line text-3xl text-gold hidden sm:block"></i>
-                    </div>
+        </div>
 
-                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                        <div class="bg-earth/30 rounded-3xl p-6 border border-earth-light shadow-xs hover:shadow-md transition-all duration-300 flex flex-col justify-between group">
+        <!-- Verwendete Original Anadoa Produkte (Mit Direktkauf & Buttons) -->
+        <div class="mt-12 pt-8 border-t border-earth-light mb-16">
+            <div class="flex items-center justify-between mb-8">
+                <div>
+                    <span class="text-xs font-bold tracking-[0.2em] text-sage uppercase block mb-1">Empfohlene Originalzutaten</span>
+                    <h3 class="text-2xl font-serif font-bold text-mocha m-0">Verwendete Anadoa Naturprodukte</h3>
+                </div>
+                <i class="ri-shield-check-line text-3xl text-gold hidden sm:block"></i>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                <div class="bg-earth/30 rounded-3xl p-6 border border-earth-light shadow-xs hover:shadow-md transition-all duration-300 flex flex-col justify-between group">
                             <div class="flex items-center gap-4 mb-4">
                                 <div class="w-20 h-20 bg-white rounded-2xl p-2 border border-earth-light flex items-center justify-center flex-shrink-0">
                                     <img alt="Anadoa Tarhana Suppe"
@@ -494,51 +628,103 @@
                                 </a>
                             </div>
                         </div>
-                    </div>
-                </div>
+            </div>
+        </div>
 
-                <!-- FAQ Accordion Section -->
-                <div class="mt-16 pt-12 border-t border-earth-light">
-                    <h3 class="text-2xl font-serif font-bold text-mocha mb-6 flex items-center gap-2">
-                        <i class="ri-question-line text-gold"></i> Häufig gestellte Fragen zum Rezept
-                    </h3>
-                    
-                    <div class="space-y-4">
-                        <details class="group bg-earth/20 rounded-2xl p-5 border border-earth-light [&_summary::-webkit-details-marker]:hidden">
-                            <summary class="flex cursor-pointer items-center justify-between gap-1.5 text-mocha font-bold text-base md:text-lg">
-                                <span>Warum ist Tarhana so gesund für den Darm?</span>
-                                <span class="text-gold text-xl transition-transform group-open:rotate-180"><i class="ri-arrow-down-s-line"></i></span>
-                            </summary>
-                            <p class="mt-3 text-ash-light leading-relaxed text-sm md:text-base m-0">
-                                Tarhana ist eine der ältesten probiotischen Suppen der Welt. Durch die mehrtägige Fermentation von Getreide, Joghurt und frischem Gemüse entstehen wertvolle Milchsäurebakterien und hoch bioverfügbare B-Vitamine.
-                            </p>
-                        </details>
-
-                        <details class="group bg-earth/20 rounded-2xl p-5 border border-earth-light [&_summary::-webkit-details-marker]:hidden">
+        <!-- FAQ Accordion Section -->
+        <div class="mt-12 pt-8 border-t border-earth-light mb-20">
+            <h3 class="text-2xl font-serif font-bold text-mocha mb-6 flex items-center gap-2">
+                <i class="ri-question-line text-gold"></i> Häufig gestellte Fragen (FAQ)
+            </h3>
+            
+            <div class="space-y-4">
+                <details class="group bg-earth/20 rounded-2xl p-5 border border-earth-light [&_summary::-webkit-details-marker]:hidden">
                             <summary class="flex cursor-pointer items-center justify-between gap-1.5 text-mocha font-bold text-base md:text-lg">
                                 <span>Wie verhindert man Klümpchen in der Tarhana-Suppe?</span>
                                 <span class="text-gold text-xl transition-transform group-open:rotate-180"><i class="ri-arrow-down-s-line"></i></span>
                             </summary>
                             <p class="mt-3 text-ash-light leading-relaxed text-sm md:text-base m-0">
-                                Der wichtigste Schritt ist das vorherige Anrühren des Tarhana-Pulvers mit etwas kaltem/lauwarmem Wasser, bevor es in den Topf gegeben wird, sowie ständiges Rühren während des Aufkochens.
+                                Geben Sie das Tarhana-Pulver niemals direkt in kochendes Wasser! Verrühren Sie es vorher mit einer Tasse kaltem oder lauwarmem Wasser und rühren Sie beim Aufkochen kontinuierlich mit dem Schneebesen.
                             </p>
                         </details>
 
                         <details class="group bg-earth/20 rounded-2xl p-5 border border-earth-light [&_summary::-webkit-details-marker]:hidden">
                             <summary class="flex cursor-pointer items-center justify-between gap-1.5 text-mocha font-bold text-base md:text-lg">
-                                <span>Kann man Tarhana auch vegan zubereiten?</span>
+                                <span>Was passt als Beilage zur Tarhana-Suppe?</span>
                                 <span class="text-gold text-xl transition-transform group-open:rotate-180"><i class="ri-arrow-down-s-line"></i></span>
                             </summary>
                             <p class="mt-3 text-ash-light leading-relaxed text-sm md:text-base m-0">
-                                Klassische Tarhana enthält Joghurt. Für eine vegane Variante gibt es in Anatolien pflanzliche Fermentationsmethoden auf Basis von Kichererbsenhefe.
+                                Klassisch serviert man dazu frisch getoastetes Fladenbrot, zerbröselten Feta oder knusprige Croutons.
                             </p>
                         </details>
-                    </div>
-                </div>
 
+                        <details class="group bg-earth/20 rounded-2xl p-5 border border-earth-light [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex cursor-pointer items-center justify-between gap-1.5 text-mocha font-bold text-base md:text-lg">
+                                <span>Ist Tarhana gut für Kinder?</span>
+                                <span class="text-gold text-xl transition-transform group-open:rotate-180"><i class="ri-arrow-down-s-line"></i></span>
+                            </summary>
+                            <p class="mt-3 text-ash-light leading-relaxed text-sm md:text-base m-0">
+                                Ja, Tarhana ist eines der beliebtesten Aufbaunahrungsmittel für Kinder in Anatolien, da es leicht verdaulich ist und viele natürliche Vitamine enthält.
+                            </p>
+                        </details>
             </div>
         </div>
+
     </main>
+
+    <!-- Interactive Script for Portion Scaling & Wake Lock -->
+    <script>
+        // Real-time Portion Scaler
+        let currentScale = 1;
+        function setPortionScale(scale) {
+            currentScale = scale;
+            document.querySelectorAll('.scale-btn').forEach(btn => {
+                btn.classList.remove('active', 'bg-[#c19768]', 'text-white');
+                if (parseInt(btn.getAttribute('data-scale')) === scale) {
+                    btn.classList.add('active', 'bg-[#c19768]', 'text-white');
+                }
+            });
+            document.querySelectorAll('.ing-qty').forEach(el => {
+                const baseQty = parseFloat(el.getAttribute('data-base'));
+                if (!isNaN(baseQty)) {
+                    const newQty = (baseQty * scale);
+                    // Format nicely (e.g. 1.5 instead of 1.5000)
+                    el.textContent = (newQty % 1 === 0) ? newQty : newQty.toFixed(1).replace('.0', '');
+                }
+            });
+        }
+
+        // Screen Wake Lock API (Cook Mode)
+        let wakeLock = null;
+        async function toggleCookMode() {
+            const dot = document.getElementById('wakeLockDot');
+            const text = document.getElementById('wakeLockText');
+            
+            if ('wakeLock' in navigator) {
+                if (wakeLock === null) {
+                    try {
+                        wakeLock = await navigator.wakeLock.request('screen');
+                        dot.className = 'w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse';
+                        text.textContent = 'An (Display bleibt hell)';
+                        wakeLock.addEventListener('release', () => {
+                            wakeLock = null;
+                            dot.className = 'w-2.5 h-2.5 rounded-full bg-slate-300';
+                            text.textContent = 'Aus';
+                        });
+                    } catch (err) {
+                        alert('Kochmodus konnte nicht aktiviert werden: ' + err.message);
+                    }
+                } else {
+                    wakeLock.release();
+                    wakeLock = null;
+                    dot.className = 'w-2.5 h-2.5 rounded-full bg-slate-300';
+                    text.textContent = 'Aus';
+                }
+            } else {
+                alert('Der Kochmodus wird von Ihrem Browser leider nicht unterstützt. Ihr Bildschirm schaltet sich wie gewohnt nach dem System-Timeout ab.');
+            }
+        }
+    </script>
 
     <!-- Magazin & Rezepte Widgets -->
     <div id="latest-recipes-placeholder"></div>
