@@ -18,70 +18,70 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
                 
                 <div class="flex overflow-x-auto snap-x snap-mandatory gap-6 pb-6 pr-6 md:pr-0 md:grid md:grid-cols-2 lg:grid-cols-4 md:overflow-visible md:pb-0 custom-scrollbar">
-                    <!-- Card 1 -->
-                    <a class="group bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-500 hover:-translate-y-1.5 flex flex-col border border-earth-light/50 flex-none w-[85vw] md:w-auto snap-center md:snap-align-none" href="schwarzkuemmeloel-thymoquinon-wirkung.html">
+                    <!-- Card 1: Gökova Goldsesam -->
+                    <a class="group bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-500 hover:-translate-y-1.5 flex flex-col border border-earth-light/50 flex-none w-[85vw] md:w-auto snap-center md:snap-align-none" href="gokova-goldsesam-tahin-superfood-wirkung.html">
                         <div class="relative h-48 overflow-hidden bg-earth-light">
                             <div class="absolute inset-0 bg-mocha/5 opacity-10 group-hover:opacity-0 transition-opacity duration-500 z-10"></div>
-                            <img alt="Schwarzkümmelöl & Thymoquinon" class="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-105" src="assets/magazin_1.png"/>
+                            <img alt="Gökova Goldsesam & Tahin" class="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-105" src="assets/magazin_gokova_sesam.png"/>
                         </div>
                         <div class="p-5 flex flex-col flex-grow">
-                            <span class="text-[10px] uppercase tracking-widest text-sage font-extrabold mb-2 block">Kaltgepresste Öle</span>
-                            <h3 class="text-lg font-bold font-serif text-mocha mb-2 group-hover:text-gold transition-colors leading-tight">Schwarzkümmelöl & Thymoquinon: Das Gold der Pharaonen</h3>
-                            <p class="text-ash/70 text-xs mb-4 line-clamp-3 leading-relaxed">Eine tiefgreifende wissenschaftliche und historische Analyse von Schwarzkümmelöl (Nigella sativa), seinem Hauptwirkstoff Thymoquinon...</p>
+                            <span class="text-[10px] uppercase tracking-widest text-sage font-extrabold mb-2 block">Öle & Superfoods</span>
+                            <h3 class="text-lg font-bold font-serif text-mocha mb-2 group-hover:text-gold transition-colors leading-tight line-clamp-2">Gökova Goldsesam: Warum der ägäische Sesam der wertvollste ist</h3>
+                            <p class="text-ash/70 text-xs mb-4 line-clamp-3 leading-relaxed">Alles über Gökova Altın Susam (Sesamum indicum): Mikroklima, Trockenanbau, Ark of Taste Schutz, Steinmühlen-Tahin & Nährwerte.</p>
                             <div class="flex items-center justify-between text-[10px] text-ash-light font-medium mt-auto pt-4 border-t border-earth-light/60">
-                                <span>24. Juli 2026</span>
+                                <span>27. August 2026</span>
+                                <span>9 Min. Lesezeit</span>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- Card 2: Gilaburu Saft -->
+                    <a class="group bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-500 hover:-translate-y-1.5 flex flex-col border border-earth-light/50 flex-none w-[85vw] md:w-auto snap-center md:snap-align-none" href="gilaburu-saft-wirkung-beere-gesundheit.html">
+                        <div class="relative h-48 overflow-hidden bg-earth-light">
+                            <div class="absolute inset-0 bg-mocha/5 opacity-10 group-hover:opacity-0 transition-opacity duration-500 z-10"></div>
+                            <img alt="Gilaburu Saft: Wirkung, Ernte & Nierensteine" class="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-105" src="assets/magazin_gilaburu.png"/>
+                        </div>
+                        <div class="p-5 flex flex-col flex-grow">
+                            <span class="text-[10px] uppercase tracking-widest text-sage font-extrabold mb-2 block">Melassen & Saft</span>
+                            <h3 class="text-lg font-bold font-serif text-mocha mb-2 group-hover:text-gold transition-colors leading-tight line-clamp-2">Gilaburu Saft: Wirkung, Ernte & die Kraft für Nieren & Harnwege</h3>
+                            <p class="text-ash/70 text-xs mb-4 line-clamp-3 leading-relaxed">Alles über die anatolische Wunderbeere Gilaburu: Von der frostigen Ernte ve Wasserfermentation bis zur Wirkung bei Nierensteinen.</p>
+                            <div class="flex items-center justify-between text-[10px] text-ash-light font-medium mt-auto pt-4 border-t border-earth-light/60">
+                                <span>27. August 2026</span>
                                 <span>8 Min. Lesezeit</span>
                             </div>
                         </div>
                     </a>
 
-                    <!-- Card 2 -->
-                    <a class="group bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-500 hover:-translate-y-1.5 flex flex-col border border-earth-light/50 flex-none w-[85vw] md:w-auto snap-center md:snap-align-none" href="tahin-sesammus-gesundheit.html">
+                    <!-- Card 3: Mariendistel & Silymarin -->
+                    <a class="group bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-500 hover:-translate-y-1.5 flex flex-col border border-earth-light/50 flex-none w-[85vw] md:w-auto snap-center md:snap-align-none" href="mariendistel-wirkung-leber-entgiftung.html">
                         <div class="relative h-48 overflow-hidden bg-earth-light">
                             <div class="absolute inset-0 bg-mocha/5 opacity-10 group-hover:opacity-0 transition-opacity duration-500 z-10"></div>
-                            <img alt="Traditionelles Tahin" class="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-105" src="assets/magazin_2.png"/>
+                            <img alt="Mariendistel & Silymarin" class="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-105" src="assets/magazin_mariendistel.png"/>
                         </div>
                         <div class="p-5 flex flex-col flex-grow">
-                            <span class="text-[10px] uppercase tracking-widest text-sage font-extrabold mb-2 block">Traditionelle Pasten</span>
-                            <h3 class="text-lg font-bold font-serif text-mocha mb-2 group-hover:text-gold transition-colors leading-tight">Traditionelles Tahin: Die Kunst der Steinmühle</h3>
-                            <p class="text-ash/70 text-xs mb-4 line-clamp-3 leading-relaxed">Erfahren Sie, warum die traditionelle Steinvermahlung von geröstetem Sesam der einzige Weg ist, um das seidige, aromatische Tahin zu produzieren.</p>
+                            <span class="text-[10px] uppercase tracking-widest text-sage font-extrabold mb-2 block">Kaltgepresste Öle</span>
+                            <h3 class="text-lg font-bold font-serif text-mocha mb-2 group-hover:text-gold transition-colors leading-tight line-clamp-2">Mariendistel & Silymarin: Schutz & Regeneration für die Leber</h3>
+                            <p class="text-ash/70 text-xs mb-4 line-clamp-3 leading-relaxed">Wie der Silymarin-Wirkkomplex, Mariendistel-Paste und kaltgepresstes Mariendistelöl die Leber und den Fettstoffwechsel natürlich unterstützen.</p>
                             <div class="flex items-center justify-between text-[10px] text-ash-light font-medium mt-auto pt-4 border-t border-earth-light/60">
-                                <span>22. Juli 2026</span>
-                                <span>5 Min. Lesezeit</span>
-                            </div>
-                        </div>
-                    </a>
-
-                    <!-- Card 3 -->
-                    <a class="group bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-500 hover:-translate-y-1.5 flex flex-col border border-earth-light/50 flex-none w-[85vw] md:w-auto snap-center md:snap-align-none" href="zypressenzapfen-paste-husten-naturheilkunde.html">
-                        <div class="relative h-48 overflow-hidden bg-earth-light">
-                            <div class="absolute inset-0 bg-mocha/5 opacity-10 group-hover:opacity-0 transition-opacity duration-500 z-10"></div>
-                            <img alt="Zypressenzapfen Paste" class="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-105" src="assets/magazin_3.png"/>
-                        </div>
-                        <div class="p-5 flex flex-col flex-grow">
-                            <span class="text-[10px] uppercase tracking-widest text-sage font-extrabold mb-2 block">Traditionelle Pasten</span>
-                            <h3 class="text-lg font-bold font-serif text-mocha mb-2 group-hover:text-gold transition-colors leading-tight">Das alte Geheimnis der Berge: Zypressenzapfen Paste</h3>
-                            <p class="text-ash/70 text-xs mb-4 line-clamp-3 leading-relaxed">Entdecken Sie die historische Bedeutung und die atmungsunterstützenden Eigenschaften der traditionellen anatolischen Zypressenzapfen Paste.</p>
-                            <div class="flex items-center justify-between text-[10px] text-ash-light font-medium mt-auto pt-4 border-t border-earth-light/60">
-                                <span>18. Juli 2026</span>
-                                <span>6 Min. Lesezeit</span>
-                            </div>
-                        </div>
-                    </a>
-
-                    <!-- Card 4 -->
-                    <a class="group bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-500 hover:-translate-y-1.5 flex flex-col border border-earth-light/50 flex-none w-[85vw] md:w-auto snap-center md:snap-align-none" href="kaltpressung-oele-herstellung-qualitaet.html">
-                        <div class="relative h-48 overflow-hidden bg-earth-light">
-                            <div class="absolute inset-0 bg-mocha/5 opacity-10 group-hover:opacity-0 transition-opacity duration-500 z-10"></div>
-                            <img alt="Wahrheit über Kaltpressung" class="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-105" src="assets/magazin_4.png"/>
-                        </div>
-                        <div class="p-5 flex flex-col flex-grow">
-                            <span class="text-[10px] uppercase tracking-widest text-sage font-extrabold mb-2 block">Öle & Qualität</span>
-                            <h3 class="text-lg font-bold font-serif text-mocha mb-2 group-hover:text-gold transition-colors leading-tight">Die Wahrheit über Kaltpressung: Temperatur macht den Unterschied</h3>
-                            <p class="text-ash/70 text-xs mb-4 line-clamp-3 leading-relaxed">Erfahren Sie, warum die echte, temperaturkontrollierte Kaltpressung entscheidend für die Qualität, den Geschmack und die Heilwirkung von Pflanzenölen ist.</p>
-                            <div class="flex items-center justify-between text-[10px] text-ash-light font-medium mt-auto pt-4 border-t border-earth-light/60">
-                                <span>15. Juli 2026</span>
+                                <span>27. August 2026</span>
                                 <span>7 Min. Lesezeit</span>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- Card 4: Bittermelone (Kudret Narı) -->
+                    <a class="group bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-500 hover:-translate-y-1.5 flex flex-col border border-earth-light/50 flex-none w-[85vw] md:w-auto snap-center md:snap-align-none" href="bittermelone-kudret-nari-wirkung-magen.html">
+                        <div class="relative h-48 overflow-hidden bg-earth-light">
+                            <div class="absolute inset-0 bg-mocha/5 opacity-10 group-hover:opacity-0 transition-opacity duration-500 z-10"></div>
+                            <img alt="Bittermelone Kudret Narı" class="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-105" src="assets/magazin_bittermelone.png"/>
+                        </div>
+                        <div class="p-5 flex flex-col flex-grow">
+                            <span class="text-[10px] uppercase tracking-widest text-sage font-extrabold mb-2 block">Traditionelle Pasten</span>
+                            <h3 class="text-lg font-bold font-serif text-mocha mb-2 group-hover:text-gold transition-colors leading-tight line-clamp-2">Bittermelone (Kudret Narı): Anatoliens Heilkraft für Magen & Darm</h3>
+                            <p class="text-ash/70 text-xs mb-4 line-clamp-3 leading-relaxed">Die traditionelle Einlegung von Kudret Narı in Olivenöl & Honig: Wie Bitterstoffe und Charantin die Magenschleimhaut und Verdauung schützen.</p>
+                            <div class="flex items-center justify-between text-[10px] text-ash-light font-medium mt-auto pt-4 border-t border-earth-light/60">
+                                <span>27. August 2026</span>
+                                <span>6 Min. Lesezeit</span>
                             </div>
                         </div>
                     </a>
